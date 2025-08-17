@@ -1,0 +1,547 @@
+[2025-08-12 01:13:03] Démarrage script: base=NestCam total_duration=0 (0=illimité) segment_duration=600s (10min) device=pulse mic=0 mic_device= volume=10.0 target_dir=/media/nox/data2/Videos/VOIX_suspectes_11_08_2025
+[2025-08-12 01:13:03] Configuration audio : son système seulement (pulse)
+[2025-08-12 01:13:03] Lancement enregistrement segment #0 -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_011303_part0.ogv (durée cible 600s)
+[2025-08-12 01:13:03] Processus recordmydesktop démarré : PID=211868
+[2025-08-12 01:23:03] Arrêt du processus recordmydesktop PID=211868 pour segment 0
+[2025-08-12 01:23:03] Arrêt gracieux du processus recordmydesktop-segment PID=211868
+[2025-08-12 01:23:04] Processus recordmydesktop-segment PID=211868 arrêté gracieusement
+[2025-08-12 01:23:04] Attente de finalisation du fichier /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_011303_part0.ogv...
+[2025-08-12 01:23:09] Segment enregistré : /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_011303_part0.ogv (taille: 42967794 bytes)
+[2025-08-12 01:23:09] Traitement ffmpeg pour amplification /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_011303_part0.ogv -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/BOOST/NestCam_20250812_011303_part0_boost.ogv
+[2025-08-12 01:23:13] ffmpeg terminé avec succès pour /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_011303_part0.ogv
+[2025-08-12 01:23:13] Lancement enregistrement segment #1 -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_012313_part1.ogv (durée cible 600s)
+[2025-08-12 01:23:13] Processus recordmydesktop démarré : PID=217610
+[2025-08-12 01:33:13] Arrêt du processus recordmydesktop PID=217610 pour segment 1
+[2025-08-12 01:33:13] Arrêt gracieux du processus recordmydesktop-segment PID=217610
+[2025-08-12 01:33:13] Processus recordmydesktop-segment PID=217610 arrêté gracieusement
+[2025-08-12 01:33:13] Attente de finalisation du fichier /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_012313_part1.ogv...
+[2025-08-12 01:33:18] Segment enregistré : /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_012313_part1.ogv (taille: 22771454 bytes)
+[2025-08-12 01:33:18] Traitement ffmpeg pour amplification /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_012313_part1.ogv -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/BOOST/NestCam_20250812_012313_part1_boost.ogv
+[2025-08-12 01:33:22] ffmpeg terminé avec succès pour /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_012313_part1.ogv
+[2025-08-12 01:33:22] Lancement enregistrement segment #2 -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_013322_part2.ogv (durée cible 600s)
+[2025-08-12 01:33:22] Processus recordmydesktop démarré : PID=222650
+[2025-08-12 01:43:22] Arrêt du processus recordmydesktop PID=222650 pour segment 2
+[2025-08-12 01:43:22] Arrêt gracieux du processus recordmydesktop-segment PID=222650
+[2025-08-12 01:43:23] Processus recordmydesktop-segment PID=222650 arrêté gracieusement
+[2025-08-12 01:43:23] Attente de finalisation du fichier /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_013322_part2.ogv...
+[2025-08-12 01:43:28] Segment enregistré : /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_013322_part2.ogv (taille: 22789565 bytes)
+[2025-08-12 01:43:28] Traitement ffmpeg pour amplification /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_013322_part2.ogv -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/BOOST/NestCam_20250812_013322_part2_boost.ogv
+[2025-08-12 01:43:32] ffmpeg terminé avec succès pour /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_013322_part2.ogv
+[2025-08-12 01:43:32] Lancement enregistrement segment #3 -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_014332_part3.ogv (durée cible 600s)
+[2025-08-12 01:43:32] Processus recordmydesktop démarré : PID=227726
+[2025-08-12 01:53:32] Arrêt du processus recordmydesktop PID=227726 pour segment 3
+[2025-08-12 01:53:32] Arrêt gracieux du processus recordmydesktop-segment PID=227726
+[2025-08-12 01:53:32] Processus recordmydesktop-segment PID=227726 arrêté gracieusement
+[2025-08-12 01:53:32] Attente de finalisation du fichier /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_014332_part3.ogv...
+[2025-08-12 01:53:37] Segment enregistré : /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_014332_part3.ogv (taille: 23331029 bytes)
+[2025-08-12 01:53:37] Traitement ffmpeg pour amplification /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_014332_part3.ogv -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/BOOST/NestCam_20250812_014332_part3_boost.ogv
+[2025-08-12 01:53:41] ffmpeg terminé avec succès pour /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_014332_part3.ogv
+[2025-08-12 01:53:41] Lancement enregistrement segment #4 -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_015341_part4.ogv (durée cible 600s)
+[2025-08-12 01:53:41] Processus recordmydesktop démarré : PID=232783
+[2025-08-12 02:03:41] Arrêt du processus recordmydesktop PID=232783 pour segment 4
+[2025-08-12 02:03:41] Arrêt gracieux du processus recordmydesktop-segment PID=232783
+[2025-08-12 02:03:42] Processus recordmydesktop-segment PID=232783 arrêté gracieusement
+[2025-08-12 02:03:42] Attente de finalisation du fichier /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_015341_part4.ogv...
+[2025-08-12 02:03:47] Segment enregistré : /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_015341_part4.ogv (taille: 22535468 bytes)
+[2025-08-12 02:03:47] Traitement ffmpeg pour amplification /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_015341_part4.ogv -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/BOOST/NestCam_20250812_015341_part4_boost.ogv
+[2025-08-12 02:03:51] ffmpeg terminé avec succès pour /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_015341_part4.ogv
+[2025-08-12 02:03:51] Lancement enregistrement segment #5 -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_020351_part5.ogv (durée cible 600s)
+[2025-08-12 02:03:51] Processus recordmydesktop démarré : PID=237858
+[2025-08-12 02:13:51] Arrêt du processus recordmydesktop PID=237858 pour segment 5
+[2025-08-12 02:13:51] Arrêt gracieux du processus recordmydesktop-segment PID=237858
+[2025-08-12 02:13:51] Processus recordmydesktop-segment PID=237858 arrêté gracieusement
+[2025-08-12 02:13:51] Attente de finalisation du fichier /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_020351_part5.ogv...
+[2025-08-12 02:13:56] Segment enregistré : /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_020351_part5.ogv (taille: 22614076 bytes)
+[2025-08-12 02:13:56] Traitement ffmpeg pour amplification /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_020351_part5.ogv -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/BOOST/NestCam_20250812_020351_part5_boost.ogv
+[2025-08-12 02:14:00] ffmpeg terminé avec succès pour /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_020351_part5.ogv
+[2025-08-12 02:14:01] Lancement enregistrement segment #6 -> /media/nox/data2/Videos/VOIX_suspectes_11_08_2025/NestCam_20250812_021400_part6.ogv (durée cible 600s)
+[2025-08-12 02:14:01] Processus recordmydesktop démarré : PID=242931
+[2025-08-12 02:20:10] SIGINT reçu : arrêt en cours...
+[2025-08-12 02:20:10] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-12 02:20:11] Arrêt gracieux du processus recordmydesktop-current PID=242931
+[2025-08-12 02:20:11] Processus recordmydesktop-current PID=242931 arrêté gracieusement
+[2025-08-12 02:20:11] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-12 06:29:34] Démarrage script: base=NestCamsequenceQuandOnARemplacerMaCarteSDTAPO_unformated total_duration=0 (0=illimité) segment_duration=1800s (30min) device=pulse mic=0 mic_device= volume=10.0 target_dir=/media/nox/data2/Videos/
+[2025-08-12 06:29:34] Configuration audio : son système seulement (pulse)
+[2025-08-12 06:29:34] Lancement enregistrement segment #0 -> /media/nox/data2/Videos//NestCamsequenceQuandOnARemplacerMaCarteSDTAPO_unformated_20250812_062934_part0.ogv (durée cible 1800s)
+[2025-08-12 06:29:34] Processus recordmydesktop démarré : PID=14014
+[2025-08-12 06:30:05] SIGINT reçu : arrêt en cours...
+[2025-08-12 06:30:05] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-12 06:30:05] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-12 06:31:07] Démarrage script: base=NestCamsequenceQuandOnARemplacerMaCarteSDTAPO_unformated total_duration=0 (0=illimité) segment_duration=1800s (30min) device=pulse mic=0 mic_device= volume=10.0 target_dir=/media/nox/data2/Videos/
+[2025-08-12 06:31:07] Configuration audio : son système seulement (pulse)
+[2025-08-12 06:31:07] Lancement enregistrement segment #0 -> /media/nox/data2/Videos//NestCamsequenceQuandOnARemplacerMaCarteSDTAPO_unformated_20250812_063107_part0.ogv (durée cible 1800s)
+[2025-08-12 06:31:07] Processus recordmydesktop démarré : PID=15072
+[2025-08-12 06:56:19] SIGINT reçu : arrêt en cours...
+[2025-08-12 06:56:19] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-12 06:56:19] Arrêt gracieux du processus recordmydesktop-current PID=15072
+[2025-08-12 06:56:20] Processus recordmydesktop-current PID=15072 arrêté gracieusement
+[2025-08-12 06:56:20] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-13 02:16:26] Démarrage script: base=NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX total_duration=0 (0=illimité) segment_duration=1800s (30min) device=pulse mic=0 mic_device= volume=5.0 target_dir=/media/nox/data2/Videos/
+[2025-08-13 02:16:26] Configuration audio : son système seulement (pulse)
+[2025-08-13 02:16:26] Lancement enregistrement segment #0 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv (durée cible 1800s)
+[2025-08-13 02:16:26] Processus recordmydesktop démarré : PID=144984
+[2025-08-13 02:46:26] Arrêt du processus recordmydesktop PID=144984 pour segment 0
+[2025-08-13 02:46:26] Arrêt gracieux du processus recordmydesktop-segment PID=144984
+[2025-08-13 02:46:26] Processus recordmydesktop-segment PID=144984 arrêté gracieusement
+[2025-08-13 02:46:26] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv...
+[2025-08-13 02:46:31] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv (taille: 56279698 bytes)
+[2025-08-13 02:46:31] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0_boost.ogv
+[2025-08-13 02:46:38] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv
+[2025-08-13 02:46:38] Lancement enregistrement segment #1 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv (durée cible 1800s)
+[2025-08-13 02:46:38] Processus recordmydesktop démarré : PID=159801
+[2025-08-13 03:16:38] Arrêt du processus recordmydesktop PID=159801 pour segment 1
+[2025-08-13 03:16:38] Arrêt gracieux du processus recordmydesktop-segment PID=159801
+[2025-08-13 03:16:38] Processus recordmydesktop-segment PID=159801 arrêté gracieusement
+[2025-08-13 03:16:38] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv...
+[2025-08-13 03:16:43] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv (taille: 56339645 bytes)
+[2025-08-13 03:16:43] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1_boost.ogv
+[2025-08-13 03:16:50] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv
+[2025-08-13 03:16:50] Lancement enregistrement segment #2 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv (durée cible 1800s)
+[2025-08-13 03:16:50] Processus recordmydesktop démarré : PID=174632
+[2025-08-13 03:46:50] Arrêt du processus recordmydesktop PID=174632 pour segment 2
+[2025-08-13 03:46:50] Arrêt gracieux du processus recordmydesktop-segment PID=174632
+[2025-08-13 03:46:50] Processus recordmydesktop-segment PID=174632 arrêté gracieusement
+[2025-08-13 03:46:50] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv...
+[2025-08-13 03:46:56] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv (taille: 55864992 bytes)
+[2025-08-13 03:46:56] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2_boost.ogv
+[2025-08-13 03:47:02] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv
+[2025-08-13 03:47:02] Lancement enregistrement segment #3 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv (durée cible 1800s)
+[2025-08-13 03:47:02] Processus recordmydesktop démarré : PID=189456
+[2025-08-13 04:17:02] Arrêt du processus recordmydesktop PID=189456 pour segment 3
+[2025-08-13 04:17:02] Arrêt gracieux du processus recordmydesktop-segment PID=189456
+[2025-08-13 04:17:03] Processus recordmydesktop-segment PID=189456 arrêté gracieusement
+[2025-08-13 04:17:03] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv...
+[2025-08-13 04:17:08] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv (taille: 56704227 bytes)
+[2025-08-13 04:17:08] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3_boost.ogv
+[2025-08-13 04:17:15] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv
+[2025-08-13 04:17:15] Lancement enregistrement segment #4 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv (durée cible 1800s)
+[2025-08-13 04:17:15] Processus recordmydesktop démarré : PID=204308
+[2025-08-13 04:47:15] Arrêt du processus recordmydesktop PID=204308 pour segment 4
+[2025-08-13 04:47:15] Arrêt gracieux du processus recordmydesktop-segment PID=204308
+[2025-08-13 04:47:15] Processus recordmydesktop-segment PID=204308 arrêté gracieusement
+[2025-08-13 04:47:15] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv...
+[2025-08-13 04:47:20] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv (taille: 55746045 bytes)
+[2025-08-13 04:47:20] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4_boost.ogv
+[2025-08-13 04:47:27] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv
+[2025-08-13 04:47:27] Lancement enregistrement segment #5 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv (durée cible 1800s)
+[2025-08-13 04:47:27] Processus recordmydesktop démarré : PID=219118
+[2025-08-13 05:17:27] Arrêt du processus recordmydesktop PID=219118 pour segment 5
+[2025-08-13 05:17:27] Arrêt gracieux du processus recordmydesktop-segment PID=219118
+[2025-08-13 05:17:27] Processus recordmydesktop-segment PID=219118 arrêté gracieusement
+[2025-08-13 05:17:27] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv...
+[2025-08-13 05:17:32] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv (taille: 54417127 bytes)
+[2025-08-13 05:17:32] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5_boost.ogv
+[2025-08-13 05:17:39] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv
+[2025-08-13 05:17:39] Lancement enregistrement segment #6 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv (durée cible 1800s)
+[2025-08-13 05:17:39] Processus recordmydesktop démarré : PID=233941
+[2025-08-13 05:47:39] Arrêt du processus recordmydesktop PID=233941 pour segment 6
+[2025-08-13 05:47:39] Arrêt gracieux du processus recordmydesktop-segment PID=233941
+[2025-08-13 05:47:40] Processus recordmydesktop-segment PID=233941 arrêté gracieusement
+[2025-08-13 05:47:40] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv...
+[2025-08-13 05:47:45] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv (taille: 49979920 bytes)
+[2025-08-13 05:47:45] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6_boost.ogv
+[2025-08-13 05:47:51] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv
+[2025-08-13 05:47:51] Lancement enregistrement segment #7 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv (durée cible 1800s)
+[2025-08-13 05:47:51] Processus recordmydesktop démarré : PID=248828
+[2025-08-13 06:17:51] Arrêt du processus recordmydesktop PID=248828 pour segment 7
+[2025-08-13 06:17:51] Arrêt gracieux du processus recordmydesktop-segment PID=248828
+[2025-08-13 06:17:52] Processus recordmydesktop-segment PID=248828 arrêté gracieusement
+[2025-08-13 06:17:52] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv...
+[2025-08-13 06:17:57] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv (taille: 52709605 bytes)
+[2025-08-13 06:17:57] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7_boost.ogv
+[2025-08-13 06:18:04] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv
+[2025-08-13 06:18:04] Lancement enregistrement segment #8 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv (durée cible 1800s)
+[2025-08-13 06:18:04] Processus recordmydesktop démarré : PID=263633
+[2025-08-13 06:48:04] Arrêt du processus recordmydesktop PID=263633 pour segment 8
+[2025-08-13 06:48:04] Arrêt gracieux du processus recordmydesktop-segment PID=263633
+[2025-08-13 06:48:04] Processus recordmydesktop-segment PID=263633 arrêté gracieusement
+[2025-08-13 06:48:04] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv...
+[2025-08-13 06:48:09] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv (taille: 64599936 bytes)
+[2025-08-13 06:48:09] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8_boost.ogv
+[2025-08-13 06:48:16] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv
+[2025-08-13 06:48:16] Lancement enregistrement segment #9 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv (durée cible 1800s)
+[2025-08-13 06:48:16] Processus recordmydesktop démarré : PID=278548
+[2025-08-13 07:18:16] Arrêt du processus recordmydesktop PID=278548 pour segment 9
+[2025-08-13 07:18:16] Arrêt gracieux du processus recordmydesktop-segment PID=278548
+[2025-08-13 07:18:17] Processus recordmydesktop-segment PID=278548 arrêté gracieusement
+[2025-08-13 07:18:17] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv...
+[2025-08-13 07:18:22] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv (taille: 70884900 bytes)
+[2025-08-13 07:18:22] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9_boost.ogv
+[2025-08-13 07:18:28] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv
+[2025-08-13 07:18:28] Lancement enregistrement segment #10 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv (durée cible 1800s)
+[2025-08-13 07:18:28] Processus recordmydesktop démarré : PID=293423
+[2025-08-13 07:48:28] Arrêt du processus recordmydesktop PID=293423 pour segment 10
+[2025-08-13 07:48:28] Arrêt gracieux du processus recordmydesktop-segment PID=293423
+[2025-08-13 07:48:29] Processus recordmydesktop-segment PID=293423 arrêté gracieusement
+[2025-08-13 07:48:29] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv...
+[2025-08-13 07:48:34] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv (taille: 59965779 bytes)
+[2025-08-13 07:48:34] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10_boost.ogv
+[2025-08-13 07:48:40] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv
+[2025-08-13 07:48:40] Lancement enregistrement segment #11 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv (durée cible 1800s)
+[2025-08-13 07:48:40] Processus recordmydesktop démarré : PID=308219
+[2025-08-13 08:18:40] Arrêt du processus recordmydesktop PID=308219 pour segment 11
+[2025-08-13 08:18:40] Arrêt gracieux du processus recordmydesktop-segment PID=308219
+[2025-08-13 08:18:41] Processus recordmydesktop-segment PID=308219 arrêté gracieusement
+[2025-08-13 08:18:41] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv...
+[2025-08-13 08:18:46] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv (taille: 52939691 bytes)
+[2025-08-13 08:18:46] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11_boost.ogv
+[2025-08-13 08:18:52] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv
+[2025-08-13 08:18:52] Lancement enregistrement segment #12 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv (durée cible 1800s)
+[2025-08-13 08:18:52] Processus recordmydesktop démarré : PID=323047
+[2025-08-13 08:48:52] Arrêt du processus recordmydesktop PID=323047 pour segment 12
+[2025-08-13 08:48:52] Arrêt gracieux du processus recordmydesktop-segment PID=323047
+[2025-08-13 08:48:53] Processus recordmydesktop-segment PID=323047 arrêté gracieusement
+[2025-08-13 08:48:53] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv...
+[2025-08-13 08:48:58] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv (taille: 52976842 bytes)
+[2025-08-13 08:48:58] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12_boost.ogv
+[2025-08-13 08:49:04] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv
+[2025-08-13 08:49:04] Lancement enregistrement segment #13 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv (durée cible 1800s)
+[2025-08-13 08:49:04] Processus recordmydesktop démarré : PID=337845
+[2025-08-13 09:19:04] Arrêt du processus recordmydesktop PID=337845 pour segment 13
+[2025-08-13 09:19:04] Arrêt gracieux du processus recordmydesktop-segment PID=337845
+[2025-08-13 09:19:05] Processus recordmydesktop-segment PID=337845 arrêté gracieusement
+[2025-08-13 09:19:05] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv...
+[2025-08-13 09:19:10] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv (taille: 52976907 bytes)
+[2025-08-13 09:19:10] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13_boost.ogv
+[2025-08-13 09:19:16] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv
+[2025-08-13 09:19:16] Lancement enregistrement segment #14 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv (durée cible 1800s)
+[2025-08-13 09:19:16] Processus recordmydesktop démarré : PID=352700
+[2025-08-13 09:49:16] Arrêt du processus recordmydesktop PID=352700 pour segment 14
+[2025-08-13 09:49:16] Arrêt gracieux du processus recordmydesktop-segment PID=352700
+[2025-08-13 09:49:17] Processus recordmydesktop-segment PID=352700 arrêté gracieusement
+[2025-08-13 09:49:17] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv...
+[2025-08-13 09:49:22] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv (taille: 53142231 bytes)
+[2025-08-13 09:49:22] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14_boost.ogv
+[2025-08-13 09:49:28] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv
+[2025-08-13 09:49:28] Lancement enregistrement segment #15 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv (durée cible 1800s)
+[2025-08-13 09:49:28] Processus recordmydesktop démarré : PID=367495
+[2025-08-13 10:19:28] Arrêt du processus recordmydesktop PID=367495 pour segment 15
+[2025-08-13 10:19:28] Arrêt gracieux du processus recordmydesktop-segment PID=367495
+[2025-08-13 10:19:29] Processus recordmydesktop-segment PID=367495 arrêté gracieusement
+[2025-08-13 10:19:29] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv...
+[2025-08-13 10:19:34] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv (taille: 52976616 bytes)
+[2025-08-13 10:19:34] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15_boost.ogv
+[2025-08-13 10:19:40] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv
+[2025-08-13 10:19:40] Lancement enregistrement segment #16 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv (durée cible 1800s)
+[2025-08-13 10:19:40] Processus recordmydesktop démarré : PID=382307
+[2025-08-13 10:49:40] Arrêt du processus recordmydesktop PID=382307 pour segment 16
+[2025-08-13 10:49:40] Arrêt gracieux du processus recordmydesktop-segment PID=382307
+[2025-08-13 10:49:41] Processus recordmydesktop-segment PID=382307 arrêté gracieusement
+[2025-08-13 10:49:41] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv...
+[2025-08-13 10:49:46] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv (taille: 52976930 bytes)
+[2025-08-13 10:49:46] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16_boost.ogv
+[2025-08-13 10:49:52] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv
+[2025-08-13 10:49:52] Lancement enregistrement segment #17 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv (durée cible 1800s)
+[2025-08-13 10:49:52] Processus recordmydesktop démarré : PID=397228
+[2025-08-13 11:19:52] Arrêt du processus recordmydesktop PID=397228 pour segment 17
+[2025-08-13 11:19:52] Arrêt gracieux du processus recordmydesktop-segment PID=397228
+[2025-08-13 11:19:53] Processus recordmydesktop-segment PID=397228 arrêté gracieusement
+[2025-08-13 11:19:53] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv...
+[2025-08-13 11:19:58] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv (taille: 52976375 bytes)
+[2025-08-13 11:19:58] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17_boost.ogv
+[2025-08-13 11:20:04] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv
+[2025-08-13 11:20:04] Lancement enregistrement segment #18 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv (durée cible 1800s)
+[2025-08-13 11:20:04] Processus recordmydesktop démarré : PID=412062
+[2025-08-13 11:50:04] Arrêt du processus recordmydesktop PID=412062 pour segment 18
+[2025-08-13 11:50:04] Arrêt gracieux du processus recordmydesktop-segment PID=412062
+[2025-08-13 11:50:05] Processus recordmydesktop-segment PID=412062 arrêté gracieusement
+[2025-08-13 11:50:05] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv...
+[2025-08-13 11:50:10] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv (taille: 52976707 bytes)
+[2025-08-13 11:50:10] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18_boost.ogv
+[2025-08-13 11:50:16] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv
+[2025-08-13 11:50:16] Lancement enregistrement segment #19 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv (durée cible 1800s)
+[2025-08-13 11:50:16] Processus recordmydesktop démarré : PID=426864
+[2025-08-13 12:20:16] Arrêt du processus recordmydesktop PID=426864 pour segment 19
+[2025-08-13 12:20:16] Arrêt gracieux du processus recordmydesktop-segment PID=426864
+[2025-08-13 12:20:16] Processus recordmydesktop-segment PID=426864 arrêté gracieusement
+[2025-08-13 12:20:16] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv...
+[2025-08-13 12:20:21] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv (taille: 52976722 bytes)
+[2025-08-13 12:20:21] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19_boost.ogv
+[2025-08-13 12:20:28] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv
+[2025-08-13 12:20:28] Lancement enregistrement segment #20 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv (durée cible 1800s)
+[2025-08-13 12:20:28] Processus recordmydesktop démarré : PID=441710
+[2025-08-13 12:50:28] Arrêt du processus recordmydesktop PID=441710 pour segment 20
+[2025-08-13 12:50:28] Arrêt gracieux du processus recordmydesktop-segment PID=441710
+[2025-08-13 12:50:28] Processus recordmydesktop-segment PID=441710 arrêté gracieusement
+[2025-08-13 12:50:28] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv...
+[2025-08-13 12:50:33] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv (taille: 52976938 bytes)
+[2025-08-13 12:50:33] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20_boost.ogv
+[2025-08-13 12:50:40] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv
+[2025-08-13 12:50:40] Lancement enregistrement segment #21 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv (durée cible 1800s)
+[2025-08-13 12:50:40] Processus recordmydesktop démarré : PID=456527
+[2025-08-13 13:20:40] Arrêt du processus recordmydesktop PID=456527 pour segment 21
+[2025-08-13 13:20:40] Arrêt gracieux du processus recordmydesktop-segment PID=456527
+[2025-08-13 13:20:40] Processus recordmydesktop-segment PID=456527 arrêté gracieusement
+[2025-08-13 13:20:40] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv...
+[2025-08-13 13:20:45] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv (taille: 52810969 bytes)
+[2025-08-13 13:20:45] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21_boost.ogv
+[2025-08-13 13:20:52] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv
+[2025-08-13 13:20:52] Lancement enregistrement segment #22 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv (durée cible 1800s)
+[2025-08-13 13:20:52] Processus recordmydesktop démarré : PID=471325
+[2025-08-13 13:50:52] Arrêt du processus recordmydesktop PID=471325 pour segment 22
+[2025-08-13 13:50:52] Arrêt gracieux du processus recordmydesktop-segment PID=471325
+[2025-08-13 13:50:52] Processus recordmydesktop-segment PID=471325 arrêté gracieusement
+[2025-08-13 13:50:52] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv...
+[2025-08-13 13:50:57] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv (taille: 52976866 bytes)
+[2025-08-13 13:50:57] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22_boost.ogv
+[2025-08-13 13:51:03] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv
+[2025-08-13 13:51:03] Lancement enregistrement segment #23 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv (durée cible 1800s)
+[2025-08-13 13:51:03] Processus recordmydesktop démarré : PID=486200
+[2025-08-13 14:21:03] Arrêt du processus recordmydesktop PID=486200 pour segment 23
+[2025-08-13 14:21:03] Arrêt gracieux du processus recordmydesktop-segment PID=486200
+[2025-08-13 14:21:04] Processus recordmydesktop-segment PID=486200 arrêté gracieusement
+[2025-08-13 14:21:04] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv...
+[2025-08-13 14:21:09] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv (taille: 53307540 bytes)
+[2025-08-13 14:21:09] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23_boost.ogv
+[2025-08-13 14:21:15] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv
+[2025-08-13 14:21:15] Lancement enregistrement segment #24 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv (durée cible 1800s)
+[2025-08-13 14:21:15] Processus recordmydesktop démarré : PID=501027
+[2025-08-13 14:51:15] Arrêt du processus recordmydesktop PID=501027 pour segment 24
+[2025-08-13 14:51:15] Arrêt gracieux du processus recordmydesktop-segment PID=501027
+[2025-08-13 14:51:16] Processus recordmydesktop-segment PID=501027 arrêté gracieusement
+[2025-08-13 14:51:16] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv...
+[2025-08-13 14:51:21] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv (taille: 53307528 bytes)
+[2025-08-13 14:51:21] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24_boost.ogv
+[2025-08-13 14:51:27] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv
+[2025-08-13 14:51:27] Lancement enregistrement segment #25 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv (durée cible 1800s)
+[2025-08-13 14:51:27] Processus recordmydesktop démarré : PID=515847
+[2025-08-13 15:21:27] Arrêt du processus recordmydesktop PID=515847 pour segment 25
+[2025-08-13 15:21:27] Arrêt gracieux du processus recordmydesktop-segment PID=515847
+[2025-08-13 15:21:28] Processus recordmydesktop-segment PID=515847 arrêté gracieusement
+[2025-08-13 15:21:28] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv...
+[2025-08-13 15:21:33] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv (taille: 53307632 bytes)
+[2025-08-13 15:21:33] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25_boost.ogv
+[2025-08-13 15:21:39] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv
+[2025-08-13 15:21:39] Lancement enregistrement segment #26 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv (durée cible 1800s)
+[2025-08-13 15:21:39] Processus recordmydesktop démarré : PID=530651
+[2025-08-13 15:51:39] Arrêt du processus recordmydesktop PID=530651 pour segment 26
+[2025-08-13 15:51:39] Arrêt gracieux du processus recordmydesktop-segment PID=530651
+[2025-08-13 15:51:40] Processus recordmydesktop-segment PID=530651 arrêté gracieusement
+[2025-08-13 15:51:40] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv...
+[2025-08-13 15:51:45] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv (taille: 56910435 bytes)
+[2025-08-13 15:51:45] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26_boost.ogv
+[2025-08-13 15:51:52] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv
+[2025-08-13 15:51:52] Lancement enregistrement segment #27 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv (durée cible 1800s)
+[2025-08-13 15:51:52] Processus recordmydesktop démarré : PID=545515
+[2025-08-13 16:21:52] Arrêt du processus recordmydesktop PID=545515 pour segment 27
+[2025-08-13 16:21:52] Arrêt gracieux du processus recordmydesktop-segment PID=545515
+[2025-08-13 16:21:52] Processus recordmydesktop-segment PID=545515 arrêté gracieusement
+[2025-08-13 16:21:52] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv...
+[2025-08-13 16:21:57] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv (taille: 64176199 bytes)
+[2025-08-13 16:21:57] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27_boost.ogv
+[2025-08-13 16:22:04] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv
+[2025-08-13 16:22:04] Lancement enregistrement segment #28 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv (durée cible 1800s)
+[2025-08-13 16:22:04] Processus recordmydesktop démarré : PID=560330
+[2025-08-13 16:52:04] Arrêt du processus recordmydesktop PID=560330 pour segment 28
+[2025-08-13 16:52:04] Arrêt gracieux du processus recordmydesktop-segment PID=560330
+[2025-08-13 16:52:04] Processus recordmydesktop-segment PID=560330 arrêté gracieusement
+[2025-08-13 16:52:04] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv...
+[2025-08-13 16:52:09] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv (taille: 64141149 bytes)
+[2025-08-13 16:52:09] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28_boost.ogv
+[2025-08-13 16:52:16] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv
+[2025-08-13 16:52:16] Lancement enregistrement segment #29 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv (durée cible 1800s)
+[2025-08-13 16:52:16] Processus recordmydesktop démarré : PID=575137
+[2025-08-13 17:22:16] Arrêt du processus recordmydesktop PID=575137 pour segment 29
+[2025-08-13 17:22:16] Arrêt gracieux du processus recordmydesktop-segment PID=575137
+[2025-08-13 17:22:17] Processus recordmydesktop-segment PID=575137 arrêté gracieusement
+[2025-08-13 17:22:17] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv...
+[2025-08-13 17:22:22] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv (taille: 63728168 bytes)
+[2025-08-13 17:22:22] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29_boost.ogv
+[2025-08-13 17:22:29] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv
+[2025-08-13 17:22:29] Lancement enregistrement segment #30 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv (durée cible 1800s)
+[2025-08-13 17:22:29] Processus recordmydesktop démarré : PID=590024
+[2025-08-13 17:52:29] Arrêt du processus recordmydesktop PID=590024 pour segment 30
+[2025-08-13 17:52:29] Arrêt gracieux du processus recordmydesktop-segment PID=590024
+[2025-08-13 17:52:29] Processus recordmydesktop-segment PID=590024 arrêté gracieusement
+[2025-08-13 17:52:29] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv...
+[2025-08-13 17:52:34] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv (taille: 63689591 bytes)
+[2025-08-13 17:52:34] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30_boost.ogv
+[2025-08-13 17:52:41] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv
+[2025-08-13 17:52:41] Lancement enregistrement segment #31 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv (durée cible 1800s)
+[2025-08-13 17:52:41] Processus recordmydesktop démarré : PID=604825
+[2025-08-13 18:22:41] Arrêt du processus recordmydesktop PID=604825 pour segment 31
+[2025-08-13 18:22:41] Arrêt gracieux du processus recordmydesktop-segment PID=604825
+[2025-08-13 18:22:42] Processus recordmydesktop-segment PID=604825 arrêté gracieusement
+[2025-08-13 18:22:42] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv...
+[2025-08-13 18:22:47] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv (taille: 64132846 bytes)
+[2025-08-13 18:22:47] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31_boost.ogv
+[2025-08-13 18:22:53] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv
+[2025-08-13 18:22:53] Lancement enregistrement segment #32 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv (durée cible 1800s)
+[2025-08-13 18:22:53] Processus recordmydesktop démarré : PID=619636
+[2025-08-13 18:52:53] Arrêt du processus recordmydesktop PID=619636 pour segment 32
+[2025-08-13 18:52:53] Arrêt gracieux du processus recordmydesktop-segment PID=619636
+[2025-08-13 18:52:54] Processus recordmydesktop-segment PID=619636 arrêté gracieusement
+[2025-08-13 18:52:54] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv...
+[2025-08-13 18:52:59] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv (taille: 63882242 bytes)
+[2025-08-13 18:52:59] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32_boost.ogv
+[2025-08-13 18:53:06] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv
+[2025-08-13 18:53:06] Lancement enregistrement segment #33 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv (durée cible 1800s)
+[2025-08-13 18:53:06] Processus recordmydesktop démarré : PID=634459
+[2025-08-13 19:23:06] Arrêt du processus recordmydesktop PID=634459 pour segment 33
+[2025-08-13 19:23:06] Arrêt gracieux du processus recordmydesktop-segment PID=634459
+[2025-08-13 19:23:06] Processus recordmydesktop-segment PID=634459 arrêté gracieusement
+[2025-08-13 19:23:06] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv...
+[2025-08-13 19:23:11] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv (taille: 63498263 bytes)
+[2025-08-13 19:23:11] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33_boost.ogv
+[2025-08-13 19:23:18] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv
+[2025-08-13 19:23:18] Lancement enregistrement segment #34 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv (durée cible 1800s)
+[2025-08-13 19:23:18] Processus recordmydesktop démarré : PID=649345
+[2025-08-13 19:53:18] Arrêt du processus recordmydesktop PID=649345 pour segment 34
+[2025-08-13 19:53:18] Arrêt gracieux du processus recordmydesktop-segment PID=649345
+[2025-08-13 19:53:19] Processus recordmydesktop-segment PID=649345 arrêté gracieusement
+[2025-08-13 19:53:19] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv...
+[2025-08-13 19:53:24] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv (taille: 63271683 bytes)
+[2025-08-13 19:53:24] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34_boost.ogv
+[2025-08-13 19:53:31] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv
+[2025-08-13 19:53:31] Lancement enregistrement segment #35 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv (durée cible 1800s)
+[2025-08-13 19:53:31] Processus recordmydesktop démarré : PID=664148
+[2025-08-13 20:23:31] Arrêt du processus recordmydesktop PID=664148 pour segment 35
+[2025-08-13 20:23:31] Arrêt gracieux du processus recordmydesktop-segment PID=664148
+[2025-08-13 20:23:31] Processus recordmydesktop-segment PID=664148 arrêté gracieusement
+[2025-08-13 20:23:31] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv...
+[2025-08-13 20:23:36] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv (taille: 63321830 bytes)
+[2025-08-13 20:23:36] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35_boost.ogv
+[2025-08-13 20:23:43] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv
+[2025-08-13 20:23:43] Lancement enregistrement segment #36 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv (durée cible 1800s)
+[2025-08-13 20:23:43] Processus recordmydesktop démarré : PID=678973
+[2025-08-13 20:53:43] Arrêt du processus recordmydesktop PID=678973 pour segment 36
+[2025-08-13 20:53:43] Arrêt gracieux du processus recordmydesktop-segment PID=678973
+[2025-08-13 20:53:44] Processus recordmydesktop-segment PID=678973 arrêté gracieusement
+[2025-08-13 20:53:44] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv...
+[2025-08-13 20:53:49] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv (taille: 63548493 bytes)
+[2025-08-13 20:53:49] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36_boost.ogv
+[2025-08-13 20:53:55] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv
+[2025-08-13 20:53:55] Lancement enregistrement segment #37 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv (durée cible 1800s)
+[2025-08-13 20:53:55] Processus recordmydesktop démarré : PID=693852
+[2025-08-13 21:23:55] Arrêt du processus recordmydesktop PID=693852 pour segment 37
+[2025-08-13 21:23:55] Arrêt gracieux du processus recordmydesktop-segment PID=693852
+[2025-08-13 21:23:56] Processus recordmydesktop-segment PID=693852 arrêté gracieusement
+[2025-08-13 21:23:56] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv...
+[2025-08-13 21:24:01] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv (taille: 63468624 bytes)
+[2025-08-13 21:24:01] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37_boost.ogv
+[2025-08-13 21:24:08] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv
+[2025-08-13 21:24:08] Lancement enregistrement segment #38 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv (durée cible 1800s)
+[2025-08-13 21:24:08] Processus recordmydesktop démarré : PID=708697
+[2025-08-13 21:54:08] Arrêt du processus recordmydesktop PID=708697 pour segment 38
+[2025-08-13 21:54:08] Arrêt gracieux du processus recordmydesktop-segment PID=708697
+[2025-08-13 21:54:08] Processus recordmydesktop-segment PID=708697 arrêté gracieusement
+[2025-08-13 21:54:08] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv...
+[2025-08-13 21:54:13] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv (taille: 62495631 bytes)
+[2025-08-13 21:54:13] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38_boost.ogv
+[2025-08-13 21:54:20] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv
+[2025-08-13 21:54:20] Lancement enregistrement segment #39 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv (durée cible 1800s)
+[2025-08-13 21:54:20] Processus recordmydesktop démarré : PID=723503
+[2025-08-13 22:24:20] Arrêt du processus recordmydesktop PID=723503 pour segment 39
+[2025-08-13 22:24:20] Arrêt gracieux du processus recordmydesktop-segment PID=723503
+[2025-08-13 22:24:21] Processus recordmydesktop-segment PID=723503 arrêté gracieusement
+[2025-08-13 22:24:21] Attente de finalisation du fichier /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv...
+[2025-08-13 22:24:26] Segment enregistré : /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv (taille: 62207553 bytes)
+[2025-08-13 22:24:26] Traitement ffmpeg pour amplification /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv -> /media/nox/data2/Videos//BOOST/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39_boost.ogv
+[2025-08-13 22:24:33] ffmpeg terminé avec succès pour /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv
+[2025-08-13 22:24:33] Lancement enregistrement segment #40 -> /media/nox/data2/Videos//NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_222433_part40.ogv (durée cible 1800s)
+[2025-08-13 22:24:33] Processus recordmydesktop démarré : PID=738360
+[2025-08-13 22:46:33] SIGINT reçu : arrêt en cours...
+[2025-08-13 22:46:33] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-13 22:46:33] Arrêt gracieux du processus recordmydesktop-current PID=738360
+[2025-08-13 22:46:33] SIGINT reçu : arrêt en cours...
+[2025-08-13 22:46:33] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-13 22:46:33] Arrêt gracieux du processus recordmydesktop-current PID=738360
+[2025-08-13 22:46:33] SIGINT reçu : arrêt en cours...
+[2025-08-13 22:46:33] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-13 22:46:33] Arrêt gracieux du processus recordmydesktop-current PID=738360
+[2025-08-13 22:46:34] Processus recordmydesktop-current PID=738360 arrêté gracieusement
+[2025-08-13 22:46:34] Nettoyage de tous les processus recordmydesktop en cours...
+[2025-08-17 01:31:44] Démarrage: base=NEST_FRONT_17082025, durée_totale=0 (0=illimitée), segment_duration=2100s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=0, volume=2.0, target_dir=/media/nox/data2/Videos/
+[2025-08-17 01:31:44] Démarrage segment #0 -> /media/nox/data2/Videos//NEST_FRONT_17082025_20250817_013144_part0.mp4 (durée: 2100s)
+[2025-08-17 01:31:53] SIGINT reçu: arrêt en cours...
+[2025-08-17 01:31:53] Arrêt de ffmpeg (PID: 1276772)
+[2025-08-17 01:31:53] SIGINT reçu: arrêt en cours...
+[2025-08-17 01:31:53] Arrêt de ffmpeg (PID: 1276772)
+[2025-08-17 01:32:34] Démarrage: base=NEST_FRONT_17082025, durée_totale=0 (0=illimitée), segment_duration=600s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=0, volume=2.0, target_dir=/media/nox/data2/Videos/
+[2025-08-17 01:32:34] Démarrage segment #0 -> /media/nox/data2/Videos//NEST_FRONT_17082025_20250817_013234_part0.mp4 (durée: 600s)
+[2025-08-17 01:40:58] SIGINT reçu: arrêt en cours...
+[2025-08-17 01:40:58] Arrêt de ffmpeg (PID: 1277311)
+[2025-08-17 01:47:13] Démarrage: base=TEST, durée_totale=30 (0=illimitée), segment_duration=2100s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=0, volume=, target_dir=./
+[2025-08-17 01:47:13] Démarrage segment #0 -> .//TEST_20250817_014713_part0.mp4 (durée: 2100s)
+[2025-08-17 01:48:40] SIGINT reçu: arrêt en cours...
+[2025-08-17 01:48:40] Arrêt de ffmpeg (PID: 1286091)
+[2025-08-17 02:16:07] Démarrage: base=NEST, durée_totale=0 (0=illimitée), segment_duration=300s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=1, mic_device=default, volume=10.0, target_dir=./
+[2025-08-17 02:16:07] Démarrage segment #0 -> .//NEST_20250817_021607_part0.mp4 (durée: 300s)
+[2025-08-17 02:21:07] Arrêt de ffmpeg (PID: 1322312)
+[2025-08-17 02:21:08] Segment enregistré: .//NEST_20250817_021607_part0.mp4 (taille: 15377991 octets)
+[2025-08-17 02:21:08] Amplification audio: .//NEST_20250817_021607_part0.mp4 -> .//BOOST/NEST_20250817_021607_part0_boost.mp4 (volume: 10.0)
+[2025-08-17 02:21:16] Amplification terminée: .//BOOST/NEST_20250817_021607_part0_boost.mp4
+[2025-08-17 02:21:16] Démarrage segment #1 -> .//NEST_20250817_022116_part1.mp4 (durée: 300s)
+[2025-08-17 02:26:16] Arrêt de ffmpeg (PID: 1325325)
+[2025-08-17 02:26:17] Segment enregistré: .//NEST_20250817_022116_part1.mp4 (taille: 15533303 octets)
+[2025-08-17 02:26:17] Amplification audio: .//NEST_20250817_022116_part1.mp4 -> .//BOOST/NEST_20250817_022116_part1_boost.mp4 (volume: 10.0)
+[2025-08-17 02:26:24] Amplification terminée: .//BOOST/NEST_20250817_022116_part1_boost.mp4
+[2025-08-17 02:26:24] Démarrage segment #2 -> .//NEST_20250817_022624_part2.mp4 (durée: 300s)
+[2025-08-17 02:27:58] SIGINT reçu: arrêt en cours...
+[2025-08-17 02:27:58] Arrêt de ffmpeg (PID: 1328339)
+[2025-08-17 02:42:20] Démarrage: base=NEST_FRONT_LAST, durée_totale=0 (0=illimitée), segment_duration=300s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=0, mic_device=, volume=10.0, target_dir=/media/nox/data2/Videos/
+[2025-08-17 02:42:20] Démarrage segment #0 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_024220_part0.mp4 (durée: 300s)
+[2025-08-17 02:47:20] Arrêt de ffmpeg (PID: 1375000)
+[2025-08-17 02:47:21] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_024220_part0.mp4 (taille: 12542385 octets)
+[2025-08-17 02:47:21] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_024220_part0.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_024220_part0_boost.mp4 (volume: 10.0)
+[2025-08-17 02:47:34] Amplification terminée: /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_024220_part0_boost.mp4
+[2025-08-17 02:47:34] Démarrage segment #1 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_024734_part1.mp4 (durée: 300s)
+[2025-08-17 02:52:34] Arrêt de ffmpeg (PID: 1378109)
+[2025-08-17 02:52:35] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_024734_part1.mp4 (taille: 14158800 octets)
+[2025-08-17 02:52:35] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_024734_part1.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_024734_part1_boost.mp4 (volume: 10.0)
+[2025-08-17 02:52:49] Amplification terminée: /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_024734_part1_boost.mp4
+[2025-08-17 02:52:49] Démarrage segment #2 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_025249_part2.mp4 (durée: 300s)
+[2025-08-17 02:57:11] SIGINT reçu: arrêt en cours...
+[2025-08-17 02:57:11] Arrêt de ffmpeg (PID: 1381232)
+[2025-08-17 02:57:11] SIGINT reçu: arrêt en cours...
+[2025-08-17 02:57:11] Arrêt de ffmpeg (PID: 1381232)
+[2025-08-17 03:02:26] Démarrage: base=NEST_FRONT_LAST, durée_totale=0 (0=illimitée), segment_duration=300s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=0, mic_device=, volume=highpass=300,lowpass=3000,compand=0|0:1|1:-90/-60|-60/-40|-40/-30|-20/-20:6, target_dir=/media/nox/data2/Videos/
+[2025-08-17 03:02:26] Démarrage segment #0 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_030226_part0.mp4 (durée: 300s)
+[2025-08-17 03:02:35] SIGINT reçu: arrêt en cours...
+[2025-08-17 03:02:35] Arrêt de ffmpeg (PID: 1386455)
+[2025-08-17 03:03:18] Démarrage: base=NEST_FRONT_VOICE, durée_totale=0 (0=illimitée), segment_duration=180s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=0, mic_device=, volume=highpass=300,lowpass=3000,compand=0|0:1|1:-90/-60|-60/-40|-40/-30|-20/-20:6, target_dir=/media/nox/data2/Videos/
+[2025-08-17 03:03:18] Démarrage segment #0 -> /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030318_part0.mp4 (durée: 180s)
+[2025-08-17 03:06:18] Arrêt de ffmpeg (PID: 1386937)
+[2025-08-17 03:06:19] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030318_part0.mp4 (taille: 8838011 octets)
+[2025-08-17 03:06:19] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030318_part0.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_VOICE_20250817_030318_part0_boost.mp4 (volume: highpass=300,lowpass=3000,compand=0|0:1|1:-90/-60|-60/-40|-40/-30|-20/-20:6)
+[2025-08-17 03:06:19] ERREUR: Échec de l'amplification audio pour /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030318_part0.mp4
+[2025-08-17 03:06:19] Démarrage segment #1 -> /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030619_part1.mp4 (durée: 180s)
+[2025-08-17 03:09:19] Arrêt de ffmpeg (PID: 1388506)
+[2025-08-17 03:09:20] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030619_part1.mp4 (taille: 11688944 octets)
+[2025-08-17 03:09:20] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030619_part1.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_VOICE_20250817_030619_part1_boost.mp4 (volume: highpass=300,lowpass=3000,compand=0|0:1|1:-90/-60|-60/-40|-40/-30|-20/-20:6)
+[2025-08-17 03:09:20] ERREUR: Échec de l'amplification audio pour /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030619_part1.mp4
+[2025-08-17 03:09:20] Démarrage segment #2 -> /media/nox/data2/Videos//NEST_FRONT_VOICE_20250817_030920_part2.mp4 (durée: 180s)
+[2025-08-17 03:09:55] SIGINT reçu: arrêt en cours...
+[2025-08-17 03:09:55] Arrêt de ffmpeg (PID: 1390223)
+[2025-08-17 03:09:56] SIGINT reçu: arrêt en cours...
+[2025-08-17 03:09:56] Arrêt de ffmpeg (PID: 1390223)
+[2025-08-17 03:11:16] Démarrage: base=NEST_FRONT_LAST, durée_totale=0 (0=illimitée), segment_duration=180s, device=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor, mic=0, mic_device=, volume=10.0, target_dir=/media/nox/data2/Videos/
+[2025-08-17 03:11:16] Démarrage segment #0 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031116_part0.mp4 (durée: 180s)
+[2025-08-17 03:14:16] Arrêt de ffmpeg (PID: 1391289)
+[2025-08-17 03:14:17] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031116_part0.mp4 (taille: 11201566 octets)
+[2025-08-17 03:14:17] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031116_part0.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_031116_part0_boost.mp4 (volume: 10.0)
+[2025-08-17 03:14:25] Amplification terminée: /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_031116_part0_boost.mp4
+[2025-08-17 03:14:25] Démarrage segment #1 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031425_part1.mp4 (durée: 180s)
+[2025-08-17 03:17:25] Arrêt de ffmpeg (PID: 1392917)
+[2025-08-17 03:17:26] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031425_part1.mp4 (taille: 8733790 octets)
+[2025-08-17 03:17:26] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031425_part1.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_031425_part1_boost.mp4 (volume: 10.0)
+[2025-08-17 03:17:35] Amplification terminée: /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_031425_part1_boost.mp4
+[2025-08-17 03:17:35] Démarrage segment #2 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031735_part2.mp4 (durée: 180s)
+[2025-08-17 03:20:35] Arrêt de ffmpeg (PID: 1394682)
+[2025-08-17 03:20:36] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031735_part2.mp4 (taille: 9876006 octets)
+[2025-08-17 03:20:36] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_031735_part2.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_031735_part2_boost.mp4 (volume: 10.0)
+[2025-08-17 03:20:42] Amplification terminée: /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_031735_part2_boost.mp4
+[2025-08-17 03:20:42] Démarrage segment #3 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_032042_part3.mp4 (durée: 180s)
+[2025-08-17 03:23:42] Arrêt de ffmpeg (PID: 1396295)
+[2025-08-17 03:23:43] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_032042_part3.mp4 (taille: 11218947 octets)
+[2025-08-17 03:23:43] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_032042_part3.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_032042_part3_boost.mp4 (volume: 10.0)
+[2025-08-17 03:23:48] Amplification terminée: /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_032042_part3_boost.mp4
+[2025-08-17 03:23:48] Démarrage segment #4 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_032348_part4.mp4 (durée: 180s)
+[2025-08-17 03:26:48] Arrêt de ffmpeg (PID: 1397919)
+[2025-08-17 03:26:49] Segment enregistré: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_032348_part4.mp4 (taille: 9715894 octets)
+[2025-08-17 03:26:49] Amplification audio: /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_032348_part4.mp4 -> /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_032348_part4_boost.mp4 (volume: 10.0)
+[2025-08-17 03:26:55] Amplification terminée: /media/nox/data2/Videos//BOOST/NEST_FRONT_LAST_20250817_032348_part4_boost.mp4
+[2025-08-17 03:26:55] Démarrage segment #5 -> /media/nox/data2/Videos//NEST_FRONT_LAST_20250817_032655_part5.mp4 (durée: 180s)
+[2025-08-17 03:29:08] SIGINT reçu: arrêt en cours...
+[2025-08-17 03:29:08] Arrêt de ffmpeg (PID: 1399574)

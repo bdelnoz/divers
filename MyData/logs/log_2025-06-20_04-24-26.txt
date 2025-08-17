@@ -1,0 +1,117 @@
+[*] Passage de wlan1 en mode monitor...
+
+Found 2 processes that could cause trouble.
+Kill them using 'airmon-ng check kill' before putting
+the card in monitor mode, they will interfere by changing channels
+and sometimes putting the interface back in managed mode
+
+    PID Name
+   1179 NetworkManager
+   1311 wpa_supplicant
+
+PHY	Interface	Driver		Chipset
+
+phy0	wlan0		rtl8723be	Realtek Semiconductor Co., Ltd. RTL8723BE PCIe Wireless Network Adapter
+phy1	wlan1		rtl8xxxu	TP-Link TL-WN823N v2/v3 [Realtek RTL8192EU]
+		(mac80211 monitor mode already enabled for [phy1]wlan1 on [phy1]10)
+[*] Interface monitor détectée : wlan1
+[*] Lancement du scan WiFi pendant 900 secondes sur wlan1...
+[0m[?25l[2J
+== Attaque DOS cycle à 2025-06-20 04:24:31 ==
+[i] Ignoré (autorisé) : 18:B4:30:DA:FA:B1 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:6A:B0:9D / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 64:16:66:86:E4:9F / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:D9:D5:94 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : CE:5C:19:BF:47:37 / 60:A4:B7:79:5B:83
+Pause 60 secondes avant le prochain cycle...
+
+
+== Attaque DOS cycle à 2025-06-20 04:25:31 ==
+[i] Ignoré (autorisé) : 18:B4:30:DA:FA:B1 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:6A:B0:9D / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 64:16:66:86:E4:9F / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:D9:D5:94 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : CE:5C:19:BF:47:37 / 60:A4:B7:79:5B:83
+[*] → DOS : Client FA:B5:EB:E2:A3:B3 connecté à 00:25:00:FF:94:73 à 2025-06-20 04:25:31
+04:25:31  Waiting for beacon frame (BSSID: 00:25:00:FF:94:73) on channel 6
+04:25:41  No such BSSID available.
+[i] Ignoré (autorisé) : 54:35:30:94:5D:63 / 60:A4:B7:79:5B:83
+[*] → DOS : Client AE:EA:36:0A:5D:BE connecté à (notassociated) à 2025-06-20 04:25:31
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+Pause 60 secondes avant le prochain cycle...
+
+
+== Attaque DOS cycle à 2025-06-20 04:26:41 ==
+[i] Ignoré (autorisé) : 18:B4:30:DA:FA:B1 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:6A:B0:9D / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 64:16:66:86:E4:9F / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:D9:D5:94 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : CE:5C:19:BF:47:37 / 60:A4:B7:79:5B:83
+[*] → DOS : Client FA:B5:EB:E2:A3:B3 connecté à 00:25:00:FF:94:73 à 2025-06-20 04:26:41
+04:26:41  Waiting for beacon frame (BSSID: 00:25:00:FF:94:73) on channel 8
+04:26:51  No such BSSID available.
+[i] Ignoré (autorisé) : 54:35:30:94:5D:63 / 60:A4:B7:79:5B:83
+[*] → DOS : Client AE:EA:36:0A:5D:BE connecté à (notassociated) à 2025-06-20 04:26:41
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+[i] Ignoré (autorisé) : 20:23:51:2B:33:C6 / 60:A4:B7:79:5B:83
+[*] → DOS : Client 84:0D:8E:A7:F1:9B connecté à 08:B0:55:23:B5:9A à 2025-06-20 04:26:41
+04:26:51  Waiting for beacon frame (BSSID: 08:B0:55:23:B5:9A) on channel 5
+04:26:59  wlan1 is on channel 5, but the AP uses channel 1
+Pause 60 secondes avant le prochain cycle...
+
+
+== Attaque DOS cycle à 2025-06-20 04:27:59 ==
+[i] Ignoré (autorisé) : 18:B4:30:DA:FA:B1 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:6A:B0:9D / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 64:16:66:86:E4:9F / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:D9:D5:94 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : CE:5C:19:BF:47:37 / 60:A4:B7:79:5B:83
+[*] → DOS : Client FA:B5:EB:E2:A3:B3 connecté à 00:25:00:FF:94:73 à 2025-06-20 04:27:59
+04:27:59  Waiting for beacon frame (BSSID: 00:25:00:FF:94:73) on channel 4
+04:28:09  No such BSSID available.
+[i] Ignoré (autorisé) : 54:35:30:94:5D:63 / 60:A4:B7:79:5B:83
+[*] → DOS : Client AE:EA:36:0A:5D:BE connecté à (notassociated) à 2025-06-20 04:27:59
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+[i] Ignoré (autorisé) : 20:23:51:2B:33:C6 / 60:A4:B7:79:5B:83
+[*] → DOS : Client 84:0D:8E:A7:F1:9B connecté à 08:B0:55:23:B5:9A à 2025-06-20 04:27:59
+04:28:09  Waiting for beacon frame (BSSID: 08:B0:55:23:B5:9A) on channel 14
+04:28:11  wlan1 is on channel 14, but the AP uses channel 1
+[*] → DOS : Client 16:50:17:52:5F:6A connecté à (notassociated) à 2025-06-20 04:27:59
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+Pause 60 secondes avant le prochain cycle...
+
+
+== Attaque DOS cycle à 2025-06-20 04:29:11 ==
+[i] Ignoré (autorisé) : 18:B4:30:DA:FA:B1 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:6A:B0:9D / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 64:16:66:86:E4:9F / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : 18:B4:30:D9:D5:94 / 60:A4:B7:79:5B:83
+[i] Ignoré (autorisé) : CE:5C:19:BF:47:37 / 60:A4:B7:79:5B:83
+[*] → DOS : Client FA:B5:EB:E2:A3:B3 connecté à 00:25:00:FF:94:73 à 2025-06-20 04:29:11
+04:29:11  Waiting for beacon frame (BSSID: 00:25:00:FF:94:73) on channel 6
+04:29:21  No such BSSID available.
+[i] Ignoré (autorisé) : 54:35:30:94:5D:63 / 60:A4:B7:79:5B:83
+[*] → DOS : Client AE:EA:36:0A:5D:BE connecté à (notassociated) à 2025-06-20 04:29:11
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+[i] Ignoré (autorisé) : 20:23:51:2B:33:C6 / 60:A4:B7:79:5B:83
+[*] → DOS : Client 84:0D:8E:A7:F1:9B connecté à 08:B0:55:23:B5:9A à 2025-06-20 04:29:11
+04:29:21  Waiting for beacon frame (BSSID: 08:B0:55:23:B5:9A) on channel 3
+04:29:31  No such BSSID available.
+[*] → DOS : Client 16:50:17:52:5F:6A connecté à (notassociated) à 2025-06-20 04:29:11
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+[*] → DOS : Client E6:DE:E2:F0:F8:F4 connecté à (notassociated) à 2025-06-20 04:29:11
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+[*] → DOS : Client B2:5D:C7:41:4F:5E connecté à (notassociated) à 2025-06-20 04:29:11
+Invalid AP MAC address.
+"aireplay-ng --help" for help.
+Pause 60 secondes avant le prochain cycle...
+
+read failed: Network is down
+[?25h[?25h

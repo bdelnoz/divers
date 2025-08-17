@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -sV -T4 -O -F --version-light 192.168.0.0/24" profile_name="Quick scan plus" scanner="nmap" start="1749438221" startstr="Mon Jun  9 05:03:41 2025" version="7.95" xmloutputversion="1.04"><scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-09 05:03 CEST
+Nmap scan report for MyModem (192.168.0.1)
+Host is up (0.011s latency).
+Not shown: 90 closed tcp ports (reset)
+PORT     STATE    SERVICE      VERSION
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+53/tcp   open     domain       dnsmasq 2.84rc2
+80/tcp   open     http?
+111/tcp  filtered rpcbind
+1026/tcp filtered LSA-or-nterm
+1027/tcp filtered IIS
+1028/tcp filtered unknown
+1029/tcp filtered ms-lsa
+1723/tcp filtered pptp
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.95%I=2%D=6/9%Time=68464F18%P=x86_64-pc-linux-gnu%r(GetRe
+SF:quest,3740,"HTTP/1\.0\x20200\x20OK\r\nContent-type:\x20text/html;\x20ch
+SF:arset=UTF-8\r\nX-Frame-Options:\x20deny\r\nX-XSS-Protection:\x201;\x20m
+SF:ode=block\r\nX-Content-Type-Options:\x20nosniff\r\nContent-Security-Pol
+SF:icy:\x20default-src\x20'self'\x20'unsafe-inline'\x20'unsafe-eval';\x20s
+SF:tyle-src\x20'self'\x20'unsafe-inline'\x20'unsafe-eval';\x20frame-src\x2
+SF:0'self'\x20'unsafe-inline'\x20'unsafe-eval';\x20font-src\x20'self'\x20'
+SF:unsafe-inline'\x20'unsafe-eval';\x20form-action\x20'self'\x20'unsafe-in
+SF:line'\x20'unsafe-eval';\x20script-src\x20'self'\x20'unsafe-inline'\x20'
+SF:unsafe-eval';\x20connect-src\x20'self';\x20object-src\x20'none';\x20med
+SF:ia-src\x20'none';\x20report-uri\x20'none';\x20worker-src\x20blob:;\x20c
+SF:hild-src\x20blob:\x20gap:;\x20img-src\x20'self'\x20blob:\x20data:;\r\nC
+SF:ontent-Length:\x2013436\r\nConnection:\x20close\r\nDate:\x20Mon,\x2009\
+SF:x20Jun\x202025\x2003:03:52\x20GMT\r\nServer:\x20WebServer\r\n\r\n&lt;!DOCT
+SF:YPE\x20html&gt;\n&lt;html&gt;\n\n&lt;head&gt;\n\x20\x20\x20\x20&lt;meta\x20charset=\"utf-
+SF:8\"&gt;\n\x20\x20\x20\x20&lt;meta\x20http-equiv=\"X-UA-Compatible\"\x20conten
+SF:t=\"IE=edge\"&gt;\n\x20\x20\x20\x20&lt;!--\x20Logo\x20for\x20browser\x20tabs-
+SF:-&gt;\n\x20\x20\x20\x20&lt;link\x20href=\"image/top_logo\.gif\"\x20type=\"")%
+SF:r(HTTPOptions,3740,"HTTP/1\.0\x20200\x20OK\r\nContent-type:\x20text/htm
+SF:l;\x20charset=UTF-8\r\nX-Frame-Options:\x20deny\r\nX-XSS-Protection:\x2
+SF:01;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nContent-Secu
+SF:rity-Policy:\x20default-src\x20'self'\x20'unsafe-inline'\x20'unsafe-eva
+SF:l';\x20style-src\x20'self'\x20'unsafe-inline'\x20'unsafe-eval';\x20fram
+SF:e-src\x20'self'\x20'unsafe-inline'\x20'unsafe-eval';\x20font-src\x20'se
+SF:lf'\x20'unsafe-inline'\x20'unsafe-eval';\x20form-action\x20'self'\x20'u
+SF:nsafe-inline'\x20'unsafe-eval';\x20script-src\x20'self'\x20'unsafe-inli
+SF:ne'\x20'unsafe-eval';\x20connect-src\x20'self';\x20object-src\x20'none'
+SF:;\x20media-src\x20'none';\x20report-uri\x20'none';\x20worker-src\x20blo
+SF:b:;\x20child-src\x20blob:\x20gap:;\x20img-src\x20'self'\x20blob:\x20dat
+SF:a:;\r\nContent-Length:\x2013436\r\nConnection:\x20close\r\nDate:\x20Mon
+SF:,\x2009\x20Jun\x202025\x2003:03:52\x20GMT\r\nServer:\x20WebServer\r\n\r
+SF:\n&lt;!DOCTYPE\x20html&gt;\n&lt;html&gt;\n\n&lt;head&gt;\n\x20\x20\x20\x20&lt;meta\x20charse
+SF:t=\"utf-8\"&gt;\n\x20\x20\x20\x20&lt;meta\x20http-equiv=\"X-UA-Compatible\"\x
+SF:20content=\"IE=edge\"&gt;\n\x20\x20\x20\x20&lt;!--\x20Logo\x20for\x20browser\
+SF:x20tabs--&gt;\n\x20\x20\x20\x20&lt;link\x20href=\"image/top_logo\.gif\"\x20ty
+SF:pe=\"");
+Device type: general purpose
+Running: Linux 5.X
+OS CPE: cpe:/o:linux:linux_kernel:5
+OS details: Linux 5.1 - 5.15
+Network Distance: 2 hops
+
+Nmap scan report for android-8ad48d031a9a0138 (192.168.0.74)
+Host is up (0.0098s latency).
+Not shown: 95 closed tcp ports (reset)
+PORT      STATE    SERVICE VERSION
+1723/tcp  filtered pptp
+49152/tcp open     upnp    Portable SDK for UPnP devices 1.6.19 (Linux 3.18.24_hi3798mv2x; UPnP 1.0)
+49153/tcp open     upnp    Portable SDK for UPnP devices 1.6.19 (Linux 3.18.24_hi3798mv2x; UPnP 1.0)
+49154/tcp open     upnp    Portable SDK for UPnP devices 1.6.19 (Linux 3.18.24_hi3798mv2x; UPnP 1.0)
+49155/tcp open     upnp    Portable SDK for UPnP devices 1.6.19 (Linux 3.18.24_hi3798mv2x; UPnP 1.0)
+Device type: media device
+Running: Amazon embedded
+OS details: Amazon Fire TV
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel:3.18.24_hi3798mv2x
+
+Nmap scan report for Archer_C50 (192.168.0.180)
+Host is up (0.0074s latency).
+Not shown: 97 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        Dropbear sshd 2020.80 (protocol 2.0)
+443/tcp  open  ssl/https?
+1900/tcp open  upnp       Portable SDK for UPnP devices 1.6.19 (Linux 2.6.36; UPnP 1.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.95%T=SSL%I=2%D=6/9%Time=68464F1E%P=x86_64-pc-linux-gnu%
+SF:r(GetRequest,179,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Type:\x20tex
+SF:t/html;\x20charset=utf-8\r\nContent-Length:\x20106\r\nSet-Cookie:\x20JS
+SF:ESSIONID=deleted;\x20SameSite=Lax;\x20Expires=Thu,\x2001\x20Jan\x201970
+SF:\x2000:00:01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20close\r\n
+SF:X-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\
+SF:n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;403\x20Forbidden&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;center&gt;&lt;h
+SF:1&gt;403\x20Forbidden&lt;/h1&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;")%r(HTTPOptions,194,"HTT
+SF:P/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nContent-Type:\x20text/html
+SF:;\x20charset=utf-8\r\nContent-Length:\x20124\r\nSet-Cookie:\x20JSESSION
+SF:ID=deleted;\x20SameSite=Lax;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000
+SF::00:01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20close\r\nX-Fram
+SF:e-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\n\r\n&lt;
+SF:html&gt;&lt;head&gt;&lt;title&gt;405\x20Method\x20Not\x20Allowed&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;
+SF:center&gt;&lt;h1&gt;405\x20Method\x20Not\x20Allowed&lt;/h1&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;"
+SF:)%r(FourOhFourRequest,179,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Typ
+SF:e:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x20106\r\nSet-Cook
+SF:ie:\x20JSESSIONID=deleted;\x20SameSite=Lax;\x20Expires=Thu,\x2001\x20Ja
+SF:n\x201970\x2000:00:01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20
+SF:close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20n
+SF:osniff\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;403\x20Forbidden&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;
+SF:center&gt;&lt;h1&gt;403\x20Forbidden&lt;/h1&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;")%r(GenericLine
+SF:s,17F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html
+SF:;\x20charset=utf-8\r\nContent-Length:\x20110\r\nSet-Cookie:\x20JSESSION
+SF:ID=deleted;\x20SameSite=Lax;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000
+SF::00:01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20close\r\nX-Fram
+SF:e-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\n\r\n&lt;
+SF:html&gt;&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;center&gt;&lt;h1
+SF:&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;");
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.23 - 2.6.38
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel, cpe:/o:linux:linux_kernel:2.6.36
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (3 hosts up) scanned in 34.39 seconds
+</output><host comment=""><status state="up"></status><address addr="192.168.0.1" vendor="" addrtype="ipv4"></address><hostnames><hostname name="MyModem" type="PTR"></hostname></hostnames><ports><extraports count="90" state="closed"></extraports><port portid="22" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="ssh"></service></port><port portid="23" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="telnet"></service></port><port portid="53" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="63"></state><service conf="10" method="probed" name="domain" product="dnsmasq" version="2.84rc2"></service></port><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="63"></state><service conf="3" method="table" name="http"></service></port><port portid="111" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="rpcbind"></service></port><port portid="1026" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="LSA-or-nterm"></service></port><port portid="1027" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="IIS"></service></port><port portid="1028" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service></service></port><port portid="1029" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="ms-lsa"></service></port><port portid="1723" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="pptp"></service></port></ports><os><portused state="open" proto="tcp" portid="53"></portused><portused state="closed" proto="tcp" portid="7"></portused><portused state="closed" proto="udp" portid="33448"></portused><osmatch name="Linux 5.1 - 5.15" accuracy="100" line="71770"><osclass vendor="Linux" osfamily="Linux" type="general purpose" osgen="5.X" accuracy="100"></osclass></osmatch></os><uptime seconds="543354" lastboot="Mon Jun  2 22:08:21 2025"></uptime><tcpsequence index="263" difficulty="Good luck!" values="BF4FF5E1,BB63BC9C,A902942B,2894837A,7E59004,4473A354"></tcpsequence><ipidsequence class="All zeros" values="0,0,0,0,0,0"></ipidsequence><tcptssequence class="1000HZ" values="2062EA1D,2062EA55,2062EABA,2062EB1E,2062EB82,2062EBE8"></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.0.74" vendor="" addrtype="ipv4"></address><hostnames><hostname name="android-8ad48d031a9a0138" type="PTR"></hostname></hostnames><ports><extraports count="95" state="closed"></extraports><port portid="1723" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="pptp"></service></port><port portid="49152" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="63"></state><service conf="10" method="probed" name="upnp" product="Portable SDK for UPnP devices" version="1.6.19" extrainfo="Linux 3.18.24_hi3798mv2x; UPnP 1.0"></service></port><port portid="49153" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="63"></state><service conf="10" method="probed" name="upnp" product="Portable SDK for UPnP devices" version="1.6.19" extrainfo="Linux 3.18.24_hi3798mv2x; UPnP 1.0"></service></port><port portid="49154" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="63"></state><service conf="10" method="probed" name="upnp" product="Portable SDK for UPnP devices" version="1.6.19" extrainfo="Linux 3.18.24_hi3798mv2x; UPnP 1.0"></service></port><port portid="49155" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="63"></state><service conf="10" method="probed" name="upnp" product="Portable SDK for UPnP devices" version="1.6.19" extrainfo="Linux 3.18.24_hi3798mv2x; UPnP 1.0"></service></port></ports><os><portused state="open" proto="tcp" portid="49152"></portused><portused state="closed" proto="tcp" portid="7"></portused><portused state="closed" proto="udp" portid="40394"></portused><osmatch name="Amazon Fire TV" accuracy="100" line="2722"><osclass vendor="Amazon" osfamily="embedded" type="media device" osgen="" accuracy="100"></osclass></osmatch></os><uptime seconds="52245" lastboot="Sun Jun  8 14:33:30 2025"></uptime><tcpsequence index="263" difficulty="Good luck!" values="2582447,8D549328,C8FB9F61,924C7C2A,1A214601,22138512"></tcpsequence><ipidsequence class="All zeros" values="0,0,0,0,0,0"></ipidsequence><tcptssequence class="1000HZ" values="31D312A,31D3162,31D31C7,31D322B,31D328F,31D32F5"></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.0.180" vendor="" addrtype="ipv4"></address><hostnames><hostname name="Archer_C50" type="PTR"></hostname></hostnames><ports><extraports count="97" state="closed"></extraports><port portid="22" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="ssh" product="Dropbear sshd" version="2020.80" extrainfo="protocol 2.0"></service></port><port portid="443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="https"></service></port><port portid="1900" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="10" method="probed" name="upnp" product="Portable SDK for UPnP devices" version="1.6.19" extrainfo="Linux 2.6.36; UPnP 1.0"></service></port></ports><os><portused state="open" proto="tcp" portid="22"></portused><portused state="closed" proto="tcp" portid="7"></portused><portused state="closed" proto="udp" portid="43267"></portused><osmatch name="Linux 2.6.23 - 2.6.38" accuracy="100" line="55396"><osclass vendor="Linux" osfamily="Linux" type="general purpose" osgen="2.6.X" accuracy="100"></osclass></osmatch></os><uptime seconds="882" lastboot="Mon Jun  9 04:49:33 2025"></uptime><tcpsequence index="202" difficulty="Good luck!" values="4D36191E,4D68E98F,4D47AAB8,4D1632BF,4D7547C4,4E3019FD"></tcpsequence><ipidsequence class="All zeros" values="0,0,0,0,0,0"></ipidsequence><tcptssequence class="other" values="314F1,314FF,31519,31532,3154B,31564"></tcptssequence></host><runstats><finished time="1749438255" timestr="Mon Jun  9 05:04:15 2025"></finished><hosts up="3" down="253" total="256"></hosts></runstats></nmaprun>

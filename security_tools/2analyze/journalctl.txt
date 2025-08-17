@@ -1,0 +1,172 @@
+jun 25 21:45:01 casablanca CRON[139107]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+jun 25 21:45:01 casablanca CRON[139109]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+jun 25 21:45:01 casablanca CRON[139107]: pam_unix(cron:session): session closed for user root
+jun 25 21:45:28 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=308 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=288 
+jun 25 21:45:28 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=320 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=300 
+jun 25 21:45:39 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=45815 DF PROTO=UDP SPT=35818 DPT=137 LEN=58 
+jun 25 21:45:39 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=45816 DF PROTO=UDP SPT=55419 DPT=137 LEN=58 
+jun 25 21:45:39 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=49418 PROTO=2 
+jun 25 21:45:39 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=48367 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:45:40 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=39953 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:45:43 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=62941 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:45:48 casablanca NetworkManager[1095]: <info>  [1750880748.1732] dhcp4 (wlan0): state changed new lease, address=192.168.5.199
+jun 25 21:45:48 casablanca dbus-daemon[1044]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=1095 comm="/usr/sbin/NetworkManager --no-daemon")
+jun 25 21:45:48 casablanca systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+jun 25 21:45:48 casablanca dbus-daemon[1044]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+jun 25 21:45:48 casablanca systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+jun 25 21:45:52 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=4515 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:45:58 casablanca systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+jun 25 21:46:41 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 21:46:43 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=48096 DF PROTO=UDP SPT=58499 DPT=137 LEN=58 
+jun 25 21:46:43 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=48097 DF PROTO=UDP SPT=52065 DPT=137 LEN=58 
+jun 25 21:47:35 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=1897 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:47:35 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=50516 PROTO=2 
+jun 25 21:47:36 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=36893 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:47:39 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=30487 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:47:45 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:da:fa:b1:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=308 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=288 
+jun 25 21:47:45 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:da:fa:b1:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=320 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=300 
+jun 25 21:47:49 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=52387 DF PROTO=UDP SPT=53329 DPT=137 LEN=58 
+jun 25 21:47:49 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=52388 DF PROTO=UDP SPT=59403 DPT=137 LEN=58 
+jun 25 21:48:30 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=16512 PROTO=2 
+jun 25 21:48:30 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=46618 PROTO=2 
+jun 25 21:48:30 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=21535 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:48:31 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=26474 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:48:34 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=45280 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:48:39 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=308 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=288 
+jun 25 21:48:39 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=320 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=300 
+jun 25 21:48:43 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=35175 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:48:46 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 21:48:50 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=47169 PROTO=2 
+jun 25 21:48:54 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=57086 DF PROTO=UDP SPT=41323 DPT=137 LEN=58 
+jun 25 21:48:54 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=57087 DF PROTO=UDP SPT=51894 DPT=137 LEN=58 
+jun 25 21:49:00 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=308 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=288 
+jun 25 21:49:00 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=320 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=300 
+jun 25 21:49:58 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=58401 DF PROTO=UDP SPT=59619 DPT=137 LEN=58 
+jun 25 21:49:58 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=58402 DF PROTO=UDP SPT=50738 DPT=137 LEN=58 
+jun 25 21:50:09 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=43057 PROTO=2 
+jun 25 21:50:09 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=20274 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:50:10 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=1476 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:50:13 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=55790 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:50:22 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=44800 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:50:47 casablanca NetworkManager[1095]: <info>  [1750881047.8362] device (wlan1): set-hw-addr: set MAC address to 56:70:D9:B1:E7:A9 (scanning)
+jun 25 21:50:47 casablanca NetworkManager[1095]: <info>  [1750881047.8437] device (wlan1): supplicant interface state: inactive -> interface_disabled
+jun 25 21:50:47 casablanca NetworkManager[1095]: <info>  [1750881047.8438] device (p2p-dev-wlan1): supplicant management interface state: inactive -> interface_disabled
+jun 25 21:50:47 casablanca NetworkManager[1095]: <info>  [1750881047.8459] device (wlan1): supplicant interface state: interface_disabled -> inactive
+jun 25 21:50:47 casablanca NetworkManager[1095]: <info>  [1750881047.8460] device (p2p-dev-wlan1): supplicant management interface state: interface_disabled -> inactive
+jun 25 21:50:51 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 21:51:02 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=58561 DF PROTO=UDP SPT=42654 DPT=137 LEN=58 
+jun 25 21:51:02 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=58562 DF PROTO=UDP SPT=58715 DPT=137 LEN=58 
+jun 25 21:51:08 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=308 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=288 
+jun 25 21:51:08 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=320 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=300 
+jun 25 21:51:40 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=31489 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:51:40 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=26080 PROTO=2 
+jun 25 21:51:41 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=53545 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:51:42 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=308 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=288 
+jun 25 21:51:42 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:d9:d5:94:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=320 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=300 
+jun 25 21:51:44 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=835 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:51:53 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=58059 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:52:09 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=61683 DF PROTO=UDP SPT=49335 DPT=137 LEN=58 
+jun 25 21:52:09 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=61684 DF PROTO=UDP SPT=46576 DPT=137 LEN=58 
+jun 25 21:52:25 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=51628 PROTO=2 
+jun 25 21:52:25 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=59944 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:52:26 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=35462 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:52:29 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=21505 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:52:31 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=59720 PROTO=2 
+jun 25 21:52:33 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:6a:b0:9d:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=308 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=288 
+jun 25 21:52:33 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:18:b4:30:6a:b0:9d:08:00 SRC=0.0.0.0 DST=255.255.255.255 LEN=320 TOS=0x00 PREC=0x00 TTL=64 ID=0 PROTO=UDP SPT=68 DPT=67 LEN=300 
+jun 25 21:52:38 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=59202 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 21:52:56 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 21:53:14 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=65034 DF PROTO=UDP SPT=38485 DPT=137 LEN=58 
+jun 25 21:53:14 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=65035 DF PROTO=UDP SPT=56979 DPT=137 LEN=58 
+jun 25 21:54:19 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=973 DF PROTO=UDP SPT=56531 DPT=137 LEN=58 
+jun 25 21:54:19 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=974 DF PROTO=UDP SPT=51450 DPT=137 LEN=58 
+jun 25 21:54:23 casablanca pkexec[143627]: pam_unix(polkit-1:session): session opened for user root(uid=0) by nox(uid=1000)
+jun 25 21:54:23 casablanca pkexec[143627]: nox: Executing command [USER=root] [TTY=unknown] [CWD=/home/nox] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 37]
+jun 25 21:55:01 casablanca CRON[143948]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+jun 25 21:55:01 casablanca CRON[143950]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+jun 25 21:55:01 casablanca CRON[143948]: pam_unix(cron:session): session closed for user root
+jun 25 21:55:01 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 21:55:23 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=6678 DF PROTO=UDP SPT=40875 DPT=137 LEN=58 
+jun 25 21:55:23 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=6679 DF PROTO=UDP SPT=40198 DPT=137 LEN=58 
+jun 25 21:56:27 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=10667 DF PROTO=UDP SPT=34382 DPT=137 LEN=58 
+jun 25 21:56:27 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=10668 DF PROTO=UDP SPT=38643 DPT=137 LEN=58 
+jun 25 21:57:06 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 21:57:31 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=12300 DF PROTO=UDP SPT=47083 DPT=137 LEN=58 
+jun 25 21:57:31 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=12301 DF PROTO=UDP SPT=53282 DPT=137 LEN=58 
+jun 25 21:57:40 casablanca NetworkManager[1095]: <info>  [1750881460.8280] device (wlan1): set-hw-addr: set MAC address to E6:12:86:A1:EB:F8 (scanning)
+jun 25 21:57:40 casablanca NetworkManager[1095]: <info>  [1750881460.8352] device (wlan1): supplicant interface state: inactive -> interface_disabled
+jun 25 21:57:40 casablanca NetworkManager[1095]: <info>  [1750881460.8353] device (p2p-dev-wlan1): supplicant management interface state: inactive -> interface_disabled
+jun 25 21:57:40 casablanca NetworkManager[1095]: <info>  [1750881460.8613] device (wlan1): supplicant interface state: interface_disabled -> inactive
+jun 25 21:57:40 casablanca NetworkManager[1095]: <info>  [1750881460.8614] device (p2p-dev-wlan1): supplicant management interface state: interface_disabled -> inactive
+jun 25 21:58:35 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=16366 DF PROTO=UDP SPT=39701 DPT=137 LEN=58 
+jun 25 21:58:35 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=16367 DF PROTO=UDP SPT=55640 DPT=137 LEN=58 
+jun 25 21:59:11 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 21:59:40 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=21599 DF PROTO=UDP SPT=36785 DPT=137 LEN=58 
+jun 25 21:59:40 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=21600 DF PROTO=UDP SPT=36883 DPT=137 LEN=58 
+jun 25 22:00:44 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=22413 DF PROTO=UDP SPT=33469 DPT=137 LEN=58 
+jun 25 22:00:44 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=22414 DF PROTO=UDP SPT=52045 DPT=137 LEN=58 
+jun 25 22:01:16 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 22:01:48 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=27020 DF PROTO=UDP SPT=33841 DPT=137 LEN=58 
+jun 25 22:01:48 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=27021 DF PROTO=UDP SPT=44049 DPT=137 LEN=58 
+jun 25 22:02:45 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=20655 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:02:45 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=12777 PROTO=2 
+jun 25 22:02:46 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=57304 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:02:49 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=33825 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:02:52 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=30166 DF PROTO=UDP SPT=56780 DPT=137 LEN=58 
+jun 25 22:02:52 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=30167 DF PROTO=UDP SPT=55612 DPT=137 LEN=58 
+jun 25 22:02:58 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=24669 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:03:15 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=24911 PROTO=2 
+jun 25 22:03:15 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=8831 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:03:16 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=21942 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:03:19 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=18085 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:03:21 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 22:03:28 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=46624 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:03:32 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=12333 PROTO=2 
+jun 25 22:03:55 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=32462 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:03:56 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=32063 DF PROTO=UDP SPT=50737 DPT=137 LEN=58 
+jun 25 22:03:56 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=32064 DF PROTO=UDP SPT=34831 DPT=137 LEN=58 
+jun 25 22:04:04 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=30141 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:04:04 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=10896 PROTO=2 
+jun 25 22:04:05 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=8934 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:04:08 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=11647 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:04:17 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=944 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:04:33 casablanca NetworkManager[1095]: <info>  [1750881873.8205] device (wlan1): set-hw-addr: set MAC address to C2:E7:6F:FB:8E:C0 (scanning)
+jun 25 22:04:33 casablanca NetworkManager[1095]: <info>  [1750881873.8285] device (wlan1): supplicant interface state: inactive -> interface_disabled
+jun 25 22:04:33 casablanca NetworkManager[1095]: <info>  [1750881873.8286] device (p2p-dev-wlan1): supplicant management interface state: inactive -> interface_disabled
+jun 25 22:04:33 casablanca NetworkManager[1095]: <info>  [1750881873.8491] device (wlan1): supplicant interface state: interface_disabled -> inactive
+jun 25 22:04:33 casablanca NetworkManager[1095]: <info>  [1750881873.8492] device (p2p-dev-wlan1): supplicant management interface state: interface_disabled -> inactive
+jun 25 22:05:01 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=34520 DF PROTO=UDP SPT=43011 DPT=137 LEN=58 
+jun 25 22:05:01 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=34521 DF PROTO=UDP SPT=59038 DPT=137 LEN=58 
+jun 25 22:05:01 casablanca CRON[148762]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+jun 25 22:05:01 casablanca CRON[148764]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+jun 25 22:05:01 casablanca CRON[148762]: pam_unix(cron:session): session closed for user root
+jun 25 22:05:24 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=50846 PROTO=2 
+jun 25 22:05:24 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=29006 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:05:25 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=338 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:05:26 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 22:05:28 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=41618 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:05:36 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=58986 PROTO=2 
+jun 25 22:05:37 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:ce:5c:19:bf:47:37:08:00 SRC=192.168.5.159 DST=224.0.0.251 LEN=86 TOS=0x00 PREC=0x00 TTL=255 ID=44851 PROTO=UDP SPT=5353 DPT=5353 LEN=66 
+jun 25 22:06:05 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=38921 DF PROTO=UDP SPT=33542 DPT=137 LEN=58 
+jun 25 22:06:05 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=38922 DF PROTO=UDP SPT=54249 DPT=137 LEN=58 
+jun 25 22:07:09 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=41116 DF PROTO=UDP SPT=36288 DPT=137 LEN=58 
+jun 25 22:07:09 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=41117 DF PROTO=UDP SPT=59109 DPT=137 LEN=58 
+jun 25 22:07:31 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+jun 25 22:08:04 casablanca pkexec[150234]: pam_unix(polkit-1:session): session opened for user root(uid=0) by nox(uid=1000)
+jun 25 22:08:04 casablanca pkexec[150234]: nox: Executing command [USER=root] [TTY=unknown] [CWD=/home/nox] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 115]
+jun 25 22:08:13 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=41283 DF PROTO=UDP SPT=59514 DPT=137 LEN=58 
+jun 25 22:08:13 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=41284 DF PROTO=UDP SPT=48809 DPT=137 LEN=58 
+jun 25 22:08:20 casablanca dbus-daemon[1044]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.45' (uid=1000 pid=1838 comm="/usr/libexec/xdg-desktop-portal-gtk")
+jun 25 22:08:20 casablanca systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+jun 25 22:08:20 casablanca systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+jun 25 22:08:20 casablanca dbus-daemon[1044]: [system] Successfully activated service 'org.freedesktop.hostname1'
+jun 25 22:09:00 casablanca systemd[1]: Starting phpsessionclean.service - Clean php session files...
+jun 25 22:09:00 casablanca systemd[1]: phpsessionclean.service: Deactivated successfully.
+jun 25 22:09:00 casablanca systemd[1]: Finished phpsessionclean.service - Clean php session files.
+jun 25 22:09:01 casablanca CRON[150819]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+jun 25 22:09:01 casablanca CRON[150821]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+jun 25 22:09:01 casablanca CRON[150819]: pam_unix(cron:session): session closed for user root
+jun 25 22:09:17 casablanca systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+jun 25 22:09:17 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=44483 DF PROTO=UDP SPT=52577 DPT=137 LEN=58 
+jun 25 22:09:17 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=48:22:54:1c:3b:af:60:a4:b7:79:5b:84:08:00 SRC=192.168.5.1 DST=192.168.5.199 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=44484 DF PROTO=UDP SPT=50277 DPT=137 LEN=58 
+jun 25 22:09:36 casablanca kernel: IPTables-Blocked-IN: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:79:5b:82:08:00 SRC=192.168.5.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 

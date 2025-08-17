@@ -1,0 +1,9 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+60:A4:B7:79:5B:83, 2025-07-01 05:24:44, 2025-07-01 05:24:46,  2, 360, WPA2, CCMP, PSK, -52,        6,       39,   0.  0.  0.  0,  12, TP-Link_8469, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+18:B4:30:6A:B0:9D, 2025-07-01 05:24:45, 2025-07-01 05:24:45,  -1,       29, 60:A4:B7:79:5B:83,
+18:B4:30:DA:FA:B1, 2025-07-01 05:24:45, 2025-07-01 05:24:45,  -1,        8, 60:A4:B7:79:5B:83,
+18:B4:30:D9:D5:94, 2025-07-01 05:24:45, 2025-07-01 05:24:45,  -1,        2, 60:A4:B7:79:5B:83,
+

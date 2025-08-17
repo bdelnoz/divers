@@ -1,0 +1,108 @@
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+  Durée audio : 1893,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 1893s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 189s :
+    ✅ Test réussi - 640002 bytes, 19s
+  🔄 Test 2/3 - MILIEU (50%) à 946s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 1609s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+  Durée audio : 1893,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 1893s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 189s :
+    ✅ Test réussi - 640002 bytes, 19s
+  🔄 Test 2/3 - MILIEU (50%) à 946s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 1609s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.

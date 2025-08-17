@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -sn --traceroute 212.224.245.182" profile_name="Quick traceroute" scanner="nmap" start="1749437993" startstr="Mon Jun  9 04:59:53 2025" version="7.95" xmloutputversion="1.04"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-09 04:59 CEST
+Nmap scan report for ptr-212-224-245-182.dyn.mobistar.be (212.224.245.182)
+Host is up (0.022s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+1   3.16 ms  192.168.3.1
+2   5.03 ms  MyModem (192.168.0.1)
+3   17.66 ms 10.133.203.1
+4   21.26 ms mx-wah-1-ae6-0.voo.be (212.68.211.46)
+5   21.01 ms ptr-212-224-245-182.dyn.mobistar.be (212.224.245.182)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.21 seconds
+</output><host comment=""><status state="up"></status><address addr="212.224.245.182" vendor="" addrtype="ipv4"></address><hostnames><hostname name="ptr-212-224-245-182.dyn.mobistar.be" type="PTR"></hostname></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence><trace proto="icmp" port=""><hop ttl="1" rtt="3.16" ipaddr="192.168.3.1" host=""></hop><hop ttl="2" rtt="5.03" ipaddr="192.168.0.1" host="MyModem"></hop><hop ttl="3" rtt="17.66" ipaddr="10.133.203.1" host=""></hop><hop ttl="4" rtt="21.26" ipaddr="212.68.211.46" host="mx-wah-1-ae6-0.voo.be"></hop><hop ttl="5" rtt="21.01" ipaddr="212.224.245.182" host="ptr-212-224-245-182.dyn.mobistar.be"></hop></trace></host><runstats><finished time="1749437993" timestr="Mon Jun  9 04:59:53 2025"></finished><hosts up="1" down="0" total="1"></hosts></runstats></nmaprun>

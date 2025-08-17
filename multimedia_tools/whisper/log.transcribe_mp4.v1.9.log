@@ -1,0 +1,105 @@
+2025-08-16 18:46:24 - Début analyse audio '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv'
+2025-08-16 18:46:29 - Analyse audio : fichier compatible avec réserves (1 issues)
+2025-08-16 19:20:57 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv' avec modèle large-v3, langue fr
+2025-08-16 19:21:00 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.wav'
+2025-08-16 19:25:11 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv' avec modèle large-v3, langue fr
+2025-08-16 19:25:14 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.wav'
+2025-08-16 19:33:27 - Début analyse audio '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv'
+2025-08-16 19:33:33 - Analyse audio : fichier compatible avec réserves (1 issues)
+2025-08-16 19:34:29 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv' avec modèle large-v3, langue fr
+2025-08-16 19:34:32 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.wav'
+2025-08-16 20:01:48 - Début transcription fichier '/media/nox/data2/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.mp4' avec modèle large-v3, langue fr
+2025-08-16 20:01:50 - Extraction audio vers '/media/nox/data2/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.wav'
+2025-08-16 20:24:30 - Début transcription fichier '/media/nox/data2/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.mp4' avec modèle base, langue fr
+2025-08-16 20:31:15 - Début transcription fichier '/media/nox/data2/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.mp4' avec modèle large-v3-turbo, langue fr
+2025-08-16 20:31:17 - Extraction audio vers '/media/nox/data2/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.wav'
+2025-08-16 20:38:45 - Début transcription fichier '/media/nox/data2/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.mp4' avec modèle large-v3-turbo, langue fr
+2025-08-16 20:38:47 - Extraction audio vers '/media/nox/data2/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.wav'
+2025-08-16 20:44:41 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv' avec modèle large-v3-turbo, langue fr
+2025-08-16 20:44:43 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.wav'
+2025-08-16 21:01:16 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv' avec modèle large-v1, langue fr
+2025-08-16 21:01:18 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.wav'
+2025-08-16 21:09:42 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025616_part0_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 21:09:43 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025616_part0_boost.wav'
+2025-08-16 21:16:51 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 21:16:51 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025616_part0_boost.wav'
+2025-08-16 21:16:51 - Transcription complète terminée avec succès
+2025-08-16 21:16:51 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025823_part1_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 21:16:51 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025823_part1_boost.wav'
+2025-08-16 21:27:31 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 21:27:31 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025823_part1_boost.wav'
+2025-08-16 21:27:31 - Transcription complète terminée avec succès
+2025-08-16 21:27:31 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030029_part2_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 21:27:31 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030029_part2_boost.wav'
+2025-08-16 21:38:01 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 21:38:01 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030029_part2_boost.wav'
+2025-08-16 21:38:01 - Transcription complète terminée avec succès
+2025-08-16 21:38:01 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030236_part3_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 21:38:01 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030236_part3_boost.wav'
+2025-08-16 21:50:48 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 21:50:48 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030236_part3_boost.wav'
+2025-08-16 21:50:48 - Transcription complète terminée avec succès
+2025-08-16 21:50:48 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030442_part4_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 21:50:48 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030442_part4_boost.wav'
+2025-08-16 21:59:46 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 21:59:46 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030442_part4_boost.wav'
+2025-08-16 21:59:46 - Transcription complète terminée avec succès
+2025-08-16 21:59:46 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030649_part5_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 21:59:46 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030649_part5_boost.wav'
+2025-08-16 22:10:35 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 22:10:35 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030649_part5_boost.wav'
+2025-08-16 22:10:35 - Transcription complète terminée avec succès
+2025-08-16 22:10:35 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030855_part6_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 22:10:36 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030855_part6_boost.wav'
+2025-08-16 22:20:59 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 22:20:59 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030855_part6_boost.wav'
+2025-08-16 22:20:59 - Transcription complète terminée avec succès
+2025-08-16 22:20:59 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031102_part7_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 22:20:59 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031102_part7_boost.wav'
+2025-08-16 22:31:25 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 22:31:25 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031102_part7_boost.wav'
+2025-08-16 22:31:25 - Transcription complète terminée avec succès
+2025-08-16 22:31:25 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031308_part8_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 22:31:25 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031308_part8_boost.wav'
+2025-08-16 22:40:32 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 22:40:32 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031308_part8_boost.wav'
+2025-08-16 22:40:32 - Transcription complète terminée avec succès
+2025-08-16 22:40:32 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031515_part9_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 22:40:32 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031515_part9_boost.wav'
+2025-08-16 22:50:55 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 22:50:55 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031515_part9_boost.wav'
+2025-08-16 22:50:55 - Transcription complète terminée avec succès
+2025-08-16 22:50:55 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031722_part10_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 22:50:56 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031722_part10_boost.wav'
+2025-08-16 23:00:39 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 23:00:39 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031722_part10_boost.wav'
+2025-08-16 23:00:39 - Transcription complète terminée avec succès
+2025-08-16 23:00:39 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031928_part11_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 23:00:40 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031928_part11_boost.wav'
+2025-08-16 23:11:37 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 23:11:37 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031928_part11_boost.wav'
+2025-08-16 23:11:37 - Transcription complète terminée avec succès
+2025-08-16 23:11:37 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032135_part12_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 23:11:38 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032135_part12_boost.wav'
+2025-08-16 23:22:10 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 23:22:10 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032135_part12_boost.wav'
+2025-08-16 23:22:10 - Transcription complète terminée avec succès
+2025-08-16 23:22:10 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032341_part13_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 23:22:10 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032341_part13_boost.wav'
+2025-08-16 23:31:40 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 23:31:40 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032341_part13_boost.wav'
+2025-08-16 23:31:40 - Transcription complète terminée avec succès
+2025-08-16 23:31:40 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032548_part14_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 23:31:41 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032548_part14_boost.wav'
+2025-08-16 23:39:12 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 23:39:12 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032548_part14_boost.wav'
+2025-08-16 23:39:12 - Transcription complète terminée avec succès
+2025-08-16 23:39:12 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032754_part15_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 23:39:13 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032754_part15_boost.wav'
+2025-08-16 23:46:14 - Transcription terminée avec modèle large-v1, langue fr
+2025-08-16 23:46:14 - Suppression audio temporaire '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032754_part15_boost.wav'
+2025-08-16 23:46:14 - Transcription complète terminée avec succès
+2025-08-16 23:46:14 - Début transcription fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033001_part16_boost.ogv' avec modèle large-v1, langue fr
+2025-08-16 23:46:14 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033001_part16_boost.wav'
+2025-08-17 01:55:39 - Début analyse audio '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv'
+2025-08-17 01:55:43 - Analyse audio : fichier compatible avec réserves (1 issues)

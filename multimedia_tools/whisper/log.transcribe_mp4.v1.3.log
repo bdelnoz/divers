@@ -1,0 +1,10 @@
+Erreur : binaire whisper introuvable ou non exécutable (./whisper.cpp/build/bin/whisper).
+Usage : ./transcribe_mp4.sh --file <chemin_fichier_mp4> [--exec]
+
+Options :
+  --file    Chemin complet du fichier MP4 à transcrire (obligatoire)
+  --exec    Lance la transcription (optionnel, sinon affiche juste l'aide)
+  --help    Affiche ce message
+
+Exemple :
+  ./transcribe_mp4.sh --file /chemin/vers/fichier.mp4 --exec

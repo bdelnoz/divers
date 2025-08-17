@@ -1,0 +1,337 @@
+#!/bin/bash
+# Auteur : Bruno DELNOZ (adapté pour ffmpeg par NoXoZ)
+# Email  : bruno.delnoz@protonmail.com
+# Nom du script : record_cam.sh
+# Target usage : Enregistrer l'écran en segments personnalisables avec ffmpeg, capturer le son système (Monitor),
+#                amplification optionnelle post-traitement, gestion propre de CTRL-C et --delete.
+# Version : v1.9 - Date : 2025-08-17
+#
+# Changelog :
+# v1.9 - 2025-08-17 : Durée illimitée par défaut, amplification segment par segment garantie, compatibilité Whisper
+# v1.8 - 2025-08-17 : Remplacement de recordmydesktop par ffmpeg, options adaptées pour Whisper
+# v1.7 - 2025-08-12 : Amélioration de la gestion de l'arrêt via Ctrl+C
+# v1.6 - 2025-08-12 : Ajout --target_dir pour spécifier le répertoire de sortie
+# v1.5 - 2025-08-11 : Ajout --segment-duration pour personnaliser la durée des segments
+# v1.4 - 2025-08-09 : Corrections multiples - logique de boucle, gestion des processus
+# v1.3 - 2025-08-09 : Ajout --volume, segmentation 10min, horodatage automatique
+# v1.2 - 2025-08-09 : Capture son système (Monitor)
+# v1.1 - 2025-08-09 : Mode durée illimitée (0) + exemples HELP
+# v1.0 - 2025-08-09 : Version initiale
+
+set -u
+set -o pipefail
+SCRIPT_NAME="$(basename "$0")"
+LOGFILE="$(dirname "$0")/${SCRIPT_NAME%.sh}.log"
+
+# --- Paramètres par défaut ---
+SEGMENT_SECONDS=2100           # 2100s = 35 minutes par défaut (adapté pour Whisper)
+RESOLUTION="1920x1080"         # Résolution d'enregistrement
+FPS=30                        # Images par seconde
+AUDIO_DEVICE="alsa_output.pci-0000_00_1f.3.analog-stereo.monitor"  # Périphérique audio par défaut
+V_CODEC="libx264"             # Codec vidéo
+V_PRESET="medium"             # Préréglage qualité/vitesse
+V_CRF=28                      # Qualité vidéo (0-51, plus bas = meilleure qualité)
+A_CODEC="aac"                 # Codec audio
+A_BITRATE="192k"              # Bitrate audio
+A_CHANNELS=2                  # Canaux audio
+A_SAMPLERATE=44100            # Fréquence d'échantillonnage
+VOLUME_FILTER=""              # Amplification audio (vide = désactivé)
+ACTIONS=()                    # Liste des actions effectuées
+GENERATED_FILES=()            # Fichiers créés pendant l'exécution
+STOP_AFTER_CURRENT=0          # Flag pour arrêt propre
+TOTAL_DURATION=0              # 0 = illimité (par défaut)
+BASE_NAME=""                  # Base du nom de fichier
+DO_DELETE=0                   # Suppression des fichiers
+TARGET_DIR="./"               # Répertoire de sortie
+CURRENT_FFMPEG_PID=0          # PID du processus ffmpeg en cours
+MICROPHONE_DEVICE=""          # Micro désactivé par défaut
+RECORD_MIC=0                  # 0 = pas de micro
+
+# --- Helpers ---
+log() {
+    local msg="$1"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $msg" | tee -a "$LOGFILE"
+}
+
+discover_audio_devices() {
+    echo "=== PÉRIPHÉRIQUES AUDIO DISPONIBLES ==="
+    echo ""
+    if command -v pactl >/dev/null 2>&1; then
+        echo "📢 SORTIES AUDIO (son système à capturer) :"
+        pactl list sources short | grep -E "(monitor|output)" | while read -r line; do
+            device_name=$(echo "$line" | awk '{print $2}')
+            echo "  --device \"$device_name\""
+        done
+        echo ""
+        echo "🎤 ENTRÉES AUDIO (microphones) :"
+        pactl list sources short | grep -vE "(monitor|output)" | while read -r line; do
+            device_name=$(echo "$line" | awk '{print $2}')
+            device_desc=$(echo "$line" | cut -d$'\t' -f2- | tr '\t' ' ')
+            echo "  --mic \"$device_name\"    # $device_desc"
+        done
+        echo ""
+        echo "💡 SUGGESTIONS :"
+        echo "  • Capture système seule : $0 Demo"
+        echo "  • Avec micro : $0 Tutorial --mic"
+        echo "  • Durée limitée : $0 3600 Demo"
+    else
+        echo "⚠️  pactl non disponible. Installation : sudo apt install pulseaudio-utils"
+    fi
+    echo ""
+}
+
+usage_and_exit() {
+    cat << 'EOF'
+USAGE:
+  ./record_cam.sh [base_nom] [OPTIONS]               # Durée illimitée (par défaut)
+  ./record_cam.sh [duree_en_sec] [base_nom] [OPTIONS] # Durée limitée
+OPTIONS:
+  --segment-duration SEC  : durée des segments (par défaut: 2100s).
+  --volume FLOAT          : amplification audio (appliquée après chaque segment).
+  --device DEVICE         : périphérique audio (par défaut: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor).
+  --mic [DEVICE]          : active le micro (par défaut: micro par défaut).
+  --no-mic                : désactive le micro.
+  --target_dir DIR        : répertoire de sortie (par défaut: ./).
+  --discover-devices      : liste les périphériques audio.
+  --delete                : supprime les fichiers générés (backup avant suppression).
+  --help                  : affiche cette aide.
+EXEMPLES:
+  # Illimité (CTRL-C pour arrêter), segments de 35 min :
+  ./record_cam.sh nest_agression
+  # Avec micro et amplification x2 (appliquée après chaque segment) :
+  ./record_cam.sh Tutorial --mic --volume 2.0
+  # Durée limitée à 1 heure :
+  ./record_cam.sh 3600 Demo
+  # Segments de 10 min, répertoire personnalisé :
+  ./record_cam.sh Test --segment-duration 600 --target_dir ~/Vidéos
+PRÉREQUIS: ffmpeg, PulseAudio.
+EOF
+    exit "$1"
+}
+
+stop_ffmpeg() {
+    if [[ "$CURRENT_FFMPEG_PID" -ne 0 ]]; then
+        log "Arrêt de ffmpeg (PID: $CURRENT_FFMPEG_PID)"
+        kill -TERM "$CURRENT_FFMPEG_PID" 2>/dev/null
+        wait "$CURRENT_FFMPEG_PID" 2>/dev/null
+        CURRENT_FFMPEG_PID=0
+    fi
+}
+
+cleanup() {
+    stop_ffmpeg
+}
+
+record_segment() {
+    local seg_index=$1
+    local duration=$2
+    local ts=$(date '+%Y%m%d_%H%M%S')
+    local outfile="${TARGET_DIR}/${BASE_NAME}_${ts}_part${seg_index}.mp4"
+    log "Démarrage segment #${seg_index} -> ${outfile} (durée: ${duration}s)"
+
+    local ffmpeg_cmd=(
+        ffmpeg
+        -f x11grab -s "$RESOLUTION" -r "$FPS" -i :0.0
+        -f pulse -i "$AUDIO_DEVICE"
+        -t "$duration"
+        -c:v "$V_CODEC" -preset "$V_PRESET" -crf "$V_CRF"
+        -c:a "$A_CODEC" -b:a "$A_BITRATE" -ac "$A_CHANNELS" -ar "$A_SAMPLERATE"
+        -movflags +faststart
+        -y "$outfile"
+    )
+
+    if [[ "$RECORD_MIC" -eq 1 ]]; then
+        ffmpeg_cmd=(
+            ffmpeg
+            -f x11grab -s "$RESOLUTION" -r "$FPS" -i :0.0
+            -f pulse -i "$AUDIO_DEVICE"
+            -f pulse -i "$MICROPHONE_DEVICE"
+            -filter_complex "[1:a][2:a]amix=inputs=2[aout]"
+            -map 0:v -map "[aout]"
+            -t "$duration"
+            -c:v "$V_CODEC" -preset "$V_PRESET" -crf "$V_CRF"
+            -c:a "$A_CODEC" -b:a "$A_BITRATE" -ac "$A_CHANNELS" -ar "$A_SAMPLERATE"
+            -movflags +faststart
+            -y "$outfile"
+        )
+    fi
+
+    "${ffmpeg_cmd[@]}" >/dev/null 2>&1 &
+    CURRENT_FFMPEG_PID=$!
+    ACTIONS+=("Record segment ${seg_index} -> ${outfile} (${duration}s)")
+}
+
+boost_audio() {
+    local infile="$1"
+    local boost_dir="${TARGET_DIR}/BOOST"
+    mkdir -p "$boost_dir"
+    local boost_file="${boost_dir}/$(basename "$infile" .mp4)_boost.mp4"
+    log "Amplification audio: $infile -> $boost_file (volume: ${VOLUME_FILTER})"
+    if ffmpeg -i "$infile" -filter:a "volume=${VOLUME_FILTER}" -c:v copy "$boost_file" >/dev/null 2>&1; then
+        GENERATED_FILES+=("$boost_file")
+        log "Amplification terminée: $boost_file"
+    else
+        log "ERREUR: Échec de l'amplification audio pour $infile"
+    fi
+}
+
+# --- Parse args ---
+if [[ $# -eq 0 ]]; then
+    usage_and_exit 0
+fi
+
+POSITIONAL=()
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --help|--discover-devices)
+            if [[ "$1" == "--discover-devices" ]]; then
+                discover_audio_devices
+                exit 0
+            else
+                usage_and_exit 0
+            fi
+            ;;
+        --segment-duration)
+            shift
+            SEGMENT_SECONDS="$1"
+            shift
+            ;;
+        --volume)
+            shift
+            VOLUME_FILTER="$1"
+            shift
+            ;;
+        --device)
+            shift
+            AUDIO_DEVICE="$1"
+            shift
+            ;;
+        --mic)
+            RECORD_MIC=1
+            if [[ $# -gt 0 && "${2:0:1}" != "-" ]]; then
+                shift
+                MICROPHONE_DEVICE="$1"
+            else
+                MICROPHONE_DEVICE="default"
+            fi
+            shift
+            ;;
+        --no-mic)
+            RECORD_MIC=0
+            MICROPHONE_DEVICE=""
+            shift
+            ;;
+        --target_dir)
+            shift
+            TARGET_DIR="$1"
+            shift
+            ;;
+        --delete)
+            DO_DELETE=1
+            shift
+            ;;
+        -*)
+            echo "[ERREUR] Option inconnue: $1"
+            exit 1
+            ;;
+        *)
+            POSITIONAL+=("$1")
+            shift
+            ;;
+    esac
+done
+
+set -- "${POSITIONAL[@]}"
+
+# --- Gestion de --delete ---
+if [[ "$DO_DELETE" -eq 1 ]]; then
+    if [[ $# -lt 1 ]]; then
+        echo "[ERREUR] --delete nécessite la base de nom."
+        exit 1
+    fi
+    TARGET_BASE="$1"
+    BACKUP_DIR="$(dirname "$0")/backup_${TARGET_BASE}_$(date '+%Y%m%d_%H%M%S')"
+    mkdir -p "$BACKUP_DIR"
+    found_files=0
+    for f in "${TARGET_DIR}/${TARGET_BASE}"*.mp4 "${TARGET_DIR}/BOOST/${TARGET_BASE}"*.mp4; do
+        if [[ -e "$f" ]]; then
+            mv "$f" "$BACKUP_DIR/"
+            echo "Déplacé: $f -> $BACKUP_DIR/"
+            found_files=1
+        fi
+    done
+    if [[ $found_files -eq 0 ]]; then
+        echo "Aucun fichier trouvé pour '$TARGET_BASE'."
+        rmdir "$BACKUP_DIR" 2>/dev/null
+    else
+        echo "Backup dans $BACKUP_DIR"
+    fi
+    exit 0
+fi
+
+# --- Vérification des arguments ---
+if [[ $# -lt 1 ]]; then
+    echo "[ERREUR] Usage: $0 [base_nom] [OPTIONS] ou $0 [duree] [base_nom] [OPTIONS]"
+    exit 1
+fi
+
+# Gestion de la durée (optionnelle)
+if [[ "${1}" =~ ^[0-9]+$ ]]; then
+    TOTAL_DURATION="$1"
+    BASE_NAME="$2"
+    shift 2
+else
+    TOTAL_DURATION=0  # Illimité par défaut
+    BASE_NAME="$1"
+    shift
+fi
+
+# --- Vérification des prérequis ---
+if ! command -v ffmpeg >/dev/null 2>&1; then
+    echo "[ERREUR] ffmpeg n'est pas installé."
+    exit 1
+fi
+
+# --- Configuration des traps ---
+trap 'log "SIGINT reçu: arrêt en cours..."; STOP_AFTER_CURRENT=1; cleanup; exit 130' SIGINT
+trap 'cleanup' EXIT
+
+# --- Boucle principale ---
+log "Démarrage: base=$BASE_NAME, durée_totale=${TOTAL_DURATION} (0=illimitée), segment_duration=${SEGMENT_SECONDS}s, device=$AUDIO_DEVICE, mic=$RECORD_MIC, volume=$VOLUME_FILTER, target_dir=$TARGET_DIR"
+seg_index=0
+while true; do
+    if [[ "$STOP_AFTER_CURRENT" -eq 1 ]]; then
+        log "Arrêt demandé, sortie de la boucle."
+        break
+    fi
+
+    record_segment "$seg_index" "$SEGMENT_SECONDS"
+    sleep "$SEGMENT_SECONDS"
+    stop_ffmpeg
+
+    # Vérification et amplification du segment
+    latest_file=$(ls -t "${TARGET_DIR}/${BASE_NAME}"_*_part${seg_index}.mp4 2>/dev/null | head -n1)
+    if [[ -n "$latest_file" ]]; then
+        GENERATED_FILES+=("$latest_file")
+        log "Segment enregistré: $latest_file (taille: $(stat -c%s "$latest_file" 2>/dev/null || echo "N/A") octets)"
+        if [[ -n "$VOLUME_FILTER" ]]; then
+            boost_audio "$latest_file"  # Amplification après chaque segment
+        fi
+    else
+        log "ERREUR: Aucun fichier généré pour le segment $seg_index"
+    fi
+
+    seg_index=$((seg_index + 1))
+done
+
+# --- Résumé ---
+log "=== Résumé ==="
+for action in "${ACTIONS[@]}"; do
+    log "- $action"
+done
+log "=== Fichiers générés ==="
+for f in "${GENERATED_FILES[@]}"; do
+    log "- $f"
+done
+log "Fin du script."
+exit 0

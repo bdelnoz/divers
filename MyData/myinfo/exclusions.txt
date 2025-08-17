@@ -1,0 +1,29 @@
+Adresse MAC           | Adresse IP       | Description                          | Fabricant confirmé                 
+----------------------|------------------|------------------------------------|-------------------------------------
+00:11:D8:C1:E0:E5     |                  | ok – Dongle USB                    | Realtek Semiconductor Corp.        
+02:42:F6:93:CC:6D     |                  | ok – Dongle USB                    | Unknown (Locally Administered)     
+18:B4:30:6A:B0:9D     | 192.168.5.123    | NEST 1 (Disabled)                  | Nest Labs Inc.                     
+18:B4:30:D9:D5:94     | 192.168.5.112    | NEST 2 (Disabled)                  | Nest Labs Inc.                     
+18:B4:30:DA:FA:B1     | 192.168.5.245    | NEST 3 (Probable autre Nest)       | Nest Labs Inc.                     
+20:23:51:2B:33:C6     | 192.168.5.162    | TAPO AVANT / C410                  | Canon, Inc.                        
+3C:A0:67:E9:23:E7     | 192.168.5.239    | ok – ACER SWIFT / DESKTOP-B1B6591  | Hon Hai Precision (Foxconn)        
+3E:3B:88:69:93:1B     |                  | iPad                              | Apple, Inc.                        
+46:59:6D:44:00:F0     |                  | ok – Dongle USB                    | Realtek Semiconductor Corp.        
+54:F1:5F:7F:C1:0A     |                  | IPTV                              | Arcadyan Technology Corporation    
+5E:67:36:BA:05:A5     |                  | iPhone 7                         | Apple, Inc.                        
+60:A4:B7:79:5B:82     |                  | ARCHER C3000 wifi 5GHz TP-Link_5B84_5G (BSSID)  | TP-Link Technologies Co., Ltd.     
+60:A4:B7:79:5B:83     |                  | ARCHER C3000 wifi 2.4GHz TP-Link_8469 (BSSID)   | TP-Link Technologies Co., Ltd.     
+60:A4:B7:79:5B:84     |                  | ARCHER C3000 LAN                  | TP-Link Technologies Co., Ltd.     
+60:A4:B7:79:5B:85     |                  | ARCHER C3000 WAN                  | TP-Link Technologies Co., Ltd.     
+64:16:66:86:E4:9F     | 192.168.5.247    | NEST SALON                      | Nest Labs Inc.                     
+70:F0:88:BF:1F:86     | 192.168.5.124    | Nintendo Switch                 | Nintendo Co., Ltd.                 
+92:7E:31:F6:C5:F8     |                  | iPhone 7 (différent)             | Apple, Inc.                        
+B4:B0:24:3B:84:69     |                  | ROUTEUR _gateway                 | Arcadyan Technology Corporation    
+C8:69:CD:65:F8:BF     |                  | Apple TV Chambre                | Apple, Inc.                        
+F0:09:0D:7D:F0:5F     |                  | TAPO ARRIÈRE                   | TP-Link Technologies Co., Ltd.     
+FA:C6:25:22:C7:AC     |                  | ok – Dongle USB                | MediaTek Inc.                      
+2a:95:d5:a0:24:6      | 		 | ok - Dongle USB		  | ASUS 2.4gh
+# ---- Appareils suspects ou non confirmés ----
+36:80:CE:55:E2:3A     |                  | iPhone 12                      | Inconnu / non répertorié           
+48:22:54:1C:3B:AF     |                  | suspect – Dongle USB Wi-Fi      | TP-Link Technologies Co., Ltd.     
+CE:5C:19:BF:47:37     | 192.168.5.159    | (Non listé précédemment)        | (Non identifié)                   

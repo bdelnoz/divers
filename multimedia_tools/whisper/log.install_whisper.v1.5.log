@@ -1,0 +1,9 @@
+2025-08-12 22:17:48 - Début installation whisper v1.5
+2025-08-12 22:17:48 - Vérification prérequis terminée
+2025-08-12 22:17:50 - Installation openai-whisper terminée
+2025-08-12 22:17:52 - Mise à jour whisper.cpp
+2025-08-12 22:17:52 - Nettoyage ancien build
+2025-08-12 22:17:52 - Création nouveau dossier build
+2025-08-12 22:20:30 - Compilation whisper.cpp terminée
+2025-08-12 22:20:30 - Vérification binaire whisper-cli réussie
+2025-08-12 22:20:30 - Installation complète terminée avec succès

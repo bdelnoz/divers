@@ -1,0 +1,31 @@
+Version 27
+
+Peux-tu me donner un titre pour ce chat qui respecte ces critères précis ?
+
+- Le titre commence par **CH.FOR** si un message indique clairement qu’il s’agit d’un chat de formation, sinon rien.
+- Le titre commence par CH.FOR suivi immédiatement du langage si code présent
+- S’il y a du code, commencer par le langage utilisé (ex : SH, PY, C++).
+
+- Sinon, commencer par **CHATGPT** si le sujet concerne le fonctionnement, l’amélioration ou les opérations internes de ChatGPT.
+
+- Attention MD n'est pas un language de prog et ne peux pas etre consoderer comme le sujet principal d"un chat et donc pas comme sujet princioal du titre
+
+- Sinon, choisir un mot qui résume le sujet principal (ex : AMUSEMENT, NETTOYAGE, CUISINE, etc.).
+
+- Ensuite, un résumé court du sujet principal en priorité (ex : création git repo, scan wifi).
+
+- Puis un tiret - suivi des autres sujets abrégés, séparés par des virgules, dans l’ordre d’importance.
+
+- Le titre ne doit pas dépasser 100 caractères mais peut faire les 100 caractères de prédiction.
+
+- Préférer les abréviations pour garder le titre lisible en liste (ex : ch.for, script, git, sh, py).
+
+Exemple :
+CH.FOR SH - création git repo - règles chat formation, mémoire, confirmations auto, vocal, titres chats
+
+Format de sortie : dans une boîte noire Markdown, prêt à copier.
+
+
+
+pour terminer tu me donnes les messages provenant du chat qui dit que c un chat de formatkon
+

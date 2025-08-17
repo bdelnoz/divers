@@ -1,0 +1,88 @@
+
+
+casablanca              48-22-54-1C-3B-AF    192.168.5.199   # Dongle USB Wi-Fi
+iPhone                  36-B0-CE-55-E2-3A    192.168.5.190   # iPhone 12
+casablanca              3C-A0-67-E9-23-E7    192.168.5.239   # ACER SWIFT / DESKTOP-B1B6591
+--                      18-B4-30-D9-D5-94    192.168.5.112   # NEST 2 (Disabled)
+--                      18-B4-30-DA-FA-B1    192.168.5.245   # NEST (à toi)
+--                      18-B4-30-6A-B0-9D    192.168.5.123   # NEST 1 (Disabled)
+--                      64-16-66-86-E4-9F    192.168.5.247   # NEST SALON
+--                      CE-5C-19-BF-47-37    192.168.5.159   # ❗ Suspecte — inconnu, pas à toi
+C410                    20-23-51-2B-33-C6    192.168.5.162   # TAPO AVANT / C410
+--                      54:F1:5F:7F:C1:0A    --              # IPTV
+--                      3E:3B:88:69:93:1B    --              # IPAD
+--                      F0:09:0D:7D:F0:5F    --              # TAPO ARRIERE
+--                      C8:69:CD:65:F8:BF    --              # APPLE TV CHAMBRE / Chambre
+--                      5E:67:36:BA:05:A5    --              # IPHONE 7
+--                      92:7E:31:F6:C5:F8    --              # IPHONE 7 (différent)
+--                      B4:B0:24:3B:84:69    --              # ROUTEUR _gateway
+--                      60:A4:B7:79:5B:82    --              # TP-Link Corporation (BSSID)
+--                      60:A4:B7:79:5B:83    --              # TP-Link_8469 (BSSID)
+
+
+
+
+
+
+
+48-22-54-1C-3B-AF # Dongle USB Wi-Fi (Shenzhen Bilian Electronic) — Type: Wi-Fi USB Linux — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Réseau local
+36-80-CE-55-E2-3A # iPhone 12 (Apple, Inc.) — Type: iPhone — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Réseau local
+3C-A0-67-E9-23-E7 # ACER SWIFT / DESKTOP-B1B6591 (Hon Hai Precision - Foxconn) — Type: PC portable — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Réseau local
+18-B4-30-D9-D5-94 # NEST 2 (Disabled) (AzureWave Technology) — Type: Caméra Nest — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Maison, zone salon
+18-B4-30-DA-FA-B1 # Probablement une autre Nest (AzureWave Technology) — Type: Caméra Nest — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Maison, zone entrée
+18-B4-30-6A-B0-9D # NEST 1 (Disabled) (AzureWave Technology) — Type: Caméra Nest — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Maison, zone bureau
+64-16-66-86-E4-9F # NEST SALON (Liteon Technology Corporation) — Type: Caméra Nest — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Maison, zone salon
+20-23-51-2B-33-C6 # TAPO AVANT / C410 (Canon, Inc.) — Type: Caméra TP-Link — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Maison, entrée avant
+54:F1:5F:7F:C1:0A # IPTV — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Salon
+3E:3B:88:69:93:1B # IPAD — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Personnel
+F0:09:0D:7D:F0:5F # TAPO ARRIERE — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Maison, arrière
+C8:69:CD:65:F8:BF # APPLE TV CHAMBRE / Chambre — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Chambre
+5E:67:36:BA:05:A5 # IPHONE 7 — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Personnel
+92:7E:31:F6:C5:F8 # IPHONE 7 (différent) — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Personnel
+B4:B0:24:3B:84:69 # ROUTEUR _gateway — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Réseau local
+60:A4:B7:79:5B:82 # TP-Link Corporation (BSSID) — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Réseau local
+60:A4:B7:79:5B:83 # TP-Link_8469 (BSSID) — Type: Inconnu — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Réseau local
+CE-5C-19-BF-47-37 # iPad (Apple, Inc.) — Type: iPad — Statut: ✅ Connu — Dernière détection: 2025-06-20 — Localisation: Personnel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+casablanca              48-22-54-1C-3B-AF    192.168.5.199   Shenzhen Bilian Electronic    Dongle USB Wi-Fi            ✅ Connu
+iPhone                  36-B0-CE-55-E2-3A    192.168.5.190   Apple, Inc.                   iPhone 12                   ✅ Connu
+casablanca              3C-A0-67-E9-23-E7    192.168.5.239   Hon Hai Precision (Foxconn)  ACER SWIFT / DESKTOP-B1B6591 ✅ Connu
+--                      18-B4-30-D9-D5-94    192.168.5.112   AzureWave Technology         NEST 2 (Disabled)           ✅ Connu
+--                      18-B4-30-DA-FA-B1    192.168.5.245   AzureWave Technology         NEST (à toi)                ✅ Connu
+--                      18-B4-30-6A-B0-9D    192.168.5.123   AzureWave Technology         NEST 1 (Disabled)           ✅ Connu
+--                      64-16-66-86-E4-9F    192.168.5.247   Liteon Technology Corp.      NEST SALON                  ✅ Connu
+--                      CE-5C-19-BF-47-37    192.168.5.159   Inconnu                     ?                           ❗ Suspecte (pas à toi)
+C410                    20-23-51-2B-33-C6    192.168.5.162   Canon, Inc.                  TAPO AVANT / C410           ✅ Connu
+--                      54:F1:5F:7F:C1:0A    --              --                          IPTV                        ✅ Connu
+--                      3E:3B:88:69:93:1B    --              --                          IPAD                        ✅ Connu
+--                      F0:09:0D:7D:F0:5F    --              --                          TAPO ARRIERE                ✅ Connu
+--                      C8:69:CD:65:F8:BF    --              --                          APPLE TV CHAMBRE            ✅ Connu
+--                      5E:67:36:BA:05:A5    --              --                          IPHONE 7                    ✅ Connu
+--                      92:7E:31:F6:C5:F8    --              --                          IPHONE 7 (différent)        ✅ Connu
+--                      B4:B0:24:3B:84:69    --              --                          ROUTEUR _gateway            ✅ Connu
+--                      60:A4:B7:79:5B:82    --              TP-Link Corporation          BSSID                       ✅ Connu
+--                      60:A4:B7:79:5B:83    --              TP-Link_8469                 BSSID                       ✅ Connu
+
+
+
+
+
+
+
+
+
+

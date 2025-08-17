@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -sn 192.168.3.0/24" profile_name="Ping scan" scanner="nmap" start="1748667601" startstr="Sat May 31 07:00:01 2025" version="7.95" xmloutputversion="1.04"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-31 07:00 CEST
+Nmap scan report for 192.168.3.1
+Host is up (0.0049s latency).
+MAC Address: B4:B0:24:3B:84:69 (TP-Link Limited)
+Nmap scan report for 192.168.3.104
+Host is up (0.18s latency).
+MAC Address: 54:F1:5F:7F:C1:0A (Sichuan AI-Link Technology)
+Nmap scan report for 192.168.3.105
+Host is up (0.20s latency).
+MAC Address: 70:F0:88:BF:1F:86 (Nintendo)
+Nmap scan report for 192.168.3.116
+Host is up (0.087s latency).
+MAC Address: 36:07:E4:85:35:AD (Unknown)
+Nmap scan report for 192.168.3.122
+Host is up (0.14s latency).
+MAC Address: C8:69:CD:65:F8:BF (Apple)
+Nmap scan report for 192.168.3.100
+Host is up.
+Nmap done: 256 IP addresses (6 hosts up) scanned in 3.30 seconds
+</output><host comment=""><status state="up"></status><address addr="192.168.3.1" vendor="" addrtype="ipv4"></address><address addr="B4:B0:24:3B:84:69" vendor="TP-Link Limited" addrtype="mac"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.3.104" vendor="" addrtype="ipv4"></address><address addr="54:F1:5F:7F:C1:0A" vendor="Sichuan AI-Link Technology" addrtype="mac"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.3.105" vendor="" addrtype="ipv4"></address><address addr="70:F0:88:BF:1F:86" vendor="Nintendo" addrtype="mac"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.3.116" vendor="" addrtype="ipv4"></address><address addr="36:07:E4:85:35:AD" vendor="" addrtype="mac"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.3.122" vendor="" addrtype="ipv4"></address><address addr="C8:69:CD:65:F8:BF" vendor="Apple" addrtype="mac"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.3.100" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><runstats><finished time="1748667604" timestr="Sat May 31 07:00:04 2025"></finished><hosts up="6" down="250" total="256"></hosts></runstats></nmaprun>

@@ -1,0 +1,23 @@
+[*] Passage de wlan1 en mode monitor...
+
+Found 2 processes that could cause trouble.
+Kill them using 'airmon-ng check kill' before putting
+the card in monitor mode, they will interfere by changing channels
+and sometimes putting the interface back in managed mode
+
+    PID Name
+   1179 NetworkManager
+   1311 wpa_supplicant
+
+PHY	Interface	Driver		Chipset
+
+phy0	wlan0		rtl8723be	Realtek Semiconductor Co., Ltd. RTL8723BE PCIe Wireless Network Adapter
+phy1	wlan1		rtl8xxxu	TP-Link TL-WN823N v2/v3 [Realtek RTL8192EU]
+		(mac80211 monitor mode already enabled for [phy1]wlan1 on [phy1]10)
+[*] Interface monitor : wlan1mon
+[*] Lancement du scan wifi pendant 900 secondes sur wlan1mon...
+[0mioctl(SIOCGIFINDEX) failed: No such device
+Interface wlan1mon: 
+Failed initializing wireless card(s): wlan1mon
+[*] Scan terminé. Lancement des attaques DOS toutes les 60 secondes pendant 900 secondes.
+[!] Fichier CSV non trouvé. Abandon du cycle 1.

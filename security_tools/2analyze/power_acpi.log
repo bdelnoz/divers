@@ -1,0 +1,1 @@
+jun 25 21:54:23 casablanca pkexec[143627]: nox: Executing command [USER=root] [TTY=unknown] [CWD=/home/nox] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 37]

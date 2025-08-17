@@ -1,0 +1,3876 @@
+❌ Erreur : fichier '/media/nox/data2/Videos/VOIX_suspectes/boost' introuvable
+❌ Erreur : fichier '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other' introuvable
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/BROL_20250811_004114_part0.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 29.900000: nombre non valable
+  Durée audio : 29,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (29s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ✅ Conversion réussie - Taille: 626K - Durée: 20s
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/BROL_20250811_004114_part0.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/BROL_20250811_004114_part0.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/BROL_20250811_004150_part1.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 29.900000: nombre non valable
+  Durée audio : 29,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (29s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ✅ Conversion réussie - Taille: 626K - Durée: 20s
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/BROL_20250811_004150_part1.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/BROL_20250811_004150_part1.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_025616_part0.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_025616_part0.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_025616_part0.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_025823_part1.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_025823_part1.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_025823_part1.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030029_part2.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030029_part2.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030029_part2.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030236_part3.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030236_part3.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030236_part3.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030442_part4.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030442_part4.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030442_part4.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030649_part5.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030649_part5.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030649_part5.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030855_part6.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640056 bytes, 19s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030855_part6.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_030855_part6.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031102_part7.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031102_part7.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031102_part7.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031308_part8.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640206 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031308_part8.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031308_part8.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031515_part9.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031515_part9.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031515_part9.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031722_part10.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031722_part10.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031722_part10.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031928_part11.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031928_part11.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_031928_part11.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032135_part12.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032135_part12.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032135_part12.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032341_part13.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640264 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032341_part13.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032341_part13.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032548_part14.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032548_part14.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032548_part14.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032754_part15.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640226 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032754_part15.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_032754_part15.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033001_part16.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640264 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033001_part16.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033001_part16.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033207_part17.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033207_part17.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033207_part17.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033414_part18.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033414_part18.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033414_part18.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033620_part19.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 119.909524: nombre non valable
+  Durée audio : 119,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 119s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 11s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 94s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033620_part19.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033620_part19.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033827_part20.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 54.104762: nombre non valable
+  Durée audio : 54,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (54s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ✅ Conversion réussie - Taille: 626K - Durée: 20s
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033827_part20.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/FREDERIC_20250811_033827_part20.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/log.transcribe_mp4.v1.9.log
+
+🔍 DÉTECTION DES FLUX AUDIO :
+❌ ERREUR CRITIQUE : AUCUN FLUX AUDIO DÉTECTÉ
+
+🚨 PROBLÈMES CRITIQUES DÉTECTÉS :
+   Le fichier ne contient pas de piste audio utilisable
+   SOLUTIONS POSSIBLES :
+     1. Vérifier que le fichier n'est pas corrompu : ffprobe -v error '/media/nox/data2/Videos/VOIX_suspectes/log.transcribe_mp4.v1.9.log'
+     2. Essayer de réencoder : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/log.transcribe_mp4.v1.9.log' -c:v copy -c:a aac '/media/nox/data2/Videos/VOIX_suspectes/log.transcribe_mp4.v1.9.log.fixed.mp4'
+     3. Utiliser un autre fichier source avec audio
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172704_part0.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 55.590476: nombre non valable
+  Durée audio : 55,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (55s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ✅ Conversion réussie - Taille: 626K - Durée: 20s
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172704_part0.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172704_part0.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 11.885714: nombre non valable
+  Durée audio : 11,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (11s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 372K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nest_bruits_20250810_030634_part0.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 128.452381: nombre non valable
+  Durée audio : 128,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 128s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 12s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 64s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 103s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nest_bruits_20250810_030634_part0.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nest_bruits_20250810_030634_part0.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/NestCam_20250809_220201_part0.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 599.671429: nombre non valable
+  Durée audio : 599,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 599s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 59s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 299s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 509s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/NestCam_20250809_220201_part0.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/NestCam_20250809_220201_part0.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/NestCam_20250809_221208_part1.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 211.528571: nombre non valable
+  Durée audio : 211,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  📏 Durée totale : 211s - Tests à 3 positions stratégiques
+  🔄 Test 1/3 - DÉBUT (10%) à 21s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 2/3 - MILIEU (50%) à 105s :
+    ✅ Test réussi - 640078 bytes, 20s
+  🔄 Test 3/3 - FIN (85%) à 179s :
+    ✅ Test réussi - 640078 bytes, 20s
+
+  📊 RÉSULTATS DÉTAILLÉS DES TESTS :
+    Tests réussis : 3/3
+    ✅ TOUS LES TESTS RÉUSSIS : Fichier parfaitement compatible
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER COMPATIBLE AVEC RÉSERVES (1 point(s) d'attention)
+   → Transcription possible, qualité BONNE à CORRECTE
+   → Améliorations recommandées mais optionnelles
+
+💡 SOLUTIONS RECOMMANDÉES POUR OPTIMISER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/NestCam_20250809_221208_part1.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/NestCam_20250809_221208_part1.ogv.128k.mp4'
+
+✅ ANALYSE AUDIO RÉUSSIE
+Fichier compatible. Ajoutez --exec pour lancer la transcription.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.828571: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 151K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :
+✅ Nombre de flux audio : 1
+
+📊 ANALYSE DÉTAILLÉE DU FLUX AUDIO PRINCIPAL :
+  Codec audio : vorbis
+  Fréquence échantillonnage : 22050 Hz
+  Nombre de canaux : 1
+  Débit binaire : 50000 bps
+  Profondeur bits : 0 bits
+./transcribe_mp4.2.3.sh: ligne 133 : printf: 4.890476: nombre non valable
+  Durée audio : 4,0s
+
+✅ ANALYSE DE COMPATIBILITÉ WHISPER :
+
+🔧 CODEC AUDIO :
+  ✅ OGG/Vorbis/Opus : Bien supporté
+
+📡 FRÉQUENCE D'ÉCHANTILLONNAGE :
+  ✅ 22050 Hz : Très bonne qualité (≥22kHz)
+
+🔊 CONFIGURATION DES CANAUX :
+  ✅ Audio MONO : Configuration optimale pour Whisper
+
+💾 DÉBIT BINAIRE :
+  ⚠️  50 kbps : Débit faible, qualité possiblement réduite
+
+🧪 TESTS DE CONVERSION WHISPER (3 échantillons de 20 secondes) :
+  ⚠️  Vidéo courte (4s) - Test unique de 20 secondes
+  🔄 Test extraction audio WAV 16kHz mono (20 premières secondes)...
+    ❌ Fichier WAV défaillant - Taille: 153K
+
+========================================
+=== VERDICT FINAL DE COMPATIBILITÉ ===
+========================================
+⚠️  FICHIER PROBLÉMATIQUE (3 problèmes détectés)
+   → Transcription DIFFICILE, qualité DÉGRADÉE probable
+   → Corrections FORTEMENT recommandées
+
+🔧 SOLUTIONS OBLIGATOIRES POUR CORRIGER :
+   1. Améliorer le débit : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv' -c:v copy -c:a aac -b:a 128k '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv.128k.mp4'
+   2. PROBLÈME DE CONVERSION - Essayer : ffmpeg -i '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv' -vn -acodec pcm_s16le -ar 16000 -ac 1 '/media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv.debug.wav'
+
+❌ ANALYSE AUDIO ÉCHOUÉE
+Utilisez --exec pour tenter la transcription malgré les problèmes.
+
+=== ANALYSE AUDIO DETAILLEE POUR WHISPER ===
+Fichier analysé : /media/nox/data2/Videos/VOIX_suspectes/nestcam_20250811_012137_part50.ogv
+
+🔍 DÉTECTION DES FLUX AUDIO :

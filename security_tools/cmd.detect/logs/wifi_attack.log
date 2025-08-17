@@ -1,0 +1,91 @@
+jeu 10 jui 2025 17:20:19 CEST : Mode monitor activé
+jeu 10 jui 2025 17:20:22 CEST : Mode managed restauré
+jeu 10 jui 2025 17:20:38 CEST : Mode monitor activé
+jeu 10 jui 2025 17:20:52 CEST : Mode managed restauré
+jeu 10 jui 2025 17:21:12 CEST : Mode monitor activé
+jeu 10 jui 2025 17:21:19 CEST : Mode managed restauré
+jeu 10 jui 2025 18:02:07 CEST : Mode monitor activé
+jeu 10 jui 2025 18:02:12 CEST : Mode managed restauré
+jeu 10 jui 2025 18:03:43 CEST : Mode monitor activé (wlan1mon)
+jeu 10 jui 2025 18:03:58 CEST : Mode managed restauré
+jeu 10 jui 2025 18:12:17 CEST : Mode monitor activé (wlan1)
+jeu 10 jui 2025 18:15:52 CEST : Mode monitor activé (wlan1)
+ven 11 jui 2025 01:16:58 CEST : Vérification du support monitor pour wlan1
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+sam 19 jui 2025 06:36:03 CEST : Vérification du support monitor pour wlan1
+Capturing on 'wlan1'
+tshark: Couldn't run dumpcap in child process: Permission non accordée
+0 packets captured
+sam 19 jui 2025 06:36:53 CEST : Vérification du support monitor pour wlan1
+Capturing on 'wlan1'
+tshark: Couldn't run dumpcap in child process: Permission non accordée
+0 packets captured
+Capturing on 'wlan1'
+tshark: Couldn't run dumpcap in child process: Permission non accordée
+0 packets captured
+Capturing on 'wlan1'
+tshark: Couldn't run dumpcap in child process: Permission non accordée
+0 packets captured
+sam 19 jui 2025 06:37:32 CEST : Vérification du support monitor pour wlan1
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+sam 19 jui 2025 06:55:48 CEST : Vérification du support monitor pour wlan1
+Capturing on 'wlan1'
+tshark: Couldn't run dumpcap in child process: Permission non accordée
+0 packets captured
+Capturing on 'wlan1'
+tshark: Couldn't run dumpcap in child process: Permission non accordée
+0 packets captured
+sam 19 jui 2025 06:57:43 CEST : Vérification du support monitor pour wlan1
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+mar 22 jui 2025 00:21:27 CEST : Vérification du support monitor pour wlan1
+Capturing on 'wlan1'
+tshark: Couldn't run dumpcap in child process: Permission non accordée
+0 packets captured
+mar 22 jui 2025 00:21:35 CEST : Vérification du support monitor pour wlan1
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan1'
+tshark: Capturing in monitor mode is not supported on device "wlan1".
+(That device doesn't support monitor mode)
+0 packets captured

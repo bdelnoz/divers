@@ -1,0 +1,30 @@
+Adresse MAC          | Adresse IP       | Description                  | Fabricant confirmé
+---------------------|------------------|------------------------------|----------------------------
+2A:95:D5:A0:24:06    |                  | Dongle USB                   | Asus
+20:23:51:2B:33:C6    | 192.168.5.162    | TAPO AVANT / C410            | TP-Link Technologies
+70:F0:88:BF:1F:86    | 192.168.5.124    | Nintendo Switch              | Nintendo
+CE:5C:19:BF:47:37    | 192.168.5.159    | Non identifié                | Intel
+42:44:53:98:70:C1    | 192.168.5.147    | iPhone 11                    | Apple
+3E:3B:88:69:93:1B    |                  | iPad                         | Apple
+5E:67:36:BA:05:A5    |                  | iPhone 7                     | Apple
+92:7E:31:F6:C5:F8    |                  | iPhone 7 (différent)         | Apple
+C8:69:CD:65:F8:BF    |                  | Apple TV Chambre             | Apple
+36:80:CE:55:E2:3A    |                  | iPhone 12                    | Apple
+18:B4:30:6A:B0:9D    | 192.168.5.123    | NEST 1 (Disabled)            | Nest (Google)
+18:B4:30:D9:D5:94    | 192.168.5.112    | NEST 2 (Disabled)            | Nest (Google)
+18:B4:30:DA:FA:B1    | 192.168.5.245    | NEST 3 (Probable autre Nest) | Nest (Google)
+64:16:66:86:E4:9F    | 192.168.5.247    | NEST SALON                   | Nest (Google)
+3C:A0:67:E9:23:E7    | 192.168.5.239    | ACER Swift / Desktop-B1B6591 | Foxconn
+60:A4:B7:79:5B:82    |                  | ARCHER C3000 WiFi 5GHz (BSSID) | TP-Link
+60:A4:B7:79:5B:83    |                  | ARCHER C3000 WiFi 2.4GHz (BSSID) | TP-Link
+60:A4:B7:79:5B:84    | 192.168.5.1      | _gateway                     | TP-Link
+60:A4:B7:79:5B:85    |                  | ARCHER C3000 WAN             | TP-Link
+48:22:54:1C:3B:AF    |                  | TAPO CAM                     | TP-Link
+F0:09:0D:7D:F0:5F    |                  | TAPO ARRIÈRE                 | TP-Link
+54:F1:5F:7F:C1:0A    |                  | IPTV                         | Arcadyan
+B4:B0:24:3B:84:69    |                  | ROUTEUR ORANGE (Gateway)     | Arcadyan
+70:13:01:1c:4f:cd    |                  | ROUTEUR ORANGE (Gateway)     | Arcadyan
+00:11:D8:C1:E0:E5    |                  | Dongle USB                   | Realtek
+46:59:6D:44:00:F0    |                  | Dongle USB                   | Realtek
+FA:C6:25:22:C7:AC    |                  | Dongle USB                   | MediaTek
+02:42:F6:93:CC:6D    |                  | Dongle USB                   | Inconnu (local admin)

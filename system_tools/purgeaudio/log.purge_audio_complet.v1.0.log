@@ -1,0 +1,177 @@
+Purge des paquets audio...
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Résolution des dépendances  …
+Certains paquets ne peuvent être installés. Cela peut signifier
+que vous avez demandé l'impossible, ou bien, si vous utilisez
+la distribution unstable, que certains paquets n'ont pas encore
+été créés ou ne sont pas sortis d'Incoming.
+L'information suivante devrait vous aider à résoudre la situation : 
+
+Les paquets suivants contiennent des dépendances non satisfaites :
+ kali-desktop-gnome : Dépend: kali-desktop-core mais ne sera pas installé
+                      Dépend: gdm3 mais ne sera pas installé
+                      Dépend: gnome-control-center mais ne sera pas installé
+                      Dépend: gnome-session mais ne sera pas installé
+                      Dépend: gnome-shell mais ne sera pas installé
+                      Dépend: gnome-shell-extension-appindicator mais ne sera pas installé
+                      Dépend: gnome-shell-extension-apps-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-dashtodock mais ne sera pas installé
+                      Dépend: gnome-shell-extension-desktop-icons-ng mais ne sera pas installé
+                      Dépend: gnome-shell-extension-drive-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-places-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-prefs mais ne sera pas installé
+                      Dépend: gnome-shell-extension-system-monitor mais ne sera pas installé
+                      Dépend: gnome-shell-extension-tiling-assistant mais ne sera pas installé
+                      Dépend: gnome-shell-extension-user-theme mais ne sera pas installé
+                      Dépend: gnome-shell-extension-vpnip mais ne sera pas installé
+                      Dépend: nautilus mais ne sera pas installé
+                      Dépend: totem mais ne sera pas installé
+                      Recommande: gnome-disk-utility mais ne sera pas installé
+                      Recommande: gnome-sushi mais ne sera pas installé
+                      Recommande: gnome-tweaks mais ne sera pas installé
+ kali-desktop-xfce : Dépend: kali-desktop-core mais ne sera pas installé
+                     Dépend: xfce4 mais ne sera pas installé
+                     Dépend: pavucontrol mais ne sera pas installé
+                     Dépend: parole mais ne sera pas installé
+                     Dépend: atril mais ne sera pas installé
+                     Dépend: pipewire-pulse
+                     Dépend: wireplumber mais ne sera pas installé
+                     Recommande: blueman mais ne sera pas installé
+                     Recommande: gnome-disk-utility mais ne sera pas installé
+                     Recommande: kali-undercover mais ne sera pas installé
+                     Recommande: network-manager-fortisslvpn-gnome mais ne sera pas installé
+                     Recommande: network-manager-openconnect-gnome mais ne sera pas installé
+                     Recommande: onboard mais ne sera pas installé
+ libgnome-bluetooth-ui-3.0-13 : Dépend: libgsound0t64 (>= 1.0.1) mais ne sera pas installé
+ libspa-0.2-bluetooth : Dépend: libspa-0.2-modules (= 1.4.2-1) mais ne sera pas installé
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Les paquets suivants seront ENLEVÉS :
+  libvpx7
+0 mis à jour, 0 nouvellement installés, 1 à enlever et 41 non mis à jour.
+Après cette opération, 3.134 kB d'espace disque seront libérés.
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 693794 fichiers et répertoires déjà installés.)
+Suppression de libvpx7:amd64 (1.12.0-1+deb12u4) ...
+Traitement des actions différées (« triggers ») pour libc-bin (2.41-9) ...
+Suppression des fichiers de configuration audio...
+Désactivation des modules kernel audio...
+Création du dossier de backup : ./backup_audio_20250812_042254
+Backup des modules kernel audio existants dans ./backup_audio_20250812_042254/modules_list.txt
+Suppression des modules kernel audio présents...
+Purge des paquets audio...
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Résolution des dépendances  …
+Certains paquets ne peuvent être installés. Cela peut signifier
+que vous avez demandé l'impossible, ou bien, si vous utilisez
+la distribution unstable, que certains paquets n'ont pas encore
+été créés ou ne sont pas sortis d'Incoming.
+L'information suivante devrait vous aider à résoudre la situation : 
+
+Les paquets suivants contiennent des dépendances non satisfaites :
+ kali-desktop-gnome : Dépend: kali-desktop-core mais ne sera pas installé
+                      Dépend: gdm3 mais ne sera pas installé
+                      Dépend: gnome-control-center mais ne sera pas installé
+                      Dépend: gnome-session mais ne sera pas installé
+                      Dépend: gnome-shell mais ne sera pas installé
+                      Dépend: gnome-shell-extension-appindicator mais ne sera pas installé
+                      Dépend: gnome-shell-extension-apps-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-dashtodock mais ne sera pas installé
+                      Dépend: gnome-shell-extension-desktop-icons-ng mais ne sera pas installé
+                      Dépend: gnome-shell-extension-drive-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-places-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-prefs mais ne sera pas installé
+                      Dépend: gnome-shell-extension-system-monitor mais ne sera pas installé
+                      Dépend: gnome-shell-extension-tiling-assistant mais ne sera pas installé
+                      Dépend: gnome-shell-extension-user-theme mais ne sera pas installé
+                      Dépend: gnome-shell-extension-vpnip mais ne sera pas installé
+                      Dépend: nautilus mais ne sera pas installé
+                      Dépend: totem mais ne sera pas installé
+                      Recommande: gnome-disk-utility mais ne sera pas installé
+                      Recommande: gnome-sushi mais ne sera pas installé
+                      Recommande: gnome-tweaks mais ne sera pas installé
+ kali-desktop-xfce : Dépend: kali-desktop-core mais ne sera pas installé
+                     Dépend: xfce4 mais ne sera pas installé
+                     Dépend: pavucontrol mais ne sera pas installé
+                     Dépend: parole mais ne sera pas installé
+                     Dépend: atril mais ne sera pas installé
+                     Dépend: pipewire-pulse
+                     Dépend: wireplumber mais ne sera pas installé
+                     Recommande: blueman mais ne sera pas installé
+                     Recommande: gnome-disk-utility mais ne sera pas installé
+                     Recommande: kali-undercover mais ne sera pas installé
+                     Recommande: network-manager-fortisslvpn-gnome mais ne sera pas installé
+                     Recommande: network-manager-openconnect-gnome mais ne sera pas installé
+                     Recommande: onboard mais ne sera pas installé
+ libgnome-bluetooth-ui-3.0-13 : Dépend: libgsound0t64 (>= 1.0.1) mais ne sera pas installé
+ libspa-0.2-bluetooth : Dépend: libspa-0.2-modules (= 1.4.2-1) mais ne sera pas installé
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 41 non mis à jour.
+Suppression des fichiers de configuration audio...
+Désactivation des modules kernel audio...
+Création du dossier de backup : ./backup_audio_20250812_042314
+Backup des modules kernel audio existants dans ./backup_audio_20250812_042314/modules_list.txt
+Suppression des modules kernel audio présents...
+Purge des paquets audio...
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Résolution des dépendances  …
+Certains paquets ne peuvent être installés. Cela peut signifier
+que vous avez demandé l'impossible, ou bien, si vous utilisez
+la distribution unstable, que certains paquets n'ont pas encore
+été créés ou ne sont pas sortis d'Incoming.
+L'information suivante devrait vous aider à résoudre la situation : 
+
+Les paquets suivants contiennent des dépendances non satisfaites :
+ kali-desktop-gnome : Dépend: kali-desktop-core mais ne sera pas installé
+                      Dépend: gdm3 mais ne sera pas installé
+                      Dépend: gnome-control-center mais ne sera pas installé
+                      Dépend: gnome-session mais ne sera pas installé
+                      Dépend: gnome-shell mais ne sera pas installé
+                      Dépend: gnome-shell-extension-appindicator mais ne sera pas installé
+                      Dépend: gnome-shell-extension-apps-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-dashtodock mais ne sera pas installé
+                      Dépend: gnome-shell-extension-desktop-icons-ng mais ne sera pas installé
+                      Dépend: gnome-shell-extension-drive-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-places-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-prefs mais ne sera pas installé
+                      Dépend: gnome-shell-extension-system-monitor mais ne sera pas installé
+                      Dépend: gnome-shell-extension-tiling-assistant mais ne sera pas installé
+                      Dépend: gnome-shell-extension-user-theme mais ne sera pas installé
+                      Dépend: gnome-shell-extension-vpnip mais ne sera pas installé
+                      Dépend: nautilus mais ne sera pas installé
+                      Dépend: totem mais ne sera pas installé
+                      Recommande: gnome-disk-utility mais ne sera pas installé
+                      Recommande: gnome-sushi mais ne sera pas installé
+                      Recommande: gnome-tweaks mais ne sera pas installé
+ kali-desktop-xfce : Dépend: kali-desktop-core mais ne sera pas installé
+                     Dépend: xfce4 mais ne sera pas installé
+                     Dépend: pavucontrol mais ne sera pas installé
+                     Dépend: parole mais ne sera pas installé
+                     Dépend: atril mais ne sera pas installé
+                     Dépend: pipewire-pulse
+                     Dépend: wireplumber mais ne sera pas installé
+                     Recommande: blueman mais ne sera pas installé
+                     Recommande: gnome-disk-utility mais ne sera pas installé
+                     Recommande: kali-undercover mais ne sera pas installé
+                     Recommande: network-manager-fortisslvpn-gnome mais ne sera pas installé
+                     Recommande: network-manager-openconnect-gnome mais ne sera pas installé
+                     Recommande: onboard mais ne sera pas installé
+ libgnome-bluetooth-ui-3.0-13 : Dépend: libgsound0t64 (>= 1.0.1) mais ne sera pas installé
+ libspa-0.2-bluetooth : Dépend: libspa-0.2-modules (= 1.4.2-1) mais ne sera pas installé
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 41 non mis à jour.
+Suppression des fichiers de configuration audio...
+Désactivation des modules kernel audio...
+Création du dossier de backup : ./backup_audio_20250812_042325
+Backup des modules kernel audio existants dans ./backup_audio_20250812_042325/modules_list.txt
+Suppression des modules kernel audio présents...

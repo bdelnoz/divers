@@ -1,0 +1,12 @@
+Analyse des logs du 21:51 au 22:04
+
+=== Logs système liés à power/ACPI/etc ===
+jun 25 21:54:23 casablanca pkexec[143627]: nox: Executing command [USER=root] [TTY=unknown] [CWD=/home/nox] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 37]
+
+=== Logs Xorg (affichage) ===
+
+=== Logs service GDM ===
+
+=== Logs kernel (messages d'erreur/crash) ===
+
+=== Logs session utilisateur (nox) ===

@@ -1,0 +1,52 @@
+Timestamp,Event,Details
+jeu 10 jui 2025 17:20:22 CEST,Restore,Carte remise en managed
+jeu 10 jui 2025 17:20:22 CEST,Stop,Arrêt par CTRL-C
+jeu 10 jui 2025 17:20:52 CEST,Restore,Carte remise en managed
+jeu 10 jui 2025 17:20:52 CEST,Stop,Arrêt par CTRL-C
+jeu 10 jui 2025 17:21:19 CEST,Restore,Carte remise en managed
+jeu 10 jui 2025 17:21:19 CEST,Stop,Arrêt par CTRL-C
+jeu 10 jui 2025 18:02:12 CEST,Restore,Carte remise en managed
+jeu 10 jui 2025 18:02:12 CEST,Stop,Arrêt par CTRL-C
+jeu 10 jui 2025 18:03:58 CEST,Restore,Carte remise en managed
+jeu 10 jui 2025 18:03:58 CEST,Stop,Arrêt par CTRL-C
+ven 11 jui 2025 01:16:59 CEST,Info,Monitor mode activé (wlan1)
+ven 11 jui 2025 01:16:59 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+ven 11 jui 2025 01:17:05 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+ven 11 jui 2025 01:17:19 CEST,Restore,Interface restaurée en managed
+ven 11 jui 2025 01:17:19 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)
+sam 19 jui 2025 06:36:03 CEST,Info,Monitor mode activé (wlan1)
+sam 19 jui 2025 06:36:03 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:36:07 CEST,Restore,Interface restaurée en managed
+sam 19 jui 2025 06:36:07 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)
+sam 19 jui 2025 06:36:53 CEST,Info,Monitor mode activé (wlan1)
+sam 19 jui 2025 06:36:53 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:36:59 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:37:04 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:37:05 CEST,Restore,Interface restaurée en managed
+sam 19 jui 2025 06:37:05 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)
+sam 19 jui 2025 06:37:32 CEST,Info,Monitor mode activé (wlan1)
+sam 19 jui 2025 06:37:33 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:37:38 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:37:42 CEST,Restore,Interface restaurée en managed
+sam 19 jui 2025 06:37:42 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)
+sam 19 jui 2025 06:55:48 CEST,Info,Monitor mode activé (wlan1)
+sam 19 jui 2025 06:55:48 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:55:54 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:55:54 CEST,Restore,Interface restaurée en managed
+sam 19 jui 2025 06:55:54 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)
+sam 19 jui 2025 06:57:43 CEST,Info,Monitor mode activé (wlan1)
+sam 19 jui 2025 06:57:44 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:57:49 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:57:55 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:58:00 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+sam 19 jui 2025 06:58:05 CEST,Restore,Interface restaurée en managed
+sam 19 jui 2025 06:58:05 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)
+mar 22 jui 2025 00:21:27 CEST,Info,Monitor mode activé (wlan1)
+mar 22 jui 2025 00:21:28 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+mar 22 jui 2025 00:21:31 CEST,Restore,Interface restaurée en managed
+mar 22 jui 2025 00:21:31 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)
+mar 22 jui 2025 00:21:36 CEST,Info,Monitor mode activé (wlan1)
+mar 22 jui 2025 00:21:36 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+mar 22 jui 2025 00:21:41 CEST,Info,tshark n'a rien détecté (interface: wlan1)
+mar 22 jui 2025 00:21:45 CEST,Restore,Interface restaurée en managed
+mar 22 jui 2025 00:21:45 CEST,Stop,Arrêt par l’utilisateur (CTRL-C)

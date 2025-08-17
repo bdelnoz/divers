@@ -1,0 +1,55 @@
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Résolution des dépendances  …
+Certains paquets ne peuvent être installés. Cela peut signifier
+que vous avez demandé l'impossible, ou bien, si vous utilisez
+la distribution unstable, que certains paquets n'ont pas encore
+été créés ou ne sont pas sortis d'Incoming.
+L'information suivante devrait vous aider à résoudre la situation : 
+
+Les paquets suivants contiennent des dépendances non satisfaites :
+ kali-desktop-gnome : Dépend: kali-desktop-core mais ne sera pas installé
+                      Dépend: gdm3 mais ne sera pas installé
+                      Dépend: gnome-control-center mais ne sera pas installé
+                      Dépend: gnome-session mais ne sera pas installé
+                      Dépend: gnome-shell mais ne sera pas installé
+                      Dépend: gnome-shell-extension-appindicator mais ne sera pas installé
+                      Dépend: gnome-shell-extension-apps-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-dashtodock mais ne sera pas installé
+                      Dépend: gnome-shell-extension-desktop-icons-ng mais ne sera pas installé
+                      Dépend: gnome-shell-extension-drive-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-places-menu mais ne sera pas installé
+                      Dépend: gnome-shell-extension-prefs mais ne sera pas installé
+                      Dépend: gnome-shell-extension-system-monitor mais ne sera pas installé
+                      Dépend: gnome-shell-extension-tiling-assistant mais ne sera pas installé
+                      Dépend: gnome-shell-extension-user-theme mais ne sera pas installé
+                      Dépend: gnome-shell-extension-vpnip mais ne sera pas installé
+                      Dépend: nautilus mais ne sera pas installé
+                      Dépend: totem mais ne sera pas installé
+                      Recommande: gnome-disk-utility mais ne sera pas installé
+                      Recommande: gnome-sushi mais ne sera pas installé
+                      Recommande: gnome-tweaks mais ne sera pas installé
+ kali-desktop-xfce : Dépend: kali-desktop-core mais ne sera pas installé
+                     Dépend: xfce4 mais ne sera pas installé
+                     Dépend: pavucontrol mais ne sera pas installé
+                     Dépend: parole mais ne sera pas installé
+                     Dépend: atril mais ne sera pas installé
+                     Dépend: pipewire-pulse
+                     Dépend: wireplumber mais ne sera pas installé
+                     Recommande: blueman mais ne sera pas installé
+                     Recommande: gvfs-backends
+                     Recommande: gnome-disk-utility mais ne sera pas installé
+                     Recommande: kali-undercover mais ne sera pas installé
+                     Recommande: network-manager-fortisslvpn-gnome mais ne sera pas installé
+                     Recommande: network-manager-openconnect-gnome mais ne sera pas installé
+                     Recommande: onboard mais ne sera pas installé
+ libgnome-bluetooth-ui-3.0-13 : Dépend: libgsound0t64 (>= 1.0.1) mais ne sera pas installé
+ libspa-0.2-bluetooth : Dépend: libspa-0.2-modules (= 1.4.2-1) mais ne sera pas installé
+E: Erreur, pkgProblem::Resolve a généré des ruptures, ce qui a pu être causé par les paquets devant être gardés en l'état.
+E: The following information from --solver 3.0 may provide additional context:
+   Unable to satisfy dependencies. Reached two conflicting decisions:
+   1. pavucontrol:amd64 is selected for removal
+   2. pavucontrol:amd64 is selected for install because:
+      1. kali-desktop-xfce:amd64 is selected for install
+      2. kali-desktop-xfce:amd64 Dépend pavucontrol
