@@ -103,3 +103,18 @@
 2025-08-16 23:46:14 - Extraction audio vers '/media/nox/data2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033001_part16_boost.wav'
 2025-08-17 01:55:39 - Début analyse audio '/media/nox/data2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv'
 2025-08-17 01:55:43 - Analyse audio : fichier compatible avec réserves (1 issues)
+2025-08-18 02:33:00 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle large-v3-turbo-q5_0, langue french
+2025-08-18 02:33:03 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 02:37:14 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle medium, langue french
+2025-08-18 02:37:16 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 02:37:42 - Début analyse audio '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4'
+2025-08-18 02:37:46 - Analyse audio OK : fichier parfaitement compatible
+2025-08-18 02:38:16 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle medium, langue french
+2025-08-18 02:38:19 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 02:38:39 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle medium, langue frh
+2025-08-18 02:38:43 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle medium, langue fr
+2025-08-18 02:38:47 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 02:39:31 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle medium, langue fr
+2025-08-18 02:39:33 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 02:44:40 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle large-v3, langue fr
+2025-08-18 02:45:29 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'

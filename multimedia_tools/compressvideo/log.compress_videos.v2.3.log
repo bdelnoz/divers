@@ -1,0 +1,121 @@
+[INFO] Lancement script compress_videos.sh v2.3 (2025-08-11)
+[INFO] Paramètres utilisés (profil haute compression) :
+       SOURCE_DIR   = /mnt/data2/Videos/Videos_exploitables/
+       OUTDIR       = /mnt/data2/Videos_compressed/Videos_exploitables/
+       VIDEO_CODEC  = libx265
+       PROFILE      = main10
+       RESOLUTION   = 480x360
+       PIX_FMT      = yuv420p10le
+       FPS          = 15
+       CRF_VALUE    = 32
+       VBITRATE     = 91k
+       PRESET       = slow
+       AUDIO_CODEC  = aac
+       AUDIO_BITRATE= 64k
+       SAMPLE_RATE  = 16000
+       SIZE_MIN     = 1k
+       SIZE_MAX     = (aucune limite)
+       RETRY_COUNT  = 2
+       FORMATS      = (auto)
+       SKIP_IDENTICAL = 0
+       RESUME_MODE  = 0
+       MODE         = EXECUTION
+[INFO] Source absolue   : /mnt/data2/Videos/Videos_exploitables
+[INFO] Sortie absolue   : /mnt/data2/Videos_compressed/Videos_exploitables
+[INFO] mkdir -p /mnt/data2/Videos_compressed/Videos_exploitables
+=== Fichiers trouvés (4) ===
+  1) /mnt/data2/Videos/Videos_exploitables/ScreenRecording_08-09-2025-04-16-41_1.MP4
+     Avant: 251MB → Après: 21MB (est.)
+  2) /mnt/data2/Videos/Videos_exploitables/ScreenRecording_07-28-2025-04-13-03_1 2.MP4
+     Avant: 501MB → Après: 41MB (est.)
+  3) /mnt/data2/Videos/Videos_exploitables/ScreenRecording_08-02-2025-15-09-20_1 2.MP4
+     Avant: 2,2GB → Après: 174MB (est.)
+  4) /mnt/data2/Videos/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4
+     Avant: 711MB → Après: 57MB (est.)
+
+=== RÉCAPITULATIF ===
+Taille totale avant : 3,6GB
+Taille estimée après : 291MB (ratio 0.08)
+Réduction estimée : 92.0% (gain ~3,3GB)
+Temps estimé total : 21h11m33s
+
+Confirmer la COMPRESSION de ces 4 fichiers ?
+Temps estimé: 21h11m33s, Compression estimée: 3,6GB → 291MB (92.0% de réduction)
+[INFO] mkdir -p /mnt/data2/Videos_compressed/Videos_exploitables/.
+[1] Compression : /mnt/data2/Videos/Videos_exploitables/ScreenRecording_08-09-2025-04-16-41_1.MP4 -> /mnt/data2/Videos_compressed/Videos_exploitables/./ScreenRecording_08-09-2025-04-16-41_1_mini.mp4
+[INFO] Tentative 1/2 pour : ScreenRecording_08-09-2025-04-16-41_1.MP4
+ffmpeg version 7.1.1-1+b1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14 (Debian 14.2.0-19)
+  configuration: --prefix=/usr --extra-version=1+b1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/mnt/data2/Videos/Videos_exploitables/ScreenRecording_08-09-2025-04-16-41_1.MP4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: isommp41mp42
+    creation_time   : 2025-08-09T02:16:41.000000Z
+  Duration: 00:04:17.06, start: 0.000000, bitrate: 8187 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main) (hvc1 / 0x31637668), yuvj420p(pc, bt709/bt709/iec61966-2-1), 1334x1920, 8121 kb/s, 58.13 fps, 60 tbr, 600 tbn (default)
+      Metadata:
+        creation_time   : 2025-08-09T02:16:41.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 58 kb/s (default)
+      Metadata:
+        creation_time   : 2025-08-09T02:16:41.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> hevc (libx265))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x7fa9e0013900] deprecated pixel format used, make sure you did set range correctly
+x265 [info]: HEVC encoder version 4.1+1-1d117be
+x265 [info]: build info [Linux][GCC 14.2.0][64 bit] 10bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main 10 profile, Level-2.1 (Main tier)
+x265 [info]: Thread pool created using 8 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(6 rows)
+x265 [warning]: Source height < 720p; disabling lookahead-slices
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : star / 57 / 3 / 3
+x265 [info]: Keyframe min / max / scenecut / bias  : 15 / 250 / 40 / 5.00 
+x265 [info]: Lookahead / bframes / badapt        : 25 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 4 / on / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-32.0 / 0.60
+x265 [info]: VBV/HRD buffer / max-rate / init    : 182 / 91 / 0.750
+x265 [info]: tools: rect limit-modes rd=4 psy-rd=2.00 rdoq=2 psy-rdoq=1.00
+x265 [info]: tools: rskip mode=1 signhide tmvp strong-intra-smoothing deblock
+x265 [info]: tools: sao
+Output #0, mp4, to '/mnt/data2/Videos_compressed/Videos_exploitables/./ScreenRecording_08-09-2025-04-16-41_1_mini.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: isommp41mp42
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: hevc (hev1 / 0x31766568), yuv420p10le(pc, bt709/bt709/iec61966-2-1, progressive), 480x360, q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        creation_time   : 2025-08-09T02:16:41.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx265
+      Side data:
+        cpb: bitrate max/min/avg: 91000/0/0 buffer size: 182000 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, stereo, fltp, 64 kb/s (default)
+      Metadata:
+        creation_time   : 2025-08-09T02:16:41.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=96 speed=N/A    frame=   18 fps= 18 q=33.2 size=       0KiB time=00:00:01.06 bitrate=   0.3kbits/s dup=0 drop=170 speed=1.06x    frame=   43 fps= 29 q=36.7 size=       0KiB time=00:00:02.73 bitrate=   0.1kbits/s dup=0 drop=247 speed=1.82x    frame=   81 fps= 40 q=36.7 size=       0KiB time=00:00:05.26 bitrate=   0.1kbits/s dup=0 drop=288 speed=2.63x    frame=  103 fps= 41 q=34.0 size=       0KiB time=00:00:06.73 bitrate=   0.1kbits/s dup=0 drop=333 speed=2.69x    frame=  130 fps= 43 q=37.8 size=       0KiB time=00:00:08.53 bitrate=   0.0kbits/s dup=0 drop=417 speed=2.84x    frame=  149 fps= 43 q=37.8 size=       0KiB time=00:00:09.80 bitrate=   0.0kbits/s dup=0 drop=474 speed= 2.8x    frame=  172 fps= 43 q=36.7 size=       0KiB time=00:00:11.33 bitrate=   0.0kbits/s dup=0 drop=540 speed=2.83x    frame=  194 fps= 43 q=35.7 size=       0KiB time=00:00:12.80 bitrate=   0.0kbits/s dup=0 drop=609 speed=2.84x    frame=  229 fps= 46 q=35.5 size=       0KiB time=00:00:15.13 bitrate=   0.0kbits/s dup=0 drop=711 speed=3.02x    frame=  262 fps= 48 q=37.8 size=       0KiB time=00:00:17.33 bitrate=   0.0kbits/s dup=0 drop=811 speed=3.15x    frame=  297 fps= 49 q=36.4 size=       0KiB time=00:00:19.66 bitrate=   0.0kbits/s dup=0 drop=915 speed=3.27x    frame=  331 fps= 51 q=37.8 size=       0KiB time=00:00:21.93 bitrate=   0.0kbits/s dup=0 drop=1020 speed=3.37x    frame=  368 fps= 53 q=35.3 size=       0KiB time=00:00:24.40 bitrate=   0.0kbits/s dup=0 drop=1128 speed=3.48x    frame=  404 fps= 54 q=37.8 size=       0KiB time=00:00:26.80 bitrate=   0.0kbits/s dup=0 drop=1236 speed=3.57x    frame=  438 fps= 55 q=37.8 size=     256KiB time=00:00:29.06 bitrate=  72.2kbits/s dup=0 drop=1337 speed=3.63x    frame=  470 fps= 55 q=37.8 size=     256KiB time=00:00:31.20 bitrate=  67.2kbits/s dup=0 drop=1436 speed=3.67x    frame=  504 fps= 56 q=33.5 size=     256KiB time=00:00:33.46 bitrate=  62.7kbits/s dup=0 drop=1538 speed=3.71x    frame=  537 fps= 56 q=37.8 size=     256KiB time=00:00:35.66 bitrate=  58.8kbits/s dup=0 drop=1636 speed=3.75x    frame=  570 fps= 57 q=37.8 size=     256KiB time=00:00:37.86 bitrate=  55.4kbits/s dup=0 drop=1734 speed=3.78x    frame=  596 fps= 57 q=37.8 size=     256KiB time=00:00:39.60 bitrate=  53.0kbits/s dup=0 drop=1815 speed=3.77x    frame=  627 fps= 57 q=37.8 size=     256KiB time=00:00:41.66 bitrate=  50.3kbits/s dup=0 drop=1907 speed=3.78x    frame=  660 fps= 57 q=35.4 size=     256KiB time=00:00:43.86 bitrate=  47.8kbits/s dup=0 drop=2006 speed=3.81x    frame=  692 fps= 58 q=34.8 size=     256KiB time=00:00:46.00 bitrate=  45.6kbits/s dup=0 drop=2100 speed=3.83x    frame=  723 fps= 58 q=36.7 size=     256KiB time=00:00:48.06 bitrate=  43.6kbits/s dup=0 drop=2196 speed=3.84x    frame=  750 fps= 58 q=34.8 size=     256KiB time=00:00:49.86 bitrate=  42.1kbits/s dup=0 drop=2277 speed=3.83x    frame=  782 fps= 58 q=35.4 size=     256KiB time=00:00:52.00 bitrate=  40.3kbits/s dup=0 drop=2360 speed=3.85x    frame=  811 fps= 58 q=33.9 size=     256KiB time=00:00:53.93 bitrate=  38.9kbits/s dup=0 drop=2448 speed=3.85x    frame=  841 fps= 58 q=37.8 size=     256KiB time=00:00:55.93 bitrate=  37.5kbits/s dup=0 drop=2531 speed=3.85x    frame=  860 fps= 57 q=37.8 size=     256KiB time=00:00:57.20 bitrate=  36.7kbits/s dup=0 drop=2591 speed=3.81x    frame=  889 fps= 57 q=35.5 size=     256KiB time=00:00:59.13 bitrate=  35.5kbits/s dup=0 drop=2678 speed=3.81x    frame=  918 fps= 57 q=24.3 size=     256KiB time=00:01:01.06 bitrate=  34.3kbits/s dup=0 drop=2752 speed=3.81x    frame=  948 fps= 57 q=36.3 size=     256KiB time=00:01:03.06 bitrate=  33.3kbits/s dup=0 drop=2845 speed=3.82x    frame=  973 fps= 57 q=36.8 size=     256KiB time=00:01:04.73 bitrate=  32.4kbits/s dup=0 drop=2920 speed= 3.8x    frame=  995 fps= 57 q=37.8 size=     256KiB time=00:01:06.20 bitrate=  31.7kbits/s dup=0 drop=2982 speed=3.78x    frame= 1018 fps= 57 q=37.6 size=     256KiB time=00:01:07.73 bitrate=  31.0kbits/s dup=0 drop=3020 speed=3.76x    frame= 1039 fps= 56 q=37.7 size=     512KiB time=00:01:09.13 bitrate=  60.7kbits/s dup=0 drop=3062 speed=3.73x    frame= 1064 fps= 56 q=37.8 size=     512KiB time=00:01:10.80 bitrate=  59.2kbits/s dup=0 drop=3128 speed=3.72x    frame= 1093 fps= 56 q=31.5 size=     512KiB time=00:01:12.73 bitrate=  57.7kbits/s dup=0 drop=3214 speed=3.73x    frame= 1127 fps= 56 q=37.8 size=     512KiB time=00:01:15.00 bitrate=  55.9kbits/s dup=0 drop=3288 speed=3.75x    frame= 1151 fps= 56 q=34.4 size=     512KiB time=00:01:16.60 bitrate=  54.8kbits/s dup=0 drop=3334 speed=3.73x    frame= 1170 fps= 56 q=27.8 size=     512KiB time=00:01:17.86 bitrate=  53.9kbits/s dup=0 drop=3392 speed= 3.7x    frame= 1190 fps= 55 q=31.7 size=     512KiB time=00:01:19.20 bitrate=  53.0kbits/s dup=0 drop=3451 speed=3.68x    frame= 1215 fps= 55 q=31.8 size=     512KiB time=00:01:20.86 bitrate=  51.9kbits/s dup=0 drop=3509 speed=3.67x    frame= 1239 fps= 55 q=34.3 size=     512KiB time=00:01:22.46 bitrate=  50.9kbits/s dup=0 drop=3578 speed=3.66x    frame= 1261 fps= 55 q=35.6 size=     512KiB time=00:01:23.93 bitrate=  50.0kbits/s dup=0 drop=3643 speed=3.65x    frame= 1288 fps= 55 q=34.2 size=     512KiB time=00:01:25.73 bitrate=  48.9kbits/s dup=0 drop=3720 speed=3.64x    frame= 1317 fps= 55 q=37.7 size=     512KiB time=00:01:27.66 bitrate=  47.8kbits/s dup=0 drop=3802 speed=3.65x    frame= 1345 fps= 55 q=34.1 size=     512KiB time=00:01:29.53 bitrate=  46.9kbits/s dup=0 drop=3869 speed=3.65x    frame= 1375 fps= 55 q=37.7 size=     512KiB time=00:01:31.53 bitrate=  45.8kbits/s dup=0 drop=3931 speed=3.66x    frame= 1387 fps= 54 q=37.8 size=     512KiB time=00:01:32.33 bitrate=  45.4kbits/s dup=0 drop=3986 speed=3.62x    frame= 1411 fps= 54 q=34.1 size=     512KiB time=00:01:33.93 bitrate=  44.7kbits/s dup=0 drop=4040 speed=3.61x    frame= 1433 fps= 54 q=37.7 size=     512KiB time=00:01:35.40 bitrate=  44.0kbits/s dup=0 drop=4100 speed= 3.6x    frame= 1459 fps= 54 q=37.6 size=     512KiB time=00:01:37.13 bitrate=  43.2kbits/s dup=0 drop=4169 speed=3.59x    frame= 1486 fps= 54 q=37.3 size=     512KiB time=00:01:38.93 bitrate=  42.4kbits/s dup=0 drop=4248 speed=3.59x    frame= 1506 fps= 54 q=36.7 size=     512KiB time=00:01:40.26 bitrate=  41.8kbits/s dup=0 drop=4301 speed=3.58x    frame= 1523 fps= 53 q=37.8 size=     512KiB time=00:01:41.40 bitrate=  41.4kbits/s dup=0 drop=4353 speed=3.55x    frame= 1540 fps= 53 q=35.0 size=     512KiB time=00:01:42.53 bitrate=  40.9kbits/s dup=0 drop=4406 speed=3.53x    frame= 1561 fps= 53 q=33.1 size=     512KiB time=00:01:43.93 bitrate=  40.4kbits/s dup=0 drop=4465 speed=3.52x    frame= 1576 fps= 52 q=37.3 size=     512KiB time=00:01:44.93 bitrate=  40.0kbits/s dup=0 drop=4510 speed=3.49x    frame= 1601 fps= 52 q=37.8 size=     512KiB time=00:01:46.60 bitrate=  39.3kbits/s dup=0 drop=4584 speed=3.49x    frame= 1629 fps= 53 q=35.5 size=     768KiB time=00:01:48.46 bitrate=  58.0kbits/s dup=0 drop=4667 speed= 3.5x    frame= 1654 fps= 52 q=36.2 size=     768KiB time=00:01:50.13 bitrate=  57.1kbits/s dup=0 drop=4714 speed=3.49x    frame= 1676 fps= 52 q=36.8 size=     768KiB time=00:01:51.60 bitrate=  56.4kbits/s dup=0 drop=4778 speed=3.48x    frame= 1696 fps= 52 q=42.0 size=     768KiB time=00:01:52.93 bitrate=  55.7kbits/s dup=0 drop=4838 speed=3.47x    frame= 1712 fps= 52 q=42.5 size=     768KiB time=00:01:54.00 bitrate=  55.2kbits/s dup=0 drop=4884 speed=3.45x    frame= 1734 fps= 52 q=37.8 size=     768KiB time=00:01:55.46 bitrate=  54.5kbits/s dup=0 drop=4948 speed=3.44x    frame= 1754 fps= 52 q=37.9 size=     768KiB time=00:01:56.80 bitrate=  53.9kbits/s dup=0 drop=5011 speed=3.43x    frame= 1775 fps= 51 q=32.6 size=     768KiB time=00:01:58.20 bitrate=  53.2kbits/s dup=0 drop=5071 speed=3.42x    frame= 1805 fps= 52 q=37.8 size=     768KiB time=00:02:00.20 bitrate=  52.3kbits/s dup=0 drop=5161 speed=3.43x    frame= 1834 fps= 52 q=37.8 size=     768KiB time=00:02:02.13 bitrate=  51.5kbits/s dup=0 drop=5248 speed=3.44x    frame= 1867 fps= 52 q=34.0 size=     768KiB time=00:02:04.33 bitrate=  50.6kbits/s dup=0 drop=5339 speed=3.45x    frame= 1898 fps= 52 q=37.8 size=     768KiB time=00:02:06.40 bitrate=  49.8kbits/s dup=0 drop=5425 speed=3.46x    frame= 1922 fps= 52 q=37.8 size=     768KiB time=00:02:08.00 bitrate=  49.2kbits/s dup=0 drop=5497 speed=3.46x    frame= 1947 fps= 52 q=37.8 size=     768KiB time=00:02:09.66 bitrate=  48.5kbits/s dup=0 drop=5568 speed=3.45x    frame= 1977 fps= 52 q=37.5 size=     768KiB time=00:02:11.66 bitrate=  47.8kbits/s dup=0 drop=5654 speed=3.46x    frame= 2002 fps= 52 q=34.7 size=     768KiB time=00:02:13.33 bitrate=  47.2kbits/s dup=0 drop=5727 speed=3.46x    frame= 2019 fps= 52 q=34.5 size=    1024KiB time=00:02:14.46 bitrate=  62.4kbits/s dup=0 drop=5771 speed=3.44x    frame= 2038 fps= 52 q=39.9 size=    1024KiB time=00:02:15.73 bitrate=  61.8kbits/s dup=0 drop=5829 speed=3.43x    frame= 2050 fps= 51 q=29.1 size=    1024KiB time=00:02:16.53 bitrate=  61.4kbits/s dup=0 drop=5867 speed=3.41x    frame= 2066 fps= 51 q=37.5 size=    1024KiB time=00:02:17.60 bitrate=  61.0kbits/s dup=0 drop=5915 speed=3.39x    frame= 2079 fps= 51 q=31.5 size=    1024KiB time=00:02:18.46 bitrate=  60.6kbits/s dup=0 drop=5949 speed=3.37x    frame= 2092 fps= 50 q=30.4 size=    1024KiB time=00:02:19.33 bitrate=  60.2kbits/s dup=0 drop=5988 speed=3.35x    frame= 2109 fps= 50 q=37.8 size=    1024KiB time=00:02:20.46 bitrate=  59.7kbits/s dup=0 drop=6038 speed=3.34x    frame= 2134 fps= 50 q=37.8 size=    1024KiB time=00:02:22.13 bitrate=  59.0kbits/s dup=0 drop=6110 speed=3.34x    frame= 2164 fps= 50 q=37.8 size=    1024KiB time=00:02:24.13 bitrate=  58.2kbits/s dup=0 drop=6203 speed=3.35x    frame= 2196 fps= 50 q=37.8 size=    1024KiB time=00:02:26.26 bitrate=  57.4kbits/s dup=0 drop=6299 speed=3.36x    frame= 2233 fps= 51 q=37.8 size=    1024KiB time=00:02:28.73 bitrate=  56.4kbits/s dup=0 drop=6390 speed=3.38x    frame= 2265 fps= 51 q=37.8 size=    1024KiB time=00:02:30.86 bitrate=  55.6kbits/s dup=0 drop=6478 speed=3.39x    frame= 2285 fps= 51 q=37.9 size=    1024KiB time=00:02:32.20 bitrate=  55.1kbits/s dup=0 drop=6559 speed=3.38x    frame= 2316 fps= 51 q=37.8 size=    1024KiB time=00:02:34.26 bitrate=  54.4kbits/s dup=0 drop=6641 speed=3.39x    frame= 2333 fps= 51 q=33.1 size=    1024KiB time=00:02:35.40 bitrate=  54.0kbits/s dup=0 drop=6695 speed=3.37x    frame= 2359 fps= 51 q=37.8 size=    1024KiB time=00:02:37.13 bitrate=  53.4kbits/s dup=0 drop=6769 speed=3.38x    frame= 2383 fps= 51 q=36.4 size=    1024KiB time=00:02:38.73 bitrate=  52.8kbits/s dup=0 drop=6839 speed=3.37x    frame= 2404 fps= 51 q=37.8 size=    1024KiB time=00:02:40.13 bitrate=  52.4kbits/s dup=0 drop=6902 speed=3.37x    
