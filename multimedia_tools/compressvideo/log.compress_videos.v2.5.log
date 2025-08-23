@@ -1,0 +1,617 @@
+[INFO] Lancement script compress_videos.sh v2.5 (2025-08-23)
+[INFO] Profil 'custom' : Utilise paramètres manuels ou défauts
+[INFO] Paramètres utilisés (profil custom) :
+       SOURCE_DIR   = /mnt/encrypted2/Videos/
+       OUTDIR       = /mnt/encrypted2/compressed
+       VIDEO_CODEC  = libx265
+       PROFILE      = main10
+       RESOLUTION   = 640x480
+       PIX_FMT      = yuv420p10le
+       FPS          = 24
+       CRF_VALUE    = 32
+       VBITRATE     = 400k
+       PRESET       = slow
+       TUNE         = psnr
+       THREADS      = 0
+       AUDIO_CODEC  = aac
+       AUDIO_BITRATE= 32k
+       SAMPLE_RATE  = 44100
+       CANAUX_AUDIO = 1
+       SIZE_MIN     = 250M
+       SIZE_MAX     = (aucune limite)
+       RETRY_COUNT  = 2
+       FORMATS      = (auto)
+       SKIP_IDENTICAL = 0
+       RESUME_MODE  = 0
+       MODE         = EXECUTION
+[INFO] Source absolue   : /mnt/encrypted2/Videos
+[INFO] Sortie absolue   : /mnt/encrypted2/compressed
+[INFO] mkdir -p /mnt/encrypted2/compressed
+=== Fichiers trouvés (17) ===
+=== Fichiers ignorés (464) ===
+  - /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013234_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0060.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0078.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0016.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0032.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0013.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0027.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0025.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0059.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0015.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0061.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0026.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0058.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0031.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0033.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Florence/IMG_0056.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030619_part1.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 14-27-05_1 2.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/TAPO_ScreenRecording_08-09-2025 03-24-48_1 2.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_20250817_021607_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031425_part1.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 7.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 4.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0318.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0315.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0316.MOV (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 19.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 13.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250624041225115_cam0.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 6.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 17.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 23.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 20.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 14.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 3.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-17-2025 22-47-57_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 12.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_06-17-2025 01-51-57_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 16.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 2.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-20-00_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250605035840866_cam0.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-23-33_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-21-47_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250605035236647_cam0.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 11.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 21.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 07-51-19_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 06-36-18_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 18.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 5.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 24.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-17-22_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 9.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 15.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-04-25_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 22.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 8.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 02-21-52_1.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_043546_part5.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012253_part57.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012618_part76.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013049_part101.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032135_part12.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250811_023135_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_27_07_25_2303O1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012242_part56.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012901_part91.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012944_part95.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nest_bruits_20250810_030634_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012546_part73.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_025616_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012441_part67.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033414_part18.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCamsequenceQuandOnARemplacerMaCarteSDTAPO_unformated_20250812_063107_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033207_part17.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031928_part11.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030236_part3.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012524_part71.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012817_part87.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032754_part15.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_012313_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012325_part60.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012148_part51.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012419_part65.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032341_part13.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_043547_part5.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012231_part55.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012955_part96.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030855_part6.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031515_part9.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_032648_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012210_part53.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_034532_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012358_part63.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013016_part98.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_222433_part40.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012828_part88.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030029_part2.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BROL_20250811_004150_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012702_part80.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012745_part84.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012409_part64.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012713_part81.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013038_part100.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_032836_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012557_part74.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_035535_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033620_part19.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_021400_part6.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012336_part61.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012756_part85.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012503_part69.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_040537_part2.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012839_part89.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250809_221208_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033001_part16.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012651_part79.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_014332_part3.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_040538_part2.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_025823_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/outputnesttest.mov (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030649_part5.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012922_part93.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031102_part7.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012430_part66.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012807_part86.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250809_220201_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012723_part82.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012933_part94.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012640_part78.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_015341_part4.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_013322_part2.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012452_part68.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012221_part54.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_042543_part4.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012850_part90.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033827_part20.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013027_part99.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_020351_part5.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_011303_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013005_part97.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012315_part59.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032548_part14.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012137_part50.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/surveillance_cam_20250810_032200_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012608_part75.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012514_part70.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031722_part10.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012304_part58.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_031826_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012911_part92.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030029_part2_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012000_part41_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012514_part70_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012127_part49_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012043_part45_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011718_part26_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012702_part80_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011331_part5_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250809_220201_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012618_part76_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012535_part72_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025616_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012955_part96_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012850_part90_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012933_part94_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012828_part88_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011541_part17_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012430_part66_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012557_part74_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_032348_part4_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250809_221208_part1_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011509_part14_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012325_part60_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012734_part83_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011436_part11_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031102_part7_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011812_part31_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_040538_part2_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_032648_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011624_part21_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012756_part85_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025823_part1_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031722_part10_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012608_part75_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_042544_part4_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011801_part30_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011310_part3_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012347_part62_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011917_part37_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012441_part67_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_015341_part4_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011845_part34_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032341_part13_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011415_part9_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011259_part2_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_20250817_022116_part1_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012452_part68_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012922_part93_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012409_part64_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012911_part92_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013038_part100_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011949_part40_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011530_part16_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_034532_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031735_part2_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012022_part43_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031116_part0_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011834_part33_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011602_part19_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012304_part58_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011458_part13_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nest_bruits_20250810_030634_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030855_part6_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011635_part22_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_043547_part5_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031425_part1_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012231_part55_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_032836_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012221_part54_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012640_part78_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033620_part19_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011823_part32_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012137_part50_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011707_part25_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011740_part28_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_035535_part1_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011519_part15_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012419_part65_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011656_part24_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011238_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030442_part4_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030236_part3_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_012313_part1_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_ARRIERE_20250810_172955_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012242_part56_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011928_part38_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012745_part84_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012807_part86_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032135_part12_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012817_part87_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011855_part35_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012116_part48_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012148_part51_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011447_part12_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012011_part42_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012210_part53_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011750_part29_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/surveillance_cam_20250810_032200_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012315_part59_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011353_part7_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011646_part23_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030649_part5_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011404_part8_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_020351_part5_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012713_part81_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012503_part69_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033207_part17_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012546_part73_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_20250817_021607_part0_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_014332_part3_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_032042_part3_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011425_part10_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012723_part82_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012839_part89_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012054_part46_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031515_part9_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011248_part1_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011906_part36_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013005_part97_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013016_part98_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012358_part63_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_ARRIERE_20250810_172704_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011552_part18_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012253_part57_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011729_part27_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013027_part99_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011613_part20_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011342_part6_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012651_part79_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011939_part39_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012629_part77_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012159_part52_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032754_part15_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012336_part61_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_024734_part1_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011321_part4_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012033_part44_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_013322_part2_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011248_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_024220_part0_boost.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033414_part18_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033001_part16_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012524_part71_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031308_part8_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_041541_part3_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012901_part91_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032548_part14_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012944_part95_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012105_part47_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031928_part11_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_011303_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BROL_20250811_004114_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012734_part83.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031308_part8.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172704_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030442_part4.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012629_part77.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_041541_part3.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012159_part52.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012535_part72.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestSounddansmarueavecFredericFeyenreisenquicrie.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012347_part62.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_042544_part4.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_041540_part3.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032042_part3.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_030226_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_20250817_022116_part1.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_20250817_022624_part2.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032348_part4.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030920_part2.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_024220_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/TEST_20250817_014713_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032655_part5.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031735_part2.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030318_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_024734_part1.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031116_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_025249_part2.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013144_part0.mp4 (taille hors critères)
+  1) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4
+     Avant: 711MB → Après: 143MB (est.)
+  2) /mnt/encrypted2/Videos/Florence/IMG_0019.MOV
+     Avant: 272MB → Après: 55MB (est.)
+  3) /mnt/encrypted2/Videos/Florence/IMG_0014.MOV
+     Avant: 315MB → Après: 63MB (est.)
+  4) /mnt/encrypted2/Videos/Florence/IMG_0011.MOV
+     Avant: 349MB → Après: 70MB (est.)
+  5) /mnt/encrypted2/Videos/Florence/IMG_0012.MOV
+     Avant: 338MB → Après: 68MB (est.)
+  6) /mnt/encrypted2/Videos/Florence/IMG_0018.MOV
+     Avant: 284MB → Après: 57MB (est.)
+  7) /mnt/encrypted2/Videos/Florence/IMG_0017.MOV
+     Avant: 348MB → Après: 70MB (est.)
+  8) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-09-2025 04-16-41_1 2.MP4
+     Avant: 251MB → Après: 51MB (est.)
+  9) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_08-09-2025 21-02-47_1 2.MP4
+     Avant: 793MB → Après: 159MB (est.)
+ 10) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-25-51_1.MP4
+     Avant: 561MB → Après: 113MB (est.)
+ 11) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-48-26_1.MP4
+     Avant: 887MB → Après: 178MB (est.)
+ 12) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 07-52-28_1.MP4
+     Avant: 836MB → Après: 168MB (est.)
+ 13) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-07-19_1.MP4
+     Avant: 944MB → Après: 189MB (est.)
+ 14) /mnt/encrypted2/Videos/TAPO_ScreenRecording_08-02-2025 14-57-15_1 2.MP4
+     Avant: 871MB → Après: 175MB (est.)
+ 15) /mnt/encrypted2/Videos/NEST_ScreenRecording_07-28-2025 04-13-03_1.MP4
+     Avant: 501MB → Après: 101MB (est.)
+ 16) /mnt/encrypted2/Videos/NEST_ScreenRecording_07-27-2025 23-32-41_1 2.MP4
+     Avant: 599MB → Après: 120MB (est.)
+ 17) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-08-29_1 2.MP4
+     Avant: 965MB → Après: 193MB (est.)
+
+=== RÉCAPITULATIF ===
+Taille totale avant : 9,6GB
+Taille estimée après : 2,0GB (ratio 0.20)
+Réduction estimée : 80.0% (gain ~7,7GB)
+Temps estimé total : 57h12m48s
+
+Confirmer la COMPRESSION de ces 17 fichiers ?
+Temps estimé: 57h12m48s, Compression estimée: 9,6GB → 2,0GB (80.0% de réduction)
+[INFO] mkdir -p /mnt/encrypted2/compressed/.
+[1] Compression : /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4 -> /mnt/encrypted2/compressed/./NEST_ScreenRecording_08-02-2025 13-44-03_1 2_mini.mp4
+[INFO] Tentative 1/2 pour : NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4
+ffmpeg version 7.1.1-1+b5 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14 (Debian 14.3.0-5)
+  configuration: --prefix=/usr --extra-version=1+b5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: isommp41mp42
+    creation_time   : 2025-08-02T11:44:03.000000Z
+  Duration: 00:36:12.94, start: 0.000000, bitrate: 2744 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main) (hvc1 / 0x31637668), yuvj420p(pc, bt709/bt709/iec61966-2-1), 1334x1920, 2637 kb/s, 34.48 fps, 60 tbr, 600 tbn (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+      Side data:
+        displaymatrix: rotation of -90.00 degrees
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 100 kb/s (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> hevc (libx265))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x7f4d5c014280] deprecated pixel format used, make sure you did set range correctly
+x265 [info]: HEVC encoder version 4.1+1-1d117be
+x265 [info]: build info [Linux][GCC 14.2.0][64 bit] 10bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main 10 profile, Level-3 (Main tier)
+x265 [info]: Thread pool created using 8 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(8 rows)
+x265 [warning]: Source height < 720p; disabling lookahead-slices
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : star / 57 / 3 / 3
+x265 [info]: Keyframe min / max / scenecut / bias  : 24 / 250 / 40 / 5.00 
+x265 [info]: Lookahead / bframes / badapt        : 25 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 4 / on / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 0.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-32.0 / 0.60
+x265 [info]: VBV/HRD buffer / max-rate / init    : 800 / 400 / 0.750
+x265 [info]: tools: rect limit-modes rd=4 rdoq=2 rskip mode=1 signhide tmvp
+x265 [info]: tools: strong-intra-smoothing deblock sao
+Output #0, mp4, to '/mnt/encrypted2/compressed/./NEST_ScreenRecording_08-02-2025 13-44-03_1 2_mini.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: isommp41mp42
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: hevc (hev1 / 0x31766568), yuv420p10le(pc, bt709/bt709/iec61966-2-1, progressive), 640x480, q=2-31, 24 fps, 12288 tbn (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx265
+      Side data:
+        cpb: bitrate max/min/avg: 400000/0/0 buffer size: 800000 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 32 kb/s (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=58 speed=N/A    frame=   32 fps= 32 q=40.0 size=       0KiB time=00:00:01.25 bitrate=   0.3kbits/s dup=0 drop=105 speed=1.25x    frame=   62 fps= 41 q=40.0 size=       0KiB time=00:00:02.50 bitrate=   0.1kbits/s dup=0 drop=148 speed=1.67x    frame=   97 fps= 48 q=37.8 size=       0KiB time=00:00:03.95 bitrate=   0.1kbits/s dup=0 drop=202 speed=1.98x    frame=  131 fps= 52 q=36.6 size=       0KiB time=00:00:05.37 bitrate=   0.1kbits/s dup=0 drop=253 speed=2.15x    frame=  164 fps= 55 q=36.6 size=       0KiB time=00:00:06.75 bitrate=   0.1kbits/s dup=0 drop=302 speed=2.25x    frame=  190 fps= 54 q=36.2 size=       0KiB time=00:00:07.83 bitrate=   0.0kbits/s dup=0 drop=342 speed=2.24x    frame=  223 fps= 56 q=36.5 size=       0KiB time=00:00:09.20 bitrate=   0.0kbits/s dup=0 drop=393 speed= 2.3x    frame=  254 fps= 56 q=38.0 size=       0KiB time=00:00:10.50 bitrate=   0.0kbits/s dup=0 drop=437 speed=2.33x    frame=  289 fps= 58 q=40.0 size=       0KiB time=00:00:11.95 bitrate=   0.0kbits/s dup=0 drop=489 speed=2.39x    frame=  317 fps= 58 q=36.6 size=       0KiB time=00:00:13.12 bitrate=   0.0kbits/s dup=0 drop=533 speed=2.38x    frame=  347 fps= 58 q=36.7 size=       0KiB time=00:00:14.37 bitrate=   0.0kbits/s dup=0 drop=579 speed=2.39x    frame=  379 fps= 58 q=40.0 size=       0KiB time=00:00:15.70 bitrate=   0.0kbits/s dup=0 drop=625 speed=2.42x    frame=  414 fps= 59 q=36.1 size=       0KiB time=00:00:17.20 bitrate=   0.0kbits/s dup=0 drop=678 speed=2.46x    frame=  449 fps= 60 q=37.8 size=       0KiB time=00:00:18.62 bitrate=   0.0kbits/s dup=0 drop=732 speed=2.48x    frame=  485 fps= 61 q=36.5 size=       0KiB time=00:00:20.12 bitrate=   0.0kbits/s dup=0 drop=784 speed=2.51x    frame=  517 fps= 61 q=37.9 size=       0KiB time=00:00:21.45 bitrate=   0.0kbits/s dup=0 drop=830 speed=2.52x    frame=  552 fps= 61 q=36.6 size=       0KiB time=00:00:22.91 bitrate=   0.0kbits/s dup=0 drop=885 speed=2.54x    frame=  587 fps= 62 q=36.5 size=       0KiB time=00:00:24.37 bitrate=   0.0kbits/s dup=0 drop=937 speed=2.56x    frame=  623 fps= 62 q=38.0 size=       0KiB time=00:00:25.87 bitrate=   0.0kbits/s dup=0 drop=991 speed=2.58x    frame=  656 fps= 62 q=37.9 size=       0KiB time=00:00:27.25 bitrate=   0.0kbits/s dup=0 drop=1041 speed=2.59x    frame=  692 fps= 63 q=36.6 size=       0KiB time=00:00:28.75 bitrate=   0.0kbits/s dup=0 drop=1095 speed=2.61x    frame=  728 fps= 63 q=40.0 size=       0KiB time=00:00:30.25 bitrate=   0.0kbits/s dup=0 drop=1146 speed=2.63x    frame=  758 fps= 63 q=40.0 size=       0KiB time=00:00:31.50 bitrate=   0.0kbits/s dup=0 drop=1193 speed=2.62x    frame=  791 fps= 63 q=40.0 size=       0KiB time=00:00:32.87 bitrate=   0.0kbits/s dup=0 drop=1243 speed=2.63x    frame=  825 fps= 63 q=40.0 size=       0KiB time=00:00:34.29 bitrate=   0.0kbits/s dup=0 drop=1294 speed=2.64x    frame=  860 fps= 64 q=40.0 size=       0KiB time=00:00:35.75 bitrate=   0.0kbits/s dup=0 drop=1345 speed=2.65x    frame=  894 fps= 64 q=40.0 size=       0KiB time=00:00:37.16 bitrate=   0.0kbits/s dup=0 drop=1398 speed=2.65x    frame=  928 fps= 64 q=36.6 size=       0KiB time=00:00:38.58 bitrate=   0.0kbits/s dup=0 drop=1449 speed=2.66x    frame=  961 fps= 64 q=37.9 size=       0KiB time=00:00:39.95 bitrate=   0.0kbits/s dup=0 drop=1498 speed=2.66x    frame=  987 fps= 64 q=40.0 size=       0KiB time=00:00:41.04 bitrate=   0.0kbits/s dup=0 drop=1538 speed=2.65x    frame= 1018 fps= 64 q=40.0 size=       0KiB time=00:00:42.33 bitrate=   0.0kbits/s dup=0 drop=1584 speed=2.64x    frame= 1052 fps= 64 q=40.0 size=       0KiB time=00:00:43.75 bitrate=   0.0kbits/s dup=0 drop=1634 speed=2.65x    frame= 1078 fps= 63 q=40.0 size=     256KiB time=00:00:44.83 bitrate=  46.8kbits/s dup=0 drop=1674 speed=2.63x    frame= 1112 fps= 63 q=40.0 size=     256KiB time=00:00:46.25 bitrate=  45.4kbits/s dup=0 drop=1725 speed=2.64x    frame= 1147 fps= 64 q=40.0 size=     256KiB time=00:00:47.70 bitrate=  44.0kbits/s dup=0 drop=1777 speed=2.65x    frame= 1179 fps= 64 q=36.6 size=     256KiB time=00:00:49.04 bitrate=  42.8kbits/s dup=0 drop=1825 speed=2.65x    frame= 1210 fps= 64 q=37.9 size=     256KiB time=00:00:50.33 bitrate=  41.7kbits/s dup=0 drop=1872 speed=2.65x    frame= 1243 fps= 64 q=40.0 size=     256KiB time=00:00:51.70 bitrate=  40.6kbits/s dup=0 drop=1920 speed=2.65x    frame= 1268 fps= 63 q=38.0 size=     256KiB time=00:00:52.75 bitrate=  39.8kbits/s dup=0 drop=1958 speed=2.63x    frame= 1292 fps= 63 q=33.5 size=     256KiB time=00:00:53.75 bitrate=  39.0kbits/s dup=0 drop=1995 speed=2.62x    frame= 1315 fps= 63 q=40.0 size=     256KiB time=00:00:54.70 bitrate=  38.3kbits/s dup=0 drop=2031 speed= 2.6x    frame= 1338 fps= 62 q=40.0 size=     256KiB time=00:00:55.66 bitrate=  37.7kbits/s dup=0 drop=2065 speed=2.59x    frame= 1361 fps= 62 q=40.0 size=     256KiB time=00:00:56.62 bitrate=  37.0kbits/s dup=0 drop=2100 speed=2.57x    frame= 1385 fps= 61 q=40.0 size=     256KiB time=00:00:57.62 bitrate=  36.4kbits/s dup=0 drop=2136 speed=2.56x    frame= 1410 fps= 61 q=36.1 size=     256KiB time=00:00:58.66 bitrate=  35.8kbits/s dup=0 drop=2172 speed=2.55x    frame= 1438 fps= 61 q=40.0 size=     256KiB time=00:00:59.83 bitrate=  35.1kbits/s dup=0 drop=2214 speed=2.54x    frame= 1470 fps= 61 q=40.0 size=     256KiB time=00:01:01.16 bitrate=  34.3kbits/s dup=0 drop=2262 speed=2.55x    frame= 1498 fps= 61 q=40.0 size=     256KiB time=00:01:02.33 bitrate=  33.6kbits/s dup=0 drop=2306 speed=2.54x    frame= 1524 fps= 61 q=35.9 size=     256KiB time=00:01:03.41 bitrate=  33.1kbits/s dup=0 drop=2343 speed=2.53x    frame= 1556 fps= 61 q=36.6 size=     256KiB time=00:01:04.75 bitrate=  32.4kbits/s dup=0 drop=2391 speed=2.54x    frame= 1588 fps= 61 q=35.8 size=     256KiB time=00:01:06.08 bitrate=  31.7kbits/s dup=0 drop=2437 speed=2.54x    frame= 1618 fps= 61 q=40.0 size=     256KiB time=00:01:07.33 bitrate=  31.2kbits/s dup=0 drop=2486 speed=2.54x    frame= 1648 fps= 61 q=36.6 size=     256KiB time=00:01:08.58 bitrate=  30.6kbits/s dup=0 drop=2529 speed=2.54x    frame= 1678 fps= 61 q=40.0 size=     256KiB time=00:01:09.83 bitrate=  30.0kbits/s dup=0 drop=2574 speed=2.54x    frame= 1707 fps= 61 q=36.6 size=     256KiB time=00:01:11.04 bitrate=  29.5kbits/s dup=0 drop=2618 speed=2.53x    frame= 1735 fps= 61 q=36.5 size=     256KiB time=00:01:12.20 bitrate=  29.0kbits/s dup=0 drop=2660 speed=2.53x    frame= 1763 fps= 61 q=40.0 size=     256KiB time=00:01:13.37 bitrate=  28.6kbits/s dup=0 drop=2702 speed=2.53x    frame= 1801 fps= 61 q=38.0 size=     256KiB time=00:01:14.95 bitrate=  28.0kbits/s dup=0 drop=2756 speed=2.54x    frame= 1835 fps= 61 q=40.0 size=     256KiB time=00:01:16.37 bitrate=  27.5kbits/s dup=0 drop=2810 speed=2.54x    frame= 1871 fps= 61 q=36.6 size=     256KiB time=00:01:17.87 bitrate=  26.9kbits/s dup=0 drop=2865 speed=2.55x    frame= 1906 fps= 61 q=37.8 size=     256KiB time=00:01:19.33 bitrate=  26.4kbits/s dup=0 drop=2917 speed=2.56x    frame= 1940 fps= 62 q=36.6 size=     256KiB time=00:01:20.75 bitrate=  26.0kbits/s dup=0 drop=2969 speed=2.56x    frame= 1973 fps= 62 q=40.0 size=     256KiB time=00:01:22.12 bitrate=  25.5kbits/s dup=0 drop=3018 speed=2.56x    frame= 1998 fps= 61 q=40.0 size=     256KiB time=00:01:23.16 bitrate=  25.2kbits/s dup=0 drop=3055 speed=2.56x    frame= 2024 fps= 61 q=40.0 size=     256KiB time=00:01:24.25 bitrate=  24.9kbits/s dup=0 drop=3093 speed=2.55x    frame= 2056 fps= 61 q=37.8 size=     512KiB time=00:01:25.58 bitrate=  49.0kbits/s dup=0 drop=3142 speed=2.55x    frame= 2092 fps= 61 q=37.7 size=     512KiB time=00:01:27.08 bitrate=  48.2kbits/s dup=0 drop=3195 speed=2.56x    frame= 2126 fps= 62 q=40.0 size=     512KiB time=00:01:28.50 bitrate=  47.4kbits/s dup=0 drop=3246 speed=2.56x    frame= 2161 fps= 62 q=36.6 size=     512KiB time=00:01:29.95 bitrate=  46.6kbits/s dup=0 drop=3299 speed=2.57x    frame= 2196 fps= 62 q=40.0 size=     512KiB time=00:01:31.41 bitrate=  45.9kbits/s dup=0 drop=3351 speed=2.57x    frame= 2230 fps= 62 q=36.6 size=     512KiB time=00:01:32.83 bitrate=  45.2kbits/s dup=0 drop=3402 speed=2.58x    frame= 2263 fps= 62 q=40.0 size=     512KiB time=00:01:34.20 bitrate=  44.5kbits/s dup=0 drop=3450 speed=2.58x    frame= 2299 fps= 62 q=37.8 size=     512KiB time=00:01:35.70 bitrate=  43.8kbits/s dup=0 drop=3504 speed=2.58x    frame= 2334 fps= 62 q=40.0 size=     512KiB time=00:01:37.16 bitrate=  43.2kbits/s dup=0 drop=3558 speed=2.59x    frame= 2369 fps= 62 q=40.0 size=     512KiB time=00:01:38.62 bitrate=  42.5kbits/s dup=0 drop=3611 speed=2.59x    frame= 2404 fps= 62 q=34.1 size=     512KiB time=00:01:40.08 bitrate=  41.9kbits/s dup=0 drop=3663 speed= 2.6x    frame= 2439 fps= 62 q=40.0 size=     512KiB time=00:01:41.54 bitrate=  41.3kbits/s dup=0 drop=3713 speed= 2.6x    frame= 2472 fps= 62 q=36.6 size=     512KiB time=00:01:42.91 bitrate=  40.8kbits/s dup=0 drop=3764 speed= 2.6x    frame= 2503 fps= 62 q=37.9 size=     512KiB time=00:01:44.20 bitrate=  40.3kbits/s dup=0 drop=3812 speed= 2.6x    frame= 2538 fps= 63 q=40.0 size=     512KiB time=00:01:45.66 bitrate=  39.7kbits/s dup=0 drop=3863 speed=2.61x    frame= 2570 fps= 63 q=36.1 size=     512KiB time=00:01:47.00 bitrate=  39.2kbits/s dup=0 drop=3912 speed=2.61x    frame= 2599 fps= 63 q=37.8 size=     512KiB time=00:01:48.20 bitrate=  38.8kbits/s dup=0 drop=3956 speed= 2.6x    frame= 2630 fps= 63 q=36.6 size=     512KiB time=00:01:49.50 bitrate=  38.3kbits/s dup=0 drop=4002 speed= 2.6x    frame= 2661 fps= 63 q=36.6 size=     512KiB time=00:01:50.79 bitrate=  37.9kbits/s dup=0 drop=4047 speed= 2.6x    frame= 2691 fps= 62 q=40.0 size=     512KiB time=00:01:52.04 bitrate=  37.4kbits/s dup=0 drop=4094 speed= 2.6x    frame= 2721 fps= 62 q=36.6 size=     512KiB time=00:01:53.29 bitrate=  37.0kbits/s dup=0 drop=4139 speed= 2.6x    frame= 2749 fps= 62 q=37.8 size=     512KiB time=00:01:54.45 bitrate=  36.6kbits/s dup=0 drop=4181 speed= 2.6x    frame= 2779 fps= 62 q=40.0 size=     512KiB time=00:01:55.70 bitrate=  36.3kbits/s dup=0 drop=4224 speed= 2.6x    frame= 2809 fps= 62 q=36.0 size=     512KiB time=00:01:56.95 bitrate=  35.9kbits/s dup=0 drop=4271 speed= 2.6x    frame= 2838 fps= 62 q=40.0 size=     512KiB time=00:01:58.16 bitrate=  35.5kbits/s dup=0 drop=4314 speed=2.59x    frame= 2868 fps= 62 q=40.0 size=     512KiB time=00:01:59.41 bitrate=  35.1kbits/s dup=0 drop=4358 speed=2.59x    frame= 2897 fps= 62 q=36.6 size=     512KiB time=00:02:00.62 bitrate=  34.8kbits/s dup=0 drop=4402 speed=2.59x    frame= 2928 fps= 62 q=40.0 size=     512KiB time=00:02:01.91 bitrate=  34.4kbits/s dup=0 drop=4448 speed=2.59x    frame= 2955 fps= 62 q=40.0 size=     512KiB time=00:02:03.04 bitrate=  34.1kbits/s dup=0 drop=4490 speed=2.59x    frame= 2983 fps= 62 q=36.6 size=     512KiB time=00:02:04.20 bitrate=  33.8kbits/s dup=0 drop=4532 speed=2.58x    frame= 3007 fps= 62 q=34.2 size=     512KiB time=00:02:05.20 bitrate=  33.5kbits/s dup=0 drop=4567 speed=2.58x    frame= 3034 fps= 62 q=33.3 size=     512KiB time=00:02:06.33 bitrate=  33.2kbits/s dup=0 drop=4608 speed=2.57x    frame= 3062 fps= 62 q=33.6 size=     512KiB time=00:02:07.50 bitrate=  32.9kbits/s dup=0 drop=4650 speed=2.57x    frame= 3088 fps= 62 q=36.0 size=     768KiB time=00:02:08.58 bitrate=  48.9kbits/s dup=0 drop=4690 speed=2.57x    frame= 3115 fps= 62 q=40.0 size=     768KiB time=00:02:09.70 bitrate=  48.5kbits/s dup=0 drop=4730 speed=2.56x    frame= 3141 fps= 61 q=40.0 size=     768KiB time=00:02:10.79 bitrate=  48.1kbits/s dup=0 drop=4769 speed=2.56x    frame= 3168 fps= 61 q=31.2 size=     768KiB time=00:02:11.91 bitrate=  47.7kbits/s dup=0 drop=4809 speed=2.56x    frame= 3189 fps= 61 q=37.4 size=     768KiB time=00:02:12.79 bitrate=  47.4kbits/s dup=0 drop=4842 speed=2.55x    frame= 3210 fps= 61 q=40.0 size=     768KiB time=00:02:13.66 bitrate=  47.1kbits/s dup=0 drop=4874 speed=2.54x    frame= 3232 fps= 61 q=37.5 size=     768KiB time=00:02:14.58 bitrate=  46.8kbits/s dup=0 drop=4905 speed=2.54x    frame= 3258 fps= 61 q=36.6 size=     768KiB time=00:02:15.66 bitrate=  46.4kbits/s dup=0 drop=4944 speed=2.53x    frame= 3282 fps= 61 q=40.0 size=     768KiB time=00:02:16.66 bitrate=  46.0kbits/s dup=0 drop=4980 speed=2.53x    frame= 3313 fps= 61 q=36.6 size=     768KiB time=00:02:17.95 bitrate=  45.6kbits/s dup=0 drop=5027 speed=2.53x    frame= 3344 fps= 61 q=37.7 size=     768KiB time=00:02:19.25 bitrate=  45.2kbits/s dup=0 drop=5073 speed=2.53x    frame= 3373 fps= 61 q=40.0 size=     768KiB time=00:02:20.45 bitrate=  44.8kbits/s dup=0 drop=5116 speed=2.53x    frame= 3400 fps= 61 q=37.8 size=     768KiB time=00:02:21.58 bitrate=  44.4kbits/s dup=0 drop=5157 speed=2.52x    frame= 3430 fps= 61 q=40.0 size=     768KiB time=00:02:22.83 bitrate=  44.0kbits/s dup=0 drop=5201 speed=2.52x    frame= 3459 fps= 61 q=38.0 size=     768KiB time=00:02:24.04 bitrate=  43.7kbits/s dup=0 drop=5245 speed=2.52x    frame= 3489 fps= 61 q=40.0 size=     768KiB time=00:02:25.29 bitrate=  43.3kbits/s dup=0 drop=5291 speed=2.52x    frame= 3517 fps= 61 q=40.0 size=     768KiB time=00:02:26.45 bitrate=  43.0kbits/s dup=0 drop=5331 speed=2.52x    frame= 3547 fps= 61 q=40.0 size=     768KiB time=00:02:27.70 bitrate=  42.6kbits/s dup=0 drop=5378 speed=2.52x    frame= 3578 fps= 61 q=36.1 size=     768KiB time=00:02:29.00 bitrate=  42.2kbits/s dup=0 drop=5424 speed=2.52x    frame= 3605 fps= 60 q=40.0 size=     768KiB time=00:02:30.12 bitrate=  41.9kbits/s dup=0 drop=5465 speed=2.52x    frame= 3631 fps= 60 q=34.1 size=     768KiB time=00:02:31.20 bitrate=  41.6kbits/s dup=0 drop=5505 speed=2.52x    frame= 3653 fps= 60 q=40.0 size=     768KiB time=00:02:32.12 bitrate=  41.4kbits/s dup=0 drop=5538 speed=2.51x    frame= 3675 fps= 60 q=38.0 size=     768KiB time=00:02:33.04 bitrate=  41.1kbits/s dup=0 drop=5570 speed= 2.5x    frame= 3701 fps= 60 q=40.0 size=     768KiB time=00:02:34.12 bitrate=  40.8kbits/s dup=0 drop=5609 speed= 2.5x    frame= 3726 fps= 60 q=40.0 size=     768KiB time=00:02:35.16 bitrate=  40.5kbits/s dup=0 drop=5648 speed= 2.5x    frame= 3749 fps= 60 q=40.0 size=     768KiB time=00:02:36.12 bitrate=  40.3kbits/s dup=0 drop=5683 speed=2.49x    frame= 3772 fps= 60 q=36.6 size=     768KiB time=00:02:37.08 bitrate=  40.1kbits/s dup=0 drop=5716 speed=2.49x    frame= 3797 fps= 60 q=40.0 size=     768KiB time=00:02:38.12 bitrate=  39.8kbits/s dup=0 drop=5753 speed=2.49x    frame= 3826 fps= 60 q=40.0 size=     768KiB time=00:02:39.33 bitrate=  39.5kbits/s dup=0 drop=5795 speed=2.49x    frame= 3854 fps= 60 q=40.0 size=     768KiB time=00:02:40.50 bitrate=  39.2kbits/s dup=0 drop=5839 speed=2.48x    frame= 3885 fps= 60 q=37.9 size=     768KiB time=00:02:41.79 bitrate=  38.9kbits/s dup=0 drop=5881 speed=2.48x    frame= 3916 fps= 60 q=40.0 size=     768KiB time=00:02:43.08 bitrate=  38.6kbits/s dup=0 drop=5929 speed=2.49x    frame= 3944 fps= 60 q=40.0 size=     768KiB time=00:02:44.25 bitrate=  38.3kbits/s dup=0 drop=5972 speed=2.48x    frame= 3971 fps= 60 q=37.9 size=     768KiB time=00:02:45.37 bitrate=  38.0kbits/s dup=0 drop=6014 speed=2.48x    frame= 3998 fps= 60 q=40.0 size=    1024KiB time=00:02:46.50 bitrate=  50.4kbits/s dup=0 drop=6055 speed=2.48x    frame= 4027 fps= 60 q=36.5 size=    1024KiB time=00:02:47.70 bitrate=  50.0kbits/s dup=0 drop=6099 speed=2.48x    frame= 4058 fps= 60 q=34.9 size=    1024KiB time=00:02:49.00 bitrate=  49.6kbits/s dup=0 drop=6145 speed=2.48x    frame= 4089 fps= 60 q=40.0 size=    1024KiB time=00:02:50.29 bitrate=  49.3kbits/s dup=0 drop=6188 speed=2.48x    frame= 4117 fps= 60 q=36.6 size=    1024KiB time=00:02:51.45 bitrate=  48.9kbits/s dup=0 drop=6233 speed=2.48x    frame= 4146 fps= 60 q=40.0 size=    1024KiB time=00:02:52.66 bitrate=  48.6kbits/s dup=0 drop=6275 speed=2.48x    frame= 4175 fps= 60 q=40.0 size=    1024KiB time=00:02:53.87 bitrate=  48.2kbits/s dup=0 drop=6320 speed=2.48x    frame= 4201 fps= 59 q=40.0 size=    1024KiB time=00:02:54.95 bitrate=  47.9kbits/s dup=0 drop=6360 speed=2.48x    frame= 4229 fps= 59 q=35.8 size=    1024KiB time=00:02:56.12 bitrate=  47.6kbits/s dup=0 drop=6401 speed=2.48x    frame= 4251 fps= 59 q=27.8 size=    1024KiB time=00:02:57.04 bitrate=  47.4kbits/s dup=0 drop=6435 speed=2.47x    frame= 4278 fps= 59 q=37.9 size=    1024KiB time=00:02:58.16 bitrate=  47.1kbits/s dup=0 drop=6475 speed=2.47x    frame= 4299 fps= 59 q=36.6 size=    1024KiB time=00:02:59.04 bitrate=  46.9kbits/s dup=0 drop=6506 speed=2.47x    frame= 4327 fps= 59 q=40.0 size=    1024KiB time=00:03:00.20 bitrate=  46.6kbits/s dup=0 drop=6545 speed=2.46x    frame= 4351 fps= 59 q=36.5 size=    1024KiB time=00:03:01.20 bitrate=  46.3kbits/s dup=0 drop=6585 speed=2.46x    frame= 4381 fps= 59 q=40.0 size=    1024KiB time=00:03:02.45 bitrate=  46.0kbits/s dup=0 drop=6627 speed=2.46x    frame= 4409 fps= 59 q=40.0 size=    1024KiB time=00:03:03.66 bitrate=  45.7kbits/s dup=0 drop=6673 speed=2.46x    frame= 4438 fps= 59 q=36.5 size=    1024KiB time=00:03:04.83 bitrate=  45.4kbits/s dup=0 drop=6716 speed=2.46x    frame= 4467 fps= 59 q=40.0 size=    1024KiB time=00:03:06.04 bitrate=  45.1kbits/s dup=0 drop=6758 speed=2.46x    frame= 4496 fps= 59 q=36.6 size=    1024KiB time=00:03:07.25 bitrate=  44.8kbits/s dup=0 drop=6802 speed=2.46x    frame= 4522 fps= 59 q=36.6 size=    1024KiB time=00:03:08.33 bitrate=  44.5kbits/s dup=0 drop=6842 speed=2.46x    frame= 4553 fps= 59 q=36.6 size=    1024KiB time=00:03:09.62 bitrate=  44.2kbits/s dup=0 drop=6887 speed=2.46x    frame= 4584 fps= 59 q=37.9 size=    1024KiB time=00:03:10.91 bitrate=  43.9kbits/s dup=0 drop=6932 speed=2.46x    frame= 4614 fps= 59 q=37.9 size=    1024KiB time=00:03:12.16 bitrate=  43.7kbits/s dup=0 drop=6976 speed=2.46x    frame= 4642 fps= 59 q=37.8 size=    1024KiB time=00:03:13.33 bitrate=  43.4kbits/s dup=0 drop=7021 speed=2.46x    frame= 4672 fps= 59 q=38.0 size=    1024KiB time=00:03:14.58 bitrate=  43.1kbits/s dup=0 drop=7066 speed=2.46x    frame= 4702 fps= 59 q=40.0 size=    1024KiB time=00:03:15.83 bitrate=  42.8kbits/s dup=0 drop=7110 speed=2.46x    frame= 4732 fps= 59 q=36.1 size=    1024KiB time=00:03:17.08 bitrate=  42.6kbits/s dup=0 drop=7156 speed=2.46x    frame= 4760 fps= 59 q=40.0 size=    1024KiB time=00:03:18.25 bitrate=  42.3kbits/s dup=0 drop=7193 speed=2.46x    frame= 4788 fps= 59 q=36.6 size=    1024KiB time=00:03:19.41 bitrate=  42.1kbits/s dup=0 drop=7241 speed=2.46x    frame= 4813 fps= 59 q=40.0 size=    1024KiB time=00:03:20.45 bitrate=  41.8kbits/s dup=0 drop=7277 speed=2.46x    frame= 4842 fps= 59 q=36.6 size=    1024KiB time=00:03:21.66 bitrate=  41.6kbits/s dup=0 drop=7321 speed=2.46x    

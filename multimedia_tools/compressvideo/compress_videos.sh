@@ -1,11 +1,11 @@
-  #!/usr/bin/env bash
+#!/usr/bin/env bash
 # =====================================================================
 # Nom du script   : compress_videos.sh
 # Auteur          : Bruno Delnoz
 # Email           : bruno.delnoz@protonmail.com
 # Target usage    : Parcours récursif d'un dossier source, compression
 #                   maximale/forte des vidéos en conservant l'arborescence.
-# Version         : v2.4 - Date : 2025-08-23
+# Version         : v2.5 - Date : 2025-08-23
 # ---------------------------------------------------------------------
 # Changelog (historique complet obligatoire) :
 #   - v2.3 (2025-08-11) : Version précédente avec estimation temps/tailles
@@ -14,6 +14,10 @@
 #                         * target_compressed_max : Compression maximale (CRF 28, 480p, 32k)
 #                         * custom : Utilise paramètres manuels (défaut actuel)
 #                         Nouveaux paramètres : --ac (canaux audio), --threads, --tune
+#   - v2.5 (2025-08-23) : Ajout profil target_MAX : Compression extrême
+#                         * H.265 360p CRF 35, bitrate 200k, audio 24k mono
+#                         * Preset veryslow, tune psnr, 20fps
+#                         * Résolution 640x360, format yuv420p10le 10-bit
 # =====================================================================
 
 set -euo pipefail
@@ -22,7 +26,7 @@ IFS=$'\n\t'
 # --------------------------- Métadonnées ------------------------------
 SCRIPT_NAME="$(basename "$0")"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-VERSION="v2.4"
+VERSION="v2.5"
 DATE="2025-08-23"
 LOGFILE="$SCRIPT_DIR/log.${SCRIPT_NAME%.sh}.${VERSION}.log"
 BACKUP_BASE_DIR="$SCRIPT_DIR/backup_$(date +%Y%m%d_%H%M%S)"
@@ -131,13 +135,31 @@ apply_profile() {
      THREADS="0"
      TUNE="psnr"
      ;;
+   target_MAX)
+     echo "[INFO] Application profil 'target_MAX' : Compression EXTRÊME (taille minimale absolue)" | tee -a "$LOGFILE"
+     CRF_VALUE="35"       # CRF très élevé pour compression maximale
+     MAX_WIDTH="640"      # Résolution encore plus basse
+     MAX_HEIGHT="360"     # 360p pour taille minimale
+     AUDIO_CODEC="aac"
+     AUDIO_BITRATE="24k"  # Bitrate audio très bas
+     SAMPLE_RATE="22050"  # Fréquence réduite pour économiser
+     VIDEO_CODEC="libx265"
+     PROFILE="main10"
+     PIX_FMT="yuv420p10le"
+     FPS="15"             # Framerate très bas
+     VBITRATE="150k"      # Bitrate vidéo très bas
+     PRESET="veryslow"    # Preset le plus lent pour meilleure compression
+     AC="1"               # Mono pour économiser
+     THREADS="0"
+     TUNE="psnr"          # Optimisation pour compression
+     ;;
    custom)
      echo "[INFO] Profil 'custom' : Utilise paramètres manuels ou défauts" | tee -a "$LOGFILE"
      # Les valeurs par défaut sont déjà définies, on ne change rien
      ;;
    *)
      echo "[ERREUR] Profil inconnu : $profile_name" | tee -a "$LOGFILE"
-     echo "Profils disponibles : target_whisper, target_compressed_max, custom"
+     echo "Profils disponibles : target_whisper, target_compressed_max, target_MAX, custom"
      exit 1
      ;;
  esac
@@ -165,7 +187,8 @@ Options principales :
 Options profils prédéfinis :
  --profile <nom>        Profil à utiliser (défaut: target_compressed_max)
    target_whisper       Optimisé transcription : H.264 720p mono 64k (rapide + qualité audio)
-   target_compressed_max Compression maximale : H.265 480p stéréo 32k (taille minimale)
+   target_compressed_max Compression maximale : H.265 480p stéréo 32k (bon compromis)
+   target_MAX           Compression EXTRÊME : H.265 360p mono 24k (taille minimale absolue)
    custom               Utilise paramètres manuels (remplace défauts profil)
 
 Options filtrage taille :
@@ -175,24 +198,27 @@ Options filtrage taille :
 Options vidéo avancées (remplacent profil si spécifiées) :
  --codec <codec>        Codec vidéo (défaut profil: libx265/libx264)
  --profile <profile>    Profil encodeur (défaut profil: main10/high)
- --quality <valeur>     CRF pour qualité vidéo (défaut profil: 28/23)
- --width <pixels>       Largeur maximale de sortie (défaut profil: 854/1280)
- --height <pixels>      Hauteur maximale de sortie (défaut profil: 480/720)
+ --quality <valeur>     CRF pour qualité vidéo (défaut profil: 28/23/35)
+ --width <pixels>       Largeur maximale de sortie (défaut profil: 854/1280/640)
+ --height <pixels>      Hauteur maximale de sortie (défaut profil: 480/720/360)
  --pix_fmt <format>     Format pixel (défaut profil: yuv420p10le/yuv420p)
- --fps <fps>            Framerate cible (défaut profil: 24/30)
- --vbitrate <bitrate>   Bitrate vidéo max (défaut profil: 500k/1500k)
- --preset <preset>      Preset encodeur (défaut profil: slow/medium)
+ --fps <fps>            Framerate cible (défaut profil: 24/30/15)
+ --vbitrate <bitrate>   Bitrate vidéo max (défaut profil: 500k/1500k/150k)
+ --preset <preset>      Preset encodeur (défaut profil: slow/medium/veryslow)
  --tune <tune>          Tune ffmpeg (défaut profil: psnr/zerolatency)
  --threads <count>      Nombre de threads (défaut: 0=auto)
  --retry <count>        Nombre de tentatives en cas d'échec (défaut: 2)
 
 Options audio avancées (remplacent profil si spécifiées) :
  --audio <codec>        Codec audio (défaut profil: aac)
- --abitrate <bitrate>   Débit audio (défaut profil: 32k/64k)
- --sample_rate <rate>   Fréquence échantillonnage (défaut profil: 44100)
+ --abitrate <bitrate>   Débit audio (défaut profil: 32k/64k/24k)
+ --sample_rate <rate>   Fréquence échantillonnage (défaut profil: 44100/22050)
  --ac <channels>        Nombre canaux audio (défaut profil: 2/1)
 
 Exemples :
+ # Compression extrême avec nouveau profil target_MAX
+ ./compress_videos.sh --exec --profile target_MAX --source_dir /home/videos
+
  # Compression maximale avec profil par défaut
  ./compress_videos.sh --exec --source_dir /home/videos
 
@@ -202,16 +228,20 @@ Exemples :
  # Compression personnalisée (profil custom automatique)
  ./compress_videos.sh --exec --quality 20 --width 1920 --height 1080 --abitrate 128k
 
- # Simulation avec profil compression max
- ./compress_videos.sh --simulate --profile target_compressed_max
+ # Simulation avec profil compression extrême
+ ./compress_videos.sh --simulate --profile target_MAX
 
 Profils détaillés :
  target_whisper        : H.264 High 1280×720 30fps ~1500k + AAC mono 64k (transcription)
- target_compressed_max : H.265 Main10 854×480 24fps ~500k + AAC stéréo 32k (taille min)
+ target_compressed_max : H.265 Main10 854×480 24fps ~500k + AAC stéréo 32k (bon compromis)
+ target_MAX           : H.265 Main10 640×360 15fps ~150k + AAC mono 24k@22kHz (EXTRÊME)
  custom               : Paramètres manuels ou défauts target_compressed_max
 
-Logs détaillés : log.compress_videos.v2.4.log
+Logs détaillés : log.compress_videos.v2.5.log
 Backup avant suppression : backup_YYYYMMDD_HHMMSS
+
+ATTENTION : Le profil target_MAX produit une qualité vidéo très dégradée mais une taille
+           de fichier minimale. Réservé aux cas où l'espace disque est critique.
 EOF
 }
 # ---------------------------------------------------------------------
@@ -386,12 +416,15 @@ estimate_ratio() {
  local crf="$2"
  local vbitrate="$3"
 
- # Pour des bitrates très bas comme 91k, ratio plus agressif
+ # Pour des bitrates très bas comme 150k ou moins, ratio ultra-agressif
  case "$vbitrate" in
    *k)
      vbit_num="${vbitrate%k}"
-     if [ "$vbit_num" -le 100 ]; then
-       echo "0.08"  # Compression très agressive pour bitrate bas
+     if [ "$vbit_num" -le 150 ]; then
+       echo "0.05"  # Compression ultra-agressive pour profil target_MAX
+       return
+     elif [ "$vbit_num" -le 200 ]; then
+       echo "0.07"  # Compression très agressive
        return
      fi
      ;;
@@ -401,19 +434,20 @@ estimate_ratio() {
    libx265|x265|hevc)
      if [ "$crf" -le 20 ]; then echo "0.85"
      elif [ "$crf" -le 28 ]; then echo "0.50"
-     elif [ "$crf" -le 40 ]; then echo "0.25"
-     else echo "0.12"; fi
+     elif [ "$crf" -le 35 ]; then echo "0.20"  # CRF élevé du profil target_MAX
+     elif [ "$crf" -le 40 ]; then echo "0.12"
+     else echo "0.08"; fi
      ;;
    libaom-av1|av1)
      if [ "$crf" -le 25 ]; then echo "0.75"
-     elif [ "$crf" -le 35 ]; then echo "0.40"
-     elif [ "$crf" -le 45 ]; then echo "0.20"
-     else echo "0.12"; fi
+     elif [ "$crf" -le 35 ]; then echo "0.25"
+     elif [ "$crf" -le 45 ]; then echo "0.15"
+     else echo "0.10"; fi
      ;;
    libvpx-vp9|vp9)
      if [ "$crf" -le 25 ]; then echo "0.80"
-     elif [ "$crf" -le 35 ]; then echo "0.45"
-     elif [ "$crf" -le 45 ]; then echo "0.22"
+     elif [ "$crf" -le 35 ]; then echo "0.30"
+     elif [ "$crf" -le 45 ]; then echo "0.18"
      else echo "0.12"; fi
      ;;
    *)
@@ -442,7 +476,7 @@ estimate_processing_time() {
    *) base_factor=10 ;;                      # Défaut
  esac
 
- # Facteur preset
+ # Facteur preset - veryslow est beaucoup plus lent
  local preset_multiplier
  case "$preset" in
    ultrafast) preset_multiplier="0.3" ;;
@@ -453,14 +487,16 @@ estimate_processing_time() {
    medium) preset_multiplier="1.3" ;;
    slow) preset_multiplier="2.0" ;;
    slower) preset_multiplier="3.5" ;;
-   veryslow) preset_multiplier="6.0" ;;
+   veryslow) preset_multiplier="8.0" ;;     # Beaucoup plus lent pour target_MAX
    *) preset_multiplier="2.0" ;;
  esac
 
  # Facteur résolution (pixels totaux en millions)
  local target_pixels=$((target_width * target_height))
  local resolution_factor
- if [ "$target_pixels" -lt 500000 ]; then          # < 0.5MP
+ if [ "$target_pixels" -lt 300000 ]; then          # < 0.3MP (360p et moins)
+   resolution_factor="0.5"
+ elif [ "$target_pixels" -lt 500000 ]; then        # < 0.5MP
    resolution_factor="0.7"
  elif [ "$target_pixels" -lt 1000000 ]; then       # < 1MP
    resolution_factor="0.9"
