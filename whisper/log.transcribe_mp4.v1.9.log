@@ -118,3 +118,20 @@
 2025-08-18 02:39:33 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
 2025-08-18 02:44:40 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle large-v3, langue fr
 2025-08-18 02:45:29 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 05:44:24 - Début analyse audio '/mnt/data2/Videos_compressed/Videos_hors_size//ScreenRecording_08-11-2025 05-24-40_1 2_mini.mp4'
+2025-08-18 05:44:27 - Analyse audio OK : fichier parfaitement compatible
+2025-08-18 05:45:25 - Début transcription fichier '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-11-2025 05-24-40_1 2_mini.mp4' avec modèle large-v3, langue fr
+2025-08-18 05:45:25 - Extraction audio vers '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-11-2025 05-24-40_1 2_mini.wav'
+2025-08-18 05:49:56 - Transcription terminée avec modèle large-v3, langue fr
+2025-08-18 05:49:56 - Suppression audio temporaire '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-11-2025 05-24-40_1 2_mini.wav'
+2025-08-18 05:49:56 - Transcription complète terminée avec succès
+2025-08-18 05:53:03 - Début transcription fichier '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-11-2025 05-24-40_1 2_mini.mp4' avec modèle large-v3, langue fr
+2025-08-18 05:53:03 - Extraction audio vers '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-11-2025 05-24-40_1 2_mini.wav'
+2025-08-18 05:57:33 - Transcription terminée avec modèle large-v3, langue fr
+2025-08-18 05:57:33 - Conservation audio '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-11-2025 05-24-40_1 2_mini.wav'
+2025-08-18 05:57:33 - Transcription complète terminée avec succès
+2025-08-18 06:30:39 - Début transcription fichier '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-12-2025 06-07-43_1_mini.mp4' avec modèle large-v3, langue fr
+2025-08-18 06:30:39 - Extraction audio vers '/mnt/data2/Videos_compressed/Videos_hors_size/ScreenRecording_08-12-2025 06-07-43_1_mini.wav'
+2025-08-21 01:05:57 - Début transcription fichier '/mnt/encrypted/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.wav' avec modèle large-v3, langue fr
+2025-08-21 01:06:11 - Début transcription fichier '/mnt/encrypted/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.mp4' avec modèle large-v3, langue fr
+2025-08-21 01:06:12 - Extraction audio vers '/mnt/encrypted/Agression/full_capture/nest_agression_at_27.07.2025-230357_createdate_20250813_003628.wav'

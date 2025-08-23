@@ -1081,3 +1081,27 @@
 2025-08-18 02:20:42 - Échec de la transcription
 2025-08-18 02:21:02 - Début transcription fichier '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle large-v3-turbo-q5_0, langue french
 2025-08-18 02:21:06 - Extraction audio vers '/mnt/data2/Videos_exploitables/ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 06:43:22 - Début transcription fichier '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_07-28-2025-04-13-03_1 2.MP4' avec modèle large-v3, langue fr
+2025-08-18 06:43:39 - Extraction audio vers '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_07-28-2025-04-13-03_1 2.wav'
+2025-08-18 07:11:37 - Transcription terminée avec modèle large-v3, langue fr
+2025-08-18 07:11:37 - Conservation audio '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_07-28-2025-04-13-03_1 2.wav'
+2025-08-18 07:11:37 - Transcription complète terminée avec succès
+2025-08-18 07:11:37 - Début transcription fichier '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_07-28-2025-04-13-03_1 2.wav' avec modèle large-v3, langue fr
+2025-08-18 07:11:37 - Échec de la transcription
+2025-08-18 07:11:37 - Début transcription fichier '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-02-2025-13-44-03_1.MP4' avec modèle large-v3, langue fr
+2025-08-18 07:11:51 - Extraction audio vers '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 08:48:35 - Transcription terminée avec modèle large-v3, langue fr
+2025-08-18 08:48:35 - Conservation audio '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-02-2025-13-44-03_1.wav'
+2025-08-18 08:48:35 - Transcription complète terminée avec succès
+2025-08-18 08:48:35 - Début transcription fichier '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-02-2025-13-44-03_1.wav' avec modèle large-v3, langue fr
+2025-08-18 08:48:36 - Échec de la transcription
+2025-08-18 08:48:36 - Début transcription fichier '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-02-2025-15-09-20_1 2.MP4' avec modèle large-v3, langue fr
+2025-08-18 08:48:55 - Extraction audio vers '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-02-2025-15-09-20_1 2.wav'
+2025-08-18 09:47:05 - Transcription terminée avec modèle large-v3, langue fr
+2025-08-18 09:47:05 - Conservation audio '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-02-2025-15-09-20_1 2.wav'
+2025-08-18 09:47:05 - Transcription complète terminée avec succès
+2025-08-18 09:47:05 - Début transcription fichier '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-09-2025-04-16-41_1.MP4' avec modèle large-v3, langue fr
+2025-08-18 09:47:10 - Extraction audio vers '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-09-2025-04-16-41_1.wav'
+2025-08-18 09:53:05 - Transcription terminée avec modèle large-v3, langue fr
+2025-08-18 09:53:05 - Conservation audio '/mnt/data2/Videos/Videos_exploitables/10db_ScreenRecording_08-09-2025-04-16-41_1.wav'
+2025-08-18 09:53:05 - Transcription complète terminée avec succès

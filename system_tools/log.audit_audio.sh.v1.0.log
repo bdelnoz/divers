@@ -1,0 +1,51 @@
+=== mer 20 aoû 2025 20:37:27 CEST ===
+[*] Liste des périphériques ALSA
+**** Liste des périphériques matériels PLAYBACK ****
+carte 0 : HDMI [HDA Intel HDMI], périphérique 3 : HDMI 0 [HDMI 0]
+  Sous-périphériques : 1/1
+  Sous-périphérique #0 : subdevice #0
+carte 0 : HDMI [HDA Intel HDMI], périphérique 7 : HDMI 1 [HDMI 1]
+  Sous-périphériques : 1/1
+  Sous-périphérique #0 : subdevice #0
+carte 0 : HDMI [HDA Intel HDMI], périphérique 8 : HDMI 2 [HDMI 2]
+  Sous-périphériques : 1/1
+  Sous-périphérique #0 : subdevice #0
+carte 1 : PCH [HDA Intel PCH], périphérique 0 : ALC3220 Analog [ALC3220 Analog]
+  Sous-périphériques : 1/1
+  Sous-périphérique #0 : subdevice #0
+[*] Liste des périphériques capture
+**** Liste des périphériques matériels CAPTURE ****
+carte 1 : PCH [HDA Intel PCH], périphérique 0 : ALC3220 Analog [ALC3220 Analog]
+  Sous-périphériques : 1/1
+  Sous-périphérique #0 : subdevice #0
+[*] Infos PulseAudio
+Chaîne du serveur : /run/user/1000/pulse/native
+Version du protocole de bibliothèque : 35
+Version du protocole du serveur : 35
+Local : oui
+Index client : 1390
+Tile Size : 65472
+Nom d’utilisateur : nox
+Nom d’hôte : casablanca
+Nom du serveur : PulseAudio (on PipeWire 1.4.2)
+Version du serveur : 15.0.0
+Spécification d’échantillon par défaut : float32le 2ch 48000Hz
+Plan de canaux par défaut : front-left,front-right
+Destination par défaut : alsa_output.pci-0000_00_1b.0.analog-stereo
+Source par défaut : alsa_input.pci-0000_00_1b.0.analog-stereo
+Cookie : 38ef:e002
+56	alsa_output.pci-0000_00_1b.0.analog-stereo.monitor	PipeWire	s32le 2ch 48000Hz	SUSPENDED
+57	alsa_input.pci-0000_00_1b.0.analog-stereo	PipeWire	s32le 2ch 48000Hz	SUSPENDED
+56	alsa_output.pci-0000_00_1b.0.analog-stereo	PipeWire	s32le 2ch 48000Hz	SUSPENDED
+[*] Mixer ALSA
+Simple mixer control 'Master',0
+Simple mixer control 'Capture',0
+[*] Volume et mute status
+Simple mixer control 'Master',0
+  Capabilities: pvolume pswitch pswitch-joined
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 65536
+  Mono:
+  Front Left: Playback 65166 [99%] [on]
+  Front Right: Playback 65166 [99%] [on]
+[*] Capture terminée, log créé : /home/nox/Security/scripts/divers/system_tools/log.audit_audio.sh.v1.0.log

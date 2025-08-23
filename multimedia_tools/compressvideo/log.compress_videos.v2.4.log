@@ -1,0 +1,783 @@
+[INFO] Lancement script compress_videos.sh v2.4 (2025-08-23)
+[INFO] Application profil 'target_compressed_max' : Compression maximale
+[INFO] Paramètres utilisés (profil target_compressed_max) :
+       SOURCE_DIR   = /mnt/encrypted2/Videos/
+       OUTDIR       = /mnt/encrypted2/compressed
+       VIDEO_CODEC  = libx265
+       PROFILE      = main10
+       RESOLUTION   = 854x480
+       PIX_FMT      = yuv420p10le
+       FPS          = 24
+       CRF_VALUE    = 28
+       VBITRATE     = 500k
+       PRESET       = slow
+       TUNE         = psnr
+       THREADS      = 0
+       AUDIO_CODEC  = aac
+       AUDIO_BITRATE= 32k
+       SAMPLE_RATE  = 44100
+       CANAUX_AUDIO = 2
+       SIZE_MIN     = 1M
+       SIZE_MAX     = (aucune limite)
+       RETRY_COUNT  = 2
+       FORMATS      = (auto)
+       SKIP_IDENTICAL = 0
+       RESUME_MODE  = 0
+       MODE         = SIMULATION
+[INFO] Source absolue   : /mnt/encrypted2/Videos
+[INFO] Sortie absolue   : /mnt/encrypted2/compressed
+=== Fichiers trouvés (263) ===
+=== Fichiers ignorés (218) ===
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 4.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 6.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 3.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 12.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250605035840866_cam0.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 11.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 21.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 18.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 24.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/Videos_autres/clipPreview 22.MP4 (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012253_part57.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012618_part76.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013049_part101.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250811_023135_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012242_part56.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012901_part91.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012944_part95.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012546_part73.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012441_part67.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012524_part71.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012817_part87.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012325_part60.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012148_part51.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012419_part65.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012231_part55.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012955_part96.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_032648_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012210_part53.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012358_part63.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013016_part98.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012828_part88.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012702_part80.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012745_part84.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012409_part64.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012713_part81.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013038_part100.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012557_part74.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012336_part61.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012756_part85.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012503_part69.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012839_part89.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012651_part79.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012922_part93.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012430_part66.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012807_part86.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012723_part82.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012933_part94.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012640_part78.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012452_part68.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012221_part54.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012850_part90.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013027_part99.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013005_part97.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012315_part59.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012137_part50.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012608_part75.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012514_part70.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012304_part58.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012911_part92.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012000_part41_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012514_part70_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012127_part49_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012043_part45_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011718_part26_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012702_part80_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011331_part5_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012618_part76_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012535_part72_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012955_part96_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012850_part90_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012933_part94_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012828_part88_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011541_part17_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012430_part66_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012557_part74_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011509_part14_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012325_part60_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012734_part83_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011436_part11_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011812_part31_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_032648_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011624_part21_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012756_part85_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012608_part75_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011801_part30_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011310_part3_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012347_part62_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011917_part37_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012441_part67_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011845_part34_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011415_part9_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011259_part2_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012452_part68_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012922_part93_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012409_part64_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012911_part92_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013038_part100_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011949_part40_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011530_part16_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012022_part43_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011834_part33_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011602_part19_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012304_part58_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011458_part13_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011635_part22_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012231_part55_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012221_part54_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012640_part78_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011823_part32_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012137_part50_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011707_part25_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011740_part28_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011519_part15_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012419_part65_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011656_part24_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011238_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_ARRIERE_20250810_172955_part0_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012242_part56_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011928_part38_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012745_part84_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012807_part86_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012817_part87_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011855_part35_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012116_part48_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012148_part51_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011447_part12_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012011_part42_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012210_part53_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011750_part29_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012315_part59_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011353_part7_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011646_part23_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011404_part8_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012713_part81_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012503_part69_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012546_part73_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011425_part10_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012723_part82_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012839_part89_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012054_part46_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011248_part1_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013005_part97_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013016_part98_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012358_part63_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011552_part18_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012253_part57_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011729_part27_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013027_part99_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011613_part20_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011342_part6_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012651_part79_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011939_part39_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012629_part77_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012159_part52_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012336_part61_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011321_part4_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012033_part44_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011248_part1.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012524_part71_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012901_part91_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012944_part95_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012105_part47_boost.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012734_part83.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012629_part77.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012159_part52.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012535_part72.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012347_part62.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_030226_part0.mp4 (taille hors critères)
+  - /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013144_part0.mp4 (taille hors critères)
+  1) /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013234_part0.mp4
+     Avant: 35MB → Après: 18MB (est.)
+  2) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4
+     Avant: 711MB → Après: 356MB (est.)
+  3) /mnt/encrypted2/Videos/Florence/IMG_0060.MOV
+     Avant: 42MB → Après: 21MB (est.)
+  4) /mnt/encrypted2/Videos/Florence/IMG_0019.MOV
+     Avant: 272MB → Après: 136MB (est.)
+  5) /mnt/encrypted2/Videos/Florence/IMG_0078.MOV
+     Avant: 57MB → Après: 29MB (est.)
+  6) /mnt/encrypted2/Videos/Florence/IMG_0016.MOV
+     Avant: 36MB → Après: 18MB (est.)
+  7) /mnt/encrypted2/Videos/Florence/IMG_0014.MOV
+     Avant: 315MB → Après: 158MB (est.)
+  8) /mnt/encrypted2/Videos/Florence/IMG_0032.MOV
+     Avant: 93MB → Après: 47MB (est.)
+  9) /mnt/encrypted2/Videos/Florence/IMG_0013.MOV
+     Avant: 193MB → Après: 97MB (est.)
+ 10) /mnt/encrypted2/Videos/Florence/IMG_0027.MOV
+     Avant: 126MB → Après: 63MB (est.)
+ 11) /mnt/encrypted2/Videos/Florence/IMG_0025.MOV
+     Avant: 174MB → Après: 87MB (est.)
+ 12) /mnt/encrypted2/Videos/Florence/IMG_0059.MOV
+     Avant: 176MB → Après: 88MB (est.)
+ 13) /mnt/encrypted2/Videos/Florence/IMG_0015.MOV
+     Avant: 41MB → Après: 21MB (est.)
+ 14) /mnt/encrypted2/Videos/Florence/IMG_0061.MOV
+     Avant: 91MB → Après: 46MB (est.)
+ 15) /mnt/encrypted2/Videos/Florence/IMG_0026.MOV
+     Avant: 60MB → Après: 30MB (est.)
+ 16) /mnt/encrypted2/Videos/Florence/IMG_0011.MOV
+     Avant: 349MB → Après: 175MB (est.)
+ 17) /mnt/encrypted2/Videos/Florence/IMG_0012.MOV
+     Avant: 338MB → Après: 169MB (est.)
+ 18) /mnt/encrypted2/Videos/Florence/IMG_0058.MOV
+     Avant: 57MB → Après: 29MB (est.)
+ 19) /mnt/encrypted2/Videos/Florence/IMG_0018.MOV
+     Avant: 284MB → Après: 142MB (est.)
+ 20) /mnt/encrypted2/Videos/Florence/IMG_0031.MOV
+     Avant: 15MB → Après: 7,4MB (est.)
+ 21) /mnt/encrypted2/Videos/Florence/IMG_0017.MOV
+     Avant: 348MB → Après: 174MB (est.)
+ 22) /mnt/encrypted2/Videos/Florence/IMG_0033.MOV
+     Avant: 55MB → Après: 28MB (est.)
+ 23) /mnt/encrypted2/Videos/Florence/IMG_0056.MOV
+     Avant: 211MB → Après: 106MB (est.)
+ 24) /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030619_part1.mp4
+     Avant: 12MB → Après: 5,6MB (est.)
+ 25) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 14-27-05_1 2.MP4
+     Avant: 197MB → Après: 99MB (est.)
+ 26) /mnt/encrypted2/Videos/TAPO_ScreenRecording_08-09-2025 03-24-48_1 2.MP4
+     Avant: 186MB → Après: 93MB (est.)
+ 27) /mnt/encrypted2/Videos/NEST_20250817_021607_part0.mp4
+     Avant: 15MB → Après: 7,4MB (est.)
+ 28) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-09-2025 04-16-41_1 2.MP4
+     Avant: 251MB → Après: 126MB (est.)
+ 29) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031425_part1.mp4
+     Avant: 8,4MB → Après: 4,2MB (est.)
+ 30) /mnt/encrypted2/Videos/Videos_autres/clipPreview 7.MP4
+     Avant: 1,7MB → Après: 867KB (est.)
+ 31) /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0318.MOV
+     Avant: 7,5MB → Après: 3,8MB (est.)
+ 32) /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0315.MOV
+     Avant: 2,4MB → Après: 1,2MB (est.)
+ 33) /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0316.MOV
+     Avant: 13MB → Après: 6,2MB (est.)
+ 34) /mnt/encrypted2/Videos/Videos_autres/clipPreview 19.MP4
+     Avant: 2,9MB → Après: 1,5MB (est.)
+ 35) /mnt/encrypted2/Videos/Videos_autres/clipPreview 13.MP4
+     Avant: 1,3MB → Après: 651KB (est.)
+ 36) /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250624041225115_cam0.MP4
+     Avant: 3,7MB → Après: 1,9MB (est.)
+ 37) /mnt/encrypted2/Videos/Videos_autres/clipPreview 17.MP4
+     Avant: 1,4MB → Après: 699KB (est.)
+ 38) /mnt/encrypted2/Videos/Videos_autres/clipPreview 23.MP4
+     Avant: 1,4MB → Après: 704KB (est.)
+ 39) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_08-09-2025 21-02-47_1 2.MP4
+     Avant: 793MB → Après: 397MB (est.)
+ 40) /mnt/encrypted2/Videos/Videos_autres/clipPreview 20.MP4
+     Avant: 2,9MB → Après: 1,5MB (est.)
+ 41) /mnt/encrypted2/Videos/Videos_autres/clipPreview 14.MP4
+     Avant: 2,1MB → Après: 1,1MB (est.)
+ 42) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-17-2025 22-47-57_1.MP4
+     Avant: 71MB → Après: 36MB (est.)
+ 43) /mnt/encrypted2/Videos/Videos_autres/clipPreview.MP4
+     Avant: 1,5MB → Après: 758KB (est.)
+ 44) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-25-51_1.MP4
+     Avant: 561MB → Après: 281MB (est.)
+ 45) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_06-17-2025 01-51-57_1.MP4
+     Avant: 209MB → Après: 105MB (est.)
+ 46) /mnt/encrypted2/Videos/Videos_autres/clipPreview 16.MP4
+     Avant: 1,5MB → Après: 758KB (est.)
+ 47) /mnt/encrypted2/Videos/Videos_autres/clipPreview 2.MP4
+     Avant: 3,1MB → Après: 1,6MB (est.)
+ 48) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-20-00_1.MP4
+     Avant: 113MB → Après: 57MB (est.)
+ 49) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-23-33_1.MP4
+     Avant: 216MB → Après: 108MB (est.)
+ 50) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-21-47_1.MP4
+     Avant: 151MB → Après: 76MB (est.)
+ 51) /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250605035236647_cam0.MP4
+     Avant: 20MB → Après: 9,6MB (est.)
+ 52) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-48-26_1.MP4
+     Avant: 887MB → Après: 444MB (est.)
+ 53) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 07-51-19_1.MP4
+     Avant: 66MB → Après: 33MB (est.)
+ 54) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 07-52-28_1.MP4
+     Avant: 836MB → Après: 418MB (est.)
+ 55) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 06-36-18_1.MP4
+     Avant: 75MB → Après: 38MB (est.)
+ 56) /mnt/encrypted2/Videos/Videos_autres/clipPreview 5.MP4
+     Avant: 1,4MB → Après: 697KB (est.)
+ 57) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-17-22_1.MP4
+     Avant: 188MB → Après: 94MB (est.)
+ 58) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-07-19_1.MP4
+     Avant: 944MB → Après: 472MB (est.)
+ 59) /mnt/encrypted2/Videos/Videos_autres/clipPreview 9.MP4
+     Avant: 1,6MB → Après: 781KB (est.)
+ 60) /mnt/encrypted2/Videos/Videos_autres/clipPreview 15.MP4
+     Avant: 1,5MB → Après: 749KB (est.)
+ 61) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-04-25_1.MP4
+     Avant: 192MB → Après: 96MB (est.)
+ 62) /mnt/encrypted2/Videos/Videos_autres/clipPreview 8.MP4
+     Avant: 1,6MB → Après: 769KB (est.)
+ 63) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 02-21-52_1.MP4
+     Avant: 15MB → Après: 7,5MB (est.)
+ 64) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 65) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_043546_part5.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+ 66) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv
+     Avant: 54MB → Après: 27MB (est.)
+ 67) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032135_part12.ogv
+     Avant: 9,5MB → Après: 4,8MB (est.)
+ 68) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv
+     Avant: 62MB → Après: 31MB (est.)
+ 69) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 70) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_27_07_25_2303O1.ogv
+     Avant: 189MB → Après: 95MB (est.)
+ 71) /mnt/encrypted2/Videos/VOIX_suspectes/nest_bruits_20250810_030634_part0.ogv
+     Avant: 9,2MB → Après: 4,6MB (est.)
+ 72) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv
+     Avant: 68MB → Après: 34MB (est.)
+ 73) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_025616_part0.ogv
+     Avant: 6,7MB → Après: 3,4MB (est.)
+ 74) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033414_part18.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+ 75) /mnt/encrypted2/Videos/VOIX_suspectes/NestCamsequenceQuandOnARemplacerMaCarteSDTAPO_unformated_20250812_063107_part0.ogv
+     Avant: 57MB → Après: 29MB (est.)
+ 76) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033207_part17.ogv
+     Avant: 8,0MB → Après: 4,0MB (est.)
+ 77) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031928_part11.ogv
+     Avant: 9,9MB → Après: 5,0MB (est.)
+ 78) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030236_part3.ogv
+     Avant: 9,2MB → Après: 4,6MB (est.)
+ 79) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv
+     Avant: 61MB → Après: 31MB (est.)
+ 80) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032754_part15.ogv
+     Avant: 9,6MB → Après: 4,8MB (est.)
+ 81) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_012313_part1.ogv
+     Avant: 22MB → Après: 11MB (est.)
+ 82) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv
+     Avant: 62MB → Après: 31MB (est.)
+ 83) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 84) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv
+     Avant: 55MB → Après: 28MB (est.)
+ 85) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032341_part13.ogv
+     Avant: 11MB → Après: 5,2MB (est.)
+ 86) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_043547_part5.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+ 87) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 88) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 89) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 90) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 91) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030855_part6.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+ 92) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031515_part9.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+ 93) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 94) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_034532_part0.ogv
+     Avant: 18MB → Après: 8,9MB (est.)
+ 95) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv
+     Avant: 61MB → Après: 31MB (est.)
+ 96) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv
+     Avant: 60MB → Après: 30MB (est.)
+ 97) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv
+     Avant: 62MB → Après: 31MB (est.)
+ 98) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv
+     Avant: 61MB → Après: 31MB (est.)
+ 99) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_222433_part40.ogv
+     Avant: 44MB → Après: 22MB (est.)
+100) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv
+     Avant: 60MB → Après: 30MB (est.)
+101) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030029_part2.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+102) /mnt/encrypted2/Videos/VOIX_suspectes/BROL_20250811_004150_part1.ogv
+     Avant: 2,0MB → Après: 978KB (est.)
+103) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv
+     Avant: 1,4MB → Après: 670KB (est.)
+104) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_032836_part0.ogv
+     Avant: 8,3MB → Après: 4,2MB (est.)
+105) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv
+     Avant: 61MB → Après: 31MB (est.)
+106) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_035535_part1.ogv
+     Avant: 14MB → Après: 6,8MB (est.)
+107) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033620_part19.ogv
+     Avant: 8,0MB → Après: 4,0MB (est.)
+108) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_021400_part6.ogv
+     Avant: 14MB → Après: 6,9MB (est.)
+109) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_040537_part2.ogv
+     Avant: 46MB → Après: 23MB (est.)
+110) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250809_221208_part1.ogv
+     Avant: 14MB → Après: 6,6MB (est.)
+111) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033001_part16.ogv
+     Avant: 9,6MB → Après: 4,8MB (est.)
+112) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv
+     Avant: 51MB → Après: 26MB (est.)
+113) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_014332_part3.ogv
+     Avant: 23MB → Après: 12MB (est.)
+114) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_040538_part2.ogv
+     Avant: 13MB → Après: 6,5MB (est.)
+115) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv
+     Avant: 51MB → Après: 26MB (est.)
+116) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_025823_part1.ogv
+     Avant: 9,3MB → Après: 4,7MB (est.)
+117) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv
+     Avant: 51MB → Après: 26MB (est.)
+118) /mnt/encrypted2/Videos/VOIX_suspectes/outputnesttest.mov
+     Avant: 64MB → Après: 32MB (est.)
+119) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030649_part5.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+120) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031102_part7.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+121) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv
+     Avant: 60MB → Après: 30MB (est.)
+122) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250809_220201_part0.ogv
+     Avant: 47MB → Après: 24MB (est.)
+123) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv
+     Avant: 54MB → Après: 27MB (est.)
+124) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv
+     Avant: 51MB → Après: 26MB (est.)
+125) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_015341_part4.ogv
+     Avant: 22MB → Après: 11MB (est.)
+126) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_013322_part2.ogv
+     Avant: 22MB → Après: 11MB (est.)
+127) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_042543_part4.ogv
+     Avant: 20MB → Après: 10MB (est.)
+128) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033827_part20.ogv
+     Avant: 4,4MB → Après: 2,2MB (est.)
+129) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv
+     Avant: 51MB → Après: 26MB (est.)
+130) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv
+     Avant: 58MB → Après: 29MB (est.)
+131) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_020351_part5.ogv
+     Avant: 22MB → Après: 11MB (est.)
+132) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv
+     Avant: 51MB → Après: 26MB (est.)
+133) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_011303_part0.ogv
+     Avant: 41MB → Après: 21MB (est.)
+134) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv
+     Avant: 51MB → Après: 26MB (est.)
+135) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv
+     Avant: 61MB → Après: 31MB (est.)
+136) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv
+     Avant: 61MB → Après: 31MB (est.)
+137) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv
+     Avant: 61MB → Après: 31MB (est.)
+138) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv
+     Avant: 54MB → Après: 27MB (est.)
+139) /mnt/encrypted2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv
+     Avant: 225MB → Après: 113MB (est.)
+140) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032548_part14.ogv
+     Avant: 8,0MB → Après: 4,0MB (est.)
+141) /mnt/encrypted2/Videos/VOIX_suspectes/surveillance_cam_20250810_032200_part0.ogv
+     Avant: 2,1MB → Après: 1,1MB (est.)
+142) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv
+     Avant: 62MB → Après: 31MB (est.)
+143) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv
+     Avant: 54MB → Après: 27MB (est.)
+144) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031722_part10.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+145) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv
+     Avant: 61MB → Après: 31MB (est.)
+146) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_031826_part0.ogv
+     Avant: 4,0MB → Après: 2,0MB (est.)
+147) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv
+     Avant: 52MB → Après: 26MB (est.)
+148) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38_boost.ogv
+     Avant: 60MB → Après: 30MB (est.)
+149) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030029_part2_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+150) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+151) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250809_220201_part0_boost.ogv
+     Avant: 46MB → Après: 23MB (est.)
+152) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025616_part0_boost.ogv
+     Avant: 6,5MB → Après: 3,3MB (est.)
+153) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+154) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+155) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_032348_part4_boost.mp4
+     Avant: 8,2MB → Après: 4,1MB (est.)
+156) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250809_221208_part1_boost.ogv
+     Avant: 13MB → Après: 6,5MB (est.)
+157) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+158) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+159) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031102_part7_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+160) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_040538_part2_boost.ogv
+     Avant: 13MB → Après: 6,1MB (est.)
+161) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025823_part1_boost.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+162) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031722_part10_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+163) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_042544_part4_boost.ogv
+     Avant: 12MB → Après: 5,6MB (est.)
+164) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+165) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_015341_part4_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+166) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+167) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032341_part13_boost.ogv
+     Avant: 11MB → Après: 5,2MB (est.)
+168) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+169) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_20250817_022116_part1_boost.mp4
+     Avant: 13MB → Après: 6,3MB (est.)
+170) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+171) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+172) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+173) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_034532_part0_boost.ogv
+     Avant: 17MB → Après: 8,4MB (est.)
+174) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031735_part2_boost.mp4
+     Avant: 8,2MB → Après: 4,1MB (est.)
+175) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031116_part0_boost.mp4
+     Avant: 9,4MB → Après: 4,7MB (est.)
+176) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+177) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nest_bruits_20250810_030634_part0_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+178) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030855_part6_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+179) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_043547_part5_boost.ogv
+     Avant: 7,3MB → Après: 3,7MB (est.)
+180) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+181) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031425_part1_boost.mp4
+     Avant: 7,0MB → Après: 3,5MB (est.)
+182) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_032836_part0_boost.ogv
+     Avant: 7,9MB → Après: 4,0MB (est.)
+183) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033620_part19_boost.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+184) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+185) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39_boost.ogv
+     Avant: 60MB → Après: 30MB (est.)
+186) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+187) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+188) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_035535_part1_boost.ogv
+     Avant: 13MB → Après: 6,4MB (est.)
+189) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030442_part4_boost.ogv
+     Avant: 9,2MB → Après: 4,6MB (est.)
+190) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030236_part3_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+191) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_012313_part1_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+192) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+193) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+194) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+195) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032135_part12_boost.ogv
+     Avant: 9,3MB → Après: 4,7MB (est.)
+196) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+197) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+198) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+199) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/surveillance_cam_20250810_032200_part0_boost.ogv
+     Avant: 2,0MB → Après: 1015KB (est.)
+200) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+201) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030649_part5_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+202) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_020351_part5_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+203) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033207_part17_boost.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+204) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26_boost.ogv
+     Avant: 55MB → Après: 28MB (est.)
+205) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_20250817_021607_part0_boost.mp4
+     Avant: 13MB → Après: 6,2MB (est.)
+206) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_014332_part3_boost.ogv
+     Avant: 22MB → Après: 11MB (est.)
+207) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_032042_part3_boost.mp4
+     Avant: 9,5MB → Après: 4,8MB (est.)
+208) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+209) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+210) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031515_part9_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+211) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+212) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011906_part36_boost.ogv
+     Avant: 1,3MB → Après: 665KB (est.)
+213) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_ARRIERE_20250810_172704_part0_boost.ogv
+     Avant: 3,6MB → Après: 1,8MB (est.)
+214) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+215) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+216) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3_boost.ogv
+     Avant: 55MB → Après: 28MB (est.)
+217) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5_boost.ogv
+     Avant: 52MB → Après: 26MB (est.)
+218) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+219) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+220) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032754_part15_boost.ogv
+     Avant: 9,4MB → Après: 4,7MB (est.)
+221) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_024734_part1_boost.mp4
+     Avant: 12MB → Après: 5,7MB (est.)
+222) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+223) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_013322_part2_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+224) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10_boost.ogv
+     Avant: 58MB → Après: 29MB (est.)
+225) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_024220_part0_boost.mp4
+     Avant: 10MB → Après: 5,0MB (est.)
+226) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033414_part18_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+227) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033001_part16_boost.ogv
+     Avant: 9,4MB → Après: 4,7MB (est.)
+228) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031308_part8_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+229) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_041541_part3_boost.ogv
+     Avant: 13MB → Après: 6,3MB (est.)
+230) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9_boost.ogv
+     Avant: 68MB → Après: 34MB (est.)
+231) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6_boost.ogv
+     Avant: 48MB → Après: 24MB (est.)
+232) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032548_part14_boost.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+233) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031928_part11_boost.ogv
+     Avant: 9,8MB → Après: 4,9MB (est.)
+234) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+235) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_011303_part0_boost.ogv
+     Avant: 41MB → Après: 21MB (est.)
+236) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv
+     Avant: 55MB → Après: 28MB (est.)
+237) /mnt/encrypted2/Videos/VOIX_suspectes/BROL_20250811_004114_part0.ogv
+     Avant: 2,0MB → Après: 1001KB (est.)
+238) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031308_part8.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+239) /mnt/encrypted2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172704_part0.ogv
+     Avant: 3,7MB → Après: 1,9MB (est.)
+240) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030442_part4.ogv
+     Avant: 9,3MB → Après: 4,7MB (est.)
+241) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv
+     Avant: 51MB → Après: 26MB (est.)
+242) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_041541_part3.ogv
+     Avant: 13MB → Après: 6,5MB (est.)
+243) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv
+     Avant: 48MB → Après: 24MB (est.)
+244) /mnt/encrypted2/Videos/VOIX_suspectes/NestSounddansmarueavecFredericFeyenreisenquicrie.ogv
+     Avant: 74MB → Après: 37MB (est.)
+245) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_042544_part4.ogv
+     Avant: 13MB → Après: 6,1MB (est.)
+246) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_041540_part3.ogv
+     Avant: 33MB → Après: 17MB (est.)
+247) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032042_part3.mp4
+     Avant: 11MB → Après: 5,4MB (est.)
+248) /mnt/encrypted2/Videos/NEST_20250817_022116_part1.mp4
+     Avant: 15MB → Après: 7,5MB (est.)
+249) /mnt/encrypted2/Videos/NEST_20250817_022624_part2.mp4
+     Avant: 5,3MB → Après: 2,7MB (est.)
+250) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032348_part4.mp4
+     Avant: 9,3MB → Après: 4,7MB (est.)
+251) /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030920_part2.mp4
+     Avant: 1,3MB → Après: 641KB (est.)
+252) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_024220_part0.mp4
+     Avant: 12MB → Après: 6,0MB (est.)
+253) /mnt/encrypted2/Videos/TEST_20250817_014713_part0.mp4
+     Avant: 2,6MB → Après: 1,3MB (est.)
+254) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032655_part5.mp4
+     Avant: 8,1MB → Après: 4,1MB (est.)
+255) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031735_part2.mp4
+     Avant: 9,5MB → Après: 4,8MB (est.)
+256) /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030318_part0.mp4
+     Avant: 8,5MB → Après: 4,3MB (est.)
+257) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_024734_part1.mp4
+     Avant: 14MB → Après: 6,8MB (est.)
+258) /mnt/encrypted2/Videos/TAPO_ScreenRecording_08-02-2025 14-57-15_1 2.MP4
+     Avant: 871MB → Après: 436MB (est.)
+259) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031116_part0.mp4
+     Avant: 11MB → Après: 5,4MB (est.)
+260) /mnt/encrypted2/Videos/NEST_ScreenRecording_07-28-2025 04-13-03_1.MP4
+     Avant: 501MB → Après: 251MB (est.)
+261) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_025249_part2.mp4
+     Avant: 13MB → Après: 6,4MB (est.)
+262) /mnt/encrypted2/Videos/NEST_ScreenRecording_07-27-2025 23-32-41_1 2.MP4
+     Avant: 599MB → Après: 300MB (est.)
+263) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-08-29_1 2.MP4
+     Avant: 965MB → Après: 483MB (est.)
+
+=== RÉCAPITULATIF ===
+Taille totale avant : 20GB
+Taille estimée après : 9,6GB (ratio 0.50)
+Réduction estimée : 50.0% (gain ~9,6GB)
+Temps estimé total : 112h46m33s
+
+Confirmer la SIMULATION de compression de ces 263 fichiers ?
+Temps estimé: 112h46m33s, Compression estimée: 20GB → 9,6GB (50.0% de réduction)

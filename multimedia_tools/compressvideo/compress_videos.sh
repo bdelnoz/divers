@@ -1,54 +1,19 @@
-# todo
-# demander de donner tr les valeurs possibles pour les differentes options dans un --helpdetail arg
-#
-
-#!/usr/bin/env bash
+  #!/usr/bin/env bash
 # =====================================================================
 # Nom du script   : compress_videos.sh
 # Auteur          : Bruno Delnoz
 # Email           : bruno.delnoz@protonmail.com
 # Target usage    : Parcours récursif d'un dossier source, compression
 #                   maximale/forte des vidéos en conservant l'arborescence.
-# Version         : v2.3 - Date : 2025-08-11
+# Version         : v2.4 - Date : 2025-08-23
 # ---------------------------------------------------------------------
 # Changelog (historique complet obligatoire) :
-#   - v1.0 (2025-08-11) : Version initiale complète.
-#   - v1.1 (2025-08-11) : Ajout des arguments --quality, --height, --formats, --outdir.
-#   - v1.2 (2025-08-11) : Application des règles données :
-#                         * défauts depuis commande initiale, outdir "compressed", audio aac 48k, etc.
-#   - v1.3 (2025-08-11) : Conformité stricte Règles Chat de Formation v34 :
-#                         logs nommés, affichage numéroté, backup, HELP enrichi, exemples (incl. wlan1).
-#   - v1.4 (2025-08-11) : Ajout --source_dir, création dossier "compressed" au même niveau,
-#                         reproduction d'arborescence, profil par défaut si sans args.
-#   - v1.5 (2025-08-11) : Comportement modifié : si **aucun argument** passé -> affichage --help et exit.
-#                         Robustification de la recherche de fichiers (gestion des espaces),
-#                         construction sécurisée des expressions find (pas d'eval),
-#                         collecte et affichage post-exécution numéroté des actions,
-#                         fallback d'extensions si ffmpeg -formats non concluant,
-#                         logs et backup améliorés.
-#   - v1.6 (2025-08-11) : Ajout prévisualisation liste des fichiers à compresser
-#                         + demande de confirmation explicite avant traitement.
-#   - v1.7 (2025-08-11) : Ajout mode simulation (--simulate) : liste fichiers trouvés, aucun traitement.
-#   - v1.8 (2025-08-11) : Ajout affichage tailles individuelles + total avant/après,
-#                         tableau comparatif avant/après avec pourcentages,
-#                         --help enrichi listant plages de valeurs possibles.
-#   - v1.9 (2025-08-11) : Correction : simulation calcule désormais tailles correctement.
-#                         Suppression de l'affichage de la liste des extensions utilisées
-#                         (seule modification par rapport à v1.8). Tout le reste inchangé.
-#   - v2.0 (2025-08-11) : Mode --simulate refait pour faire exactement comme --exec mais sans compression.
-#                         Tableau avec tous les fichiers, 2 colonnes avant/après compression estimée,
-#                         même processus de sélection et confirmation mais sans exécution ffmpeg.
-#   - v2.1 (2025-08-11) : Application des nouvelles valeurs par défaut haute compression :
-#                         Codec HEVC libx265, profil Main10, résolution 406x720, format yuv420p10le,
-#                         ~24fps, bitrate vidéo ~91kbps, audio AAC LC 44.1kHz stéréo 48kbps, conteneur MP4.
-#                         Ajout paramètres --profile, --pix_fmt, --fps, --vbitrate, --sample_rate.
-#   - v2.2 (2025-08-11) : Ajout paramètres --smin, --smax pour taille minimale/maximale des fichiers à traiter.
-#                         --skip_identical pour ignorer fichiers déjà traités dans outdir.
-#                         --resume pour reprendre traitement interrompu.
-#                         Amélioration gestion d'erreurs ffmpeg avec retry automatique.
-#   - v2.3 (2025-08-11) : Affichage estimation taille après traitement en mode --exec avant confirmation.
-#                         Estimation temps de traitement en mode --simulate et --exec avant confirmation.
-#                         Calcul basé sur taille fichier, résolution cible, codec utilisé.
+#   - v2.3 (2025-08-11) : Version précédente avec estimation temps/tailles
+#   - v2.4 (2025-08-23) : Ajout système de profils avec --profile :
+#                         * target_whisper : Optimisé transcription (mono 64k, 720p)
+#                         * target_compressed_max : Compression maximale (CRF 28, 480p, 32k)
+#                         * custom : Utilise paramètres manuels (défaut actuel)
+#                         Nouveaux paramètres : --ac (canaux audio), --threads, --tune
 # =====================================================================
 
 set -euo pipefail
@@ -57,31 +22,35 @@ IFS=$'\n\t'
 # --------------------------- Métadonnées ------------------------------
 SCRIPT_NAME="$(basename "$0")"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-VERSION="v2.3"
-DATE="2025-08-11"
+VERSION="v2.4"
+DATE="2025-08-23"
 LOGFILE="$SCRIPT_DIR/log.${SCRIPT_NAME%.sh}.${VERSION}.log"
 BACKUP_BASE_DIR="$SCRIPT_DIR/backup_$(date +%Y%m%d_%H%M%S)"
 # ---------------------------------------------------------------------
 
-# --------------------------- Valeurs par défaut -----------------------
-DEFAULT_CRF=32
-DEFAULT_WIDTH=406
-DEFAULT_HEIGHT=720
+# --------------------------- Valeurs par défaut (target_compressed_max) -----------------------
+DEFAULT_CRF=28
+DEFAULT_WIDTH=854
+DEFAULT_HEIGHT=480
 DEFAULT_AUDIO="aac"
-DEFAULT_AUDIO_BITRATE="48k"
+DEFAULT_AUDIO_BITRATE="32k"
 DEFAULT_SAMPLE_RATE="44100"
 DEFAULT_VIDEO_CODEC="libx265"
 DEFAULT_PROFILE="main10"
 DEFAULT_PIX_FMT="yuv420p10le"
 DEFAULT_FPS="24"
-DEFAULT_VBITRATE="91k"
+DEFAULT_VBITRATE="500k"
 DEFAULT_PRESET="slow"
+DEFAULT_AC="2"              # Canaux audio par défaut (stéréo)
+DEFAULT_THREADS="0"         # Auto-détection threads
+DEFAULT_TUNE=""             # Pas de tune par défaut
 DEFAULT_FORMATS=()            # vide = on essaiera de détecter via ffmpeg puis fallback
 DEFAULT_OUTDIR_NAME="compressed"
 DEFAULT_SOURCE_DIR="$(pwd)"
 DEFAULT_SIZE_MIN="1M"         # Taille minimale des fichiers à traiter
 DEFAULT_SIZE_MAX=""           # Pas de limite maximale par défaut
 DEFAULT_RETRY_COUNT=2         # Nombre de tentatives en cas d'échec ffmpeg
+DEFAULT_PROFILE_NAME="target_compressed_max" # Profil par défaut
 # ---------------------------------------------------------------------
 
 # --------------------------- Variables runtime ------------------------
@@ -97,12 +66,16 @@ PIX_FMT=""
 FPS=""
 VBITRATE=""
 PRESET=""
+AC=""              # Canaux audio
+THREADS=""         # Nombre de threads
+TUNE=""            # Tune ffmpeg
 FORMATS=()
 OUTDIR=""
 SOURCE_DIR=""
 SIZE_MIN=""
 SIZE_MAX=""
 RETRY_COUNT=""
+PROFILE_NAME=""
 EXEC_FLAG=0
 SIMULATE_FLAG=0
 DELETE_ONLY=0
@@ -115,6 +88,60 @@ SKIPPED_FILES=()     # fichiers ignorés
 FAILED_FILES=()      # fichiers ayant échoué
 declare -A SIZE_BEFORE
 declare -A SIZE_AFTER
+# ---------------------------------------------------------------------
+
+# --------------------------- Profils prédéfinis -----------------------
+apply_profile() {
+ local profile_name="$1"
+
+ case "$profile_name" in
+   target_whisper)
+     echo "[INFO] Application profil 'target_whisper' : Optimisé transcription" | tee -a "$LOGFILE"
+     CRF_VALUE="23"
+     MAX_WIDTH="1280"
+     MAX_HEIGHT="720"
+     AUDIO_CODEC="aac"
+     AUDIO_BITRATE="64k"
+     SAMPLE_RATE="44100"
+     VIDEO_CODEC="libx264"
+     PROFILE="high"
+     PIX_FMT="yuv420p"
+     FPS="30"
+     VBITRATE="1500k"
+     PRESET="medium"
+     AC="1"              # Mono pour transcription
+     THREADS="0"
+     TUNE="zerolatency"
+     ;;
+   target_compressed_max)
+     echo "[INFO] Application profil 'target_compressed_max' : Compression maximale" | tee -a "$LOGFILE"
+     CRF_VALUE="28"
+     MAX_WIDTH="854"
+     MAX_HEIGHT="480"
+     AUDIO_CODEC="aac"
+     AUDIO_BITRATE="32k"
+     SAMPLE_RATE="44100"
+     VIDEO_CODEC="libx265"
+     PROFILE="main10"
+     PIX_FMT="yuv420p10le"
+     FPS="24"
+     VBITRATE="500k"
+     PRESET="slow"
+     AC="2"
+     THREADS="0"
+     TUNE="psnr"
+     ;;
+   custom)
+     echo "[INFO] Profil 'custom' : Utilise paramètres manuels ou défauts" | tee -a "$LOGFILE"
+     # Les valeurs par défaut sont déjà définies, on ne change rien
+     ;;
+   *)
+     echo "[ERREUR] Profil inconnu : $profile_name" | tee -a "$LOGFILE"
+     echo "Profils disponibles : target_whisper, target_compressed_max, custom"
+     exit 1
+     ;;
+ esac
+}
 # ---------------------------------------------------------------------
 
 # --------------------------- HELP (obligatoire) -----------------------
@@ -135,49 +162,55 @@ Options principales :
  --outdir <dossier>     Dossier de sortie (défaut: parent(source)/compressed)
  --formats "<liste>"    Extensions à traiter (ex: "mp4 mov avi") (si vide -> détection / fallback)
 
+Options profils prédéfinis :
+ --profile <nom>        Profil à utiliser (défaut: target_compressed_max)
+   target_whisper       Optimisé transcription : H.264 720p mono 64k (rapide + qualité audio)
+   target_compressed_max Compression maximale : H.265 480p stéréo 32k (taille minimale)
+   custom               Utilise paramètres manuels (remplace défauts profil)
+
 Options filtrage taille :
  --smin <taille>        Taille minimale des fichiers (ex: 1M, 500K, 2G) (défaut: 1M)
  --smax <taille>        Taille maximale des fichiers (ex: 1G, 500M) (défaut: aucune limite)
 
-Options vidéo (défauts optimisés compression max) :
- --codec <codec>        Codec vidéo (défaut: libx265)
- --profile <profile>    Profil encodeur (défaut: main10)
- --quality <valeur>     CRF pour qualité vidéo (défaut: 32)
- --width <pixels>       Largeur maximale de sortie (défaut: 406)
- --height <pixels>      Hauteur maximale de sortie (défaut: 720)
- --pix_fmt <format>     Format pixel (défaut: yuv420p10le)
- --fps <fps>            Framerate cible (défaut: 24)
- --vbitrate <bitrate>   Bitrate vidéo max (défaut: 91k)
- --preset <preset>      Preset encodeur (défaut: slow)
+Options vidéo avancées (remplacent profil si spécifiées) :
+ --codec <codec>        Codec vidéo (défaut profil: libx265/libx264)
+ --profile <profile>    Profil encodeur (défaut profil: main10/high)
+ --quality <valeur>     CRF pour qualité vidéo (défaut profil: 28/23)
+ --width <pixels>       Largeur maximale de sortie (défaut profil: 854/1280)
+ --height <pixels>      Hauteur maximale de sortie (défaut profil: 480/720)
+ --pix_fmt <format>     Format pixel (défaut profil: yuv420p10le/yuv420p)
+ --fps <fps>            Framerate cible (défaut profil: 24/30)
+ --vbitrate <bitrate>   Bitrate vidéo max (défaut profil: 500k/1500k)
+ --preset <preset>      Preset encodeur (défaut profil: slow/medium)
+ --tune <tune>          Tune ffmpeg (défaut profil: psnr/zerolatency)
+ --threads <count>      Nombre de threads (défaut: 0=auto)
  --retry <count>        Nombre de tentatives en cas d'échec (défaut: 2)
 
-Options audio (défauts optimisés compression max) :
- --audio <codec>        Codec audio (défaut: aac)
- --abitrate <bitrate>   Débit audio (défaut: 48k)
- --sample_rate <rate>   Fréquence échantillonnage (défaut: 44100)
+Options audio avancées (remplacent profil si spécifiées) :
+ --audio <codec>        Codec audio (défaut profil: aac)
+ --abitrate <bitrate>   Débit audio (défaut profil: 32k/64k)
+ --sample_rate <rate>   Fréquence échantillonnage (défaut profil: 44100)
+ --ac <channels>        Nombre canaux audio (défaut profil: 2/1)
 
 Exemples :
- # Compression basique avec profil défaut (haute compression)
+ # Compression maximale avec profil par défaut
  ./compress_videos.sh --exec --source_dir /home/videos
 
- # Simulation avec wlan1 (interface réseau) pour transfert
- ./compress_videos.sh --simulate --source_dir /mnt/wlan1/videos --quality 28
+ # Optimisation pour Whisper/transcription
+ ./compress_videos.sh --exec --profile target_whisper --source_dir /mnt/wlan1/videos
 
- # Compression personnalisée avec filtres taille
- ./compress_videos.sh --exec --width 720 --height 480 --smin 10M --smax 1G
+ # Compression personnalisée (profil custom automatique)
+ ./compress_videos.sh --exec --quality 20 --width 1920 --height 1080 --abitrate 128k
 
- # Reprendre traitement interrompu
- ./compress_videos.sh --exec --resume --skip_identical
+ # Simulation avec profil compression max
+ ./compress_videos.sh --simulate --profile target_compressed_max
 
- # Compression ultra avec paramètres par défaut
- ./compress_videos.sh --exec
+Profils détaillés :
+ target_whisper        : H.264 High 1280×720 30fps ~1500k + AAC mono 64k (transcription)
+ target_compressed_max : H.265 Main10 854×480 24fps ~500k + AAC stéréo 32k (taille min)
+ custom               : Paramètres manuels ou défauts target_compressed_max
 
-Profil par défaut (compression maximale) :
- - Vidéo : HEVC (H.265) libx265, profil Main10, 406×720, yuv420p10le, 24fps, ~91kbps
- - Audio : AAC LC, 44.1kHz stéréo, 48kbps
- - Conteneur : MP4
-
-Logs détaillés : log.compress_videos.v2.3.log
+Logs détaillés : log.compress_videos.v2.4.log
 Backup avant suppression : backup_YYYYMMDD_HHMMSS
 EOF
 }
@@ -471,10 +504,21 @@ compress_with_retry() {
  while [ "$attempt" -le "$RETRY_COUNT" ] && [ "$success" -eq 0 ]; do
    echo "[INFO] Tentative $attempt/$RETRY_COUNT pour : $(basename "$infile")" | tee -a "$LOGFILE"
 
-   # Construction commande ffmpeg avec tous les paramètres
+   # Construction commande ffmpeg avec tous les paramètres y compris nouveaux
    ffmpeg_cmd=(
      ffmpeg -y -i "$infile"
-     -vf "scale=${MAX_WIDTH}:${MAX_HEIGHT}"
+   )
+
+   # Paramètres de threading
+   if [ -n "$THREADS" ] && [ "$THREADS" != "0" ]; then
+     ffmpeg_cmd+=(-threads "$THREADS")
+   fi
+
+   # Filtres vidéo
+   ffmpeg_cmd+=(-vf "scale=${MAX_WIDTH}:${MAX_HEIGHT}")
+
+   # Paramètres vidéo
+   ffmpeg_cmd+=(
      -c:v "$VIDEO_CODEC"
      -profile:v "$PROFILE"
      -preset "$PRESET"
@@ -483,10 +527,19 @@ compress_with_retry() {
      -bufsize "$((${VBITRATE%k} * 2))k"
      -pix_fmt "$PIX_FMT"
      -r "$FPS"
+   )
+
+   # Tune si défini
+   if [ -n "$TUNE" ]; then
+     ffmpeg_cmd+=(-tune "$TUNE")
+   fi
+
+   # Paramètres audio
+   ffmpeg_cmd+=(
      -c:a "$AUDIO_CODEC"
      -b:a "$AUDIO_BITRATE"
      -ar "$SAMPLE_RATE"
-     -ac 2
+     -ac "$AC"
      -movflags +faststart
      "$output_file"
    )
@@ -737,22 +790,25 @@ while [ $# -gt 0 ]; do
    --resume) RESUME_MODE=1; shift ;;
    --skip_identical) SKIP_IDENTICAL=1; shift ;;
    --source_dir) SOURCE_DIR="$2"; shift 2 ;;
-   --quality|--crf) CRF_VALUE="$2"; shift 2 ;;
-   --width) MAX_WIDTH="$2"; shift 2 ;;
-   --height) MAX_HEIGHT="$2"; shift 2 ;;
+   --profile) PROFILE_NAME="$2"; shift 2 ;;
+   --quality|--crf) CRF_VALUE="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --width) MAX_WIDTH="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --height) MAX_HEIGHT="$2"; PROFILE_NAME="custom"; shift 2 ;;
    --smin) SIZE_MIN="$2"; shift 2 ;;
    --smax) SIZE_MAX="$2"; shift 2 ;;
    --retry) RETRY_COUNT="$2"; shift 2 ;;
+   --threads) THREADS="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --tune) TUNE="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --ac) AC="$2"; PROFILE_NAME="custom"; shift 2 ;;
    --formats) IFS=' ' read -r -a FORMATS <<< "$2"; shift 2 ;;
-   --audio) AUDIO_CODEC="$2"; shift 2 ;;
-   --abitrate) AUDIO_BITRATE="$2"; shift 2 ;;
-   --sample_rate) SAMPLE_RATE="$2"; shift 2 ;;
-   --codec) VIDEO_CODEC="$2"; shift 2 ;;
-   --profile) PROFILE="$2"; shift 2 ;;
-   --pix_fmt) PIX_FMT="$2"; shift 2 ;;
-   --fps) FPS="$2"; shift 2 ;;
-   --vbitrate) VBITRATE="$2"; shift 2 ;;
-   --preset) PRESET="$2"; shift 2 ;;
+   --audio) AUDIO_CODEC="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --abitrate) AUDIO_BITRATE="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --sample_rate) SAMPLE_RATE="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --codec) VIDEO_CODEC="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --pix_fmt) PIX_FMT="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --fps) FPS="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --vbitrate) VBITRATE="$2"; PROFILE_NAME="custom"; shift 2 ;;
+   --preset) PRESET="$2"; PROFILE_NAME="custom"; shift 2 ;;
    --outdir) OUTDIR="$2"; shift 2 ;;
    *)
      echo "[ERREUR] Option inconnue : $1" | tee -a "$LOGFILE"
@@ -762,7 +818,11 @@ while [ $# -gt 0 ]; do
  esac
 done
 
-# Application valeurs par défaut si non fournies
+# Application du profil choisi
+: "${PROFILE_NAME:=$DEFAULT_PROFILE_NAME}"
+apply_profile "$PROFILE_NAME"
+
+# Application valeurs par défaut si non fournies (après profil)
 : "${SOURCE_DIR:=$DEFAULT_SOURCE_DIR}"
 : "${CRF_VALUE:=$DEFAULT_CRF}"
 : "${MAX_WIDTH:=$DEFAULT_WIDTH}"
@@ -776,11 +836,13 @@ done
 : "${FPS:=$DEFAULT_FPS}"
 : "${VBITRATE:=$DEFAULT_VBITRATE}"
 : "${PRESET:=$DEFAULT_PRESET}"
+: "${AC:=$DEFAULT_AC}"
+: "${THREADS:=$DEFAULT_THREADS}"
 : "${SIZE_MIN:=$DEFAULT_SIZE_MIN}"
 : "${RETRY_COUNT:=$DEFAULT_RETRY_COUNT}"
 : "${OUTDIR:=$(cd "$SOURCE_DIR" && cd .. >/dev/null 2>&1 && pwd)/$DEFAULT_OUTDIR_NAME}"
 
-echo "[INFO] Paramètres utilisés (profil haute compression) :" | tee -a "$LOGFILE"
+echo "[INFO] Paramètres utilisés (profil $PROFILE_NAME) :" | tee -a "$LOGFILE"
 echo "       SOURCE_DIR   = $SOURCE_DIR" | tee -a "$LOGFILE"
 echo "       OUTDIR       = $OUTDIR" | tee -a "$LOGFILE"
 echo "       VIDEO_CODEC  = $VIDEO_CODEC" | tee -a "$LOGFILE"
@@ -791,9 +853,12 @@ echo "       FPS          = $FPS" | tee -a "$LOGFILE"
 echo "       CRF_VALUE    = $CRF_VALUE" | tee -a "$LOGFILE"
 echo "       VBITRATE     = $VBITRATE" | tee -a "$LOGFILE"
 echo "       PRESET       = $PRESET" | tee -a "$LOGFILE"
+echo "       TUNE         = ${TUNE:-(aucun)}" | tee -a "$LOGFILE"
+echo "       THREADS      = ${THREADS:-(auto)}" | tee -a "$LOGFILE"
 echo "       AUDIO_CODEC  = $AUDIO_CODEC" | tee -a "$LOGFILE"
 echo "       AUDIO_BITRATE= $AUDIO_BITRATE" | tee -a "$LOGFILE"
 echo "       SAMPLE_RATE  = $SAMPLE_RATE" | tee -a "$LOGFILE"
+echo "       CANAUX_AUDIO = $AC" | tee -a "$LOGFILE"
 echo "       SIZE_MIN     = $SIZE_MIN" | tee -a "$LOGFILE"
 echo "       SIZE_MAX     = ${SIZE_MAX:-(aucune limite)}" | tee -a "$LOGFILE"
 echo "       RETRY_COUNT  = $RETRY_COUNT" | tee -a "$LOGFILE"
@@ -816,6 +881,3 @@ SOURCE_ABS="$(cd "$SOURCE_DIR" && pwd)"
 process_files
 
 exit 0
-
-
-

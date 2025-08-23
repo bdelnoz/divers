@@ -1,0 +1,27 @@
+=== mer 20 aoû 2025 20:31:37 CEST ===
+Argument reçu : --exec
+[*] Installation des paquets KDE partiels...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+plasma-workspace est déjà la version la plus récente (4:6.3.6-2).
+kde-cli-tools est déjà la version la plus récente (4:6.3.4-1).
+kio-extras est déjà la version la plus récente (4:25.04.3-1).
+Les paquets suivants ont été installés automatiquement et ne sont plus nécessaires :
+  libboost-chrono1.83.0t64  libboost-program-options1.83.0  libspdlog1.15
+Veuillez utiliser « sudo apt autoremove » pour les supprimer.
+
+Sommaire :
+  Mise à niveau de : 0. Installation de : 0Supprimé : 0. Non mis à jour : 303
+[1] Paquets installés
+[*] Export de XDG_MENU_PREFIX dans /home/nox/.xprofile...
+[2] Variable ajoutée
+[*] Vérification du symlink applications.menu...
+[3] Symlink créé
+[*] Reconstruire le cache KDE...
+kbuildsycoca6 running...
+[4] Cache KDE reconstruit
+Toutes les actions ont été effectuées avec succès.
