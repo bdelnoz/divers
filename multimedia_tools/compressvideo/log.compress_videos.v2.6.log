@@ -1,0 +1,1252 @@
+[INFO] Lancement script compress_videos.sh v2.6 (2025-08-23)
+[INFO] Profil 'custom' : Utilise paramètres manuels ou défauts
+[INFO] Paramètres utilisés (profil custom) :
+       SOURCE_DIR   = /mnt/encrypted2/Videos/
+       OUTDIR       = /mnt/encrypted2/Videos_whisper_optimized/
+       VIDEO_CODEC  = libx265
+       PROFILE      = main10
+       RESOLUTION   = 320x180
+       PIX_FMT      = yuv420p10le
+       FPS          = 10
+       CRF_VALUE    = 28
+       VBITRATE     = 500k
+       PRESET       = faster
+       TUNE         = (aucun)
+       THREADS      = 0
+       AUDIO_CODEC  = aac
+       AUDIO_BITRATE= 32k
+       SAMPLE_RATE  = 16000
+       CANAUX_AUDIO = 1
+       SIZE_MIN     = 1kb
+       SIZE_MAX     = (aucune limite)
+       RETRY_COUNT  = 2
+       FORMATS      = (auto)
+       CUSTOM_FFMPEG_FILTER = (aucun)
+       SKIP_IDENTICAL = 0
+       RESUME_MODE  = 0
+       MODE         = EXECUTION
+[INFO] Source absolue   : /mnt/encrypted2/Videos
+[INFO] Sortie absolue   : /mnt/encrypted2/Videos_whisper_optimized
+[INFO] mkdir -p /mnt/encrypted2/Videos_whisper_optimized
+=== Fichiers trouvés (481) ===
+  1) /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013234_part0.mp4
+     Avant: 35MB → Après: 18MB (est.)
+  2) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4
+     Avant: 711MB → Après: 356MB (est.)
+  3) /mnt/encrypted2/Videos/Florence/IMG_0060.MOV
+     Avant: 42MB → Après: 21MB (est.)
+  4) /mnt/encrypted2/Videos/Florence/IMG_0019.MOV
+     Avant: 272MB → Après: 136MB (est.)
+  5) /mnt/encrypted2/Videos/Florence/IMG_0078.MOV
+     Avant: 57MB → Après: 29MB (est.)
+  6) /mnt/encrypted2/Videos/Florence/IMG_0016.MOV
+     Avant: 36MB → Après: 18MB (est.)
+  7) /mnt/encrypted2/Videos/Florence/IMG_0014.MOV
+     Avant: 315MB → Après: 158MB (est.)
+  8) /mnt/encrypted2/Videos/Florence/IMG_0032.MOV
+     Avant: 93MB → Après: 47MB (est.)
+  9) /mnt/encrypted2/Videos/Florence/IMG_0013.MOV
+     Avant: 193MB → Après: 97MB (est.)
+ 10) /mnt/encrypted2/Videos/Florence/IMG_0027.MOV
+     Avant: 126MB → Après: 63MB (est.)
+ 11) /mnt/encrypted2/Videos/Florence/IMG_0025.MOV
+     Avant: 174MB → Après: 87MB (est.)
+ 12) /mnt/encrypted2/Videos/Florence/IMG_0059.MOV
+     Avant: 176MB → Après: 88MB (est.)
+ 13) /mnt/encrypted2/Videos/Florence/IMG_0015.MOV
+     Avant: 41MB → Après: 21MB (est.)
+ 14) /mnt/encrypted2/Videos/Florence/IMG_0061.MOV
+     Avant: 91MB → Après: 46MB (est.)
+ 15) /mnt/encrypted2/Videos/Florence/IMG_0026.MOV
+     Avant: 60MB → Après: 30MB (est.)
+ 16) /mnt/encrypted2/Videos/Florence/IMG_0011.MOV
+     Avant: 349MB → Après: 175MB (est.)
+ 17) /mnt/encrypted2/Videos/Florence/IMG_0012.MOV
+     Avant: 338MB → Après: 169MB (est.)
+ 18) /mnt/encrypted2/Videos/Florence/IMG_0058.MOV
+     Avant: 57MB → Après: 29MB (est.)
+ 19) /mnt/encrypted2/Videos/Florence/IMG_0018.MOV
+     Avant: 284MB → Après: 142MB (est.)
+ 20) /mnt/encrypted2/Videos/Florence/IMG_0031.MOV
+     Avant: 15MB → Après: 7,4MB (est.)
+ 21) /mnt/encrypted2/Videos/Florence/IMG_0017.MOV
+     Avant: 348MB → Après: 174MB (est.)
+ 22) /mnt/encrypted2/Videos/Florence/IMG_0033.MOV
+     Avant: 55MB → Après: 28MB (est.)
+ 23) /mnt/encrypted2/Videos/Florence/IMG_0056.MOV
+     Avant: 211MB → Après: 106MB (est.)
+ 24) /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030619_part1.mp4
+     Avant: 12MB → Après: 5,6MB (est.)
+ 25) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 14-27-05_1 2.MP4
+     Avant: 197MB → Après: 99MB (est.)
+ 26) /mnt/encrypted2/Videos/TAPO_ScreenRecording_08-09-2025 03-24-48_1 2.MP4
+     Avant: 186MB → Après: 93MB (est.)
+ 27) /mnt/encrypted2/Videos/NEST_20250817_021607_part0.mp4
+     Avant: 15MB → Après: 7,4MB (est.)
+ 28) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-09-2025 04-16-41_1 2.MP4
+     Avant: 251MB → Après: 126MB (est.)
+ 29) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031425_part1.mp4
+     Avant: 8,4MB → Après: 4,2MB (est.)
+ 30) /mnt/encrypted2/Videos/Videos_autres/clipPreview 7.MP4
+     Avant: 1,7MB → Après: 867KB (est.)
+ 31) /mnt/encrypted2/Videos/Videos_autres/clipPreview 4.MP4
+     Avant: 352KB → Après: 176KB (est.)
+ 32) /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0318.MOV
+     Avant: 7,5MB → Après: 3,8MB (est.)
+ 33) /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0315.MOV
+     Avant: 2,4MB → Après: 1,2MB (est.)
+ 34) /mnt/encrypted2/Videos/Videos_autres/Other/IMG_0316.MOV
+     Avant: 13MB → Après: 6,2MB (est.)
+ 35) /mnt/encrypted2/Videos/Videos_autres/clipPreview 19.MP4
+     Avant: 2,9MB → Après: 1,5MB (est.)
+ 36) /mnt/encrypted2/Videos/Videos_autres/clipPreview 13.MP4
+     Avant: 1,3MB → Après: 651KB (est.)
+ 37) /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250624041225115_cam0.MP4
+     Avant: 3,7MB → Après: 1,9MB (est.)
+ 38) /mnt/encrypted2/Videos/Videos_autres/clipPreview 6.MP4
+     Avant: 401KB → Après: 201KB (est.)
+ 39) /mnt/encrypted2/Videos/Videos_autres/clipPreview 17.MP4
+     Avant: 1,4MB → Après: 699KB (est.)
+ 40) /mnt/encrypted2/Videos/Videos_autres/clipPreview 23.MP4
+     Avant: 1,4MB → Après: 704KB (est.)
+ 41) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_08-09-2025 21-02-47_1 2.MP4
+     Avant: 793MB → Après: 397MB (est.)
+ 42) /mnt/encrypted2/Videos/Videos_autres/clipPreview 20.MP4
+     Avant: 2,9MB → Après: 1,5MB (est.)
+ 43) /mnt/encrypted2/Videos/Videos_autres/clipPreview 14.MP4
+     Avant: 2,1MB → Après: 1,1MB (est.)
+ 44) /mnt/encrypted2/Videos/Videos_autres/clipPreview 3.MP4
+     Avant: 163KB → Après: 82KB (est.)
+ 45) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-17-2025 22-47-57_1.MP4
+     Avant: 71MB → Après: 36MB (est.)
+ 46) /mnt/encrypted2/Videos/Videos_autres/clipPreview.MP4
+     Avant: 1,5MB → Après: 758KB (est.)
+ 47) /mnt/encrypted2/Videos/Videos_autres/clipPreview 12.MP4
+     Avant: 861KB → Après: 431KB (est.)
+ 48) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-25-51_1.MP4
+     Avant: 561MB → Après: 281MB (est.)
+ 49) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_06-17-2025 01-51-57_1.MP4
+     Avant: 209MB → Après: 105MB (est.)
+ 50) /mnt/encrypted2/Videos/Videos_autres/clipPreview 16.MP4
+     Avant: 1,5MB → Après: 758KB (est.)
+ 51) /mnt/encrypted2/Videos/Videos_autres/clipPreview 2.MP4
+     Avant: 3,1MB → Après: 1,6MB (est.)
+ 52) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-20-00_1.MP4
+     Avant: 113MB → Après: 57MB (est.)
+ 53) /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250605035840866_cam0.MP4
+     Avant: 706KB → Après: 353KB (est.)
+ 54) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-23-33_1.MP4
+     Avant: 216MB → Après: 108MB (est.)
+ 55) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-21-47_1.MP4
+     Avant: 151MB → Après: 76MB (est.)
+ 56) /mnt/encrypted2/Videos/Videos_autres/2023512B33C6_20250605035236647_cam0.MP4
+     Avant: 20MB → Après: 9,6MB (est.)
+ 57) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-48-26_1.MP4
+     Avant: 887MB → Après: 444MB (est.)
+ 58) /mnt/encrypted2/Videos/Videos_autres/clipPreview 11.MP4
+     Avant: 861KB → Après: 431KB (est.)
+ 59) /mnt/encrypted2/Videos/Videos_autres/clipPreview 21.MP4
+     Avant: 739KB → Après: 370KB (est.)
+ 60) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 07-51-19_1.MP4
+     Avant: 66MB → Après: 33MB (est.)
+ 61) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 07-52-28_1.MP4
+     Avant: 836MB → Après: 418MB (est.)
+ 62) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 06-36-18_1.MP4
+     Avant: 75MB → Après: 38MB (est.)
+ 63) /mnt/encrypted2/Videos/Videos_autres/clipPreview 18.MP4
+     Avant: 197KB → Après: 99KB (est.)
+ 64) /mnt/encrypted2/Videos/Videos_autres/clipPreview 5.MP4
+     Avant: 1,4MB → Après: 697KB (est.)
+ 65) /mnt/encrypted2/Videos/Videos_autres/clipPreview 24.MP4
+     Avant: 923KB → Après: 462KB (est.)
+ 66) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-17-22_1.MP4
+     Avant: 188MB → Après: 94MB (est.)
+ 67) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-07-19_1.MP4
+     Avant: 944MB → Après: 472MB (est.)
+ 68) /mnt/encrypted2/Videos/Videos_autres/clipPreview 9.MP4
+     Avant: 1,6MB → Après: 781KB (est.)
+ 69) /mnt/encrypted2/Videos/Videos_autres/clipPreview 15.MP4
+     Avant: 1,5MB → Après: 749KB (est.)
+ 70) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 08-04-25_1.MP4
+     Avant: 192MB → Après: 96MB (est.)
+ 71) /mnt/encrypted2/Videos/Videos_autres/clipPreview 22.MP4
+     Avant: 759KB → Après: 380KB (est.)
+ 72) /mnt/encrypted2/Videos/Videos_autres/clipPreview 8.MP4
+     Avant: 1,6MB → Après: 769KB (est.)
+ 73) /mnt/encrypted2/Videos/Videos_autres/ScreenRecording_07-12-2025 02-21-52_1.MP4
+     Avant: 15MB → Après: 7,5MB (est.)
+ 74) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 75) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_043546_part5.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+ 76) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2.ogv
+     Avant: 54MB → Après: 27MB (est.)
+ 77) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012253_part57.ogv
+     Avant: 401KB → Après: 201KB (est.)
+ 78) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012618_part76.ogv
+     Avant: 436KB → Après: 218KB (est.)
+ 79) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013049_part101.ogv
+     Avant: 428KB → Après: 214KB (est.)
+ 80) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032135_part12.ogv
+     Avant: 9,5MB → Après: 4,8MB (est.)
+ 81) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27.ogv
+     Avant: 62MB → Après: 31MB (est.)
+ 82) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011823_part32.ogv
+     Avant: 329KB → Après: 165KB (est.)
+ 83) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011458_part13.ogv
+     Avant: 452KB → Après: 226KB (est.)
+ 84) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250811_023135_part0.ogv
+     Avant: 281KB → Après: 141KB (est.)
+ 85) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011750_part29.ogv
+     Avant: 355KB → Après: 178KB (est.)
+ 86) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21.ogv
+     Avant: 51MB → Après: 26MB (est.)
+ 87) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_27_07_25_2303O1.ogv
+     Avant: 189MB → Après: 95MB (est.)
+ 88) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012242_part56.ogv
+     Avant: 446KB → Après: 223KB (est.)
+ 89) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011939_part39.ogv
+     Avant: 437KB → Après: 219KB (est.)
+ 90) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012901_part91.ogv
+     Avant: 403KB → Après: 202KB (est.)
+ 91) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012944_part95.ogv
+     Avant: 404KB → Après: 202KB (est.)
+ 92) /mnt/encrypted2/Videos/VOIX_suspectes/nest_bruits_20250810_030634_part0.ogv
+     Avant: 9,2MB → Après: 4,6MB (est.)
+ 93) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012011_part42.ogv
+     Avant: 404KB → Après: 202KB (est.)
+ 94) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9.ogv
+     Avant: 68MB → Après: 34MB (est.)
+ 95) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012546_part73.ogv
+     Avant: 442KB → Après: 221KB (est.)
+ 96) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011238_part0.ogv
+     Avant: 534KB → Après: 267KB (est.)
+ 97) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011259_part2.ogv
+     Avant: 453KB → Après: 227KB (est.)
+ 98) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_025616_part0.ogv
+     Avant: 6,7MB → Après: 3,4MB (est.)
+ 99) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012000_part41.ogv
+     Avant: 403KB → Après: 202KB (est.)
+100) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012441_part67.ogv
+     Avant: 408KB → Après: 204KB (est.)
+101) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033414_part18.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+102) /mnt/encrypted2/Videos/VOIX_suspectes/NestCamsequenceQuandOnARemplacerMaCarteSDTAPO_unformated_20250812_063107_part0.ogv
+     Avant: 57MB → Après: 29MB (est.)
+103) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033207_part17.ogv
+     Avant: 8,0MB → Après: 4,0MB (est.)
+104) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031928_part11.ogv
+     Avant: 9,9MB → Après: 5,0MB (est.)
+105) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011447_part12.ogv
+     Avant: 419KB → Après: 210KB (est.)
+106) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030236_part3.ogv
+     Avant: 9,2MB → Après: 4,6MB (est.)
+107) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011321_part4.ogv
+     Avant: 484KB → Après: 242KB (est.)
+108) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35.ogv
+     Avant: 61MB → Après: 31MB (est.)
+109) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012524_part71.ogv
+     Avant: 411KB → Après: 206KB (est.)
+110) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011602_part19.ogv
+     Avant: 411KB → Après: 206KB (est.)
+111) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012817_part87.ogv
+     Avant: 405KB → Après: 203KB (est.)
+112) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011718_part26.ogv
+     Avant: 447KB → Après: 224KB (est.)
+113) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032754_part15.ogv
+     Avant: 9,6MB → Après: 4,8MB (est.)
+114) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_012313_part1.ogv
+     Avant: 22MB → Après: 11MB (est.)
+115) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31.ogv
+     Avant: 62MB → Après: 31MB (est.)
+116) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011928_part38.ogv
+     Avant: 404KB → Après: 202KB (est.)
+117) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012325_part60.ogv
+     Avant: 413KB → Après: 207KB (est.)
+118) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14.ogv
+     Avant: 51MB → Après: 26MB (est.)
+119) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011404_part8.ogv
+     Avant: 441KB → Après: 221KB (est.)
+120) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012148_part51.ogv
+     Avant: 398KB → Après: 199KB (est.)
+121) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012419_part65.ogv
+     Avant: 410KB → Après: 205KB (est.)
+122) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3.ogv
+     Avant: 55MB → Après: 28MB (est.)
+123) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032341_part13.ogv
+     Avant: 11MB → Après: 5,2MB (est.)
+124) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_043547_part5.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+125) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18.ogv
+     Avant: 51MB → Après: 26MB (est.)
+126) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7.ogv
+     Avant: 51MB → Après: 26MB (est.)
+127) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011425_part10.ogv
+     Avant: 416KB → Après: 208KB (est.)
+128) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012231_part55.ogv
+     Avant: 408KB → Après: 204KB (est.)
+129) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16.ogv
+     Avant: 51MB → Après: 26MB (est.)
+130) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012955_part96.ogv
+     Avant: 428KB → Après: 214KB (est.)
+131) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11.ogv
+     Avant: 51MB → Après: 26MB (est.)
+132) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030855_part6.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+133) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031515_part9.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+134) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011310_part3.ogv
+     Avant: 501KB → Après: 251KB (est.)
+135) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011530_part16.ogv
+     Avant: 451KB → Après: 226KB (est.)
+136) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011624_part21.ogv
+     Avant: 415KB → Après: 208KB (est.)
+137) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_032648_part0.ogv
+     Avant: 883KB → Après: 442KB (est.)
+138) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20.ogv
+     Avant: 51MB → Après: 26MB (est.)
+139) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012210_part53.ogv
+     Avant: 415KB → Après: 208KB (est.)
+140) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_034532_part0.ogv
+     Avant: 18MB → Après: 8,9MB (est.)
+141) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32.ogv
+     Avant: 61MB → Après: 31MB (est.)
+142) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39.ogv
+     Avant: 60MB → Après: 30MB (est.)
+143) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012358_part63.ogv
+     Avant: 613KB → Après: 307KB (est.)
+144) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013016_part98.ogv
+     Avant: 408KB → Après: 204KB (est.)
+145) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28.ogv
+     Avant: 62MB → Après: 31MB (est.)
+146) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34.ogv
+     Avant: 61MB → Après: 31MB (est.)
+147) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_222433_part40.ogv
+     Avant: 44MB → Après: 22MB (est.)
+148) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011331_part5.ogv
+     Avant: 174KB → Après: 87KB (est.)
+149) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012828_part88.ogv
+     Avant: 407KB → Après: 204KB (est.)
+150) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_035534_part1.ogv
+     Avant: 60MB → Après: 30MB (est.)
+151) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030029_part2.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+152) /mnt/encrypted2/Videos/VOIX_suspectes/BROL_20250811_004150_part1.ogv
+     Avant: 2,0MB → Après: 978KB (est.)
+153) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011541_part17.ogv
+     Avant: 423KB → Après: 212KB (est.)
+154) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012702_part80.ogv
+     Avant: 402KB → Après: 201KB (est.)
+155) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012745_part84.ogv
+     Avant: 409KB → Après: 205KB (est.)
+156) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012409_part64.ogv
+     Avant: 387KB → Après: 194KB (est.)
+157) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011906_part36.ogv
+     Avant: 1,4MB → Après: 670KB (est.)
+158) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012713_part81.ogv
+     Avant: 394KB → Après: 197KB (est.)
+159) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012022_part43.ogv
+     Avant: 402KB → Après: 201KB (est.)
+160) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013038_part100.ogv
+     Avant: 420KB → Après: 210KB (est.)
+161) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_032836_part0.ogv
+     Avant: 8,3MB → Après: 4,2MB (est.)
+162) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012557_part74.ogv
+     Avant: 415KB → Après: 208KB (est.)
+163) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36.ogv
+     Avant: 61MB → Après: 31MB (est.)
+164) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_035535_part1.ogv
+     Avant: 14MB → Après: 6,8MB (est.)
+165) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033620_part19.ogv
+     Avant: 8,0MB → Après: 4,0MB (est.)
+166) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_021400_part6.ogv
+     Avant: 14MB → Après: 6,9MB (est.)
+167) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012336_part61.ogv
+     Avant: 411KB → Après: 206KB (est.)
+168) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012105_part47.ogv
+     Avant: 406KB → Après: 203KB (est.)
+169) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011801_part30.ogv
+     Avant: 297KB → Après: 149KB (est.)
+170) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012756_part85.ogv
+     Avant: 396KB → Après: 198KB (est.)
+171) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012503_part69.ogv
+     Avant: 444KB → Après: 222KB (est.)
+172) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_040537_part2.ogv
+     Avant: 46MB → Après: 23MB (est.)
+173) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012839_part89.ogv
+     Avant: 440KB → Après: 220KB (est.)
+174) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011415_part9.ogv
+     Avant: 420KB → Après: 210KB (est.)
+175) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011855_part35.ogv
+     Avant: 359KB → Après: 180KB (est.)
+176) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250809_221208_part1.ogv
+     Avant: 14MB → Après: 6,6MB (est.)
+177) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011613_part20.ogv
+     Avant: 418KB → Après: 209KB (est.)
+178) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033001_part16.ogv
+     Avant: 9,6MB → Après: 4,8MB (est.)
+179) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012651_part79.ogv
+     Avant: 403KB → Après: 202KB (est.)
+180) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22.ogv
+     Avant: 51MB → Après: 26MB (est.)
+181) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_014332_part3.ogv
+     Avant: 23MB → Après: 12MB (est.)
+182) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_040538_part2.ogv
+     Avant: 13MB → Après: 6,5MB (est.)
+183) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17.ogv
+     Avant: 51MB → Après: 26MB (est.)
+184) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012054_part46.ogv
+     Avant: 434KB → Après: 217KB (est.)
+185) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_025823_part1.ogv
+     Avant: 9,3MB → Après: 4,7MB (est.)
+186) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25.ogv
+     Avant: 51MB → Après: 26MB (est.)
+187) /mnt/encrypted2/Videos/VOIX_suspectes/outputnesttest.mov
+     Avant: 64MB → Après: 32MB (est.)
+188) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030649_part5.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+189) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012922_part93.ogv
+     Avant: 408KB → Après: 204KB (est.)
+190) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011646_part23.ogv
+     Avant: 439KB → Après: 220KB (est.)
+191) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031102_part7.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+192) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012430_part66.ogv
+     Avant: 442KB → Après: 221KB (est.)
+193) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012807_part86.ogv
+     Avant: 445KB → Après: 223KB (est.)
+194) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38.ogv
+     Avant: 60MB → Après: 30MB (est.)
+195) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011834_part33.ogv
+     Avant: 318KB → Après: 159KB (est.)
+196) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011519_part15.ogv
+     Avant: 419KB → Après: 210KB (est.)
+197) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250809_220201_part0.ogv
+     Avant: 47MB → Après: 24MB (est.)
+198) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012033_part44.ogv
+     Avant: 410KB → Après: 205KB (est.)
+199) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012723_part82.ogv
+     Avant: 402KB → Après: 201KB (est.)
+200) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0.ogv
+     Avant: 54MB → Après: 27MB (est.)
+201) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13.ogv
+     Avant: 51MB → Après: 26MB (est.)
+202) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012933_part94.ogv
+     Avant: 406KB → Après: 203KB (est.)
+203) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012640_part78.ogv
+     Avant: 404KB → Après: 202KB (est.)
+204) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_015341_part4.ogv
+     Avant: 22MB → Après: 11MB (est.)
+205) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012127_part49.ogv
+     Avant: 441KB → Après: 221KB (est.)
+206) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_013322_part2.ogv
+     Avant: 22MB → Après: 11MB (est.)
+207) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012452_part68.ogv
+     Avant: 398KB → Après: 199KB (est.)
+208) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012221_part54.ogv
+     Avant: 410KB → Après: 205KB (est.)
+209) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_042543_part4.ogv
+     Avant: 20MB → Après: 10MB (est.)
+210) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011635_part22.ogv
+     Avant: 414KB → Après: 207KB (est.)
+211) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012850_part90.ogv
+     Avant: 406KB → Après: 203KB (est.)
+212) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_033827_part20.ogv
+     Avant: 4,4MB → Après: 2,2MB (est.)
+213) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011729_part27.ogv
+     Avant: 414KB → Après: 207KB (est.)
+214) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011740_part28.ogv
+     Avant: 422KB → Après: 211KB (est.)
+215) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19.ogv
+     Avant: 51MB → Après: 26MB (est.)
+216) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10.ogv
+     Avant: 58MB → Après: 29MB (est.)
+217) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013027_part99.ogv
+     Avant: 443KB → Après: 222KB (est.)
+218) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011812_part31.ogv
+     Avant: 307KB → Après: 154KB (est.)
+219) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011707_part25.ogv
+     Avant: 412KB → Après: 206KB (est.)
+220) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_020351_part5.ogv
+     Avant: 22MB → Après: 11MB (est.)
+221) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23.ogv
+     Avant: 51MB → Après: 26MB (est.)
+222) /mnt/encrypted2/Videos/VOIX_suspectes/NestCam_20250812_011303_part0.ogv
+     Avant: 41MB → Après: 21MB (est.)
+223) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_013005_part97.ogv
+     Avant: 405KB → Après: 203KB (est.)
+224) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012315_part59.ogv
+     Avant: 433KB → Après: 217KB (est.)
+225) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15.ogv
+     Avant: 51MB → Après: 26MB (est.)
+226) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37.ogv
+     Avant: 61MB → Après: 31MB (est.)
+227) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30.ogv
+     Avant: 61MB → Après: 31MB (est.)
+228) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29.ogv
+     Avant: 61MB → Après: 31MB (est.)
+229) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4.ogv
+     Avant: 54MB → Après: 27MB (est.)
+230) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011656_part24.ogv
+     Avant: 411KB → Après: 206KB (est.)
+231) /mnt/encrypted2/Videos/VOIX_suspectes/surveillance_cam_20250810_032232_part1.ogv
+     Avant: 225MB → Après: 113MB (est.)
+232) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_032548_part14.ogv
+     Avant: 8,0MB → Après: 4,0MB (est.)
+233) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012043_part45.ogv
+     Avant: 392KB → Après: 196KB (est.)
+234) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012137_part50.ogv
+     Avant: 406KB → Après: 203KB (est.)
+235) /mnt/encrypted2/Videos/VOIX_suspectes/surveillance_cam_20250810_032200_part0.ogv
+     Avant: 2,1MB → Après: 1,1MB (est.)
+236) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012608_part75.ogv
+     Avant: 410KB → Après: 205KB (est.)
+237) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011845_part34.ogv
+     Avant: 357KB → Après: 179KB (est.)
+238) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8.ogv
+     Avant: 62MB → Après: 31MB (est.)
+239) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1.ogv
+     Avant: 54MB → Après: 27MB (est.)
+240) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012514_part70.ogv
+     Avant: 413KB → Après: 207KB (est.)
+241) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011509_part14.ogv
+     Avant: 416KB → Après: 208KB (est.)
+242) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031722_part10.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+243) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012304_part58.ogv
+     Avant: 397KB → Après: 199KB (est.)
+244) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33.ogv
+     Avant: 61MB → Après: 31MB (est.)
+245) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_031826_part0.ogv
+     Avant: 4,0MB → Après: 2,0MB (est.)
+246) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5.ogv
+     Avant: 52MB → Après: 26MB (est.)
+247) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012911_part92.ogv
+     Avant: 402KB → Après: 201KB (est.)
+248) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_212408_part38_boost.ogv
+     Avant: 60MB → Après: 30MB (est.)
+249) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030029_part2_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+250) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012000_part41_boost.ogv
+     Avant: 396KB → Après: 198KB (est.)
+251) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012514_part70_boost.ogv
+     Avant: 405KB → Après: 203KB (est.)
+252) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012127_part49_boost.ogv
+     Avant: 434KB → Après: 217KB (est.)
+253) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012043_part45_boost.ogv
+     Avant: 385KB → Après: 193KB (est.)
+254) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011718_part26_boost.ogv
+     Avant: 438KB → Après: 219KB (est.)
+255) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_132052_part22_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+256) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012702_part80_boost.ogv
+     Avant: 394KB → Après: 197KB (est.)
+257) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011331_part5_boost.ogv
+     Avant: 169KB → Après: 85KB (est.)
+258) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250809_220201_part0_boost.ogv
+     Avant: 46MB → Après: 23MB (est.)
+259) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012618_part76_boost.ogv
+     Avant: 431KB → Après: 216KB (est.)
+260) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012535_part72_boost.ogv
+     Avant: 407KB → Après: 204KB (est.)
+261) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025616_part0_boost.ogv
+     Avant: 6,5MB → Après: 3,3MB (est.)
+262) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012955_part96_boost.ogv
+     Avant: 421KB → Après: 211KB (est.)
+263) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012850_part90_boost.ogv
+     Avant: 398KB → Après: 199KB (est.)
+264) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012933_part94_boost.ogv
+     Avant: 399KB → Après: 200KB (est.)
+265) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012828_part88_boost.ogv
+     Avant: 397KB → Après: 199KB (est.)
+266) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_061804_part8_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+267) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011541_part17_boost.ogv
+     Avant: 415KB → Après: 208KB (est.)
+268) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_192318_part34_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+269) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012430_part66_boost.ogv
+     Avant: 436KB → Après: 218KB (est.)
+270) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012557_part74_boost.ogv
+     Avant: 407KB → Après: 204KB (est.)
+271) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_032348_part4_boost.mp4
+     Avant: 8,2MB → Après: 4,1MB (est.)
+272) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250809_221208_part1_boost.ogv
+     Avant: 13MB → Après: 6,5MB (est.)
+273) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011509_part14_boost.ogv
+     Avant: 409KB → Après: 205KB (est.)
+274) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_041715_part4_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+275) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012325_part60_boost.ogv
+     Avant: 403KB → Après: 202KB (est.)
+276) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_182253_part32_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+277) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012734_part83_boost.ogv
+     Avant: 393KB → Après: 197KB (est.)
+278) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011436_part11_boost.ogv
+     Avant: 413KB → Après: 207KB (est.)
+279) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031102_part7_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+280) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011812_part31_boost.ogv
+     Avant: 300KB → Après: 150KB (est.)
+281) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_040538_part2_boost.ogv
+     Avant: 13MB → Après: 6,1MB (est.)
+282) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_032648_part0_boost.ogv
+     Avant: 830KB → Après: 415KB (est.)
+283) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011624_part21_boost.ogv
+     Avant: 406KB → Après: 203KB (est.)
+284) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012756_part85_boost.ogv
+     Avant: 386KB → Après: 193KB (est.)
+285) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_025823_part1_boost.ogv
+     Avant: 9,1MB → Après: 4,6MB (est.)
+286) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031722_part10_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+287) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012608_part75_boost.ogv
+     Avant: 403KB → Après: 202KB (est.)
+288) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_042544_part4_boost.ogv
+     Avant: 12MB → Après: 5,6MB (est.)
+289) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011801_part30_boost.ogv
+     Avant: 289KB → Après: 145KB (est.)
+290) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011310_part3_boost.ogv
+     Avant: 500KB → Après: 250KB (est.)
+291) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012347_part62_boost.ogv
+     Avant: 401KB → Après: 201KB (est.)
+292) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011917_part37_boost.ogv
+     Avant: 380KB → Après: 190KB (est.)
+293) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012441_part67_boost.ogv
+     Avant: 401KB → Après: 201KB (est.)
+294) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_021626_part0_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+295) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_015341_part4_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+296) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_172229_part30_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+297) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011845_part34_boost.ogv
+     Avant: 349KB → Après: 175KB (est.)
+298) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032341_part13_boost.ogv
+     Avant: 11MB → Après: 5,2MB (est.)
+299) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011415_part9_boost.ogv
+     Avant: 412KB → Après: 206KB (est.)
+300) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011259_part2_boost.ogv
+     Avant: 452KB → Après: 226KB (est.)
+301) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_104952_part17_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+302) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_20250817_022116_part1_boost.mp4
+     Avant: 13MB → Après: 6,3MB (est.)
+303) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012452_part68_boost.ogv
+     Avant: 388KB → Après: 194KB (est.)
+304) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012922_part93_boost.ogv
+     Avant: 401KB → Après: 201KB (est.)
+305) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012409_part64_boost.ogv
+     Avant: 379KB → Après: 190KB (est.)
+306) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012911_part92_boost.ogv
+     Avant: 395KB → Après: 198KB (est.)
+307) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013038_part100_boost.ogv
+     Avant: 413KB → Après: 207KB (est.)
+308) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011949_part40_boost.ogv
+     Avant: 392KB → Après: 196KB (est.)
+309) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_031650_part2_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+310) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_185306_part33_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+311) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_024638_part1_boost.ogv
+     Avant: 54MB → Après: 27MB (est.)
+312) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011530_part16_boost.ogv
+     Avant: 443KB → Après: 222KB (est.)
+313) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_034532_part0_boost.ogv
+     Avant: 17MB → Après: 8,4MB (est.)
+314) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031735_part2_boost.mp4
+     Avant: 8,2MB → Après: 4,1MB (est.)
+315) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012022_part43_boost.ogv
+     Avant: 395KB → Après: 198KB (est.)
+316) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031116_part0_boost.mp4
+     Avant: 9,4MB → Après: 4,7MB (est.)
+317) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011834_part33_boost.ogv
+     Avant: 313KB → Après: 157KB (est.)
+318) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011602_part19_boost.ogv
+     Avant: 402KB → Après: 201KB (est.)
+319) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012304_part58_boost.ogv
+     Avant: 388KB → Après: 194KB (est.)
+320) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011458_part13_boost.ogv
+     Avant: 441KB → Après: 221KB (est.)
+321) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_112004_part18_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+322) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nest_bruits_20250810_030634_part0_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+323) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030855_part6_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+324) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011635_part22_boost.ogv
+     Avant: 405KB → Après: 203KB (est.)
+325) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_043547_part5_boost.ogv
+     Avant: 7,3MB → Après: 3,7MB (est.)
+326) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_155152_part27_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+327) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_031425_part1_boost.mp4
+     Avant: 7,0MB → Après: 3,5MB (est.)
+328) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012231_part55_boost.ogv
+     Avant: 399KB → Après: 200KB (est.)
+329) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_032836_part0_boost.ogv
+     Avant: 7,9MB → Après: 4,0MB (est.)
+330) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012221_part54_boost.ogv
+     Avant: 401KB → Après: 201KB (est.)
+331) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012640_part78_boost.ogv
+     Avant: 395KB → Après: 198KB (est.)
+332) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033620_part19_boost.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+333) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_091916_part14_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+334) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_215420_part39_boost.ogv
+     Avant: 60MB → Après: 30MB (est.)
+335) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_175241_part31_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+336) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011823_part32_boost.ogv
+     Avant: 321KB → Après: 161KB (est.)
+337) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012137_part50_boost.ogv
+     Avant: 400KB → Après: 200KB (est.)
+338) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011707_part25_boost.ogv
+     Avant: 405KB → Après: 203KB (est.)
+339) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011740_part28_boost.ogv
+     Avant: 413KB → Après: 207KB (est.)
+340) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_054751_part7_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+341) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_035535_part1_boost.ogv
+     Avant: 13MB → Après: 6,4MB (est.)
+342) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011519_part15_boost.ogv
+     Avant: 410KB → Après: 205KB (est.)
+343) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012419_part65_boost.ogv
+     Avant: 402KB → Après: 201KB (est.)
+344) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011656_part24_boost.ogv
+     Avant: 403KB → Après: 202KB (est.)
+345) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011238_part0_boost.ogv
+     Avant: 533KB → Après: 267KB (est.)
+346) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030442_part4_boost.ogv
+     Avant: 9,2MB → Après: 4,6MB (est.)
+347) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030236_part3_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+348) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_012313_part1_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+349) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_ARRIERE_20250810_172955_part0_boost.ogv
+     Avant: 654KB → Après: 327KB (est.)
+350) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_135103_part23_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+351) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_202343_part36_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+352) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012242_part56_boost.ogv
+     Avant: 441KB → Après: 221KB (est.)
+353) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011928_part38_boost.ogv
+     Avant: 397KB → Après: 199KB (est.)
+354) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_145127_part25_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+355) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012745_part84_boost.ogv
+     Avant: 402KB → Après: 201KB (est.)
+356) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012807_part86_boost.ogv
+     Avant: 437KB → Après: 219KB (est.)
+357) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032135_part12_boost.ogv
+     Avant: 9,3MB → Après: 4,7MB (est.)
+358) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012817_part87_boost.ogv
+     Avant: 395KB → Après: 198KB (est.)
+359) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_122028_part20_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+360) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011855_part35_boost.ogv
+     Avant: 350KB → Après: 175KB (est.)
+361) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012116_part48_boost.ogv
+     Avant: 387KB → Après: 194KB (est.)
+362) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_195331_part35_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+363) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012148_part51_boost.ogv
+     Avant: 393KB → Après: 197KB (est.)
+364) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011447_part12_boost.ogv
+     Avant: 409KB → Après: 205KB (est.)
+365) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012011_part42_boost.ogv
+     Avant: 396KB → Après: 198KB (est.)
+366) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012210_part53_boost.ogv
+     Avant: 407KB → Après: 204KB (est.)
+367) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_142115_part24_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+368) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011750_part29_boost.ogv
+     Avant: 347KB → Après: 174KB (est.)
+369) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/surveillance_cam_20250810_032200_part0_boost.ogv
+     Avant: 2,0MB → Après: 1015KB (est.)
+370) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012315_part59_boost.ogv
+     Avant: 425KB → Après: 213KB (est.)
+371) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_094928_part15_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+372) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011353_part7_boost.ogv
+     Avant: 204KB → Après: 102KB (est.)
+373) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011646_part23_boost.ogv
+     Avant: 431KB → Après: 216KB (est.)
+374) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_030649_part5_boost.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+375) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011404_part8_boost.ogv
+     Avant: 433KB → Après: 217KB (est.)
+376) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_020351_part5_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+377) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012713_part81_boost.ogv
+     Avant: 385KB → Après: 193KB (est.)
+378) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012503_part69_boost.ogv
+     Avant: 436KB → Après: 218KB (est.)
+379) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033207_part17_boost.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+380) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26_boost.ogv
+     Avant: 55MB → Après: 28MB (est.)
+381) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012546_part73_boost.ogv
+     Avant: 435KB → Après: 218KB (est.)
+382) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_20250817_021607_part0_boost.mp4
+     Avant: 13MB → Après: 6,2MB (est.)
+383) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_014332_part3_boost.ogv
+     Avant: 22MB → Après: 11MB (est.)
+384) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_032042_part3_boost.mp4
+     Avant: 9,5MB → Après: 4,8MB (est.)
+385) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_084904_part13_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+386) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011425_part10_boost.ogv
+     Avant: 407KB → Après: 204KB (est.)
+387) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_205355_part37_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+388) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012723_part82_boost.ogv
+     Avant: 396KB → Après: 198KB (est.)
+389) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012839_part89_boost.ogv
+     Avant: 433KB → Après: 217KB (est.)
+390) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012054_part46_boost.ogv
+     Avant: 427KB → Après: 214KB (est.)
+391) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031515_part9_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+392) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_101940_part16_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+393) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011248_part1_boost.ogv
+     Avant: 495KB → Après: 248KB (est.)
+394) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011906_part36_boost.ogv
+     Avant: 1,3MB → Après: 665KB (est.)
+395) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013005_part97_boost.ogv
+     Avant: 397KB → Après: 199KB (est.)
+396) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013016_part98_boost.ogv
+     Avant: 399KB → Après: 200KB (est.)
+397) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012358_part63_boost.ogv
+     Avant: 604KB → Après: 302KB (est.)
+398) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_ARRIERE_20250810_172704_part0_boost.ogv
+     Avant: 3,6MB → Après: 1,8MB (est.)
+399) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011552_part18_boost.ogv
+     Avant: 392KB → Après: 196KB (est.)
+400) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_074840_part11_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+401) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_115016_part19_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+402) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012253_part57_boost.ogv
+     Avant: 393KB → Après: 197KB (est.)
+403) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_034702_part3_boost.ogv
+     Avant: 55MB → Après: 28MB (est.)
+404) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011729_part27_boost.ogv
+     Avant: 407KB → Après: 204KB (est.)
+405) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_044727_part5_boost.ogv
+     Avant: 52MB → Après: 26MB (est.)
+406) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_013027_part99_boost.ogv
+     Avant: 435KB → Après: 218KB (est.)
+407) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_165216_part29_boost.ogv
+     Avant: 61MB → Après: 31MB (est.)
+408) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011613_part20_boost.ogv
+     Avant: 410KB → Après: 205KB (est.)
+409) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011342_part6_boost.ogv
+     Avant: 205KB → Après: 103KB (est.)
+410) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012651_part79_boost.ogv
+     Avant: 394KB → Après: 197KB (est.)
+411) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011939_part39_boost.ogv
+     Avant: 429KB → Après: 215KB (est.)
+412) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012629_part77_boost.ogv
+     Avant: 395KB → Après: 198KB (est.)
+413) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+414) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012159_part52_boost.ogv
+     Avant: 395KB → Après: 198KB (est.)
+415) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032754_part15_boost.ogv
+     Avant: 9,4MB → Après: 4,7MB (est.)
+416) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012336_part61_boost.ogv
+     Avant: 401KB → Après: 201KB (est.)
+417) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_024734_part1_boost.mp4
+     Avant: 12MB → Après: 5,7MB (est.)
+418) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011321_part4_boost.ogv
+     Avant: 483KB → Après: 242KB (est.)
+419) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_125040_part21_boost.ogv
+     Avant: 51MB → Après: 26MB (est.)
+420) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012033_part44_boost.ogv
+     Avant: 403KB → Après: 202KB (est.)
+421) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_013322_part2_boost.ogv
+     Avant: 21MB → Après: 11MB (est.)
+422) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_071828_part10_boost.ogv
+     Avant: 58MB → Après: 29MB (est.)
+423) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_011248_part1.ogv
+     Avant: 495KB → Après: 248KB (est.)
+424) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NEST_FRONT_LAST_20250817_024220_part0_boost.mp4
+     Avant: 10MB → Après: 5,0MB (est.)
+425) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033414_part18_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+426) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_033001_part16_boost.ogv
+     Avant: 9,4MB → Après: 4,7MB (est.)
+427) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012524_part71_boost.ogv
+     Avant: 403KB → Après: 202KB (est.)
+428) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031308_part8_boost.ogv
+     Avant: 8,9MB → Après: 4,5MB (est.)
+429) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_live_20250810_041541_part3_boost.ogv
+     Avant: 13MB → Après: 6,3MB (est.)
+430) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012901_part91_boost.ogv
+     Avant: 395KB → Après: 198KB (est.)
+431) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_064816_part9_boost.ogv
+     Avant: 68MB → Après: 34MB (est.)
+432) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6_boost.ogv
+     Avant: 48MB → Après: 24MB (est.)
+433) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_032548_part14_boost.ogv
+     Avant: 7,8MB → Après: 3,9MB (est.)
+434) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012944_part95_boost.ogv
+     Avant: 397KB → Après: 199KB (est.)
+435) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/nestcam_20250811_012105_part47_boost.ogv
+     Avant: 398KB → Après: 199KB (est.)
+436) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/FREDERIC_20250811_031928_part11_boost.ogv
+     Avant: 9,8MB → Après: 4,9MB (est.)
+437) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_162204_part28_boost.ogv
+     Avant: 62MB → Après: 31MB (est.)
+438) /mnt/encrypted2/Videos/VOIX_suspectes/BOOST-other/NestCam_20250812_011303_part0_boost.ogv
+     Avant: 41MB → Après: 21MB (est.)
+439) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011552_part18.ogv
+     Avant: 403KB → Après: 202KB (est.)
+440) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011436_part11.ogv
+     Avant: 421KB → Après: 211KB (est.)
+441) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_152139_part26.ogv
+     Avant: 55MB → Après: 28MB (est.)
+442) /mnt/encrypted2/Videos/VOIX_suspectes/BROL_20250811_004114_part0.ogv
+     Avant: 2,0MB → Après: 1001KB (est.)
+443) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012734_part83.ogv
+     Avant: 402KB → Après: 201KB (est.)
+444) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011949_part40.ogv
+     Avant: 401KB → Après: 201KB (est.)
+445) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_031308_part8.ogv
+     Avant: 9,0MB → Après: 4,5MB (est.)
+446) /mnt/encrypted2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172704_part0.ogv
+     Avant: 3,7MB → Après: 1,9MB (est.)
+447) /mnt/encrypted2/Videos/VOIX_suspectes/FREDERIC_20250811_030442_part4.ogv
+     Avant: 9,3MB → Après: 4,7MB (est.)
+448) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_081852_part12.ogv
+     Avant: 51MB → Après: 26MB (est.)
+449) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011353_part7.ogv
+     Avant: 213KB → Après: 107KB (est.)
+450) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012629_part77.ogv
+     Avant: 402KB → Après: 201KB (est.)
+451) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_041541_part3.ogv
+     Avant: 13MB → Après: 6,5MB (est.)
+452) /mnt/encrypted2/Videos/VOIX_suspectes/NestCAM_SON_DEVANt_CHEZ_MOI_ET_VOIX_20250813_051739_part6.ogv
+     Avant: 48MB → Après: 24MB (est.)
+453) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012159_part52.ogv
+     Avant: 403KB → Après: 202KB (est.)
+454) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012535_part72.ogv
+     Avant: 414KB → Après: 207KB (est.)
+455) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011342_part6.ogv
+     Avant: 214KB → Après: 107KB (est.)
+456) /mnt/encrypted2/Videos/VOIX_suspectes/NEST_ARRIERE_20250810_172955_part0.ogv
+     Avant: 663KB → Après: 332KB (est.)
+457) /mnt/encrypted2/Videos/VOIX_suspectes/NestSounddansmarueavecFredericFeyenreisenquicrie.ogv
+     Avant: 74MB → Après: 37MB (est.)
+458) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012347_part62.ogv
+     Avant: 410KB → Après: 205KB (est.)
+459) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_042544_part4.ogv
+     Avant: 13MB → Après: 6,1MB (est.)
+460) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_012116_part48.ogv
+     Avant: 397KB → Après: 199KB (est.)
+461) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_live_20250810_041540_part3.ogv
+     Avant: 33MB → Après: 17MB (est.)
+462) /mnt/encrypted2/Videos/VOIX_suspectes/nestcam_20250811_011917_part37.ogv
+     Avant: 387KB → Après: 194KB (est.)
+463) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032042_part3.mp4
+     Avant: 11MB → Après: 5,4MB (est.)
+464) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_030226_part0.mp4
+     Avant: 257KB → Après: 129KB (est.)
+465) /mnt/encrypted2/Videos/NEST_20250817_022116_part1.mp4
+     Avant: 15MB → Après: 7,5MB (est.)
+466) /mnt/encrypted2/Videos/NEST_20250817_022624_part2.mp4
+     Avant: 5,3MB → Après: 2,7MB (est.)
+467) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032348_part4.mp4
+     Avant: 9,3MB → Après: 4,7MB (est.)
+468) /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030920_part2.mp4
+     Avant: 1,3MB → Après: 641KB (est.)
+469) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_024220_part0.mp4
+     Avant: 12MB → Après: 6,0MB (est.)
+470) /mnt/encrypted2/Videos/TEST_20250817_014713_part0.mp4
+     Avant: 2,6MB → Après: 1,3MB (est.)
+471) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_032655_part5.mp4
+     Avant: 8,1MB → Après: 4,1MB (est.)
+472) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031735_part2.mp4
+     Avant: 9,5MB → Après: 4,8MB (est.)
+473) /mnt/encrypted2/Videos/NEST_FRONT_VOICE_20250817_030318_part0.mp4
+     Avant: 8,5MB → Après: 4,3MB (est.)
+474) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_024734_part1.mp4
+     Avant: 14MB → Après: 6,8MB (est.)
+475) /mnt/encrypted2/Videos/TAPO_ScreenRecording_08-02-2025 14-57-15_1 2.MP4
+     Avant: 871MB → Après: 436MB (est.)
+476) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_031116_part0.mp4
+     Avant: 11MB → Après: 5,4MB (est.)
+477) /mnt/encrypted2/Videos/NEST_ScreenRecording_07-28-2025 04-13-03_1.MP4
+     Avant: 501MB → Après: 251MB (est.)
+478) /mnt/encrypted2/Videos/NEST_FRONT_LAST_20250817_025249_part2.mp4
+     Avant: 13MB → Après: 6,4MB (est.)
+479) /mnt/encrypted2/Videos/NEST_ScreenRecording_07-27-2025 23-32-41_1 2.MP4
+     Avant: 599MB → Après: 300MB (est.)
+480) /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013144_part0.mp4
+     Avant: 513KB → Après: 257KB (est.)
+481) /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-08-29_1 2.MP4
+     Avant: 965MB → Après: 483MB (est.)
+
+=== RÉCAPITULATIF ===
+Taille totale avant : 20GB
+Taille estimée après : 9,6GB (ratio 0.50)
+Réduction estimée : 50.0% (gain ~9,6GB)
+Temps estimé total : 36h40m46s
+
+Confirmer la COMPRESSION de ces 481 fichiers ?
+Temps estimé: 36h40m46s, Compression estimée: 20GB → 9,6GB (50.0% de réduction)
+[INFO] mkdir -p /mnt/encrypted2/Videos_whisper_optimized/.
+[1] Compression : /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013234_part0.mp4 -> /mnt/encrypted2/Videos_whisper_optimized/./NEST_FRONT_17082025_20250817_013234_part0_mini.mp4
+[INFO] Tentative 1/2 pour : NEST_FRONT_17082025_20250817_013234_part0.mp4
+ffmpeg version 7.1.1-1+b5 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14 (Debian 14.3.0-5)
+  configuration: --prefix=/usr --extra-version=1+b5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564b7b7ecc00] moov atom not found
+[in#0 @ 0x564b7b7ec940] Error opening input: Invalid data found when processing input
+Error opening input file /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013234_part0.mp4.
+Error opening input files: Invalid data found when processing input
+[ERREUR] Échec ffmpeg (tentative 1)
+[INFO] Tentative 2/2 pour : NEST_FRONT_17082025_20250817_013234_part0.mp4
+ffmpeg version 7.1.1-1+b5 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14 (Debian 14.3.0-5)
+  configuration: --prefix=/usr --extra-version=1+b5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55a035489c00] moov atom not found
+[in#0 @ 0x55a035489940] Error opening input: Invalid data found when processing input
+Error opening input file /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013234_part0.mp4.
+Error opening input files: Invalid data found when processing input
+[ERREUR] Échec ffmpeg (tentative 2)
+[ÉCHEC] Impossible de compresser : /mnt/encrypted2/Videos/NEST_FRONT_17082025_20250817_013234_part0.mp4
+[INFO] mkdir -p /mnt/encrypted2/Videos_whisper_optimized/.
+[2] Compression : /mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4 -> /mnt/encrypted2/Videos_whisper_optimized/./NEST_ScreenRecording_08-02-2025 13-44-03_1 2_mini.mp4
+[INFO] Tentative 1/2 pour : NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4
+ffmpeg version 7.1.1-1+b5 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14 (Debian 14.3.0-5)
+  configuration: --prefix=/usr --extra-version=1+b5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/mnt/encrypted2/Videos/NEST_ScreenRecording_08-02-2025 13-44-03_1 2.MP4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: isommp41mp42
+    creation_time   : 2025-08-02T11:44:03.000000Z
+  Duration: 00:36:12.94, start: 0.000000, bitrate: 2744 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main) (hvc1 / 0x31637668), yuvj420p(pc, bt709/bt709/iec61966-2-1), 1334x1920, 2637 kb/s, 34.48 fps, 60 tbr, 600 tbn (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+      Side data:
+        displaymatrix: rotation of -90.00 degrees
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 100 kb/s (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> hevc (libx265))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x7f4d7c014280] deprecated pixel format used, make sure you did set range correctly
+x265 [info]: HEVC encoder version 4.1+1-1d117be
+x265 [info]: build info [Linux][GCC 14.2.0][64 bit] 10bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main 10 profile, Level-2 (Main tier)
+x265 [info]: Thread pool created using 8 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(3 rows)
+x265 [warning]: Source height < 720p; disabling lookahead-slices
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias  : 10 / 250 / 40 / 5.00 
+x265 [info]: Lookahead / bframes / badapt        : 15 / 4 / 0
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 2 / on / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-28.0 / 0.60
+x265 [info]: VBV/HRD buffer / max-rate / init    : 1000 / 500 / 0.750
+x265 [info]: tools: rd=2 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: fast-intra strong-intra-smoothing deblock sao
+Output #0, mp4, to '/mnt/encrypted2/Videos_whisper_optimized/./NEST_ScreenRecording_08-02-2025 13-44-03_1 2_mini.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: isommp41mp42
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: hevc (hev1 / 0x31766568), yuv420p10le(pc, bt709/bt709/iec61966-2-1, progressive), 320x180, q=2-31, 10 fps, 10240 tbn (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx265
+      Side data:
+        cpb: bitrate max/min/avg: 500000/0/0 buffer size: 1000000 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, mono, fltp, 32 kb/s (default)
+      Metadata:
+        creation_time   : 2025-08-02T11:44:03.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=90 speed=N/A    frame=   17 fps= 17 q=22.0 size=       0KiB time=00:00:01.50 bitrate=   0.2kbits/s dup=0 drop=193 speed= 1.5x    frame=   39 fps= 26 q=32.0 size=       0KiB time=00:00:03.70 bitrate=   0.1kbits/s dup=0 drop=300 speed=2.47x    frame=   61 fps= 30 q=32.0 size=       0KiB time=00:00:05.90 bitrate=   0.1kbits/s dup=0 drop=414 speed=2.95x    frame=   83 fps= 33 q=30.6 size=       0KiB time=00:00:08.10 bitrate=   0.0kbits/s dup=0 drop=520 speed=3.24x    frame=  102 fps= 34 q=27.7 size=       0KiB time=00:00:10.00 bitrate=   0.0kbits/s dup=0 drop=619 speed=3.33x    frame=  124 fps= 35 q=32.0 size=       0KiB time=00:00:12.20 bitrate=   0.0kbits/s dup=0 drop=725 speed=3.48x    frame=  146 fps= 36 q=32.0 size=       0KiB time=00:00:14.40 bitrate=   0.0kbits/s dup=0 drop=839 speed= 3.6x    frame=  169 fps= 38 q=32.0 size=       0KiB time=00:00:16.70 bitrate=   0.0kbits/s dup=0 drop=950 speed=3.71x    frame=  191 fps= 38 q=32.0 size=       0KiB time=00:00:18.90 bitrate=   0.0kbits/s dup=0 drop=1061 speed=3.78x    frame=  213 fps= 39 q=31.0 size=       0KiB time=00:00:21.10 bitrate=   0.0kbits/s dup=0 drop=1172 speed=3.83x    frame=  236 fps= 39 q=32.0 size=       0KiB time=00:00:23.40 bitrate=   0.0kbits/s dup=0 drop=1289 speed= 3.9x    frame=  256 fps= 39 q=32.0 size=       0KiB time=00:00:25.40 bitrate=   0.0kbits/s dup=0 drop=1388 speed=3.91x    frame=  278 fps= 40 q=31.0 size=       0KiB time=00:00:27.60 bitrate=   0.0kbits/s dup=0 drop=1499 speed=3.94x    frame=  300 fps= 40 q=32.0 size=       0KiB time=00:00:29.80 bitrate=   0.0kbits/s dup=0 drop=1609 speed=3.97x    frame=  323 fps= 40 q=31.0 size=       0KiB time=00:00:32.10 bitrate=   0.0kbits/s dup=0 drop=1724 speed=4.01x    frame=  347 fps= 41 q=28.2 size=       0KiB time=00:00:34.50 bitrate=   0.0kbits/s dup=0 drop=1840 speed=4.06x    frame=  369 fps= 41 q=32.0 size=       0KiB time=00:00:36.70 bitrate=   0.0kbits/s dup=0 drop=1952 speed=4.08x    frame=  391 fps= 41 q=32.0 size=       0KiB time=00:00:38.90 bitrate=   0.0kbits/s dup=0 drop=2064 speed=4.09x    frame=  413 fps= 41 q=30.9 size=       0KiB time=00:00:41.10 bitrate=   0.0kbits/s dup=0 drop=2172 speed=4.11x    frame=  435 fps= 41 q=32.0 size=       0KiB time=00:00:43.30 bitrate=   0.0kbits/s dup=0 drop=2281 speed=4.12x    frame=  458 fps= 42 q=31.0 size=       0KiB time=00:00:45.60 bitrate=   0.0kbits/s dup=0 drop=2396 speed=4.14x    frame=  480 fps= 42 q=32.0 size=       0KiB time=00:00:47.80 bitrate=   0.0kbits/s dup=0 drop=2507 speed=4.15x    frame=  503 fps= 42 q=31.0 size=       0KiB time=00:00:50.10 bitrate=   0.0kbits/s dup=0 drop=2623 speed=4.17x    frame=  525 fps= 42 q=32.0 size=       0KiB time=00:00:52.30 bitrate=   0.0kbits/s dup=0 drop=2733 speed=4.18x    frame=  547 fps= 42 q=23.5 size=       0KiB time=00:00:54.50 bitrate=   0.0kbits/s dup=0 drop=2843 speed=4.19x    frame=  569 fps= 42 q=32.1 size=     256KiB time=00:00:56.70 bitrate=  37.0kbits/s dup=0 drop=2950 speed= 4.2x    frame=  592 fps= 42 q=23.7 size=     256KiB time=00:00:59.00 bitrate=  35.6kbits/s dup=0 drop=3067 speed=4.21x    frame=  614 fps= 42 q=32.0 size=     256KiB time=00:01:01.20 bitrate=  34.3kbits/s dup=0 drop=3178 speed=4.22x    frame=  638 fps= 43 q=31.0 size=     256KiB time=00:01:03.60 bitrate=  33.0kbits/s dup=0 drop=3296 speed=4.24x    frame=  661 fps= 43 q=32.0 size=     256KiB time=00:01:05.90 bitrate=  31.8kbits/s dup=0 drop=3412 speed=4.25x    frame=  685 fps= 43 q=32.0 size=     256KiB time=00:01:08.30 bitrate=  30.7kbits/s dup=0 drop=3530 speed=4.27x    frame=  708 fps= 43 q=31.0 size=     256KiB time=00:01:10.60 bitrate=  29.7kbits/s dup=0 drop=3647 speed=4.28x    frame=  732 fps= 43 q=30.0 size=     256KiB time=00:01:13.00 bitrate=  28.7kbits/s dup=0 drop=3766 speed=4.29x    frame=  755 fps= 43 q=32.0 size=     256KiB time=00:01:15.30 bitrate=  27.9kbits/s dup=0 drop=3883 speed= 4.3x    frame=  778 fps= 43 q=31.0 size=     256KiB time=00:01:17.60 bitrate=  27.0kbits/s dup=0 drop=3997 speed=4.31x    frame=  801 fps= 43 q=32.0 size=     256KiB time=00:01:19.90 bitrate=  26.3kbits/s dup=0 drop=4112 speed=4.32x    frame=  824 fps= 43 q=32.0 size=     256KiB time=00:01:22.20 bitrate=  25.5kbits/s dup=0 drop=4225 speed=4.32x    frame=  844 fps= 43 q=32.0 size=     256KiB time=00:01:24.20 bitrate=  24.9kbits/s dup=0 drop=4327 speed=4.31x    frame=  867 fps= 43 q=30.0 size=     256KiB time=00:01:26.50 bitrate=  24.2kbits/s dup=0 drop=4444 speed=4.32x    frame=  890 fps= 43 q=32.0 size=     256KiB time=00:01:28.80 bitrate=  23.6kbits/s dup=0 drop=4556 speed=4.33x    frame=  912 fps= 43 q=27.1 size=     256KiB time=00:01:31.00 bitrate=  23.0kbits/s dup=0 drop=4666 speed=4.33x    frame=  935 fps= 43 q=32.0 size=     256KiB time=00:01:33.30 bitrate=  22.5kbits/s dup=0 drop=4784 speed=4.34x    frame=  958 fps= 44 q=31.0 size=     256KiB time=00:01:35.60 bitrate=  21.9kbits/s dup=0 drop=4895 speed=4.34x    frame=  980 fps= 44 q=32.0 size=     256KiB time=00:01:37.80 bitrate=  21.4kbits/s dup=0 drop=5005 speed=4.34x    frame= 1002 fps= 44 q=30.0 size=     256KiB time=00:01:40.00 bitrate=  21.0kbits/s dup=0 drop=5118 speed=4.34x    frame= 1024 fps= 44 q=32.0 size=     256KiB time=00:01:42.20 bitrate=  20.5kbits/s dup=0 drop=5230 speed=4.34x    frame= 1047 fps= 44 q=30.0 size=     256KiB time=00:01:44.50 bitrate=  20.1kbits/s dup=0 drop=5344 speed=4.35x    frame= 1070 fps= 44 q=32.0 size=     256KiB time=00:01:46.80 bitrate=  19.6kbits/s dup=0 drop=5455 speed=4.35x    frame= 1092 fps= 44 q=30.0 size=     256KiB time=00:01:49.00 bitrate=  19.2kbits/s dup=0 drop=5568 speed=4.35x    frame= 1115 fps= 44 q=32.0 size=     512KiB time=00:01:51.30 bitrate=  37.7kbits/s dup=0 drop=5680 speed=4.36x    frame= 1138 fps= 44 q=31.0 size=     512KiB time=00:01:53.60 bitrate=  36.9kbits/s dup=0 drop=5795 speed=4.36x    frame= 1159 fps= 44 q=32.0 size=     512KiB time=00:01:55.70 bitrate=  36.3kbits/s dup=0 drop=5900 speed=4.36x    frame= 1181 fps= 44 q=32.0 size=     512KiB time=00:01:57.90 bitrate=  35.6kbits/s dup=0 drop=6015 speed=4.36x    frame= 1204 fps= 44 q=32.0 size=     512KiB time=00:02:00.20 bitrate=  34.9kbits/s dup=0 drop=6127 speed=4.37x    frame= 1227 fps= 44 q=29.3 size=     512KiB time=00:02:02.50 bitrate=  34.2kbits/s dup=0 drop=6244 speed=4.37x    frame= 1250 fps= 44 q=32.0 size=     512KiB time=00:02:04.80 bitrate=  33.6kbits/s dup=0 drop=6355 speed=4.37x    frame= 1273 fps= 44 q=31.0 size=     512KiB time=00:02:07.10 bitrate=  33.0kbits/s dup=0 drop=6470 speed=4.38x    frame= 1295 fps= 44 q=32.5 size=     512KiB time=00:02:09.30 bitrate=  32.4kbits/s dup=0 drop=6583 speed=4.38x    frame= 1318 fps= 44 q=30.9 size=     512KiB time=00:02:11.60 bitrate=  31.9kbits/s dup=0 drop=6696 speed=4.38x    frame= 1340 fps= 44 q=32.0 size=     512KiB time=00:02:13.80 bitrate=  31.4kbits/s dup=0 drop=6809 speed=4.38x    frame= 1363 fps= 44 q=31.0 size=     512KiB time=00:02:16.10 bitrate=  30.8kbits/s dup=0 drop=6925 speed=4.38x    frame= 1387 fps= 44 q=29.3 size=     512KiB time=00:02:18.50 bitrate=  30.3kbits/s dup=0 drop=7041 speed=4.39x    frame= 1409 fps= 44 q=32.0 size=     512KiB time=00:02:20.70 bitrate=  29.8kbits/s dup=0 drop=7151 speed=4.39x    frame= 1431 fps= 44 q=32.0 size=     512KiB time=00:02:22.90 bitrate=  29.4kbits/s dup=0 drop=7264 speed=4.39x    frame= 1451 fps= 44 q=32.0 size=     512KiB time=00:02:24.90 bitrate=  28.9kbits/s dup=0 drop=7365 speed=4.39x    frame= 1474 fps= 44 q=32.0 size=     512KiB time=00:02:27.20 bitrate=  28.5kbits/s dup=0 drop=7476 speed=4.39x    frame= 1495 fps= 44 q=32.0 size=     512KiB time=00:02:29.30 bitrate=  28.1kbits/s dup=0 drop=7585 speed=4.39x    frame= 1517 fps= 44 q=26.2 size=     512KiB time=00:02:31.50 bitrate=  27.7kbits/s dup=0 drop=7693 speed=4.39x    frame= 1538 fps= 44 q=31.0 size=     512KiB time=00:02:33.60 bitrate=  27.3kbits/s dup=0 drop=7799 speed=4.38x    frame= 1560 fps= 44 q=32.0 size=     512KiB time=00:02:35.80 bitrate=  26.9kbits/s dup=0 drop=7909 speed=4.38x    frame= 1582 fps= 44 q=24.6 size=     512KiB time=00:02:38.00 bitrate=  26.5kbits/s dup=0 drop=8020 speed=4.38x    frame= 1604 fps= 44 q=32.0 size=     512KiB time=00:02:40.20 bitrate=  26.2kbits/s dup=0 drop=8126 speed=4.38x    frame= 1627 fps= 44 q=26.1 size=     768KiB time=00:02:42.50 bitrate=  38.7kbits/s dup=0 drop=8241 speed=4.39x    frame= 1648 fps= 44 q=31.0 size=     768KiB time=00:02:44.60 bitrate=  38.2kbits/s dup=0 drop=8349 speed=4.38x    frame= 1669 fps= 44 q=32.0 size=     768KiB time=00:02:46.70 bitrate=  37.7kbits/s dup=0 drop=8453 speed=4.38x    frame= 1691 fps= 44 q=32.0 size=     768KiB time=00:02:48.90 bitrate=  37.3kbits/s dup=0 drop=8564 speed=4.38x    frame= 1713 fps= 44 q=31.0 size=     768KiB time=00:02:51.10 bitrate=  36.8kbits/s dup=0 drop=8672 speed=4.38x    frame= 1736 fps= 44 q=32.0 size=     768KiB time=00:02:53.40 bitrate=  36.3kbits/s dup=0 drop=8786 speed=4.38x    frame= 1757 fps= 44 q=30.0 size=     768KiB time=00:02:55.50 bitrate=  35.9kbits/s dup=0 drop=8893 speed=4.38x    frame= 1778 fps= 44 q=31.0 size=     768KiB time=00:02:57.60 bitrate=  35.4kbits/s dup=0 drop=9000 speed=4.38x    frame= 1800 fps= 44 q=32.0 size=     768KiB time=00:02:59.80 bitrate=  35.0kbits/s dup=0 drop=9106 speed=4.38x    frame= 1822 fps= 44 q=26.1 size=     768KiB time=00:03:02.00 bitrate=  34.6kbits/s dup=0 drop=9220 speed=4.38x    frame= 1844 fps= 44 q=32.0 size=     768KiB time=00:03:04.20 bitrate=  34.2kbits/s dup=0 drop=9326 speed=4.38x    frame= 1866 fps= 44 q=32.0 size=     768KiB time=00:03:06.40 bitrate=  33.8kbits/s dup=0 drop=9436 speed=4.38x    frame= 1888 fps= 44 q=31.0 size=     768KiB time=00:03:08.60 bitrate=  33.4kbits/s dup=0 drop=9546 speed=4.38x    frame= 1909 fps= 44 q=32.0 size=     768KiB time=00:03:10.70 bitrate=  33.0kbits/s dup=0 drop=9651 speed=4.38x    frame= 1931 fps= 44 q=32.0 size=     768KiB time=00:03:12.90 bitrate=  32.6kbits/s dup=0 drop=9762 speed=4.38x    frame= 1952 fps= 44 q=24.9 size=     768KiB time=00:03:15.00 bitrate=  32.3kbits/s dup=0 drop=9870 speed=4.38x    frame= 1975 fps= 44 q=32.0 size=     768KiB time=00:03:17.30 bitrate=  31.9kbits/s dup=0 drop=9983 speed=4.38x    frame= 1997 fps= 44 q=23.7 size=     768KiB time=00:03:19.50 bitrate=  31.5kbits/s dup=0 drop=10095 speed=4.38x    frame= 2021 fps= 44 q=32.0 size=     768KiB time=00:03:21.90 bitrate=  31.2kbits/s dup=0 drop=10211 speed=4.38x    frame= 2043 fps= 44 q=31.0 size=     768KiB time=00:03:24.10 bitrate=  30.8kbits/s dup=0 drop=10322 speed=4.38x    frame= 2066 fps= 44 q=32.0 size=     768KiB time=00:03:26.40 bitrate=  30.5kbits/s dup=0 drop=10437 speed=4.39x    frame= 2085 fps= 44 q=32.0 size=     768KiB time=00:03:28.30 bitrate=  30.2kbits/s dup=0 drop=10533 speed=4.38x    frame= 2107 fps= 44 q=27.5 size=     768KiB time=00:03:30.50 bitrate=  29.9kbits/s dup=0 drop=10641 speed=4.38x    frame= 2129 fps= 44 q=32.0 size=     768KiB time=00:03:32.70 bitrate=  29.6kbits/s dup=0 drop=10754 speed=4.38x    frame= 2152 fps= 44 q=30.0 size=     768KiB time=00:03:35.00 bitrate=  29.3kbits/s dup=0 drop=10868 speed=4.38x    frame= 2174 fps= 44 q=32.0 size=     768KiB time=00:03:37.20 bitrate=  29.0kbits/s dup=0 drop=10981 speed=4.38x    frame= 2197 fps= 44 q=25.5 size=    1024KiB time=00:03:39.50 bitrate=  38.2kbits/s dup=0 drop=11091 speed=4.39x    frame= 2216 fps= 44 q=32.0 size=    1024KiB time=00:03:41.40 bitrate=  37.9kbits/s dup=0 drop=11186 speed=4.38x    frame= 2235 fps= 44 q=32.0 size=    1024KiB time=00:03:43.30 bitrate=  37.6kbits/s dup=0 drop=11281 speed=4.37x    frame= 2255 fps= 44 q=32.0 size=    1024KiB time=00:03:45.30 bitrate=  37.2kbits/s dup=0 drop=11381 speed=4.37x    frame= 2270 fps= 44 q=32.0 size=    1024KiB time=00:03:46.80 bitrate=  37.0kbits/s dup=0 drop=11458 speed=4.36x    frame= 2289 fps= 44 q=32.0 size=    1024KiB time=00:03:48.70 bitrate=  36.7kbits/s dup=0 drop=11551 speed=4.35x    frame= 2307 fps= 43 q=29.6 size=    1024KiB time=00:03:50.50 bitrate=  36.4kbits/s dup=0 drop=11644 speed=4.34x    frame= 2327 fps= 43 q=27.3 size=    1024KiB time=00:03:52.50 bitrate=  36.1kbits/s dup=0 drop=11741 speed=4.34x    frame= 2348 fps= 43 q=31.0 size=    1024KiB time=00:03:54.60 bitrate=  35.8kbits/s dup=0 drop=11849 speed=4.34x    frame= 2372 fps= 43 q=30.0 size=    1024KiB time=00:03:57.00 bitrate=  35.4kbits/s dup=0 drop=11969 speed=4.34x    frame= 2391 fps= 43 q=32.0 size=    1024KiB time=00:03:58.90 bitrate=  35.1kbits/s dup=0 drop=12061 speed=4.34x    frame= 2413 fps= 43 q=31.0 size=    1024KiB time=00:04:01.10 bitrate=  34.8kbits/s dup=0 drop=12171 speed=4.34x    frame= 2438 fps= 43 q=31.0 size=    1024KiB time=00:04:03.60 bitrate=  34.4kbits/s dup=0 drop=12296 speed=4.35x    frame= 2464 fps= 44 q=32.0 size=    1024KiB time=00:04:06.20 bitrate=  34.1kbits/s dup=0 drop=12429 speed=4.35x    frame= 2489 fps= 44 q=32.0 size=    1024KiB time=00:04:08.70 bitrate=  33.7kbits/s dup=0 drop=12551 speed=4.36x    frame= 2513 fps= 44 q=31.0 size=    1024KiB time=00:04:11.10 bitrate=  33.4kbits/s dup=0 drop=12675 speed=4.36x    frame= 2539 fps= 44 q=32.0 size=    1024KiB time=00:04:13.70 bitrate=  33.1kbits/s dup=0 drop=12804 speed=4.37x    frame= 2565 fps= 44 q=32.0 size=    1024KiB time=00:04:16.30 bitrate=  32.7kbits/s dup=0 drop=12931 speed=4.38x    frame= 2589 fps= 44 q=32.0 size=    1024KiB time=00:04:18.70 bitrate=  32.4kbits/s dup=0 drop=13051 speed=4.38x    frame= 2615 fps= 44 q=32.0 size=    1024KiB time=00:04:21.30 bitrate=  32.1kbits/s dup=0 drop=13181 speed=4.39x    frame= 2637 fps= 44 q=30.0 size=    1024KiB time=00:04:23.50 bitrate=  31.8kbits/s dup=0 drop=13293 speed=4.39x    frame= 2661 fps= 44 q=32.0 size=    1024KiB time=00:04:25.90 bitrate=  31.5kbits/s dup=0 drop=13414 speed=4.39x    frame= 2687 fps= 44 q=24.0 size=    1024KiB time=00:04:28.50 bitrate=  31.2kbits/s dup=0 drop=13544 speed= 4.4x    frame= 2707 fps= 44 q=28.3 size=    1024KiB time=00:04:30.50 bitrate=  31.0kbits/s dup=0 drop=13643 speed=4.39x    frame= 2728 fps= 44 q=31.0 size=    1024KiB time=00:04:32.60 bitrate=  30.8kbits/s dup=0 drop=13749 speed=4.39x    frame= 2753 fps= 44 q=31.0 size=    1024KiB time=00:04:35.10 bitrate=  30.5kbits/s dup=0 drop=13873 speed= 4.4x    frame= 2778 fps= 44 q=31.0 size=    1280KiB time=00:04:37.60 bitrate=  37.8kbits/s dup=0 drop=13996 speed= 4.4x    frame= 2803 fps= 44 q=31.0 size=    1280KiB time=00:04:40.10 bitrate=  37.4kbits/s dup=0 drop=14121 speed=4.41x    frame= 2827 fps= 44 q=30.0 size=    1280KiB time=00:04:42.50 bitrate=  37.1kbits/s dup=0 drop=14244 speed=4.41x    frame= 2852 fps= 44 q=27.0 size=    1280KiB time=00:04:45.00 bitrate=  36.8kbits/s dup=0 drop=14367 speed=4.41x    frame= 2877 fps= 44 q=27.0 size=    1280KiB time=00:04:47.50 bitrate=  36.5kbits/s dup=0 drop=14493 speed=4.42x    frame= 2901 fps= 44 q=32.0 size=    1280KiB time=00:04:49.90 bitrate=  36.2kbits/s dup=0 drop=14611 speed=4.42x    frame= 2927 fps= 44 q=30.0 size=    1280KiB time=00:04:52.50 bitrate=  35.8kbits/s dup=0 drop=14745 speed=4.43x    frame= 2953 fps= 44 q=31.0 size=    1280KiB time=00:04:55.10 bitrate=  35.5kbits/s dup=0 drop=14871 speed=4.43x    frame= 2977 fps= 44 q=25.9 size=    1280KiB time=00:04:57.50 bitrate=  35.2kbits/s dup=0 drop=14995 speed=4.44x    frame= 3001 fps= 44 q=32.0 size=    1280KiB time=00:04:59.90 bitrate=  35.0kbits/s dup=0 drop=15115 speed=4.44x    frame= 3027 fps= 44 q=25.0 size=    1280KiB time=00:05:02.50 bitrate=  34.7kbits/s dup=0 drop=15241 speed=4.44x    frame= 3049 fps= 44 q=32.0 size=    1280KiB time=00:05:04.70 bitrate=  34.4kbits/s dup=0 drop=15355 speed=4.44x    frame= 3074 fps= 45 q=32.0 size=    1280KiB time=00:05:07.20 bitrate=  34.1kbits/s dup=0 drop=15476 speed=4.45x    frame= 3099 fps= 45 q=32.0 size=    1280KiB time=00:05:09.70 bitrate=  33.9kbits/s dup=0 drop=15602 speed=4.45x    frame= 3122 fps= 45 q=27.0 size=    1280KiB time=00:05:12.00 bitrate=  33.6kbits/s dup=0 drop=15716 speed=4.45x    frame= 3145 fps= 45 q=32.0 size=    1280KiB time=00:05:14.30 bitrate=  33.4kbits/s dup=0 drop=15833 speed=4.45x    frame= 3168 fps= 45 q=32.0 size=    1280KiB time=00:05:16.60 bitrate=  33.1kbits/s dup=0 drop=15951 speed=4.45x    frame= 3194 fps= 45 q=32.0 size=    1280KiB time=00:05:19.20 bitrate=  32.9kbits/s dup=0 drop=16076 speed=4.46x    frame= 3218 fps= 45 q=31.0 size=    1280KiB time=00:05:21.60 bitrate=  32.6kbits/s dup=0 drop=16199 speed=4.46x    frame= 3244 fps= 45 q=32.0 size=    1280KiB time=00:05:24.20 bitrate=  32.3kbits/s dup=0 drop=16326 speed=4.47x    frame= 3268 fps= 45 q=31.0 size=    1280KiB time=00:05:26.60 bitrate=  32.1kbits/s dup=0 drop=16450 speed=4.47x    frame= 3288 fps= 45 q=31.0 size=    1280KiB time=00:05:28.60 bitrate=  31.9kbits/s dup=0 drop=16547 speed=4.47x    frame= 3307 fps= 45 q=29.5 size=    1280KiB time=00:05:30.50 bitrate=  31.7kbits/s dup=0 drop=16642 speed=4.46x    frame= 3327 fps= 45 q=28.9 size=    1280KiB time=00:05:32.50 bitrate=  31.5kbits/s dup=0 drop=16744 speed=4.46x    frame= 3348 fps= 45 q=31.0 size=    1536KiB time=00:05:34.60 bitrate=  37.6kbits/s dup=0 drop=16847 speed=4.46x    frame= 3369 fps= 45 q=32.0 size=    1536KiB time=00:05:36.70 bitrate=  37.4kbits/s dup=0 drop=16956 speed=4.45x    frame= 3393 fps= 45 q=31.0 size=    1536KiB time=00:05:39.10 bitrate=  37.1kbits/s dup=0 drop=17072 speed=4.46x    frame= 3418 fps= 45 q=31.0 size=    1536KiB time=00:05:41.60 bitrate=  36.8kbits/s dup=0 drop=17197 speed=4.46x    frame= 3441 fps= 45 q=32.0 size=    1536KiB time=00:05:43.90 bitrate=  36.6kbits/s dup=0 drop=17312 speed=4.46x    frame= 3464 fps= 45 q=32.0 size=    1536KiB time=00:05:46.20 bitrate=  36.3kbits/s dup=0 drop=17431 speed=4.46x    frame= 3488 fps= 45 q=31.0 size=    1536KiB time=00:05:48.60 bitrate=  36.1kbits/s dup=0 drop=17548 speed=4.46x    frame= 3511 fps= 45 q=32.0 size=    1536KiB time=00:05:50.90 bitrate=  35.9kbits/s dup=0 drop=17664 speed=4.47x    frame= 3537 fps= 45 q=28.1 size=    1536KiB time=00:05:53.50 bitrate=  35.6kbits/s dup=0 drop=17792 speed=4.47x    frame= 3561 fps= 45 q=32.0 size=    1536KiB time=00:05:55.90 bitrate=  35.4kbits/s dup=0 drop=17915 speed=4.47x    frame= 3587 fps= 45 q=30.0 size=    1536KiB time=00:05:58.50 bitrate=  35.1kbits/s dup=0 drop=18045 speed=4.48x    frame= 3609 fps= 45 q=32.0 size=    1536KiB time=00:06:00.70 bitrate=  34.9kbits/s dup=0 drop=18153 speed=4.48x    frame= 3633 fps= 45 q=31.0 size=    1536KiB time=00:06:03.10 bitrate=  34.7kbits/s dup=0 drop=18276 speed=4.48x    frame= 3658 fps= 45 q=31.0 size=    1536KiB time=00:06:05.60 bitrate=  34.4kbits/s dup=0 drop=18397 speed=4.48x    frame= 3682 fps= 45 q=27.7 size=    1536KiB time=00:06:08.00 bitrate=  34.2kbits/s dup=0 drop=18521 speed=4.48x    frame= 3708 fps= 45 q=31.0 size=    1536KiB time=00:06:10.60 bitrate=  34.0kbits/s dup=0 drop=18647 speed=4.49x    frame= 3733 fps= 45 q=31.0 size=    1536KiB time=00:06:13.10 bitrate=  33.7kbits/s dup=0 drop=18772 speed=4.49x    frame= 3757 fps= 45 q=30.0 size=    1536KiB time=00:06:15.50 bitrate=  33.5kbits/s dup=0 drop=18897 speed=4.49x    frame= 3782 fps= 45 q=23.9 size=    1536KiB time=00:06:18.00 bitrate=  33.3kbits/s dup=0 drop=19021 speed= 4.5x    frame= 3808 fps= 45 q=31.0 size=    1536KiB time=00:06:20.60 bitrate=  33.1kbits/s dup=0 drop=19147 speed= 4.5x    frame= 3833 fps= 45 q=31.0 size=    1536KiB time=00:06:23.10 bitrate=  32.8kbits/s dup=0 drop=19274 speed= 4.5x    frame= 3858 fps= 45 q=31.0 size=    1536KiB time=00:06:25.60 bitrate=  32.6kbits/s dup=0 drop=19398 speed= 4.5x    frame= 3884 fps= 45 q=32.0 size=    1536KiB time=00:06:28.20 bitrate=  32.4kbits/s dup=0 drop=19527 speed=4.51x    frame= 3909 fps= 45 q=32.0 size=    1792KiB time=00:06:30.70 bitrate=  37.6kbits/s dup=0 drop=19652 speed=4.51x    frame= 3931 fps= 45 q=32.0 size=    1792KiB time=00:06:32.90 bitrate=  37.4kbits/s dup=0 drop=19764 speed=4.51x    frame= 3951 fps= 45 q=32.0 size=    1792KiB time=00:06:34.90 bitrate=  37.2kbits/s dup=0 drop=19865 speed=4.51x    frame= 3972 fps= 45 q=30.0 size=    1792KiB time=00:06:37.00 bitrate=  37.0kbits/s dup=0 drop=19967 speed=4.51x    frame= 3994 fps= 45 q=32.0 size=    1792KiB time=00:06:39.20 bitrate=  36.8kbits/s dup=0 drop=20082 speed=4.51x    frame= 4017 fps= 45 q=29.1 size=    1792KiB time=00:06:41.50 bitrate=  36.6kbits/s dup=0 drop=20196 speed=4.51x    frame= 4040 fps= 45 q=32.0 size=    1792KiB time=00:06:43.80 bitrate=  36.4kbits/s dup=0 drop=20309 speed=4.51x    frame= 4064 fps= 45 q=32.0 size=    1792KiB time=00:06:46.20 bitrate=  36.1kbits/s dup=0 drop=20430 speed=4.51x    frame= 4085 fps= 45 q=32.0 size=    1792KiB time=00:06:48.30 bitrate=  36.0kbits/s dup=0 drop=20537 speed=4.51x    frame= 4105 fps= 45 q=32.0 size=    1792KiB time=00:06:50.30 bitrate=  35.8kbits/s dup=0 drop=20632 speed= 4.5x    frame= 4124 fps= 45 q=32.0 size=    1792KiB time=00:06:52.20 bitrate=  35.6kbits/s dup=0 drop=20731 speed= 4.5x    frame= 4148 fps= 45 q=31.0 size=    1792KiB time=00:06:54.60 bitrate=  35.4kbits/s dup=0 drop=20847 speed= 4.5x    frame= 4174 fps= 45 q=32.0 size=    1792KiB time=00:06:57.20 bitrate=  35.2kbits/s dup=0 drop=20977 speed=4.51x    frame= 4199 fps= 45 q=32.0 size=    1792KiB time=00:06:59.70 bitrate=  35.0kbits/s dup=0 drop=21104 speed=4.51x    frame= 4226 fps= 45 q=32.0 size=    1792KiB time=00:07:02.40 bitrate=  34.8kbits/s dup=0 drop=21237 speed=4.51x    frame= 4251 fps= 45 q=32.0 size=    1792KiB time=00:07:04.90 bitrate=  34.6kbits/s dup=0 drop=21363 speed=4.52x    frame= 4277 fps= 45 q=29.5 size=    1792KiB time=00:07:07.50 bitrate=  34.3kbits/s dup=0 drop=21495 speed=4.52x    frame= 4303 fps= 45 q=31.0 size=    1792KiB time=00:07:10.10 bitrate=  34.1kbits/s dup=0 drop=21622 speed=4.52x    frame= 4328 fps= 45 q=31.0 size=    1792KiB time=00:07:12.60 bitrate=  33.9kbits/s dup=0 drop=21751 speed=4.52x    frame= 4355 fps= 45 q=32.0 size=    1792KiB time=00:07:15.30 bitrate=  33.7kbits/s dup=0 drop=21883 speed=4.53x    frame= 4379 fps= 45 q=32.0 size=    1792KiB time=00:07:17.70 bitrate=  33.5kbits/s dup=0 drop=22007 speed=4.53x    frame= 4405 fps= 45 q=32.0 size=    1792KiB time=00:07:20.30 bitrate=  33.3kbits/s dup=0 drop=22134 speed=4.53x    frame= 4429 fps= 45 q=32.0 size=    1792KiB time=00:07:22.70 bitrate=  33.2kbits/s dup=0 drop=22252 speed=4.54x    frame= 4455 fps= 45 q=32.0 size=    1792KiB time=00:07:25.30 bitrate=  33.0kbits/s dup=0 drop=22383 speed=4.54x    frame= 4481 fps= 45 q=32.1 size=    2048KiB time=00:07:27.90 bitrate=  37.5kbits/s dup=0 drop=22513 speed=4.54x    frame= 4507 fps= 45 q=27.1 size=    2048KiB time=00:07:30.50 bitrate=  37.2kbits/s dup=0 drop=22646 speed=4.55x    frame= 4533 fps= 46 q=31.0 size=    2048KiB time=00:07:33.10 bitrate=  37.0kbits/s dup=0 drop=22772 speed=4.55x    frame= 4559 fps= 46 q=32.0 size=    2048KiB time=00:07:35.70 bitrate=  36.8kbits/s dup=0 drop=22903 speed=4.55x    frame= 4586 fps= 46 q=32.0 size=    2048KiB time=00:07:38.40 bitrate=  36.6kbits/s dup=0 drop=23038 speed=4.56x    frame= 4611 fps= 46 q=32.0 size=    2048KiB time=00:07:40.90 bitrate=  36.4kbits/s dup=0 drop=23162 speed=4.56x    frame= 4636 fps= 46 q=32.0 size=    2048KiB time=00:07:43.40 bitrate=  36.2kbits/s dup=0 drop=23290 speed=4.56x    frame= 4660 fps= 46 q=32.0 size=    2048KiB time=00:07:45.80 bitrate=  36.0kbits/s dup=0 drop=23411 speed=4.56x    frame= 4687 fps= 46 q=30.0 size=    2048KiB time=00:07:48.50 bitrate=  35.8kbits/s dup=0 drop=23545 speed=4.57x    frame= 4713 fps= 46 q=31.0 size=    2048KiB time=00:07:51.10 bitrate=  35.6kbits/s dup=0 drop=23673 speed=4.57x    frame= 4739 fps= 46 q=32.0 size=    2048KiB time=00:07:53.70 bitrate=  35.4kbits/s dup=0 drop=23806 speed=4.57x    frame= 4767 fps= 46 q=29.1 size=    2048KiB time=00:07:56.50 bitrate=  35.2kbits/s dup=0 drop=23942 speed=4.58x    frame= 4792 fps= 46 q=30.0 size=    2048KiB time=00:07:59.00 bitrate=  35.0kbits/s dup=0 drop=24069 speed=4.58x    frame= 4817 fps= 46 q=32.0 size=    2048KiB time=00:08:01.50 bitrate=  34.8kbits/s dup=0 drop=24193 speed=4.58x    frame= 4842 fps= 46 q=32.0 size=    2048KiB time=00:08:04.00 bitrate=  34.7kbits/s dup=0 drop=24318 speed=4.58x    frame= 4868 fps= 46 q=32.0 size=    2048KiB time=00:08:06.60 bitrate=  34.5kbits/s dup=0 drop=24447 speed=4.59x    frame= 4893 fps= 46 q=32.0 size=    2048KiB time=00:08:09.10 bitrate=  34.3kbits/s dup=0 drop=24575 speed=4.59x    frame= 4917 fps= 46 q=32.0 size=    2048KiB time=00:08:11.50 bitrate=  34.1kbits/s dup=0 drop=24695 speed=4.59x    frame= 4942 fps= 46 q=32.0 size=    2048KiB time=00:08:14.00 bitrate=  34.0kbits/s dup=0 drop=24821 speed=4.59x    frame= 4968 fps= 46 q=32.0 size=    2304KiB time=00:08:16.60 bitrate=  38.0kbits/s dup=0 drop=24950 speed=4.59x    frame= 4994 fps= 46 q=28.2 size=    2304KiB time=00:08:19.20 bitrate=  37.8kbits/s dup=0 drop=25077 speed= 4.6x    frame= 5019 fps= 46 q=30.0 size=    2304KiB time=00:08:21.70 bitrate=  37.6kbits/s dup=0 drop=25203 speed= 4.6x    frame= 5046 fps= 46 q=32.0 size=    2304KiB time=00:08:24.40 bitrate=  37.4kbits/s dup=0 drop=25339 speed= 4.6x    frame= 5071 fps= 46 q=32.0 size=    2304KiB time=00:08:26.90 bitrate=  37.2kbits/s dup=0 drop=25464 speed= 4.6x    frame= 5097 fps= 46 q=32.0 size=    2304KiB time=00:08:29.50 bitrate=  37.0kbits/s dup=0 drop=25595 speed=4.61x    frame= 5124 fps= 46 q=27.3 size=    2304KiB time=00:08:32.20 bitrate=  36.9kbits/s dup=0 drop=25728 speed=4.61x    frame= 5149 fps= 46 q=30.0 size=    2304KiB time=00:08:34.70 bitrate=  36.7kbits/s dup=0 drop=25856 speed=4.61x    frame= 5176 fps= 46 q=32.0 size=    2304KiB time=00:08:37.40 bitrate=  36.5kbits/s dup=0 drop=25989 speed=4.61x    frame= 5202 fps= 46 q=32.0 size=    2304KiB time=00:08:40.00 bitrate=  36.3kbits/s dup=0 drop=26117 speed=4.62x    frame= 5228 fps= 46 q=32.1 size=    2304KiB time=00:08:42.60 bitrate=  36.1kbits/s dup=0 drop=26248 speed=4.62x    frame= 5255 fps= 46 q=31.0 size=    2304KiB time=00:08:45.30 bitrate=  35.9kbits/s dup=0 drop=26382 speed=4.62x    frame= 5280 fps= 46 q=31.0 size=    2304KiB time=00:08:47.80 bitrate=  35.8kbits/s dup=0 drop=26510 speed=4.63x    frame= 5304 fps= 46 q=20.2 size=    2304KiB time=00:08:50.20 bitrate=  35.6kbits/s dup=0 drop=26630 speed=4.63x    frame= 5331 fps= 46 q=32.0 size=    2304KiB time=00:08:52.90 bitrate=  35.4kbits/s dup=0 drop=26762 speed=4.63x    frame= 5357 fps= 46 q=32.0 size=    2304KiB time=00:08:55.50 bitrate=  35.2kbits/s dup=0 drop=26894 speed=4.63x    frame= 5383 fps= 46 q=32.0 size=    2304KiB time=00:08:58.10 bitrate=  35.1kbits/s dup=0 drop=27025 speed=4.63x    frame= 5409 fps= 46 q=26.9 size=    2304KiB time=00:09:00.70 bitrate=  34.9kbits/s dup=0 drop=27156 speed=4.64x    frame= 5435 fps= 46 q=31.0 size=    2304KiB time=00:09:03.30 bitrate=  34.7kbits/s dup=0 drop=27287 speed=4.64x    frame= 5461 fps= 46 q=32.0 size=    2304KiB time=00:09:05.90 bitrate=  34.6kbits/s dup=0 drop=27413 speed=4.64x    frame= 5487 fps= 46 q=32.0 size=    2304KiB time=00:09:08.50 bitrate=  34.4kbits/s dup=0 drop=27543 speed=4.64x    frame= 5512 fps= 46 q=32.0 size=    2304KiB time=00:09:11.00 bitrate=  34.3kbits/s dup=0 drop=27670 speed=4.64x    frame= 5537 fps= 46 q=32.0 size=    2560KiB time=00:09:13.50 bitrate=  37.9kbits/s dup=0 drop=27796 speed=4.65x    frame= 5562 fps= 46 q=32.0 size=    2560KiB time=00:09:16.00 bitrate=  37.7kbits/s dup=0 drop=27922 speed=4.65x    frame= 5588 fps= 47 q=32.0 size=    2560KiB time=00:09:18.60 bitrate=  37.5kbits/s dup=0 drop=28051 speed=4.65x    frame= 5615 fps= 47 q=31.0 size=    2560KiB time=00:09:21.30 bitrate=  37.4kbits/s dup=0 drop=28183 speed=4.65x    frame= 5640 fps= 47 q=31.0 size=    2560KiB time=00:09:23.80 bitrate=  37.2kbits/s dup=0 drop=28310 speed=4.65x    frame= 5668 fps= 47 q=32.0 size=    2560KiB time=00:09:26.60 bitrate=  37.0kbits/s dup=0 drop=28448 speed=4.66x    frame= 5696 fps= 47 q=32.0 size=    2560KiB time=00:09:29.40 bitrate=  36.8kbits/s dup=0 drop=28591 speed=4.66x    frame= 5721 fps= 47 q=32.0 size=    2560KiB time=00:09:31.90 bitrate=  36.7kbits/s dup=0 drop=28713 speed=4.66x    frame= 5745 fps= 47 q=31.0 size=    2560KiB time=00:09:34.30 bitrate=  36.5kbits/s dup=0 drop=28835 speed=4.66x    frame= 5768 fps= 47 q=32.0 size=    2560KiB time=00:09:36.60 bitrate=  36.4kbits/s dup=0 drop=28951 speed=4.66x    frame= 5795 fps= 47 q=31.0 size=    2560KiB time=00:09:39.30 bitrate=  36.2kbits/s dup=0 drop=29083 speed=4.67x    frame= 5820 fps= 47 q=31.0 size=    2560KiB time=00:09:41.80 bitrate=  36.0kbits/s dup=0 drop=29211 speed=4.67x    frame= 5847 fps= 47 q=32.0 size=    2560KiB time=00:09:44.50 bitrate=  35.9kbits/s dup=0 drop=29343 speed=4.67x    frame= 5872 fps= 47 q=32.0 size=    2560KiB time=00:09:47.00 bitrate=  35.7kbits/s dup=0 drop=29468 speed=4.67x    frame= 5898 fps= 47 q=32.0 size=    2560KiB time=00:09:49.60 bitrate=  35.6kbits/s dup=0 drop=29598 speed=4.67x    frame= 5922 fps= 47 q=32.0 size=    2560KiB time=00:09:52.00 bitrate=  35.4kbits/s dup=0 drop=29718 speed=4.67x    frame= 5947 fps= 47 q=32.0 size=    2560KiB time=00:09:54.50 bitrate=  35.3kbits/s dup=0 drop=29846 speed=4.68x    frame= 5969 fps= 47 q=25.9 size=    2560KiB time=00:09:56.70 bitrate=  35.1kbits/s dup=0 drop=29956 speed=4.68x    frame= 5995 fps= 47 q=31.0 size=    2560KiB time=00:09:59.30 bitrate=  35.0kbits/s dup=0 drop=30083 speed=4.68x    frame= 6021 fps= 47 q=32.0 size=    2560KiB time=00:10:01.90 bitrate=  34.8kbits/s dup=0 drop=30213 speed=4.68x    frame= 6046 fps= 47 q=32.0 size=    2560KiB time=00:10:04.40 bitrate=  34.7kbits/s dup=0 drop=30342 speed=4.68x    frame= 6071 fps= 47 q=32.0 size=    2560KiB time=00:10:06.90 bitrate=  34.6kbits/s dup=0 drop=30464 speed=4.68x    frame= 6097 fps= 47 q=32.0 size=    2816KiB time=00:10:09.50 bitrate=  37.8kbits/s dup=0 drop=30594 speed=4.68x    frame= 6122 fps= 47 q=32.0 size=    2816KiB time=00:10:12.00 bitrate=  37.7kbits/s dup=0 drop=30718 speed=4.68x    frame= 6147 fps= 47 q=32.0 size=    2816KiB time=00:10:14.50 bitrate=  37.5kbits/s dup=0 drop=30846 speed=4.69x    frame= 6174 fps= 47 q=29.4 size=    2816KiB time=00:10:17.20 bitrate=  37.4kbits/s dup=0 drop=30978 speed=4.69x    frame= 6199 fps= 47 q=30.0 size=    2816KiB time=00:10:19.70 bitrate=  37.2kbits/s dup=0 drop=31104 speed=4.69x    frame= 6225 fps= 47 q=31.0 size=    2816KiB time=00:10:22.30 bitrate=  37.1kbits/s dup=0 drop=31235 speed=4.69x    frame= 6250 fps= 47 q=31.0 size=    2816KiB time=00:10:24.80 bitrate=  36.9kbits/s dup=0 drop=31360 speed=4.69x    frame= 6276 fps= 47 q=32.0 size=    2816KiB time=00:10:27.40 bitrate=  36.8kbits/s dup=0 drop=31488 speed=4.69x    frame= 6301 fps= 47 q=32.0 size=    2816KiB time=00:10:29.90 bitrate=  36.6kbits/s dup=0 drop=31617 speed= 4.7x    frame= 6326 fps= 47 q=32.0 size=    2816KiB time=00:10:32.40 bitrate=  36.5kbits/s dup=0 drop=31741 speed= 4.7x    frame= 6350 fps= 47 q=30.9 size=    2816KiB time=00:10:34.80 bitrate=  36.3kbits/s dup=0 drop=31862 speed= 4.7x    frame= 6377 fps= 47 q=32.0 size=    2816KiB time=00:10:37.50 bitrate=  36.2kbits/s dup=0 drop=31993 speed= 4.7x    frame= 6399 fps= 47 q=24.8 size=    2816KiB time=00:10:39.70 bitrate=  36.1kbits/s dup=0 drop=32103 speed= 4.7x    frame= 6420 fps= 47 q=30.5 size=    2816KiB time=00:10:41.80 bitrate=  35.9kbits/s dup=0 drop=32210 speed= 4.7x    frame= 6444 fps= 47 q=25.0 size=    2816KiB time=00:10:44.20 bitrate=  35.8kbits/s dup=0 drop=32329 speed= 4.7x    frame= 6470 fps= 47 q=31.0 size=    2816KiB time=00:10:46.80 bitrate=  35.7kbits/s dup=0 drop=32458 speed= 4.7x    frame= 6497 fps= 47 q=32.0 size=    2816KiB time=00:10:49.50 bitrate=  35.5kbits/s dup=0 drop=32593 speed= 4.7x    frame= 6521 fps= 47 q=32.0 size=    2816KiB time=00:10:51.90 bitrate=  35.4kbits/s dup=0 drop=32716 speed= 4.7x    frame= 6547 fps= 47 q=32.0 size=    2816KiB time=00:10:54.50 bitrate=  35.2kbits/s dup=0 drop=32844 speed= 4.7x    frame= 6572 fps= 47 q=32.0 size=    3072KiB time=00:10:57.00 bitrate=  38.3kbits/s dup=0 drop=32973 speed= 4.7x    frame= 6598 fps= 47 q=32.0 size=    3072KiB time=00:10:59.60 bitrate=  38.2kbits/s dup=0 drop=33098 speed=4.71x    frame= 6623 fps= 47 q=32.0 size=    3072KiB time=00:11:02.10 bitrate=  38.0kbits/s dup=0 drop=33226 speed=4.71x    frame= 6649 fps= 47 q=30.0 size=    3072KiB time=00:11:04.70 bitrate=  37.9kbits/s dup=0 drop=33354 speed=4.71x    frame= 6674 fps= 47 q=25.7 size=    3072KiB time=00:11:07.20 bitrate=  37.7kbits/s dup=0 drop=33481 speed=4.71x    frame= 6698 fps= 47 q=32.0 size=    3072KiB time=00:11:09.60 bitrate=  37.6kbits/s dup=0 drop=33599 speed=4.71x    frame= 6723 fps= 47 q=32.0 size=    3072KiB time=00:11:12.10 bitrate=  37.4kbits/s dup=0 drop=33723 speed=4.71x    frame= 6747 fps= 47 q=32.0 size=    3072KiB time=00:11:14.50 bitrate=  37.3kbits/s dup=0 drop=33843 speed=4.71x    frame= 6768 fps= 47 q=32.0 size=    3072KiB time=00:11:16.60 bitrate=  37.2kbits/s dup=0 drop=33951 speed=4.71x    frame= 6792 fps= 47 q=32.0 size=    3072KiB time=00:11:19.00 bitrate=  37.1kbits/s dup=0 drop=34072 speed=4.71x    frame= 6817 fps= 47 q=32.0 size=    3072KiB time=00:11:21.50 bitrate=  36.9kbits/s dup=0 drop=34195 speed=4.71x    frame= 6841 fps= 47 q=32.0 size=    3072KiB time=00:11:23.90 bitrate=  36.8kbits/s dup=0 drop=34313 speed=4.71x    frame= 6866 fps= 47 q=32.0 size=    3072KiB time=00:11:26.40 bitrate=  36.7kbits/s dup=0 drop=34440 speed=4.71x    frame= 6890 fps= 47 q=31.0 size=    3072KiB time=00:11:28.80 bitrate=  36.5kbits/s dup=0 drop=34558 speed=4.71x    frame= 6913 fps= 47 q=32.0 size=    3072KiB time=00:11:31.10 bitrate=  36.4kbits/s dup=0 drop=34676 speed=4.71x    frame= 6938 fps= 47 q=32.0 size=    3072KiB time=00:11:33.60 bitrate=  36.3kbits/s dup=0 drop=34798 speed=4.71x    frame= 6961 fps= 47 q=32.0 size=    3072KiB time=00:11:35.90 bitrate=  36.2kbits/s dup=0 drop=34914 speed=4.71x    frame= 6986 fps= 47 q=32.0 size=    3072KiB time=00:11:38.40 bitrate=  36.0kbits/s dup=0 drop=35041 speed=4.71x    frame= 7010 fps= 47 q=31.0 size=    3072KiB time=00:11:40.80 bitrate=  35.9kbits/s dup=0 drop=35158 speed=4.71x    frame= 7035 fps= 47 q=31.0 size=    3072KiB time=00:11:43.30 bitrate=  35.8kbits/s dup=0 drop=35285 speed=4.72x    frame= 7058 fps= 47 q=32.0 size=    3072KiB time=00:11:45.60 bitrate=  35.7kbits/s dup=0 drop=35402 speed=4.71x    frame= 7082 fps= 47 q=32.0 size=    3072KiB time=00:11:48.00 bitrate=  35.5kbits/s dup=0 drop=35520 speed=4.71x    frame= 7107 fps= 47 q=32.0 size=    3072KiB time=00:11:50.50 bitrate=  35.4kbits/s dup=0 drop=35643 speed=4.72x    frame= 7130 fps= 47 q=31.0 size=    3328KiB time=00:11:52.80 bitrate=  38.2kbits/s dup=0 drop=35758 speed=4.72x    frame= 7153 fps= 47 q=32.0 size=    3328KiB time=00:11:55.10 bitrate=  38.1kbits/s dup=0 drop=35875 speed=4.72x    frame= 7179 fps= 47 q=27.2 size=    3328KiB time=00:11:57.70 bitrate=  38.0kbits/s dup=0 drop=36005 speed=4.72x    frame= 7204 fps= 47 q=28.3 size=    3328KiB time=00:12:00.20 bitrate=  37.9kbits/s dup=0 drop=36130 speed=4.72x    frame= 7229 fps= 47 q=29.1 size=    3328KiB time=00:12:02.70 bitrate=  37.7kbits/s dup=0 drop=36255 speed=4.72x    frame= 7256 fps= 47 q=32.0 size=    3328KiB time=00:12:05.40 bitrate=  37.6kbits/s dup=0 drop=36388 speed=4.72x    frame= 7280 fps= 47 q=31.0 size=    3328KiB time=00:12:07.80 bitrate=  37.5kbits/s dup=0 drop=36509 speed=4.72x    frame= 7304 fps= 47 q=21.0 size=    3328KiB time=00:12:10.20 bitrate=  37.3kbits/s dup=0 drop=36629 speed=4.72x    frame= 7327 fps= 47 q=32.0 size=    3328KiB time=00:12:12.50 bitrate=  37.2kbits/s dup=0 drop=36747 speed=4.72x    frame= 7351 fps= 47 q=32.0 size=    3328KiB time=00:12:14.90 bitrate=  37.1kbits/s dup=0 drop=36865 speed=4.72x    frame= 7377 fps= 47 q=32.0 size=    3328KiB time=00:12:17.50 bitrate=  37.0kbits/s dup=0 drop=36996 speed=4.72x    frame= 7402 fps= 47 q=32.0 size=    3328KiB time=00:12:20.00 bitrate=  36.8kbits/s dup=0 drop=37120 speed=4.72x    frame= 7429 fps= 47 q=24.3 size=    3328KiB time=00:12:22.70 bitrate=  36.7kbits/s dup=0 drop=37254 speed=4.73x    frame= 7453 fps= 47 q=32.0 size=    3328KiB time=00:12:25.10 bitrate=  36.6kbits/s dup=0 drop=37376 speed=4.73x    frame= 7478 fps= 47 q=32.0 size=    3328KiB time=00:12:27.60 bitrate=  36.5kbits/s dup=0 drop=37499 speed=4.73x    frame= 7504 fps= 47 q=30.0 size=    3328KiB time=00:12:30.20 bitrate=  36.3kbits/s dup=0 drop=37629 speed=4.73x    frame= 7528 fps= 47 q=32.0 size=    3328KiB time=00:12:32.60 bitrate=  36.2kbits/s dup=0 drop=37753 speed=4.73x    frame= 7551 fps= 47 q=32.0 size=    3328KiB time=00:12:34.90 bitrate=  36.1kbits/s dup=0 drop=37870 speed=4.73x    frame= 7577 fps= 47 q=32.0 size=    3328KiB time=00:12:37.50 bitrate=  36.0kbits/s dup=0 drop=37994 speed=4.73x    frame= 7599 fps= 47 q=29.5 size=    3328KiB time=00:12:39.70 bitrate=  35.9kbits/s dup=0 drop=38104 speed=4.73x    frame= 7624 fps= 47 q=28.5 size=    3328KiB time=00:12:42.20 bitrate=  35.8kbits/s dup=0 drop=38229 speed=4.73x    frame= 7648 fps= 47 q=32.0 size=    3328KiB time=00:12:44.60 bitrate=  35.7kbits/s dup=0 drop=38353 speed=4.73x    frame= 7674 fps= 47 q=29.1 size=    3328KiB time=00:12:47.20 bitrate=  35.5kbits/s dup=0 drop=38480 speed=4.73x    frame= 7699 fps= 47 q=30.0 size=    3584KiB time=00:12:49.70 bitrate=  38.1kbits/s dup=0 drop=38606 speed=4.73x    frame= 7723 fps= 47 q=32.0 size=    3584KiB time=00:12:52.10 bitrate=  38.0kbits/s dup=0 drop=38724 speed=4.73x    frame= 7747 fps= 47 q=32.0 size=    3584KiB time=00:12:54.50 bitrate=  37.9kbits/s dup=0 drop=38844 speed=4.73x    frame= 7770 fps= 47 q=31.0 size=    3584KiB time=00:12:56.80 bitrate=  37.8kbits/s dup=0 drop=38959 speed=4.73x    frame= 7794 fps= 47 q=27.3 size=    3584KiB time=00:12:59.20 bitrate=  37.7kbits/s dup=0 drop=39082 speed=4.73x    frame= 7819 fps= 47 q=26.8 size=    3584KiB time=00:13:01.70 bitrate=  37.6kbits/s dup=0 drop=39208 speed=4.73x    frame= 7845 fps= 47 q=31.0 size=    3584KiB time=00:13:04.30 bitrate=  37.4kbits/s dup=0 drop=39339 speed=4.73x    frame= 7870 fps= 47 q=31.0 size=    3584KiB time=00:13:06.80 bitrate=  37.3kbits/s dup=0 drop=39459 speed=4.73x    frame= 7897 fps= 47 q=32.0 size=    3584KiB time=00:13:09.50 bitrate=  37.2kbits/s dup=0 drop=39594 speed=4.74x    frame= 7921 fps= 47 q=32.0 size=    3584KiB time=00:13:11.90 bitrate=  37.1kbits/s dup=0 drop=39714 speed=4.74x    frame= 7947 fps= 47 q=32.0 size=    3584KiB time=00:13:14.50 bitrate=  37.0kbits/s dup=0 drop=39844 speed=4.74x    frame= 7972 fps= 47 q=32.0 size=    3584KiB time=00:13:17.00 bitrate=  36.8kbits/s dup=0 drop=39969 speed=4.74x    frame= 7997 fps= 47 q=32.0 size=    3584KiB time=00:13:19.50 bitrate=  36.7kbits/s dup=0 drop=40095 speed=4.74x    frame= 8023 fps= 47 q=32.0 size=    3584KiB time=00:13:22.10 bitrate=  36.6kbits/s dup=0 drop=40224 speed=4.74x    frame= 8047 fps= 47 q=32.0 size=    3584KiB time=00:13:24.50 bitrate=  36.5kbits/s dup=0 drop=40347 speed=4.74x    frame= 8072 fps= 47 q=32.0 size=    3584KiB time=00:13:27.00 bitrate=  36.4kbits/s dup=0 drop=40471 speed=4.74x    frame= 8097 fps= 47 q=32.0 size=    3584KiB time=00:13:29.50 bitrate=  36.3kbits/s dup=0 drop=40596 speed=4.74x    frame= 8121 fps= 47 q=32.0 size=    3584KiB time=00:13:31.90 bitrate=  36.2kbits/s dup=0 drop=40718 speed=4.74x    frame= 8146 fps= 47 q=32.0 size=    3584KiB time=00:13:34.40 bitrate=  36.1kbits/s dup=0 drop=40840 speed=4.74x    frame= 8169 fps= 47 q=28.2 size=    3584KiB time=00:13:36.70 bitrate=  36.0kbits/s dup=0 drop=40954 speed=4.74x    frame= 8189 fps= 47 q=27.7 size=    3584KiB time=00:13:38.70 bitrate=  35.9kbits/s dup=0 drop=41057 speed=4.74x    frame= 8213 fps= 47 q=32.1 size=    3584KiB time=00:13:41.10 bitrate=  35.8kbits/s dup=0 drop=41176 speed=4.74x    frame= 8240 fps= 47 q=30.7 size=    3584KiB time=00:13:43.80 bitrate=  35.6kbits/s dup=0 drop=41309 speed=4.74x    frame= 8267 fps= 47 q=32.0 size=    3840KiB time=00:13:46.50 bitrate=  38.1kbits/s dup=0 drop=41444 speed=4.74x    frame= 8293 fps= 47 q=32.0 size=    3840KiB time=00:13:49.10 bitrate=  37.9kbits/s dup=0 drop=41577 speed=4.75x    frame= 8319 fps= 47 q=30.0 size=    3840KiB time=00:13:51.70 bitrate=  37.8kbits/s dup=0 drop=41708 speed=4.75x    frame= 8347 fps= 48 q=32.0 size=    3840KiB time=00:13:54.50 bitrate=  37.7kbits/s dup=0 drop=41844 speed=4.75x    frame= 8371 fps= 48 q=32.0 size=    3840KiB time=00:13:56.90 bitrate=  37.6kbits/s dup=0 drop=41964 speed=4.75x    frame= 8395 fps= 48 q=31.0 size=    3840KiB time=00:13:59.30 bitrate=  37.5kbits/s dup=0 drop=42084 speed=4.75x    frame= 8418 fps= 48 q=32.0 size=    3840KiB time=00:14:01.60 bitrate=  37.4kbits/s dup=0 drop=42199 speed=4.75x    frame= 8442 fps= 48 q=32.0 size=    3840KiB time=00:14:04.00 bitrate=  37.3kbits/s dup=0 drop=42319 speed=4.75x    frame= 8467 fps= 48 q=32.0 size=    3840KiB time=00:14:06.50 bitrate=  37.2kbits/s dup=0 drop=42444 speed=4.75x    frame= 8492 fps= 48 q=32.0 size=    3840KiB time=00:14:09.00 bitrate=  37.1kbits/s dup=0 drop=42571 speed=4.75x    frame= 8517 fps= 48 q=32.0 size=    3840KiB time=00:14:11.50 bitrate=  36.9kbits/s dup=0 drop=42696 speed=4.75x    frame= 8543 fps= 48 q=32.0 size=    3840KiB time=00:14:14.10 bitrate=  36.8kbits/s dup=0 drop=42825 speed=4.75x    frame= 8567 fps= 48 q=32.0 size=    3840KiB time=00:14:16.50 bitrate=  36.7kbits/s dup=0 drop=42944 speed=4.75x    frame= 8590 fps= 48 q=31.0 size=    3840KiB time=00:14:18.80 bitrate=  36.6kbits/s dup=0 drop=43062 speed=4.75x    frame= 8615 fps= 48 q=31.0 size=    3840KiB time=00:14:21.30 bitrate=  36.5kbits/s dup=0 drop=43184 speed=4.75x    frame= 8638 fps= 48 q=32.0 size=    3840KiB time=00:14:23.60 bitrate=  36.4kbits/s dup=0 drop=43303 speed=4.75x    frame= 8663 fps= 48 q=32.0 size=    3840KiB time=00:14:26.10 bitrate=  36.3kbits/s dup=0 drop=43425 speed=4.75x    frame= 8687 fps= 48 q=32.0 size=    3840KiB time=00:14:28.50 bitrate=  36.2kbits/s dup=0 drop=43544 speed=4.75x    frame= 8711 fps= 48 q=32.0 size=    3840KiB time=00:14:30.90 bitrate=  36.1kbits/s dup=0 drop=43664 speed=4.75x    frame= 8737 fps= 48 q=32.0 size=    3840KiB time=00:14:33.50 bitrate=  36.0kbits/s dup=0 drop=43794 speed=4.76x    frame= 8759 fps= 48 q=27.1 size=    3840KiB time=00:14:35.70 bitrate=  35.9kbits/s dup=0 drop=43906 speed=4.75x    frame= 8785 fps= 48 q=31.0 size=    3840KiB time=00:14:38.30 bitrate=  35.8kbits/s dup=0 drop=44034 speed=4.76x    frame= 8809 fps= 48 q=30.0 size=    4096KiB time=00:14:40.70 bitrate=  38.1kbits/s dup=0 drop=44156 speed=4.76x    frame= 8834 fps= 48 q=30.0 size=    4096KiB time=00:14:43.20 bitrate=  38.0kbits/s dup=0 drop=44279 speed=4.76x    frame= 8859 fps= 48 q=22.5 size=    4096KiB time=00:14:45.70 bitrate=  37.9kbits/s dup=0 drop=44404 speed=4.76x    frame= 8884 fps= 48 q=28.3 size=    4096KiB time=00:14:48.20 bitrate=  37.8kbits/s dup=0 drop=44531 speed=4.76x    frame= 8909 fps= 48 q=25.8 size=    4096KiB time=00:14:50.70 bitrate=  37.7kbits/s dup=0 drop=44654 speed=4.76x    frame= 8932 fps= 48 q=32.0 size=    4096KiB time=00:14:53.00 bitrate=  37.6kbits/s dup=0 drop=44773 speed=4.76x    frame= 8957 fps= 48 q=32.0 size=    4096KiB time=00:14:55.50 bitrate=  37.5kbits/s dup=0 drop=44894 speed=4.76x    frame= 8991 fps= 48 q=32.0 size=    4096KiB time=00:14:58.90 bitrate=  37.3kbits/s dup=0 drop=44995 speed=4.76x    frame= 9066 fps= 48 q=32.0 size=    4096KiB time=00:15:06.40 bitrate=  37.0kbits/s dup=0 drop=45041 speed=4.79x    frame= 9139 fps= 48 q=24.7 size=    4096KiB time=00:15:13.70 bitrate=  36.7kbits/s dup=0 drop=45086 speed=4.82x    frame= 9221 fps= 48 q=32.0 size=    4096KiB time=00:15:21.90 bitrate=  36.4kbits/s dup=0 drop=45134 speed=4.85x    frame= 9301 fps= 49 q=32.0 size=    4096KiB time=00:15:29.90 bitrate=  36.1kbits/s dup=0 drop=45183 speed=4.88x    frame= 9389 fps= 49 q=30.0 size=    4352KiB time=00:15:38.70 bitrate=  38.0kbits/s dup=0 drop=45234 speed=4.91x    frame= 9469 fps= 49 q=29.2 size=    4352KiB time=00:15:46.70 bitrate=  37.7kbits/s dup=0 drop=45282 speed=4.94x    frame= 9547 fps= 50 q=32.0 size=    4352KiB time=00:15:54.50 bitrate=  37.4kbits/s dup=0 drop=45330 speed=4.97x    frame= 9626 fps= 50 q=32.0 size=    4352KiB time=00:16:02.50 bitrate=  37.0kbits/s dup=0 drop=45380 speed=4.99x    frame= 9715 fps= 50 q=31.0 size=    4352KiB time=00:16:11.30 bitrate=  36.7kbits/s dup=0 drop=45430 speed=5.03x    frame= 9801 fps= 51 q=32.0 size=    4352KiB time=00:16:19.90 bitrate=  36.4kbits/s dup=0 drop=45482 speed=5.06x    frame= 9894 fps= 51 q=29.5 size=    4352KiB time=00:16:29.20 bitrate=  36.0kbits/s dup=0 drop=45528 speed=5.09x    frame= 9988 fps= 51 q=32.0 size=    4608KiB time=00:16:38.60 bitrate=  37.8kbits/s dup=0 drop=45577 speed=5.13x    frame=10073 fps= 52 q=32.0 size=    4608KiB time=00:16:47.10 bitrate=  37.5kbits/s dup=0 drop=45626 speed=5.16x    frame=10159 fps= 52 q=30.0 size=    4608KiB time=00:16:55.70 bitrate=  37.2kbits/s dup=0 drop=45677 speed=5.19x    frame=10249 fps= 52 q=30.0 size=    4608KiB time=00:17:04.70 bitrate=  36.8kbits/s dup=0 drop=45731 speed=5.22x    frame=10337 fps= 53 q=32.0 size=    4608KiB time=00:17:13.50 bitrate=  36.5kbits/s dup=0 drop=45783 speed=5.25x    frame=10422 fps= 53 q=32.0 size=    4608KiB time=00:17:22.00 bitrate=  36.2kbits/s dup=0 drop=45835 speed=5.28x    frame=10509 fps= 53 q=27.7 size=    4864KiB time=00:17:30.70 bitrate=  37.9kbits/s dup=0 drop=45886 speed=5.31x    frame=10589 fps= 53 q=29.1 size=    4864KiB time=00:17:38.70 bitrate=  37.6kbits/s dup=0 drop=45934 speed=5.34x    frame=10678 fps= 54 q=32.0 size=    4864KiB time=00:17:47.60 bitrate=  37.3kbits/s dup=0 drop=45986 speed=5.37x    frame=10762 fps= 54 q=32.0 size=    4864KiB time=00:17:56.00 bitrate=  37.0kbits/s dup=0 drop=46037 speed= 5.4x    frame=10853 fps= 54 q=32.0 size=    4864KiB time=00:18:05.10 bitrate=  36.7kbits/s dup=0 drop=46091 speed=5.43x    frame=10945 fps= 55 q=31.0 size=    4864KiB time=00:18:14.30 bitrate=  36.4kbits/s dup=0 drop=46146 speed=5.47x    frame=11032 fps= 55 q=32.0 size=    4864KiB time=00:18:23.00 bitrate=  36.1kbits/s dup=0 drop=46199 speed= 5.5x    frame=11114 fps= 55 q=29.6 size=    5120KiB time=00:18:31.20 bitrate=  37.7kbits/s dup=0 drop=46248 speed=5.52x    frame=11198 fps= 56 q=32.0 size=    5120KiB time=00:18:39.60 bitrate=  37.5kbits/s dup=0 drop=46298 speed=5.55x    frame=11283 fps= 56 q=32.0 size=    5120KiB time=00:18:48.10 bitrate=  37.2kbits/s dup=0 drop=46348 speed=5.58x    frame=11361 fps= 56 q=32.0 size=    5120KiB time=00:18:55.90 bitrate=  36.9kbits/s dup=0 drop=46395 speed= 5.6x    frame=11449 fps= 56 q=24.8 size=    5120KiB time=00:19:04.70 bitrate=  36.6kbits/s dup=0 drop=46447 speed=5.63x    frame=11532 fps= 57 q=32.0 size=    5120KiB time=00:19:13.00 bitrate=  36.4kbits/s dup=0 drop=46498 speed=5.66x    frame=11609 fps= 57 q=31.0 size=    5120KiB time=00:19:20.70 bitrate=  36.1kbits/s dup=0 drop=46545 speed=5.68x    frame=11691 fps= 57 q=32.0 size=    5376KiB time=00:19:28.90 bitrate=  37.7kbits/s dup=0 drop=46593 speed=5.71x    frame=11766 fps= 57 q=32.0 size=    5376KiB time=00:19:36.40 bitrate=  37.4kbits/s dup=0 drop=46638 speed=5.73x    frame=11841 fps= 58 q=32.0 size=    5376KiB time=00:19:43.90 bitrate=  37.2kbits/s dup=0 drop=46683 speed=5.75x    frame=11920 fps= 58 q=31.0 size=    5376KiB time=00:19:51.80 bitrate=  37.0kbits/s dup=0 drop=46731 speed=5.78x    frame=12001 fps= 58 q=32.0 size=    5376KiB time=00:19:59.90 bitrate=  36.7kbits/s dup=0 drop=46779 speed= 5.8x    frame=12086 fps= 58 q=32.0 size=    5376KiB time=00:20:08.50 bitrate=  36.4kbits/s dup=0 drop=46830 speed=5.83x    frame=12161 fps= 59 q=32.0 size=    5376KiB time=00:20:15.90 bitrate=  36.2kbits/s dup=0 drop=46879 speed=5.85x    frame=12234 fps= 59 q=28.6 size=    5632KiB time=00:20:23.20 bitrate=  37.7kbits/s dup=0 drop=46926 speed=5.87x    frame=12299 fps= 59 q=24.8 size=    5632KiB time=00:20:29.70 bitrate=  37.5kbits/s dup=0 drop=46973 speed=5.89x    frame=12373 fps= 59 q=32.0 size=    5632KiB time=00:20:37.10 bitrate=  37.3kbits/s dup=0 drop=47018 speed=5.91x    frame=12457 fps= 59 q=32.0 size=    5632KiB time=00:20:45.50 bitrate=  37.0kbits/s dup=0 drop=47067 speed=5.94x    frame=12536 fps= 60 q=32.0 size=    5632KiB time=00:20:53.40 bitrate=  36.8kbits/s dup=0 drop=47112 speed=5.96x    frame=12617 fps= 60 q=32.0 size=    5632KiB time=00:21:01.50 bitrate=  36.6kbits/s dup=0 drop=47156 speed=5.99x    frame=12695 fps= 60 q=31.0 size=    5632KiB time=00:21:09.30 bitrate=  36.3kbits/s dup=0 drop=47209 speed=6.01x    frame=12773 fps= 60 q=32.0 size=    5888KiB time=00:21:17.10 bitrate=  37.8kbits/s dup=0 drop=47261 speed=6.03x    frame=12841 fps= 61 q=32.0 size=    5888KiB time=00:21:23.90 bitrate=  37.6kbits/s dup=0 drop=47310 speed=6.05x    frame=12914 fps= 61 q=30.0 size=    5888KiB time=00:21:31.20 bitrate=  37.4kbits/s dup=0 drop=47358 speed=6.07x    frame=12996 fps= 61 q=32.0 size=    5888KiB time=00:21:39.40 bitrate=  37.1kbits/s dup=0 drop=47408 speed=6.09x    frame=13075 fps= 61 q=31.0 size=    5888KiB time=00:21:47.30 bitrate=  36.9kbits/s dup=0 drop=47456 speed=6.12x    frame=13154 fps= 61 q=25.2 size=    5888KiB time=00:21:55.20 bitrate=  36.7kbits/s dup=0 drop=47501 speed=6.14x    frame=13231 fps= 62 q=32.0 size=    5888KiB time=00:22:02.90 bitrate=  36.5kbits/s dup=0 drop=47546 speed=6.16x    frame=13301 fps= 62 q=32.0 size=    5888KiB time=00:22:09.90 bitrate=  36.3kbits/s dup=0 drop=47588 speed=6.18x    frame=13379 fps= 62 q=31.0 size=    6144KiB time=00:22:17.70 bitrate=  37.6kbits/s dup=0 drop=47633 speed= 6.2x    frame=13459 fps= 62 q=23.1 size=    6144KiB time=00:22:25.70 bitrate=  37.4kbits/s dup=0 drop=47679 speed=6.22x    frame=13535 fps= 62 q=31.0 size=    6144KiB time=00:22:33.30 bitrate=  37.2kbits/s dup=0 drop=47724 speed=6.24x    frame=13619 fps= 63 q=30.0 size=    6144KiB time=00:22:41.70 bitrate=  37.0kbits/s dup=0 drop=47773 speed=6.27x    frame=13699 fps= 63 q=30.0 size=    6144KiB time=00:22:49.70 bitrate=  36.7kbits/s dup=0 drop=47822 speed=6.29x    frame=13779 fps= 63 q=29.4 size=    6144KiB time=00:22:57.70 bitrate=  36.5kbits/s dup=0 drop=47869 speed=6.31x    frame=13850 fps= 63 q=31.0 size=    6144KiB time=00:23:04.80 bitrate=  36.3kbits/s dup=0 drop=47913 speed=6.33x    frame=13927 fps= 64 q=32.0 size=    6400KiB time=00:23:12.50 bitrate=  37.7kbits/s dup=0 drop=47959 speed=6.35x    frame=13997 fps= 64 q=32.0 size=    6400KiB time=00:23:19.50 bitrate=  37.5kbits/s dup=0 drop=48002 speed=6.37x    frame=14077 fps= 64 q=32.0 size=    6400KiB time=00:23:27.50 bitrate=  37.2kbits/s dup=0 drop=48054 speed=6.39x    frame=14150 fps= 64 q=31.0 size=    6400KiB time=00:23:34.80 bitrate=  37.1kbits/s dup=0 drop=48104 speed=6.41x    frame=14227 fps= 64 q=31.0 size=    6400KiB time=00:23:42.50 bitrate=  36.9kbits/s dup=0 drop=48150 speed=6.43x    frame=14301 fps= 64 q=32.0 size=    6400KiB time=00:23:49.90 bitrate=  36.7kbits/s dup=0 drop=48198 speed=6.45x    frame=14389 fps= 65 q=30.0 size=    6400KiB time=00:23:58.70 bitrate=  36.4kbits/s dup=0 drop=48247 speed=6.47x    frame=14465 fps= 65 q=31.0 size=    6656KiB time=00:24:06.30 bitrate=  37.7kbits/s dup=0 drop=48292 speed=6.49x    frame=14539 fps= 65 q=29.0 size=    6656KiB time=00:24:13.70 bitrate=  37.5kbits/s dup=0 drop=48336 speed=6.51x    frame=14605 fps= 65 q=31.0 size=    6656KiB time=00:24:20.30 bitrate=  37.3kbits/s dup=0 drop=48377 speed=6.53x    frame=14688 fps= 66 q=32.0 size=    6656KiB time=00:24:28.60 bitrate=  37.1kbits/s dup=0 drop=48426 speed=6.55x    frame=14771 fps= 66 q=32.0 size=    6656KiB time=00:24:36.90 bitrate=  36.9kbits/s dup=0 drop=48475 speed=6.57x    frame=14845 fps= 66 q=31.0 size=    6656KiB time=00:24:44.30 bitrate=  36.7kbits/s dup=0 drop=48518 speed=6.59x    frame=14934 fps= 66 q=27.7 size=    6656KiB time=00:24:53.20 bitrate=  36.5kbits/s dup=0 drop=48570 speed=6.61x    frame=15013 fps= 66 q=32.0 size=    6912KiB time=00:25:01.10 bitrate=  37.7kbits/s dup=0 drop=48617 speed=6.63x    frame=15096 fps= 67 q=32.0 size=    6912KiB time=00:25:09.40 bitrate=  37.5kbits/s dup=0 drop=48661 speed=6.66x    frame=15179 fps= 67 q=31.0 size=    6912KiB time=00:25:17.70 bitrate=  37.3kbits/s dup=0 drop=48717 speed=6.68x    frame=15265 fps= 67 q=30.8 size=    6912KiB time=00:25:26.30 bitrate=  37.1kbits/s dup=0 drop=48777 speed= 6.7x    frame=15347 fps= 67 q=32.0 size=    6912KiB time=00:25:34.50 bitrate=  36.9kbits/s dup=0 drop=48827 speed=6.72x    frame=15431 fps= 67 q=32.0 size=    6912KiB time=00:25:42.90 bitrate=  36.7kbits/s dup=0 drop=48876 speed=6.74x    frame=15519 fps= 68 q=24.1 size=    6912KiB time=00:25:51.70 bitrate=  36.5kbits/s dup=0 drop=48925 speed=6.77x    frame=15610 fps= 68 q=31.0 size=    7168KiB time=00:26:00.80 bitrate=  37.6kbits/s dup=0 drop=48981 speed=6.79x    frame=15690 fps= 68 q=31.0 size=    7168KiB time=00:26:08.80 bitrate=  37.4kbits/s dup=0 drop=49028 speed=6.81x    frame=15775 fps= 68 q=31.0 size=    7168KiB time=00:26:17.30 bitrate=  37.2kbits/s dup=0 drop=49082 speed=6.84x    frame=15834 fps= 68 q=28.6 size=    7168KiB time=00:26:23.20 bitrate=  37.1kbits/s dup=0 drop=49140 speed=6.85x    frame=15919 fps= 69 q=27.9 size=    7168KiB time=00:26:31.70 bitrate=  36.9kbits/s dup=0 drop=49191 speed=6.87x    frame=15973 fps= 69 q=32.0 size=    7168KiB time=00:26:37.10 bitrate=  36.8kbits/s dup=0 drop=49266 speed=6.88x    frame=16023 fps= 69 q=32.0 size=    7168KiB time=00:26:42.10 bitrate=  36.7kbits/s dup=0 drop=49350 speed=6.88x    frame=16067 fps= 69 q=31.6 size=    7168KiB time=00:26:46.50 bitrate=  36.6kbits/s dup=0 drop=49446 speed=6.89x    frame=16109 fps= 69 q=25.1 size=    7424KiB time=00:26:50.70 bitrate=  37.8kbits/s dup=0 drop=49519 speed=6.89x    frame=16180 fps= 69 q=31.0 size=    7424KiB time=00:26:57.80 bitrate=  37.6kbits/s dup=0 drop=49576 speed=6.91x    frame=16261 fps= 69 q=32.0 size=    7424KiB time=00:27:05.90 bitrate=  37.4kbits/s dup=0 drop=49626 speed=6.93x    frame=16342 fps= 69 q=32.0 size=    7424KiB time=00:27:14.00 bitrate=  37.2kbits/s dup=0 drop=49673 speed=6.95x    frame=16425 fps= 70 q=31.0 size=    7424KiB time=00:27:22.30 bitrate=  37.0kbits/s dup=0 drop=49721 speed=6.97x    frame=16511 fps= 70 q=32.0 size=    7424KiB time=00:27:30.90 bitrate=  36.8kbits/s dup=0 drop=49773 speed=6.99x    frame=16598 fps= 70 q=32.0 size=    7424KiB time=00:27:39.60 bitrate=  36.6kbits/s dup=0 drop=49825 speed=7.01x    frame=16675 fps= 70 q=31.0 size=    7424KiB time=00:27:47.30 bitrate=  36.5kbits/s dup=0 drop=49877 speed=7.03x    frame=16730 fps= 70 q=31.0 size=    7680KiB time=00:27:52.80 bitrate=  37.6kbits/s dup=0 drop=49949 speed=7.04x    frame=16800 fps= 71 q=29.5 size=    7680KiB time=00:27:59.80 bitrate=  37.5kbits/s dup=0 drop=49990 speed=7.05x    frame=16874 fps= 71 q=30.0 size=    7680KiB time=00:28:07.20 bitrate=  37.3kbits/s dup=0 drop=50034 speed=7.07x    frame=16947 fps= 71 q=32.0 size=    7680KiB time=00:28:14.50 bitrate=  37.1kbits/s dup=0 drop=50076 speed=7.08x    frame=17021 fps= 71 q=32.0 size=    7680KiB time=00:28:21.90 bitrate=  37.0kbits/s dup=2 drop=50118 speed= 7.1x    frame=17103 fps= 71 q=32.0 size=    7680KiB time=00:28:30.10 bitrate=  36.8kbits/s dup=5 drop=50154 speed=7.12x    frame=17186 fps= 71 q=32.0 size=    7680KiB time=00:28:38.40 bitrate=  36.6kbits/s dup=5 drop=50200 speed=7.14x    frame=17264 fps= 72 q=27.4 size=    7936KiB time=00:28:46.20 bitrate=  37.7kbits/s dup=5 drop=50240 speed=7.15x    frame=17328 fps= 72 q=32.0 size=    7936KiB time=00:28:52.60 bitrate=  37.5kbits/s dup=5 drop=50278 speed=7.17x    frame=17396 fps= 72 q=32.0 size=    7936KiB time=00:28:59.40 bitrate=  37.4kbits/s dup=9 drop=50349 speed=7.18x    frame=17468 fps= 72 q=32.0 size=    7936KiB time=00:29:06.60 bitrate=  37.2kbits/s dup=9 drop=50406 speed=7.19x    frame=17561 fps= 72 q=32.0 size=    7936KiB time=00:29:15.90 bitrate=  37.0kbits/s dup=15 drop=50447 speed=7.22x    frame=17640 fps= 72 q=30.8 size=    7936KiB time=00:29:23.80 bitrate=  36.9kbits/s dup=15 drop=50493 speed=7.24x    frame=17721 fps= 73 q=32.0 size=    7936KiB time=00:29:31.90 bitrate=  36.7kbits/s dup=15 drop=50542 speed=7.25x    frame=17801 fps= 73 q=32.0 size=    8192KiB time=00:29:39.90 bitrate=  37.7kbits/s dup=15 drop=50589 speed=7.27x    frame=17882 fps= 73 q=32.0 size=    8192KiB time=00:29:48.00 bitrate=  37.5kbits/s dup=15 drop=50634 speed=7.29x    frame=17968 fps= 73 q=32.0 size=    8192KiB time=00:29:56.60 bitrate=  37.4kbits/s dup=15 drop=50685 speed=7.31x    frame=18051 fps= 73 q=32.0 size=    8192KiB time=00:30:04.90 bitrate=  37.2kbits/s dup=15 drop=50736 speed=7.33x    frame=18138 fps= 74 q=32.0 size=    8192KiB time=00:30:13.60 bitrate=  37.0kbits/s dup=15 drop=50787 speed=7.35x    frame=18220 fps= 74 q=31.0 size=    8192KiB time=00:30:21.80 bitrate=  36.8kbits/s dup=15 drop=50838 speed=7.37x    frame=18302 fps= 74 q=32.0 size=    8192KiB time=00:30:30.00 bitrate=  36.7kbits/s dup=15 drop=50888 speed=7.39x    frame=18390 fps= 74 q=31.0 size=    8448KiB time=00:30:38.80 bitrate=  37.6kbits/s dup=15 drop=50938 speed=7.41x    frame=18474 fps= 74 q=30.0 size=    8448KiB time=00:30:47.20 bitrate=  37.5kbits/s dup=15 drop=50994 speed=7.43x    frame=18551 fps= 74 q=32.0 size=    8448KiB time=00:30:54.90 bitrate=  37.3kbits/s dup=15 drop=51046 speed=7.44x    frame=18632 fps= 75 q=32.0 size=    8448KiB time=00:31:03.00 bitrate=  37.1kbits/s dup=15 drop=51102 speed=7.46x    frame=18710 fps= 75 q=31.0 size=    8448KiB time=00:31:10.80 bitrate=  37.0kbits/s dup=15 drop=51158 speed=7.48x    frame=18787 fps= 75 q=32.0 size=    8448KiB time=00:31:18.50 bitrate=  36.8kbits/s dup=15 drop=51221 speed=7.49x    frame=18863 fps= 75 q=32.0 size=    8448KiB time=00:31:26.10 bitrate=  36.7kbits/s dup=15 drop=51279 speed=7.51x    frame=18948 fps= 75 q=32.0 size=    8704KiB time=00:31:34.60 bitrate=  37.6kbits/s dup=15 drop=51330 speed=7.52x    frame=19030 fps= 75 q=31.0 size=    8704KiB time=00:31:42.80 bitrate=  37.5kbits/s dup=15 drop=51378 speed=7.54x    frame=19119 fps= 76 q=27.9 size=    8704KiB time=00:31:51.70 bitrate=  37.3kbits/s dup=15 drop=51430 speed=7.56x    frame=19206 fps= 76 q=32.0 size=    8704KiB time=00:32:00.40 bitrate=  37.1kbits/s dup=15 drop=51479 speed=7.58x    frame=19292 fps= 76 q=32.0 size=    8704KiB time=00:32:09.00 bitrate=  37.0kbits/s dup=15 drop=51526 speed= 7.6x    frame=19377 fps= 76 q=32.0 size=    8704KiB time=00:32:17.50 bitrate=  36.8kbits/s dup=15 drop=51573 speed=7.62x    frame=19463 fps= 76 q=32.0 size=    8704KiB time=00:32:26.10 bitrate=  36.6kbits/s dup=15 drop=51624 speed=7.64x    frame=19548 fps= 77 q=32.0 size=    8960KiB time=00:32:34.60 bitrate=  37.6kbits/s dup=15 drop=51674 speed=7.66x    frame=19635 fps= 77 q=32.0 size=    8960KiB time=00:32:43.40 bitrate=  37.4kbits/s dup=15 drop=51724 speed=7.68x    frame=19721 fps= 77 q=32.0 size=    8960KiB time=00:32:51.90 bitrate=  37.2kbits/s dup=15 drop=51773 speed=7.69x    frame=19801 fps= 77 q=32.0 size=    8960KiB time=00:32:59.90 bitrate=  37.1kbits/s dup=15 drop=51823 speed=7.71x    frame=19894 fps= 77 q=31.0 size=    8960KiB time=00:33:09.20 bitrate=  36.9kbits/s dup=15 drop=51875 speed=7.73x    frame=19981 fps= 78 q=32.0 size=    8960KiB time=00:33:17.90 bitrate=  36.7kbits/s dup=15 drop=51925 speed=7.75x    frame=20064 fps= 78 q=23.0 size=    8960KiB time=00:33:26.20 bitrate=  36.6kbits/s dup=15 drop=51974 speed=7.77x    frame=20149 fps= 78 q=30.0 size=    9216KiB time=00:33:34.70 bitrate=  37.5kbits/s dup=15 drop=52024 speed=7.79x    frame=20228 fps= 78 q=32.0 size=    9216KiB time=00:33:42.60 bitrate=  37.3kbits/s dup=15 drop=52071 speed= 7.8x    frame=20315 fps= 78 q=31.0 size=    9216KiB time=00:33:51.30 bitrate=  37.2kbits/s dup=15 drop=52124 speed=7.82x    frame=20398 fps= 78 q=32.0 size=    9216KiB time=00:33:59.60 bitrate=  37.0kbits/s dup=15 drop=52173 speed=7.84x    frame=20482 fps= 79 q=32.0 size=    9216KiB time=00:34:08.00 bitrate=  36.9kbits/s dup=15 drop=52226 speed=7.85x    frame=20566 fps= 79 q=32.0 size=    9216KiB time=00:34:16.40 bitrate=  36.7kbits/s dup=15 drop=52277 speed=7.87x    frame=20650 fps= 79 q=31.0 size=    9216KiB time=00:34:24.80 bitrate=  36.6kbits/s dup=15 drop=52327 speed=7.89x    frame=20734 fps= 79 q=28.4 size=    9472KiB time=00:34:33.20 bitrate=  37.4kbits/s dup=15 drop=52379 speed= 7.9x    frame=20818 fps= 79 q=32.0 size=    9472KiB time=00:34:41.60 bitrate=  37.3kbits/s dup=15 drop=52428 speed=7.92x    frame=20902 fps= 79 q=32.0 size=    9472KiB time=00:34:50.00 bitrate=  37.1kbits/s dup=15 drop=52479 speed=7.94x    frame=20985 fps= 80 q=31.0 size=    9472KiB time=00:34:58.30 bitrate=  37.0kbits/s dup=15 drop=52527 speed=7.95x    frame=21051 fps= 80 q=32.0 size=    9472KiB time=00:35:04.90 bitrate=  36.9kbits/s dup=15 drop=52571 speed=7.96x    frame=21127 fps= 80 q=31.5 size=    9472KiB time=00:35:12.50 bitrate=  36.7kbits/s dup=15 drop=52613 speed=7.98x    frame=21205 fps= 80 q=31.0 size=    9472KiB time=00:35:20.30 bitrate=  36.6kbits/s dup=17 drop=52655 speed=7.99x    frame=21272 fps= 80 q=32.0 size=    9728KiB time=00:35:27.00 bitrate=  37.5kbits/s dup=17 drop=52695 speed=   8x    frame=21339 fps= 80 q=23.7 size=    9728KiB time=00:35:33.70 bitrate=  37.3kbits/s dup=17 drop=52735 speed=8.01x    frame=21424 fps= 80 q=28.8 size=    9728KiB time=00:35:42.20 bitrate=  37.2kbits/s dup=17 drop=52786 speed=8.03x    frame=21508 fps= 80 q=32.0 size=    9728KiB time=00:35:50.60 bitrate=  37.1kbits/s dup=17 drop=52836 speed=8.05x    frame=21592 fps= 81 q=32.0 size=    9728KiB time=00:35:59.00 bitrate=  36.9kbits/s dup=17 drop=52887 speed=8.06x    frame=21654 fps= 81 q=30.0 size=    9728KiB time=00:36:05.20 bitrate=  36.8kbits/s dup=17 drop=52941 speed=8.07x    frame=21674 fps= 81 q=27.8 size=    9728KiB time=00:36:07.20 bitrate=  36.8kbits/s dup=17 drop=53037 speed=8.06x    frame=21694 fps= 81 q=31.9 size=    9728KiB time=00:36:09.20 bitrate=  36.7kbits/s dup=17 drop=53137 speed=8.05x    [mp4 @ 0x5638cf39acc0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x5638cf3d14c0] video:1426KiB audio:8508KiB subtitle:0KiB other streams:0KiB global headers:3KiB muxing overhead: 7.765566%
+frame=21731 fps= 81 q=32.0 Lsize=   10705KiB time=00:36:12.90 bitrate=  40.4kbits/s dup=17 drop=53206 speed=8.06x    
+x265 [info]: frame I:     89, Avg QP:20.53  kb/s: 357.27  
+x265 [info]: frame P:   4261, Avg QP:27.48  kb/s: 10.00   
+x265 [info]: frame B:  17381, Avg QP:31.74  kb/s: 2.04    
+x265 [info]: Weighted P-Frames: Y:1.9% UV:0.2%
+
+encoded 21731 frames in 269.52s (80.63 fps), 5.05 kb/s, Avg QP:30.85
+[aac @ 0x5638cf545440] Qavg: 658.630
+[OK] Compression réussie (tentative 1)
+[OK] Taille avant: 711MB  après: 11MB
+[INFO] mkdir -p /mnt/encrypted2/Videos_whisper_optimized/Florence
+[3] Compression : /mnt/encrypted2/Videos/Florence/IMG_0060.MOV -> /mnt/encrypted2/Videos_whisper_optimized/Florence/IMG_0060_mini.mp4
+[INFO] Tentative 1/2 pour : IMG_0060.MOV
+ffmpeg version 7.1.1-1+b5 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14 (Debian 14.3.0-5)
+  configuration: --prefix=/usr --extra-version=1+b5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/mnt/encrypted2/Videos/Florence/IMG_0060.MOV':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-05-25T13:10:09.000000Z
+    com.apple.quicktime.location.accuracy.horizontal: 48.592266
+    com.apple.quicktime.full-frame-rate-playback-intent: 0
+    com.apple.quicktime.location.ISO6709: +50.4965+004.8973+169.876/
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: iPhone 11
+    com.apple.quicktime.software: 18.4.1
+    com.apple.quicktime.creationdate: 2025-05-25T15:10:09+0200
+  Duration: 00:00:03.95, start: 0.000000, bitrate: 88214 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709), 3840x2160, 87888 kb/s, 60 fps, 60 tbr, 600 tbn (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : HEVC
+      Side data:
+        displaymatrix: rotation of -90.00 degrees
+  Stream #0:1[0x2](und): Audio: aac (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 165 kb/s (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3](und): Data: none (mebx / 0x7862656D), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Metadata
+  Stream #0:3[0x4](und): Data: none (mebx / 0x7862656D), 14 kb/s (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Metadata
+  Stream #0:4[0x5](und): Data: none (mebx / 0x7862656D), 76 kb/s (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Metadata
+  Stream #0:5[0x6](und): Data: none (mebx / 0x7862656D), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Metadata
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> hevc (libx265))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 4.1+1-1d117be
+x265 [info]: build info [Linux][GCC 14.2.0][64 bit] 10bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main 10 profile, Level-2 (Main tier)
+x265 [info]: Thread pool created using 8 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(3 rows)
+x265 [warning]: Source height < 720p; disabling lookahead-slices
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias  : 10 / 250 / 40 / 5.00 
+x265 [info]: Lookahead / bframes / badapt        : 15 / 4 / 0
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 2 / on / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-28.0 / 0.60
+x265 [info]: VBV/HRD buffer / max-rate / init    : 1000 / 500 / 0.750
+x265 [info]: tools: rd=2 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: fast-intra strong-intra-smoothing deblock sao
+Output #0, mp4, to '/mnt/encrypted2/Videos_whisper_optimized/Florence/IMG_0060_mini.mp4':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    com.apple.quicktime.creationdate: 2025-05-25T15:10:09+0200
+    com.apple.quicktime.location.accuracy.horizontal: 48.592266
+    com.apple.quicktime.full-frame-rate-playback-intent: 0
+    com.apple.quicktime.location.ISO6709: +50.4965+004.8973+169.876/
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: iPhone 11
+    com.apple.quicktime.software: 18.4.1
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: hevc (hev1 / 0x31766568), yuv420p10le(tv, bt709, progressive), 320x180, q=2-31, 10 fps, 10240 tbn (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx265
+      Side data:
+        cpb: bitrate max/min/avg: 500000/0/0 buffer size: 1000000 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, mono, fltp, 32 kb/s (default)
+      Metadata:
+        creation_time   : 2025-05-25T13:10:09.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=5 speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=23 speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=43 speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=63 speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=83 speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A dup=0 drop=99 speed=N/A    frame=    1 fps=0.3 q=25.6 size=       0KiB time=-00:00:00.10 bitrate=N/A dup=0 drop=116 speed=N/A    frame=    5 fps=1.2 q=32.1 size=       0KiB time=00:00:00.30 bitrate=   1.2kbits/s dup=0 drop=135 speed=0.0748x    frame=    9 fps=2.0 q=32.1 size=       0KiB time=00:00:00.70 bitrate=   0.5kbits/s dup=0 drop=155 speed=0.155x    frame=   12 fps=2.4 q=26.2 size=       0KiB time=00:00:01.00 bitrate=   0.4kbits/s dup=0 drop=172 speed=0.199x    frame=   23 fps=4.2 q=30.9 size=       0KiB time=N/A bitrate=N/A dup=0 drop=197 speed=N/A    [mp4 @ 0x555610459f00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x555610416580] video:42KiB audio:16KiB subtitle:0KiB other streams:0KiB global headers:3KiB muxing overhead: 9.160638%
+frame=   41 fps=7.3 q=32.1 Lsize=      64KiB time=00:00:03.90 bitrate= 133.7kbits/s dup=0 drop=197 speed=0.696x    
+x265 [info]: frame I:      1, Avg QP:25.57  kb/s: 506.24  
+x265 [info]: frame P:      8, Avg QP:26.55  kb/s: 236.49  
+x265 [info]: frame B:     32, Avg QP:31.67  kb/s: 33.20   
+x265 [info]: Weighted P-Frames: Y:37.5% UV:37.5%
+
+encoded 41 frames in 5.27s (7.78 fps), 84.41 kb/s, Avg QP:30.52
+[aac @ 0x555610ee0a80] Qavg: 1124.911
+[OK] Compression réussie (tentative 1)
+[OK] Taille avant: 42MB  après: 64KB
+[INFO] mkdir -p /mnt/encrypted2/Videos_whisper_optimized/Florence
+[4] Compression : /mnt/encrypted2/Videos/Florence/IMG_0019.MOV -> /mnt/encrypted2/Videos_whisper_optimized/Florence/IMG_0019_mini.mp4
+[INFO] Tentative 1/2 pour : IMG_0019.MOV

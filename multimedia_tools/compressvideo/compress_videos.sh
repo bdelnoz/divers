@@ -1,3 +1,6 @@
+# ┌──(nox㉿casablanca)-[~/Security/scripts/divers/multimedia_tools/compressvideo]
+# └─$ compress_videos.sh --exec   --profile target_whisper   --quality 32   --width 640   --height 480   --ac 1   --fps 24   --vbitrate 400k   --preset slow  --tune psnr   --source_dir /mnt/encrypted2/Videos/   --smin 1kb    --custom_ffmpeg_filter "mpdecimate=hi=64*12:lo=64*5:frac=0.05,setpts=N/FRAME_RATE/TB"  --resume
+#
 #!/usr/bin/env bash
 # =====================================================================
 # Nom du script   : compress_videos.sh
@@ -5,7 +8,7 @@
 # Email           : bruno.delnoz@protonmail.com
 # Target usage    : Parcours récursif d'un dossier source, compression
 #                   maximale/forte des vidéos en conservant l'arborescence.
-# Version         : v2.5 - Date : 2025-08-23
+# Version         : v2.6 - Date : 2025-08-23
 # ---------------------------------------------------------------------
 # Changelog (historique complet obligatoire) :
 #   - v2.3 (2025-08-11) : Version précédente avec estimation temps/tailles
@@ -16,22 +19,18 @@
 #                         Nouveaux paramètres : --ac (canaux audio), --threads, --tune
 #   - v2.5 (2025-08-23) : Ajout profil target_MAX : Compression extrême
 #                         * H.265 360p CRF 35, bitrate 200k, audio 24k mono
-#                         * Preset veryslow, tune psnr, 20fps
-#                         * Résolution 640x360, format yuv420p10le 10-bit
+#   - v2.6 (2025-08-23) : Ajout option --custom_ffmpeg_filter pour filtres personnalisés
 # =====================================================================
-
 set -euo pipefail
 IFS=$'\n\t'
-
 # --------------------------- Métadonnées ------------------------------
 SCRIPT_NAME="$(basename "$0")"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-VERSION="v2.5"
+VERSION="v2.6"
 DATE="2025-08-23"
 LOGFILE="$SCRIPT_DIR/log.${SCRIPT_NAME%.sh}.${VERSION}.log"
 BACKUP_BASE_DIR="$SCRIPT_DIR/backup_$(date +%Y%m%d_%H%M%S)"
 # ---------------------------------------------------------------------
-
 # --------------------------- Valeurs par défaut (target_compressed_max) -----------------------
 DEFAULT_CRF=28
 DEFAULT_WIDTH=854
@@ -56,7 +55,6 @@ DEFAULT_SIZE_MAX=""           # Pas de limite maximale par défaut
 DEFAULT_RETRY_COUNT=2         # Nombre de tentatives en cas d'échec ffmpeg
 DEFAULT_PROFILE_NAME="target_compressed_max" # Profil par défaut
 # ---------------------------------------------------------------------
-
 # --------------------------- Variables runtime ------------------------
 CRF_VALUE=""
 MAX_WIDTH=""
@@ -73,6 +71,7 @@ PRESET=""
 AC=""              # Canaux audio
 THREADS=""         # Nombre de threads
 TUNE=""            # Tune ffmpeg
+CUSTOM_FFMPEG_FILTER=""  # Filtre vidéo personnalisé
 FORMATS=()
 OUTDIR=""
 SOURCE_DIR=""
@@ -93,11 +92,9 @@ FAILED_FILES=()      # fichiers ayant échoué
 declare -A SIZE_BEFORE
 declare -A SIZE_AFTER
 # ---------------------------------------------------------------------
-
 # --------------------------- Profils prédéfinis -----------------------
 apply_profile() {
  local profile_name="$1"
-
  case "$profile_name" in
    target_whisper)
      echo "[INFO] Application profil 'target_whisper' : Optimisé transcription" | tee -a "$LOGFILE"
@@ -165,14 +162,12 @@ apply_profile() {
  esac
 }
 # ---------------------------------------------------------------------
-
 # --------------------------- HELP (obligatoire) -----------------------
 show_help() {
 cat <<'EOF'
 Usage : ./compress_videos.sh --exec [options]
       ./compress_videos.sh --simulate [options]
       ./compress_videos.sh --delete [--source_dir <chemin>] [--outdir <chemin>]
-
 Options principales :
  --exec                 Lance la compression (obligatoire pour exécution)
  --simulate             Mode simulation : même processus que --exec mais sans compression réelle
@@ -183,18 +178,15 @@ Options principales :
  --source_dir <chemin>  Dossier source contenant les vidéos (défaut: dossier courant)
  --outdir <dossier>     Dossier de sortie (défaut: parent(source)/compressed)
  --formats "<liste>"    Extensions à traiter (ex: "mp4 mov avi") (si vide -> détection / fallback)
-
 Options profils prédéfinis :
  --profile <nom>        Profil à utiliser (défaut: target_compressed_max)
    target_whisper       Optimisé transcription : H.264 720p mono 64k (rapide + qualité audio)
    target_compressed_max Compression maximale : H.265 480p stéréo 32k (bon compromis)
    target_MAX           Compression EXTRÊME : H.265 360p mono 24k (taille minimale absolue)
    custom               Utilise paramètres manuels (remplace défauts profil)
-
 Options filtrage taille :
  --smin <taille>        Taille minimale des fichiers (ex: 1M, 500K, 2G) (défaut: 1M)
  --smax <taille>        Taille maximale des fichiers (ex: 1G, 500M) (défaut: aucune limite)
-
 Options vidéo avancées (remplacent profil si spécifiées) :
  --codec <codec>        Codec vidéo (défaut profil: libx265/libx264)
  --profile <profile>    Profil encodeur (défaut profil: main10/high)
@@ -208,44 +200,37 @@ Options vidéo avancées (remplacent profil si spécifiées) :
  --tune <tune>          Tune ffmpeg (défaut profil: psnr/zerolatency)
  --threads <count>      Nombre de threads (défaut: 0=auto)
  --retry <count>        Nombre de tentatives en cas d'échec (défaut: 2)
-
+ --custom_ffmpeg_filter "<filtre>" Filtre vidéo personnalisé (ex: "mpdecimate=hi=64*12:lo=64*5:frac=0.05,setpts=N/FRAME_RATE/TB")
 Options audio avancées (remplacent profil si spécifiées) :
  --audio <codec>        Codec audio (défaut profil: aac)
  --abitrate <bitrate>   Débit audio (défaut profil: 32k/64k/24k)
  --sample_rate <rate>   Fréquence échantillonnage (défaut profil: 44100/22050)
  --ac <channels>        Nombre canaux audio (défaut profil: 2/1)
-
 Exemples :
  # Compression extrême avec nouveau profil target_MAX
  ./compress_videos.sh --exec --profile target_MAX --source_dir /home/videos
-
  # Compression maximale avec profil par défaut
  ./compress_videos.sh --exec --source_dir /home/videos
-
  # Optimisation pour Whisper/transcription
  ./compress_videos.sh --exec --profile target_whisper --source_dir /mnt/wlan1/videos
-
  # Compression personnalisée (profil custom automatique)
  ./compress_videos.sh --exec --quality 20 --width 1920 --height 1080 --abitrate 128k
-
  # Simulation avec profil compression extrême
  ./compress_videos.sh --simulate --profile target_MAX
-
+ # Utilisation d'un filtre personnalisé pour supprimer les frames dupliquées
+ ./compress_videos.sh --exec --profile target_whisper --custom_ffmpeg_filter "mpdecimate=hi=64*12:lo=64*5:frac=0.05,setpts=N/FRAME_RATE/TB" --source_dir /mnt/videos
 Profils détaillés :
  target_whisper        : H.264 High 1280×720 30fps ~1500k + AAC mono 64k (transcription)
  target_compressed_max : H.265 Main10 854×480 24fps ~500k + AAC stéréo 32k (bon compromis)
  target_MAX           : H.265 Main10 640×360 15fps ~150k + AAC mono 24k@22kHz (EXTRÊME)
  custom               : Paramètres manuels ou défauts target_compressed_max
-
-Logs détaillés : log.compress_videos.v2.5.log
+Logs détaillés : log.compress_videos.v2.6.log
 Backup avant suppression : backup_YYYYMMDD_HHMMSS
-
 ATTENTION : Le profil target_MAX produit une qualité vidéo très dégradée mais une taille
            de fichier minimale. Réservé aux cas où l'espace disque est critique.
 EOF
 }
 # ---------------------------------------------------------------------
-
 # --------------------------- Pré-requis --------------------------------
 check_prerequisites() {
  local miss=0
@@ -261,13 +246,11 @@ check_prerequisites() {
  fi
 }
 # ---------------------------------------------------------------------
-
 # --------------------------- Fonctions utilitaires ---------------------
 _safe_mkdir() {
  mkdir -p "$1"
  echo "[INFO] mkdir -p $1" | tee -a "$LOGFILE"
 }
-
 _backup_and_remove_outdir() {
  echo "[INFO] Backup avant suppression -> $BACKUP_BASE_DIR" | tee -a "$LOGFILE"
  _safe_mkdir "$BACKUP_BASE_DIR"
@@ -282,12 +265,10 @@ _backup_and_remove_outdir() {
  rm -rf "$OUTDIR"
  echo "[OK] Suppression effectuée." | tee -a "$LOGFILE"
 }
-
 delete_created_files() {
  _backup_and_remove_outdir
  exit 0
 }
-
 # Conversion taille en octets pour comparaisons
 size_to_bytes() {
  local size="$1"
@@ -299,13 +280,11 @@ size_to_bytes() {
    *) echo "${size}" ;;
  esac
 }
-
 # Vérification si fichier correspond aux critères de taille
 check_file_size() {
  local filepath="$1"
  local filesize
  filesize=$(stat -c%s "$filepath" 2>/dev/null || echo 0)
-
  # Vérification taille minimale
  if [ -n "$SIZE_MIN" ]; then
    local min_bytes
@@ -314,7 +293,6 @@ check_file_size() {
      return 1
    fi
  fi
-
  # Vérification taille maximale
  if [ -n "$SIZE_MAX" ]; then
    local max_bytes
@@ -323,10 +301,8 @@ check_file_size() {
      return 1
    fi
  fi
-
  return 0
 }
-
 # Détection d'extensions par ffmpeg, fallback si résultat non fiable.
 detect_formats() {
  if [ ${#FORMATS[@]} -eq 0 ]; then
@@ -346,7 +322,6 @@ detect_formats() {
    fi
  fi
 }
-
 # Construction sécurisé de l'expression find
 build_find_expr() {
  find_expr=( -type f '(' )
@@ -362,46 +337,38 @@ build_find_expr() {
  done
  find_expr+=( ')' -print0 )
 }
-
 # Vérification si fichier de sortie existe déjà
 output_file_exists() {
  local infile="$1"
  local SOURCE_ABS="$2"
  local OUTDIR_ABS="$3"
-
  local relpath="${infile#$SOURCE_ABS/}"
  local dirpath="$(dirname "$relpath")"
  local target_dir="$OUTDIR_ABS/$dirpath"
  local base_name="$(basename "${infile%.*}")"
  local OUTPUT_FILE="$target_dir/${base_name}_mini.mp4"
-
  [ -f "$OUTPUT_FILE" ]
 }
-
 # Récupération fichiers dans FILES_TO_PROCESS (gestion espaces + filtres)
 gather_files() {
  FILES_TO_PROCESS=()
  SKIPPED_FILES=()
  local SOURCE_ABS="$(cd "$SOURCE_DIR" && pwd)"
  local OUTDIR_ABS="$(cd "$(dirname "$OUTDIR")" && pwd)/$(basename "$OUTDIR")"
-
  while IFS= read -r -d '' file; do
    # Filtrage par taille
    if ! check_file_size "$file"; then
      SKIPPED_FILES+=("$file (taille hors critères)")
      continue
    fi
-
    # Mode resume/skip_identical : vérifier si déjà traité
    if { [ "$RESUME_MODE" -eq 1 ] || [ "$SKIP_IDENTICAL" -eq 1 ]; } && output_file_exists "$file" "$SOURCE_ABS" "$OUTDIR_ABS"; then
      SKIPPED_FILES+=("$file (déjà traité)")
      continue
    fi
-
    FILES_TO_PROCESS+=("$file")
  done < <(find "$SOURCE_ABS" "${find_expr[@]}")
 }
-
 human_size() {
  if command -v numfmt >/dev/null 2>&1; then
    numfmt --to=iec --suffix=B "$1"
@@ -409,13 +376,11 @@ human_size() {
    echo "${1}B"
  fi
 }
-
 # Estimation heuristique du ratio post-compression selon codec/crf/bitrate
 estimate_ratio() {
  local codec="$1"
  local crf="$2"
  local vbitrate="$3"
-
  # Pour des bitrates très bas comme 150k ou moins, ratio ultra-agressif
  case "$vbitrate" in
    *k)
@@ -429,7 +394,6 @@ estimate_ratio() {
      fi
      ;;
  esac
-
  case "$codec" in
    libx265|x265|hevc)
      if [ "$crf" -le 20 ]; then echo "0.85"
@@ -457,7 +421,6 @@ estimate_ratio() {
      ;;
  esac
 }
-
 # Estimation du temps de traitement par fichier (en secondes)
 estimate_processing_time() {
  local filesize="$1"    # taille en octets
@@ -465,7 +428,6 @@ estimate_processing_time() {
  local preset="$3"      # preset ffmpeg
  local target_width="$4"  # résolution cible
  local target_height="$5" # résolution cible
-
  # Facteurs de base selon codec (secondes par MB)
  local base_factor
  case "$codec" in
@@ -475,7 +437,6 @@ estimate_processing_time() {
    libx264|x264) base_factor=8 ;;            # H.264 rapide
    *) base_factor=10 ;;                      # Défaut
  esac
-
  # Facteur preset - veryslow est beaucoup plus lent
  local preset_multiplier
  case "$preset" in
@@ -490,7 +451,6 @@ estimate_processing_time() {
    veryslow) preset_multiplier="8.0" ;;     # Beaucoup plus lent pour target_MAX
    *) preset_multiplier="2.0" ;;
  esac
-
  # Facteur résolution (pixels totaux en millions)
  local target_pixels=$((target_width * target_height))
  local resolution_factor
@@ -505,22 +465,18 @@ estimate_processing_time() {
  else                                               # > 2MP
    resolution_factor="1.3"
  fi
-
  # Calcul final : (taille_en_MB) * base_factor * preset_multiplier * resolution_factor
  local size_mb=$((filesize / 1024 / 1024))
  if [ "$size_mb" -eq 0 ]; then size_mb=1; fi
-
  awk -v s="$size_mb" -v b="$base_factor" -v p="$preset_multiplier" -v r="$resolution_factor" \
      'BEGIN{printf("%.0f", s * b * p * r)}'
 }
-
 # Formatage temps en heures/minutes/secondes
 format_time() {
  local total_seconds="$1"
  local hours=$((total_seconds / 3600))
  local minutes=$(((total_seconds % 3600) / 60))
  local seconds=$((total_seconds % 60))
-
  if [ "$hours" -gt 0 ]; then
    printf "%dh%02dm%02ds" "$hours" "$minutes" "$seconds"
  elif [ "$minutes" -gt 0 ]; then
@@ -529,30 +485,28 @@ format_time() {
    printf "%ds" "$seconds"
  fi
 }
-
 # Fonction de compression avec retry automatique
 compress_with_retry() {
  local infile="$1"
  local output_file="$2"
  local attempt=1
  local success=0
-
  while [ "$attempt" -le "$RETRY_COUNT" ] && [ "$success" -eq 0 ]; do
    echo "[INFO] Tentative $attempt/$RETRY_COUNT pour : $(basename "$infile")" | tee -a "$LOGFILE"
-
    # Construction commande ffmpeg avec tous les paramètres y compris nouveaux
    ffmpeg_cmd=(
      ffmpeg -y -i "$infile"
    )
-
    # Paramètres de threading
    if [ -n "$THREADS" ] && [ "$THREADS" != "0" ]; then
      ffmpeg_cmd+=(-threads "$THREADS")
    fi
-
    # Filtres vidéo
-   ffmpeg_cmd+=(-vf "scale=${MAX_WIDTH}:${MAX_HEIGHT}")
-
+   VF_FILTER="scale=${MAX_WIDTH}:${MAX_HEIGHT}"
+   if [ -n "$CUSTOM_FFMPEG_FILTER" ]; then
+     VF_FILTER="$CUSTOM_FFMPEG_FILTER,$VF_FILTER"
+   fi
+   ffmpeg_cmd+=(-vf "$VF_FILTER")
    # Paramètres vidéo
    ffmpeg_cmd+=(
      -c:v "$VIDEO_CODEC"
@@ -564,12 +518,10 @@ compress_with_retry() {
      -pix_fmt "$PIX_FMT"
      -r "$FPS"
    )
-
    # Tune si défini
    if [ -n "$TUNE" ]; then
      ffmpeg_cmd+=(-tune "$TUNE")
    fi
-
    # Paramètres audio
    ffmpeg_cmd+=(
      -c:a "$AUDIO_CODEC"
@@ -579,7 +531,6 @@ compress_with_retry() {
      -movflags +faststart
      "$output_file"
    )
-
    if "${ffmpeg_cmd[@]}" 2>&1 | tee -a "$LOGFILE"; then
      if [ -f "$output_file" ] && [ -s "$output_file" ]; then
        success=1
@@ -592,49 +543,41 @@ compress_with_retry() {
      echo "[ERREUR] Échec ffmpeg (tentative $attempt)" | tee -a "$LOGFILE"
      rm -f "$output_file" 2>/dev/null || true
    fi
-
    attempt=$((attempt + 1))
  done
-
  return $((success == 0))
 }
-# ---------------------------------------------------------------------
 
+# ---------------------------------------------------------------------
 # --------------------------- Traitement principal ----------------------
 process_files() {
  SOURCE_ABS="$(cd "$SOURCE_DIR" && pwd)"
  OUTDIR_ABS="$(cd "$(dirname "$OUTDIR")" && pwd)/$(basename "$OUTDIR")"
-
  echo "[INFO] Source absolue   : $SOURCE_ABS" | tee -a "$LOGFILE"
  echo "[INFO] Sortie absolue   : $OUTDIR_ABS" | tee -a "$LOGFILE"
-
  if [ "$SIMULATE_FLAG" -eq 0 ]; then
    _safe_mkdir "$OUTDIR_ABS"
  fi
-
  detect_formats
  build_find_expr
  gather_files
-
  echo "=== Fichiers trouvés (${#FILES_TO_PROCESS[@]}) ===" | tee -a "$LOGFILE"
  if [ ${#SKIPPED_FILES[@]} -gt 0 ]; then
    echo "=== Fichiers ignorés (${#SKIPPED_FILES[@]}) ===" | tee -a "$LOGFILE"
    for skipped in "${SKIPPED_FILES[@]}"; do
      echo "  - $skipped" | tee -a "$LOGFILE"
+     sleep 3
    done
  fi
-
  if [ ${#FILES_TO_PROCESS[@]} -eq 0 ]; then
    echo "[INFO] Aucun fichier à traiter." | tee -a "$LOGFILE"
    exit 0
  fi
-
  # Calcul des tailles avant et estimation après
  total_before=0
  total_after_est=0
  total_time_est=0
  ratio=$(estimate_ratio "$VIDEO_CODEC" "$CRF_VALUE" "$VBITRATE")
-
  for f in "${FILES_TO_PROCESS[@]}"; do
    size=$(stat -c%s "$f" 2>/dev/null || echo 0)
    SIZE_BEFORE["$f"]="$size"
@@ -642,12 +585,10 @@ process_files() {
    SIZE_AFTER["$f"]="$estimated_size"
    total_before=$((total_before + size))
    total_after_est=$((total_after_est + estimated_size))
-
    # Estimation temps de traitement pour ce fichier
    file_time=$(estimate_processing_time "$size" "$VIDEO_CODEC" "$PRESET" "$MAX_WIDTH" "$MAX_HEIGHT")
    total_time_est=$((total_time_est + file_time))
  done
-
  # Affichage liste numérotée avec tailles
  echo ""
  i=1
@@ -661,7 +602,6 @@ process_files() {
    fi
    i=$((i+1))
  done
-
  echo "" | tee -a "$LOGFILE"
  printf "=== RÉCAPITULATIF ===\n" | tee -a "$LOGFILE"
  printf "Taille totale avant : %s\n" "$(human_size "$total_before")" | tee -a "$LOGFILE"
@@ -672,7 +612,6 @@ process_files() {
  fi
  printf "Temps estimé total : %s\n" "$(format_time "$total_time_est")" | tee -a "$LOGFILE"
  echo "" | tee -a "$LOGFILE"
-
  # Confirmation utilisateur avec informations complètes
  if [ "$SIMULATE_FLAG" -eq 1 ]; then
    printf "Confirmer la SIMULATION de compression de ces %d fichiers ?\n" "${#FILES_TO_PROCESS[@]}" | tee -a "$LOGFILE"
@@ -685,32 +624,27 @@ process_files() {
  fi
  read -r -p "(o/N) : " confirm
  [[ "$confirm" =~ ^[oOyY]$ ]] || { echo "[INFO] Annulé."; exit 0; }
-
  # Traitement des fichiers
  INDEX=1
  total_after_real=0
  success_count=0
  FAILED_FILES=()
-
  for infile in "${FILES_TO_PROCESS[@]}"; do
    relpath="${infile#$SOURCE_ABS/}"
    dirpath="$(dirname "$relpath")"
    target_dir="$OUTDIR_ABS/$dirpath"
    base_name="$(basename "${infile%.*}")"
    OUTPUT_FILE="$target_dir/${base_name}_mini.mp4"
-
    if [ "$SIMULATE_FLAG" -eq 0 ]; then
      # Mode exécution réelle
      _safe_mkdir "$target_dir"
      echo "[$INDEX] Compression : $infile -> $OUTPUT_FILE" | tee -a "$LOGFILE"
-
      if compress_with_retry "$infile" "$OUTPUT_FILE"; then
        out_size=$(stat -c%s "$OUTPUT_FILE" 2>/dev/null || echo 0)
        SIZE_AFTER["$infile"]="$out_size"
        before_size=${SIZE_BEFORE["$infile"]:=$(stat -c%s "$infile" 2>/dev/null || echo 0)}
        total_after_real=$((total_after_real + out_size))
        success_count=$((success_count + 1))
-
        PROCESSED_FILES+=("$OUTPUT_FILE")
        ACTION_LOGS+=("[$INDEX] Compressé: $infile -> $OUTPUT_FILE")
        echo "[OK] Taille avant: $(human_size "$before_size")  après: $(human_size "$out_size")" | tee -a "$LOGFILE"
@@ -725,10 +659,8 @@ process_files() {
      ACTION_LOGS+=("[$INDEX] Simulé: $infile -> $OUTPUT_FILE")
      success_count=$((success_count + 1))
    fi
-
    INDEX=$((INDEX + 1))
  done
-
  # Affichage tableau final
  echo "" | tee -a "$LOGFILE"
  if [ "$SIMULATE_FLAG" -eq 1 ]; then
@@ -736,10 +668,8 @@ process_files() {
  else
    echo "=== Récapitulatif des compressions effectuées ===" | tee -a "$LOGFILE"
  fi
-
  printf "%4s %-70s %12s %12s %8s\n" "No." "Fichier" "Avant" "Après" "Gain%" | tee -a "$LOGFILE"
  echo "$(printf '%*s' 108 '' | tr ' ' '-')" | tee -a "$LOGFILE"
-
  i=1
  for infile in "${FILES_TO_PROCESS[@]}"; do
    before=${SIZE_BEFORE["$infile"]:-0}
@@ -749,7 +679,6 @@ process_files() {
    else
      gain="0.0"
    fi
-
    # Marquer les fichiers ayant échoué
    filename="$(basename "$infile")"
    for failed in "${FAILED_FILES[@]}"; do
@@ -758,14 +687,11 @@ process_files() {
        break
      fi
    done
-
    printf "%4d %-70.70s %12s %12s %7s\n" "$i" "$filename" "$(human_size "$before")" "$(human_size "$after")" "${gain}%" | tee -a "$LOGFILE"
    i=$((i+1))
  done
-
  echo "" | tee -a "$LOGFILE"
  printf "Total avant : %s\n" "$(human_size "$total_before")" | tee -a "$LOGFILE"
-
  if [ "$SIMULATE_FLAG" -eq 1 ]; then
    printf "Total estimé après : %s\n" "$(human_size "$total_after_est")" | tee -a "$LOGFILE"
    if [ "$total_before" -gt 0 ]; then
@@ -783,7 +709,6 @@ process_files() {
    fi
    printf "Réduction réelle : %s%%\n" "$total_gain" | tee -a "$LOGFILE"
    printf "Fichiers traités avec succès : %d/%d\n" "$success_count" "${#FILES_TO_PROCESS[@]}" | tee -a "$LOGFILE"
-
    if [ ${#FAILED_FILES[@]} -gt 0 ]; then
      echo "" | tee -a "$LOGFILE"
      echo "=== Fichiers ayant échoué ===" | tee -a "$LOGFILE"
@@ -792,30 +717,24 @@ process_files() {
      done
    fi
  fi
-
  # Affichage des actions post-exécution numérotées
  echo "" | tee -a "$LOGFILE"
  echo "=== Actions effectuées ===" | tee -a "$LOGFILE"
  for action in "${ACTION_LOGS[@]}"; do
    echo "$action" | tee -a "$LOGFILE"
  done
-
  echo "Logs détaillés : $LOGFILE" | tee -a "$LOGFILE"
 }
 # ---------------------------------------------------------------------
-
 # --------------------------- Entrée principale -------------------------
 if [ $# -eq 0 ]; then
  show_help
  exit 0
 fi
-
 _safe_mkdir "$SCRIPT_DIR"
 : > "$LOGFILE"
 echo "[INFO] Lancement script $SCRIPT_NAME $VERSION ($DATE)" | tee -a "$LOGFILE"
-
 check_prerequisites
-
 # Parsing des arguments
 while [ $# -gt 0 ]; do
  case "$1" in
@@ -846,6 +765,7 @@ while [ $# -gt 0 ]; do
    --vbitrate) VBITRATE="$2"; PROFILE_NAME="custom"; shift 2 ;;
    --preset) PRESET="$2"; PROFILE_NAME="custom"; shift 2 ;;
    --outdir) OUTDIR="$2"; shift 2 ;;
+   --custom_ffmpeg_filter) CUSTOM_FFMPEG_FILTER="$2"; shift 2 ;;
    *)
      echo "[ERREUR] Option inconnue : $1" | tee -a "$LOGFILE"
      show_help
@@ -853,11 +773,9 @@ while [ $# -gt 0 ]; do
      ;;
  esac
 done
-
 # Application du profil choisi
 : "${PROFILE_NAME:=$DEFAULT_PROFILE_NAME}"
 apply_profile "$PROFILE_NAME"
-
 # Application valeurs par défaut si non fournies (après profil)
 : "${SOURCE_DIR:=$DEFAULT_SOURCE_DIR}"
 : "${CRF_VALUE:=$DEFAULT_CRF}"
@@ -877,7 +795,6 @@ apply_profile "$PROFILE_NAME"
 : "${SIZE_MIN:=$DEFAULT_SIZE_MIN}"
 : "${RETRY_COUNT:=$DEFAULT_RETRY_COUNT}"
 : "${OUTDIR:=$(cd "$SOURCE_DIR" && cd .. >/dev/null 2>&1 && pwd)/$DEFAULT_OUTDIR_NAME}"
-
 echo "[INFO] Paramètres utilisés (profil $PROFILE_NAME) :" | tee -a "$LOGFILE"
 echo "       SOURCE_DIR   = $SOURCE_DIR" | tee -a "$LOGFILE"
 echo "       OUTDIR       = $OUTDIR" | tee -a "$LOGFILE"
@@ -899,21 +816,18 @@ echo "       SIZE_MIN     = $SIZE_MIN" | tee -a "$LOGFILE"
 echo "       SIZE_MAX     = ${SIZE_MAX:-(aucune limite)}" | tee -a "$LOGFILE"
 echo "       RETRY_COUNT  = $RETRY_COUNT" | tee -a "$LOGFILE"
 echo "       FORMATS      = ${FORMATS[*]:-(auto)}" | tee -a "$LOGFILE"
+echo "       CUSTOM_FFMPEG_FILTER = ${CUSTOM_FFMPEG_FILTER:-(aucun)}" | tee -a "$LOGFILE"
 echo "       SKIP_IDENTICAL = $SKIP_IDENTICAL" | tee -a "$LOGFILE"
 echo "       RESUME_MODE  = $RESUME_MODE" | tee -a "$LOGFILE"
 echo "       MODE         = $([ "$SIMULATE_FLAG" -eq 1 ] && echo "SIMULATION" || echo "EXECUTION")" | tee -a "$LOGFILE"
-
 if [ "${DELETE_ONLY:-0}" = 1 ]; then
  delete_created_files
 fi
-
 if [ "$EXEC_FLAG" -ne 1 ]; then
  echo "[ERREUR] Aucune action : pour exécuter la compression, ajoutez --exec ou --simulate" | tee -a "$LOGFILE"
  echo "Voir --help pour exemples." | tee -a "$LOGFILE"
  exit 1
 fi
-
 SOURCE_ABS="$(cd "$SOURCE_DIR" && pwd)"
 process_files
-
 exit 0
